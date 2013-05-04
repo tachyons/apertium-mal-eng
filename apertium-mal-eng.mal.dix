@@ -25,9 +25,10 @@
 
     <sdef n="nom"     c="Nominative"/>
     <sdef n="acc"     c="Accusative"/>
-    <sdef n="erg"     c="Ergative · तृतीय"/>
+    <sdef n="ins"     c="Instrumental"/>
+    <sdef n="soc"     c="Sociative"/>
     <sdef n="dat"     c="Dative"/>
-    <sdef n="abl"     c="Ablative"/>
+    <sdef n="voc"     c="Vocative"/>
     <sdef n="gen"     c="Genitive"/>
     <sdef n="loc"     c="Locative"/>
 
@@ -47,11 +48,25 @@
   </sdefs>
       <pardefs>
 
-            <pardef n="mara__n">
-               <e><p><l>ം</l>  <r><s n="n"/><s n="sg"/><s n="nom"/></r> </p></e>
-               <e><p><l>ത്തില്‍</l>  <r><s n="n"/><s n="sg"/><s n="loc"/></r></p></e>  
-               <e><p><l>ങ്ങള്‍</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
-            </pardef>
+    <pardef n="മര/ം__n">
+      <e>       <p><l>ം</l><r>ം<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ത്തെ</l><r>ം<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ത്തിന്റെ</l><r>ം<s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ത്തിന്</l><r>ം<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ത്തില്‍</l><r>ം<s n="n"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e>       <p><l>ത്താത്താല്‍</l><r>ം<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>മേ</l><r>ം<s n="n"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e>       <p><l>ത്തൊടു</l><r>ം<s n="n"/><s n="sg"/><s n="soc"/></r></p></e>
+      <e>       <p><l>ങ്ങള്‍</l><r>ം<s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ങ്ങളെ</l><r>ം<s n="n"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ങ്ങളുടെ</l><r>ം<s n="n"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ങ്ങള്‍കൂ</l><r>ം<s n="n"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ങ്ങളില്‍</l><r>ം<s n="n"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e>       <p><l>ങ്ങളാല്‍</l><r>ം<s n="n"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ങ്ങളേ</l><r>ം<s n="n"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e>       <p><l>ങ്ങളോടു</l><r>ം<s n="n"/><s n="pl"/><s n="soc"/></r></p></e>
+    </pardef>
+
             <pardef n="innale__n">
                <e><p><l/><r><s n="n"/><s n="sg"/><s n="nom"/></r> </p></e>
                <e><p><l>കള്‍</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -71,10 +86,13 @@
    		<!-- lm, is for lemma.
                   i, is for identity (the left and the right are the same).
                   par, is for paradigm.-->
-            <e lm="poonthottam"><i>പൂന്തൊട്ട</i><par n="mara__n"/></e>
+
             <e lm="innale"><i>ഇന്നലെ</i><par n="innale__n"/></e>
-            <e lm="mara"><i>മര</i><par n="mara__n"/></e>
-            <e lm="vana"><i>വന</i><par n="mara__n"/></e>
+
+    <e lm=""><i>പൂന്തൊട്ട</i><par n="മര/ം__n"/></e>
+    <e lm="മരം"><i>മര</i><par n="മര/ം__n"/></e>
+    <e lm=""><i>വന</i><par n="മര/ം__n"/></e>
+
             <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->
       </section>
 </dictionary>
