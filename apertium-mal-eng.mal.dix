@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
+      <alphabet>അആഇഈഉഊഋഌഎഏഐഒഓഔകഖഗഘങചഛജഝഞടഠഡഢണതഥദധനഩപഫബഭമയരറലളഴവശഷസഹഽാിീുൂൃൄെേൈൊോൌ്ൗൠൡൢൣൺൻൾൿംഃ</alphabet>
        <sdefs>
     <sdef n="n"       c="Noun . നാമം"/>
     <sdef n="np"      c="Proper noun"/>
