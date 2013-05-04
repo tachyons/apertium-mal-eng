@@ -54,7 +54,7 @@
       <e>       <p><l>ത്തിന്റെ</l><r>ം<s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
       <e>       <p><l>ത്തിന്</l><r>ം<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
       <e>       <p><l>ത്തില്‍</l><r>ം<s n="n"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e>       <p><l>ത്താത്താല്‍</l><r>ം<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ത്താല്‍</l><r>ം<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
       <e>       <p><l>മേ</l><r>ം<s n="n"/><s n="sg"/><s n="voc"/></r></p></e>
       <e>       <p><l>ത്തൊടു</l><r>ം<s n="n"/><s n="sg"/><s n="soc"/></r></p></e>
       <e>       <p><l>ങ്ങള്‍</l><r>ം<s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -66,6 +66,7 @@
       <e>       <p><l>ങ്ങളേ</l><r>ം<s n="n"/><s n="pl"/><s n="voc"/></r></p></e>
       <e>       <p><l>ങ്ങളോടു</l><r>ം<s n="n"/><s n="pl"/><s n="soc"/></r></p></e>
     </pardef>
+
 
             <pardef n="innale__n">
                <e><p><l/><r><s n="n"/><s n="sg"/><s n="nom"/></r> </p></e>
