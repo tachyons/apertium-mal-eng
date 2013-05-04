@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
        <sdefs>
-    <sdef n="n"       c="Noun . नाम"/>
+    <sdef n="n"       c="Noun . നാമം"/>
     <sdef n="np"      c="Proper noun"/>
-    <sdef n="adv"     c="Adverb"/>
-    <sdef n="adj"     c="Adjective . विशेषण"/>
+    <sdef n="adv"     c="Adverb . ക്രിയാ വിശേഷണപദം"/>
+    <sdef n="adj"     c="Adjective . നാമവിശേഷണം"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="post"    c="Postposition"/>
@@ -12,9 +12,9 @@
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
 
-    <sdef n="m"       c="Masculine · पु:लिंग"/>
-    <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
-    <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
+    <sdef n="m"       c="Masculine · പുല്ലിംഗം"/>
+    <sdef n="f"       c="Feminine · സ്ത്രീലിമ്ഗം "/>
+    <sdef n="nt"      c="Neuter · നപുംസകലിംഗം"/>
     <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
     <sdef n="mfn"      c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/>
 
@@ -71,7 +71,16 @@
                </p></e>
                   
             </pardef>
-           
+            <!-- <pardef n="nalla__n">
+               <e><p>
+                        <l>കള്‍</l><r><s n="n"/><s n="pl"/></r>
+               </p></e>
+               <e><p>
+                        <l/><r><s n="n"/><s n="sg"/></r>
+               </p></e>
+                  
+            </pardef>
+           -->
       </pardefs>
       <section id="main" type="standard">
             <e lm="gramofon"><i>gramofon</i><par n="gramofon__n"/></e>
@@ -82,5 +91,6 @@
             <e lm="innale"><i>ഇന്നലെ</i><par n="innale__n"/></e>
             <e lm="mara"><i>മര</i><par n="mara__n"/></e>
             <e lm="vana"><i>വന</i><par n="mara__n"/></e>
+            <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->
       </section>
 </dictionary>
