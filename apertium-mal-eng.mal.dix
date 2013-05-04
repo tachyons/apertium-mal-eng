@@ -83,7 +83,6 @@
            -->
       </pardefs>
       <section id="main" type="standard">
-            <e lm="gramofon"><i>gramofon</i><par n="gramofon__n"/></e>
    		<!-- lm, is for lemma.
                   i, is for identity (the left and the right are the same).
                   par, is for paradigm.-->
