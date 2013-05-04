@@ -1,20 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-      <sdefs>
-            <sdef n="n"/>
-            <sdef n="sg"/>
-            <sdef n="pl"/>
-            <sdef n="kaL_"/>
-      </sdefs>
+       <sdefs>
+    <sdef n="n"       c="Noun . नाम"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective . विशेषण"/>
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+
+    <sdef n="m"       c="Masculine · पु:लिंग"/>
+    <sdef n="f"       c="Feminine · स्त्रीलिंग"/>
+    <sdef n="nt"      c="Neuter · नपुसकलिंग"/>
+    <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
+    <sdef n="mfn"      c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/>
+
+    <sdef n="sg"      c="Singular . एकवचन"/>
+    <sdef n="pl"      c="Plural . अनेकवचन"/>
+    <sdef n="sp"      c="Singular / Plural . एकवचन / अनेकवचन"/>
+
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="acc"     c="Accusative"/>
+    <sdef n="erg"     c="Ergative · तृतीय"/>
+    <sdef n="dat"     c="Dative"/>
+    <sdef n="abl"     c="Ablative"/>
+    <sdef n="gen"     c="Genitive"/>
+    <sdef n="loc"     c="Locative"/>
+
+    <sdef n="p1"      c="First person · प्रथम पुरुष"/>
+    <sdef n="p2"      c="Second person · द्वितिय पुरुष"/>
+    <sdef n="p3"      c="Third person · तृतिय पुरुष"/>
+
+    <sdef n="pres"    c="Present tense . वर्तमानकाळ"/>
+
+    <sdef n="ant"     c="Anthroponym"/>
+    <sdef n="pers"    c="Personal"/>
+    <sdef n="itg"     c="Interrogative"/>
+
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="quot"    c="Quotation mark"/>
+    <sdef n="sent"    c="Sentence marker"/>
+  </sdefs>
       <pardefs>
             <pardef n="gramofon__n">
-         		<e><p>
-         			<l/><r><s n="n"/><s n="sg"/></r>
-         		</p></e>
-         		<e><p>
-         			<l>i</l><r><s n="n"/><s n="pl"/>
-         			</r>
-                  </p></e>
+         	<e><p>
+         		<l/><r><s n="n"/><s n="sg"/></r>
+         	</p></e>
+         	<e><p>
+         		<l>i</l><r><s n="n"/><s n="pl"/></r>
+                 </p></e>
             </pardef>
             <pardef n="mara__n">
                <e><p>
@@ -25,12 +62,25 @@
                </p></e>
                   
             </pardef>
+            <pardef n="innale__n">
+               <e><p>
+                        <l>കള്‍</l><r><s n="n"/><s n="pl"/></r>
+               </p></e>
+               <e><p>
+                        <l/><r><s n="n"/><s n="sg"/></r>
+               </p></e>
+                  
+            </pardef>
+           
       </pardefs>
       <section id="main" type="standard">
             <e lm="gramofon"><i>gramofon</i><par n="gramofon__n"/></e>
    		<!-- lm, is for lemma.
                   i, is for identity (the left and the right are the same).
                   par, is for paradigm.-->
+            <e lm="poonthottam"><i>പൂന്തൊട്ട</i><par n="mara__n"/></e>
+            <e lm="innale"><i>ഇന്നലെ</i><par n="innale__n"/></e>
             <e lm="mara"><i>മര</i><par n="mara__n"/></e>
+            <e lm="vana"><i>വന</i><par n="mara__n"/></e>
       </section>
 </dictionary>
