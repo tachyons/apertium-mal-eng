@@ -19,8 +19,8 @@
     <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
     <sdef n="mfn"      c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/>
 
-    <sdef n="sg"      c="Singular . एकवचन"/>
-    <sdef n="pl"      c="Plural . अनेकवचन"/>
+    <sdef n="sg"      c="Singular . ഏകവചനം"/>
+    <sdef n="pl"      c="Plural . ബഹുവചനം"/>
     <sdef n="sp"      c="Singular / Plural . एकवचन / अनेकवचन"/>
 
     <sdef n="nom"     c="Nominative"/>
@@ -41,6 +41,8 @@
     <sdef n="pers"    c="Personal"/>
     <sdef n="itg"     c="Interrogative"/>
 
+    <sdef n="subj"   c="Subject . क्रियापद"/>
+
     <sdef n="cm"      c="Comma"/>
     <sdef n="quot"    c="Quotation mark"/>
     <sdef n="sent"    c="Sentence marker"/>
@@ -56,7 +58,8 @@
 	<e><p><l>ഇന്ന്<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
 	<e><p><l>നല്ല<s n="adv"/></l><r>nice<s n="adj"/></r></p></e>
 	<e><p><l>കാലാവസ്ഥ<s n="adv"/></l><r>weather<s n="adj"/></r></p></e>
-	<e><p><l>ഇത്<s n="adv"/></l><r>it<s n="prn"/></r></p></e>
+	<e><p><l>ഇത്<s n="adv"/></l><r>it<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+	<e><p><l>തണുപ്പ്<s n="n"/></l><r>cold<s n="n"/></r></p></e>
 	<!-- SECTION: Conjunctions -->
 
     <e><p><l>ഉം <s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
@@ -104,6 +107,7 @@
     
     <e><p><l>നല്ല<s n="adj"/></l><r>nice<s n="adj"/></r></p></e>
     <e><p><l>വലിയ<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+    <e><p><l>പുറത്ത്<s n="adj"/></l><r>outside<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -115,12 +119,12 @@
 
     <!--SECTION: Verbs -->
 
-    <e><p><l>आहे<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
-    <e><p><l>विचार<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
-    <e><p><l>मोज<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
-    <e><p><l>कर<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
-    <e><p><l>खा<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
-    <e><p><l>शोध<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>ആവുക<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+    <e><p><l>ചോദിക്കുക<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
+    <e><p><l>എണ്ണുക<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+    <e><p><l>ചെയ്യുക<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>തിന്നുക<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
+    <e><p><l>പരതുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>തീര്‍കുക<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
 
 
