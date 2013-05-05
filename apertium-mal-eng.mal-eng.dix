@@ -2,15 +2,137 @@
 <dictionary>
    <alphabet/>
    <sdefs>
-     <sdef n="n"/>
-     <sdef n="sg"/>
-     <sdef n="pl"/>
-   </sdefs>
+    <sdef n="n"       c="Noun . നാമം"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="adv"     c="Adverb . ക്രിയാ വിശേഷണപദം"/>
+    <sdef n="adj"     c="Adjective . നാമവിശേഷണം"/>
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+
+    <sdef n="m"       c="Masculine · പുല്ലിംഗം"/>
+    <sdef n="f"       c="Feminine · സ്ത്രീലിമ്ഗം "/>
+    <sdef n="nt"      c="Neuter · നപുംസകലിംഗം"/>
+    <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
+    <sdef n="mfn"      c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/>
+
+    <sdef n="sg"      c="Singular . एकवचन"/>
+    <sdef n="pl"      c="Plural . अनेकवचन"/>
+    <sdef n="sp"      c="Singular / Plural . एकवचन / अनेकवचन"/>
+
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="acc"     c="Accusative"/>
+    <sdef n="ins"     c="Instrumental"/>
+    <sdef n="soc"     c="Sociative"/>
+    <sdef n="dat"     c="Dative"/>
+    <sdef n="voc"     c="Vocative"/>
+    <sdef n="gen"     c="Genitive"/>
+    <sdef n="loc"     c="Locative"/>
+    <sdef n="p1"      c="First person · प्रथम पुरुष"/>
+    <sdef n="p2"      c="Second person · द्वितिय पुरुष"/>
+    <sdef n="p3"      c="Third person · तृतिय पुरुष"/>
+
+    <sdef n="pres"    c="Present tense . वर्तमानकाळ"/>
+
+    <sdef n="ant"     c="Anthroponym"/>
+    <sdef n="pers"    c="Personal"/>
+    <sdef n="itg"     c="Interrogative"/>
+
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="quot"    c="Quotation mark"/>
+    <sdef n="sent"    c="Sentence marker"/>
+    <sdef n="FD"      c="Function to be determined"/>
+    <sdef n="vblex"   c="Verb . क्रियापद"/>
+  </sdefs>
 
    <section id="main" type="standard">
-	<e><p><l>മര<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+	<e><p><l>മരം<s n="n"/></l><r>tree<s n="n"/></r></p></e>
 	<e><p><l>വനം<s n="n"/></l><r>forest<s n="n"/></r></p></e>
 	<e><p><l>പൂന്തോട്ടം<s n="n"/></l><r>garden<s n="n"/></r></p></e>
 	<e><p><l>ഇന്നലെ<s n="n"/></l><r>yesterday<s n="n"/></r></p></e>
+	<e><p><l>ഇന്ന്<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
+	<e><p><l>നല്ല<s n="adv"/></l><r>nice<s n="adj"/></r></p></e>
+	<e><p><l>കാലാവസ്ഥ<s n="adv"/></l><r>weather<s n="adj"/></r></p></e>
+	<e><p><l>ഇത്<s n="adv"/></l><r>it<s n="prn"/></r></p></e>
+	<!-- SECTION: Conjunctions -->
+
+    <e><p><l>ഉം <s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e><p><l>ഞാന്‍ <s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
+    <e><p><l>നീ<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+
+    <!-- SECTION: Nouns -->
+
+
+    <e><p><l>बाग<s n="n"/><s n="f"/></l><r>garden<s n="n"/></r></p></e>
+    <e><p><l>പട്ടി<s n="n"/><s n="m"/></l><r>dog<s n="n"/></r></p></e>
+    <e><p><l>വീട്<s n="n"/><s n="nt"/></l><r>house<s n="n"/></r></p></e>
+    <e><p><l>വീട്<s n="n"/><s n="nt"/></l><r>home<s n="n"/></r></p></e>
+    <e><p><l>ആണ്‍<b/>കുട്ടി<s n="n"/><s n="m"/></l><r>boy<s n="n"/></r></p></e>
+    <e><p><l>പെണ്‍കുട്ട്ടി<s n="n"/><s n="f"/></l><r>girl<s n="n"/></r></p></e>
+    <e><p><l>പൂച്ച<s n="n"/><s n="f"/></l><r>cat<s n="n"/></r></p></e>
+    <e><p><l>അനുജത്തി<s n="n"/><s n="f"/></l><r>sister<s n="n"/></r></p></e>
+    <e><p><l>അമ്മ<s n="n"/><s n="f"/></l><r>mother<s n="n"/></r></p></e>
+    <e><p><l>ജനല്‍ <s n="n"/><s n="f"/></l><r>window<s n="n"/></r></p></e>
+    <e><p><l>झाड<s n="n"/><s n="nt"/></l><r>tree<s n="n"/></r></p></e>
+    <e><p><l>കൈ<s n="n"/><s n="m"/></l><r>hand<s n="n"/></r></p></e>
+    <e><p><l>खेळ<s n="n"/><s n="m"/></l><r>game<s n="n"/></r></p></e>
+    <e><p><l>ഉത്തരം<s n="n"/><s n="nt"/></l><r>answer<s n="n"/></r></p></e>
+    <e><p><l>ചോദ്യം <s n="n"/><s n="m"/></l><r>question<s n="n"/></r></p></e>
+    <e><p><l>വ്യക്തി<s n="n"/><s n="f"/></l><r>person<s n="n"/></r></p></e>
+    <e><p><l>മേശ<s n="n"/><s n="nt"/></l><r>table<s n="n"/></r></p></e>
+    <e><p><l>കസേര<s n="n"/><s n="f"/></l><r>chair<s n="n"/></r></p></e>
+    <e><p><l>ശബ്ദം<s n="n"/><s n="m"/></l><r>sound<s n="n"/></r></p></e>
+    <e><p><l>പക്ഷി <s n="n"/><s n="m"/></l><r>bird<s n="n"/></r></p></e>
+    <e><p><l>മൃഗം<s n="n"/><s n="m"/></l><r>animal<s n="n"/></r></p></e>
+    <e><p><l>തല<s n="n"/><s n="nt"/></l><r>head<s n="n"/></r></p></e>
+    <e><p><l>സമയം<s n="n"/><s n="f"/></l><r>time<s n="n"/></r></p></e>
+    <e><p><l>വെള്ളം<s n="n"/><s n="nt"/></l><r>water<s n="n"/></r></p></e>   
+
+
+    <!-- SECTION: Proper nouns -->
+
+    <e><p><l>രാജു<s n="np"/><s n="ant"/><s n="m"/></l><r>Rahul<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>രാധ<s n="np"/><s n="ant"/><s n="f"/></l><r>Kajol<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+    <!-- SECTION: Adjectives -->
+    
+    <e><p><l>നല്ല<s n="adj"/></l><r>nice<s n="adj"/></r></p></e>
+    <e><p><l>വലിയ<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+
+    <!-- SECTION: Adverbs -->
+
+
+    <e><p><l>എവിടെ<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>അവിടെ<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
+    <e><p><l>ഇല്ല<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+
+
+    <!--SECTION: Verbs -->
+
+    <e><p><l>आहे<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+    <e><p><l>विचार<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
+    <e><p><l>मोज<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+    <e><p><l>कर<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>खा<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
+    <e><p><l>शोध<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>തീര്‍കുക<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
+
+
+      
+    <!-- SECTION: Interjections -->
+
+    <e><p><l>ഇല്ല<s n="ij"/></l><r>no<s n="ij"/></r></p></e>
+
+    <!-- SECTION: Punctuation-->
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>"<s n="quot"/></l><r>parquote<s n="quot"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>	
+	
    </section>
 </dictionary>

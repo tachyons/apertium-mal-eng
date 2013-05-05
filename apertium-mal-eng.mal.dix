@@ -46,7 +46,7 @@
     <sdef n="quot"    c="Quotation mark"/>
     <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
-      <pardefs>
+  <pardefs>
 
     <pardef n="മര/ം__n">
       <e>       <p><l>ം</l><r>ം<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -66,33 +66,48 @@
       <e>       <p><l>ങ്ങളേ</l><r>ം<s n="n"/><s n="pl"/><s n="voc"/></r></p></e>
       <e>       <p><l>ങ്ങളോടു</l><r>ം<s n="n"/><s n="pl"/><s n="soc"/></r></p></e>
     </pardef>
+      <pardef n="innale__n">
+         <e><p><l/><r><s n="n"/><s n="sg"/><s n="nom"/></r> </p></e>
+         <e><p><l>കള്‍</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
+      </pardef>
+      <pardef n="innu__n">
+         <e><p><l/><r><s n="adv"/></r> </p></e>
+      </pardef>
+      <pardef n="നല്ല__n">
+         <e><p>
+                  <l/><r><s n="adj"/></r>
+         </p></e>
+            
+      </pardef>
+      <pardef n="കാലാവസ്ഥ__n">
+         <e><p>
+                  <l/><r><s n="n"/><s n="sg"/></r>
+         </p></e>
+            
+      </pardef>
+      <pardef n="ഇത്__n">
+         <e><p>
+                  <l/><r><s n="prn"/><s n=""></r>
+         </p></e>
+            
+      </pardef>
+  </pardefs>
 
-
-            <pardef n="innale__n">
-               <e><p><l/><r><s n="n"/><s n="sg"/><s n="nom"/></r> </p></e>
-               <e><p><l>കള്‍</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
-            </pardef>
-            <!-- <pardef n="nalla__n">
-               <e><p>
-                        <l>കള്‍</l><r><s n="n"/><s n="pl"/></r>
-               </p></e>
-               <e><p>
-                        <l/><r><s n="n"/><s n="sg"/></r>
-               </p></e>
-                  
-            </pardef>
-           -->
-      </pardefs>
       <section id="main" type="standard">
    		<!-- lm, is for lemma.
                   i, is for identity (the left and the right are the same).
                   par, is for paradigm.-->
 
             <e lm="innale"><i>ഇന്നലെ</i><par n="innale__n"/></e>
+            <e lm="innale"><i>ഇന്ന്</i><par n="innu__n"/></e>
 
     <e lm="പൂന്തോട്ടം"><i>പൂന്തോട്ട</i><par n="മര/ം__n"/></e>
     <e lm="മരം"><i>മര</i><par n="മര/ം__n"/></e>
-    <e lm=""><i>വന</i><par n="മര/ം__n"/></e>
+    <e lm="വനം"><i>വന</i><par n="മര/ം__n"/></e>
+    <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__n"/></e>
+    <e lm="കാലാവസ്ഥ"><i>കാലാവസ്ഥ</i><par n="നല്ല__n"/></e>
+    <e lm="ഇത് "><i>ഇത്</i><par n="ഇത്__n"/></e>
+    
 
             <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->
       </section>
