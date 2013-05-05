@@ -69,14 +69,14 @@
       <e>       <p><l>ങ്ങളോടു</l><r>ം<s n="n"/><s n="pl"/><s n="soc"/></r></p></e>
     </pardef>
     <pardef n="തണുപ്പ/്__n">
-      <e>       <p><l>്</l><r>്<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l>ിനെ</l><r>്<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e>       <p><l>ിന്റെ</l><r>്<s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e>       <p><l>ിന്</l><r>്<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e>       <p><l>ില്‍</l><r>്<s n="n"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e>       <p><l>ാല്‍</l><r>്<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e>       <p><l>േ</l><r>്<s n="n"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e>       <p><l>ിനൊട്</l><r>്<s n="n"/><s n="sg"/><s n="soc"/></r></p></e>
+      <e>       <p><l>്</l><r>്<s n="n"/><s n="sg"/><s n="nt"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ിനെ</l><r>്<s n="n"/><s n="sg"/><s n="nt"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ിന്റെ</l><r>്<s n="n"/><s n="sg"/><s n="nt"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ിന്</l><r>്<s n="n"/><s n="sg"/><s n="nt"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ില്‍</l><r>്<s n="n"/><s n="sg"/><s n="nt"/><s n="loc"/></r></p></e>
+      <e>       <p><l>ാല്‍</l><r>്<s n="n"/><s n="sg"/><s n="nt"/><s n="ins"/></r></p></e>
+      <e>       <p><l>േ</l><r>്<s n="n"/><s n="sg"/><s n="nt"/><s n="voc"/></r></p></e>
+      <e>       <p><l>ിനൊട്</l><r>്<s n="n"/><s n="sg"/><s n="nt"/><s n="soc"/></r></p></e>
     </pardef>
     <pardef n="വീട/്__n">
       <e>       <p><l>്</l><r>്<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -125,6 +125,12 @@
          </p></e>
             
       </pardef>
+      <pardef n="ഒന്ന്__n">
+         <e><p>
+                  <l/><r><s n="num"/><s n="sg"/></r>
+         </p></e>
+            
+      </pardef>
       
   </pardefs>
 
@@ -148,8 +154,8 @@
     <e lm="കളിക്കുക"><i>കളിക്കു</i><par n="ഇത്__n"/></e>
     <e lm="കഴിയുക "><i>കഴി</i><par n="ഇത്__n"/></e>
     <e lm="വീട്"><i>വീട</i><par n="വീട/്__n"/></e>
-    <e lm="മുമ്പില്‍"><i>മുമ്പി</i><par n="ഇത്__n"/></e>
-    <e lm="ഒന്ന്"><i>ഒന്ന്</i><par n="ഇത്__n"/></e>
+    <e lm="മുമ്പില്‍"><i>മുമ്പില്‍</i><par n="innu__n"/></e>
+    <e lm="ഒന്ന്"><i>ഒന്ന്</i><par n="ഒന്ന്__n"/></e>
     <e lm="ചെറിയത്"><i>ചെറിയ</i><par n="ഇത്__n"/></e>
     <e lm="അവന്‍"><i>അവന്‍</i><par n="ഇത്__n"/></e>
     <e lm="ആറ്"><i>ആറ്</i><par n="ഇത്__n"/></e>
