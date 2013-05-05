@@ -60,6 +60,7 @@
 	<e><p><l>കാലാവസ്ഥ<s n="adv"/></l><r>weather<s n="adj"/></r></p></e>
 	<e><p><l>ഇത്<s n="adv"/></l><r>it<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 	<e><p><l>തണുപ്പ്<s n="n"/></l><r>cold<s n="n"/></r></p></e>
+
 	<!-- SECTION: Conjunctions -->
 
     <e><p><l>ഉം <s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
@@ -68,6 +69,7 @@
 
     <e><p><l>ഞാന്‍ <s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
     <e><p><l>നീ<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+    <e><p><l>അവര്‍<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <!-- SECTION: Nouns -->
 
@@ -79,7 +81,7 @@
     <e><p><l>ആണ്‍<b/>കുട്ടി<s n="n"/><s n="m"/></l><r>boy<s n="n"/></r></p></e>
     <e><p><l>പെണ്‍കുട്ട്ടി<s n="n"/><s n="f"/></l><r>girl<s n="n"/></r></p></e>
     <e><p><l>പൂച്ച<s n="n"/><s n="f"/></l><r>cat<s n="n"/></r></p></e>
-    <e><p><l>അനുജത്തി<s n="n"/><s n="f"/></l><r>sister<s n="n"/></r></p></e>
+    <e><p><l>സഹോദരി<s n="n"/><s n="f"/></l><r>sister<s n="n"/></r></p></e>
     <e><p><l>അമ്മ<s n="n"/><s n="f"/></l><r>mother<s n="n"/></r></p></e>
     <e><p><l>ജനല്‍ <s n="n"/><s n="f"/></l><r>window<s n="n"/></r></p></e>
     <e><p><l>झाड<s n="n"/><s n="nt"/></l><r>tree<s n="n"/></r></p></e>
@@ -100,8 +102,8 @@
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>രാജു<s n="np"/><s n="ant"/><s n="m"/></l><r>Rahul<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>രാധ<s n="np"/><s n="ant"/><s n="f"/></l><r>Kajol<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>രാജു<s n="np"/><s n="ant"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>രാധ<s n="np"/><s n="ant"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
     
