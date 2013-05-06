@@ -47,6 +47,7 @@
     <sdef n="sent"    c="Sentence marker"/>
     <sdef n="subj"    c="Subject"/>
     <sdef n="sint"    c="???"/>
+        <sdef n="dem"    c="???"/>
 
   </sdefs>
   <pardefs>
@@ -54,7 +55,7 @@
          <e><p>
                   <l/><r><s n="prn"/><s n="nt"/><s n="sg"/></r>
          </p></e>
-            
+
       </pardef>
 
       <pardef n="അവന/്‍__prn">
@@ -84,18 +85,18 @@
       <e>       <p><l>േ</l><r>്‍<s n="prn"/><s n="pl"/><s n="voc"/></r></p></e>
       <e>       <p><l>ോട്</l><r>്‍<s n="prn"/><s n="pl"/><s n="soc"/></r></p></e>
     </pardef>
-   
+
       <pardef n="അവള്‍__n">
          <e><p>
                   <l/><r><s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
          </p></e>
-            
+
       </pardef>
       <pardef n="ഒന്ന്__n">
          <e><p>
                   <l/><r><s n="num"/><s n="sg"/></r>
          </p></e>
-            
+
       </pardef>
 
     <!-- SECTION: Nouns -->
@@ -181,6 +182,17 @@
       <e>       <p><l>കലുളേ</l><r>ല്‍<s n="n"/><s n="pl"/><s n="voc"/></r></p></e>
       <e>       <p><l>ലുകളോട്</l><r>ല്‍<s n="n"/><s n="pl"/><s n="soc"/></r></p></e>
     </pardef>
+    <pardef n="ഇത/്__prn">
+      <e>       <p><l>്</l><r>്<s n="prn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ിനെ</l><r>്<s n="prn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ിന്റെ</l><r>്<s n="prn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ിന്</l><r>്<s n="prn"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ില്‍</l><r>്<s n="prn"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e>       <p><l>ാല്‍</l><r>്<s n="prn"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>േ</l><r>്<s n="prn"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e>       <p><l>ിനൊട്</l><r>്<s n="prn"/><s n="sg"/><s n="soc"/></r></p></e>
+    </pardef>
+
 	<pardef n="innale__n">
        		<e>      <p><l/><r><s n="n"/><s n="sg"/><s n="nom"/></r> </p></e>
        		<e>      <p><l>കള്‍</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -244,8 +256,11 @@
     <pardef n="nochange__adv"> <!--temporary -->
     	       <e><p><l/><r><s n="adv"/></r></p></e>
     </pardef>
+     <!--Co-ordinating conjunction -->
+     <pardef n="പക്ഷെ__cnjcoo"> <!--temporary -->
+    	       <e><p><l/><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
 
-      
   </pardefs>
 
       <section id="main" type="standard">
@@ -282,15 +297,17 @@
     <e lm="എപ്പോഴും"><i>എപ്പോഴും</i><par n="nochange__adv"/></e>
      <e lm="പട്ടി"><i>പട്ടി</i><par n="innale__n"/></e>
     <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
-    <e lm="കാലാവസ്ഥ"><i>കാലാവസ്ഥ</i><par n="അമ്മ__n"/></e>  
+    <e lm="കാലാവസ്ഥ"><i>കാലാവസ്ഥ</i><par n="അമ്മ__n"/></e>
     <e lm="പുറത്ത്"><i>പുറത്ത്</i><par n="പുറത്ത്__adj"/></e>
     <e lm="വളരെ"><i>വളരെ</i><par n="nochange__adv"/></e>
     <e lm="ഒളിക്കുക"><i>ഒളി</i><par n="nochange__adv"/></e>
- 
+
     <!-- SECTION: Nouns -->
 
      <e lm="പട്ടി"><i>പട്ടി</i><par n="പട്ടി__n"/></e>
      <e lm="അമ്മ"><i>അമ്മ</i><par n="അമ്മ__n"/></e>
+     <e lm="മേശ"><i>മേശ</i><par n="അമ്മ__n"/></e>
+     <e lm="കസേര"><i>കസേര</i><par n="അമ്മ__n"/></e>
     <e lm="ജനല്‍"><i>ജന</i><par n="ജന/ല്‍__n"/></e>
     <e lm="കളി"><i>കളി</i><par n="കളി__n"/></e>
     <e lm="ഉത്തരം"><i>ഉത്തര</i><par n="മര/ം__n"/></e>
@@ -300,7 +317,13 @@
     <e lm="തല"><i>തല</i><par n="പട്ടി__n"/></e>
     <e lm="സമയ"><i>സമയ</i><par n="മര/ം__n"/></e>
     <e lm="വെള്ള"><i>വെള്ള</i><par n="മര/ം__n"/></e>
- 
+
+    <!-- pro nouns-->
+     <e lm="ഇത്"><i>ഇത</i><par n="ഇത/്__prn"/></e>
+
+     <!--Co-ordinating conjunction -->
+          <e lm="പക്ഷെ"><i>പക്ഷെ</i><par n="പക്ഷെ__cnjcoo"/></e>
+
          <!-- verbs -->
          <!-- <e lm="ചോദിക്കുക"><i>ആകുക</i><par n="ചോദിക്കുക__v"/></e>
         <e lm="ചെയ്യുക"><i>ആകുക</i><par n="ചെയ്യുക__v"/></e>
@@ -315,8 +338,8 @@
           <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
           <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
           -->
-        
+
 
             <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->
-      </section>
+</section>
 </dictionary>

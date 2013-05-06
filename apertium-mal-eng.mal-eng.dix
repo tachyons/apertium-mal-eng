@@ -49,6 +49,7 @@
     <sdef n="FD"      c="Function to be determined"/>
     <sdef n="vblex"   c="Verb . क्रियापद"/>
      <sdef n="sint"   c="?"/>
+             <sdef n="dem"    c="???"/>
   </sdefs>
 
    <section id="main" type="standard">
@@ -64,7 +65,8 @@
 
 	<!-- SECTION: Conjunctions -->
 
-    <e><p><l>ഉം <s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ഉം<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e><p><l>പക്ഷെ<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
@@ -73,6 +75,8 @@
     <e><p><l>അവര്‍<s n="prn"/><s n="pl"/></l><r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>അവള്‍<s n="prn"/><s n="sg"/></l><r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
    <e><p><l>അവന്‍<s n="prn"/><s n="sg"/></l><r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+     <e><p><l>ഇത്<s n="prn"/><s n="sg"/></l><r>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+   
     
 
     <!-- SECTION: Nouns -->
@@ -86,6 +90,8 @@
     <e><p><l>പൂച്ച<s n="n"/></l><r>cat<s n="n"/></r></p></e>
     <e><p><l>സഹോദരി<s n="n"/></l><r>sister<s n="n"/></r></p></e>
     <e><p><l>അമ്മ<s n="n"/></l><r>mother<s n="n"/></r></p></e>
+    <e><p><l>മേശ<s n="n"/></l><r>table<s n="n"/></r></p></e>
+    <e><p><l>കസേര<s n="n"/></l><r>chair<s n="n"/></r></p></e>
     <e><p><l>ജനല്‍<s n="n"/></l><r>window<s n="n"/></r></p></e>
     <e><p><l>കൈ<s n="n"/></l><r>hand<s n="n"/></r></p></e>
     <e><p><l>കളി<s n="n"/></l><r>game<s n="n"/></r></p></e>
@@ -147,7 +153,6 @@
     <!-- SECTION: Punctuation-->
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><p><l>"<s n="quot"/></l><r>parquote<s n="quot"/></r></p></e>
-    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>	
-	
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>		
    </section>
 </dictionary>
