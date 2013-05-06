@@ -71,37 +71,35 @@
     <e><p><l>ഞാന്‍ <s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
     <e><p><l>നീ<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
     <e><p><l>അവര്‍<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>അവള്‍<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-   <e><p><l>അവന്‍<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>he<s n="prn"/><s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>അവള്‍<s n="prn"/><s n="sg"/></l><r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+   <e><p><l>അവന്‍<s n="prn"/><s n="sg"/></l><r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     
 
     <!-- SECTION: Nouns -->
 
 
-    <e><p><l>बाग<s n="n"/><s n="f"/></l><r>garden<s n="n"/></r></p></e>
-    <e><p><l>പട്ടി<s n="n"/><s n="m"/></l><r>dog<s n="n"/></r></p></e>
+    <e><p><l>പട്ടി<s n="n"/></l><r>dog<s n="n"/></r></p></e>
     <e><p><l>വീട്<s n="n"/><s n="sg"/></l><r>house<s n="n"/><s n="sg"/></r></p></e>
     <!-- <e><p><l>വീട്<s n="n"/><s n="nt"/></l><r>home<s n="n"/></r></p></e> -->
     <e><p><l>ആണ്‍കുട്ടി<s n="n"/></l><r>boy<s n="n"/></r></p></e>
     <e><p><l>പെണ്‍കുട്ടി<s n="n"/></l><r>girl<s n="n"/></r></p></e>
-    <e><p><l>പൂച്ച<s n="n"/><s n="f"/></l><r>cat<s n="n"/></r></p></e>
+    <e><p><l>പൂച്ച<s n="n"/></l><r>cat<s n="n"/></r></p></e>
     <e><p><l>സഹോദരി<s n="n"/></l><r>sister<s n="n"/></r></p></e>
-    <e><p><l>അമ്മ<s n="n"/><s n="f"/></l><r>mother<s n="n"/></r></p></e>
-    <e><p><l>ജനല്‍ <s n="n"/><s n="f"/></l><r>window<s n="n"/></r></p></e>
-    <e><p><l>झाड<s n="n"/><s n="nt"/></l><r>tree<s n="n"/></r></p></e>
-    <e><p><l>കൈ<s n="n"/><s n="m"/></l><r>hand<s n="n"/></r></p></e>
-    <e><p><l>കളി<s n="n"/><s n="m"/></l><r>game<s n="n"/></r></p></e>
-    <e><p><l>ഉത്തരം<s n="n"/><s n="nt"/></l><r>answer<s n="n"/></r></p></e>
-    <e><p><l>ചോദ്യം <s n="n"/><s n="m"/></l><r>question<s n="n"/></r></p></e>
-    <e><p><l>വ്യക്തി<s n="n"/><s n="f"/></l><r>person<s n="n"/></r></p></e>
-    <e><p><l>മേശ<s n="n"/><s n="nt"/></l><r>table<s n="n"/></r></p></e>
-    <e><p><l>കസേര<s n="n"/><s n="f"/></l><r>chair<s n="n"/></r></p></e>
-    <e><p><l>ശബ്ദം<s n="n"/><s n="m"/></l><r>sound<s n="n"/></r></p></e>
-    <e><p><l>പക്ഷി <s n="n"/><s n="m"/></l><r>bird<s n="n"/></r></p></e>
-    <e><p><l>മൃഗം<s n="n"/><s n="m"/></l><r>animal<s n="n"/></r></p></e>
-    <e><p><l>തല<s n="n"/><s n="nt"/></l><r>head<s n="n"/></r></p></e>
-    <e><p><l>സമയം<s n="n"/><s n="f"/></l><r>time<s n="n"/></r></p></e>
-    <e><p><l>വെള്ളം<s n="n"/><s n="nt"/></l><r>water<s n="n"/></r></p></e>   
+    <e><p><l>അമ്മ<s n="n"/></l><r>mother<s n="n"/></r></p></e>
+    <e><p><l>ജനല്‍<s n="n"/></l><r>window<s n="n"/></r></p></e>
+    <e><p><l>കൈ<s n="n"/></l><r>hand<s n="n"/></r></p></e>
+    <e><p><l>കളി<s n="n"/></l><r>game<s n="n"/></r></p></e>
+    <e><p><l>ഉത്തരം<s n="n"/></l><r>answer<s n="n"/></r></p></e>
+    <e><p><l>ചോദ്യം<s n="n"/></l><r>question<s n="n"/></r></p></e>
+    <e><p><l>വ്യക്തി<s n="n"/></l><r>person<s n="n"/></r></p></e>
+    <e><p><l>മേശ<s n="n"/></l><r>table<s n="n"/></r></p></e>
+    <e><p><l>കസേര<s n="n"/></l><r>chair<s n="n"/></r></p></e>
+    <e><p><l>ശബ്ദം<s n="n"/></l><r>sound<s n="n"/></r></p></e>
+    <e><p><l>പക്ഷി <s n="n"/></l><r>bird<s n="n"/></r></p></e>
+    <e><p><l>മൃഗം<s n="n"/></l><r>animal<s n="n"/></r></p></e>
+    <e><p><l>തല<s n="n"/></l><r>head<s n="n"/></r></p></e>
+    <e><p><l>സമയം<s n="n"/></l><r>time<s n="n"/></r></p></e>
+    <e><p><l>വെള്ളം<s n="n"/></l><r>water<s n="n"/></r></p></e>   
 
 
     <!-- SECTION: Proper nouns -->
