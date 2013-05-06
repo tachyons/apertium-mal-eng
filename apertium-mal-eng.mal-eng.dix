@@ -58,7 +58,7 @@
 	<e><p><l>ഇന്നലെ<s n="n"/></l><r>yesterday<s n="n"/></r></p></e>
 	<e><p><l>ഇന്ന്<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
 	<e><p><l>നല്ല<s n="adv"/></l><r>nice<s n="adj"/></r></p></e>
-	<e><p><l>കാലാവസ്ഥ<s n="adv"/></l><r>weather<s n="adj"/></r></p></e>
+	<e><p><l>കാലാവസ്ഥ<s n="n"/><s n="sg"/></l><r>weather<s n="n"/><s n="sg"/></r></p></e>
 	<e><p><l>അത്<s n="prn"/><s n="nt"/><s n="sg"/></l><r>it<s n="prn"/><s n="prn"/><s n="nt"/><s n="sg"/></r></p></e>
 	<e><p><l>തണുപ്പ്<s n="n"/></l><r>cold<s n="n"/></r></p></e>
 
@@ -70,7 +70,7 @@
 
     <e><p><l>ഞാന്‍ <s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
     <e><p><l>നീ<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
-    <e><p><l>അവര്‍<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>അവര്‍<s n="prn"/><s n="pl"/></l><r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>അവള്‍<s n="prn"/><s n="sg"/></l><r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
    <e><p><l>അവന്‍<s n="prn"/><s n="sg"/></l><r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     
@@ -113,7 +113,7 @@
     <e><p><l>വലിയ<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
     <e><p><l>പുറത്ത്<s n="adj"/></l><r>outside<s n="adj"/></r></p></e>
     <e><p><l>ചെറിയ<s n="adj"/></l><r>little<s n="adj"/></r></p></e>
-     <e><p><l>സന്തോഷം<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
+     <e><p><l>സന്തോഷം<s n="n"/><s n="sg"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -124,6 +124,8 @@
     <e><p><l>മുമ്പില്‍<s n="adv"/></l><r>in<b/>front<s n="adv"/></r></p></e>
     <e><p><l>ചെറിയ<s n="adv"/></l><r>little<s n="adv"/></r></p></e>
     <e><p><l>ഇപ്പോള്‍<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+    <e><p><l>എപ്പോഴും<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
+    <e><p><l>വളരെ<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
 
 
     <!--SECTION: Verbs -->
