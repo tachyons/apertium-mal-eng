@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<interchunk>
+  <section-def-cats>
+    <def-cat n="SN">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+    </def-cat>
+    <def-cat n="SENT">
+      <cat-item tags="SENT"/>
+    </def-cat>
+  </section-def-cats>
+  <section-def-attrs>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="a_cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="ins"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="abl"/>
+    </def-attr>
+  </section-def-attrs>
+  <section-def-vars>
+    <def-var n="number"/>
+    <def-var n="PREP"/>
+  </section-def-vars>
+  <section-def-macros>
+    <def-macro n="insert-prep1" npar="1">
+      <let>
+        <var n="PREP"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" part="a_cas"/><lit-tag v="loc"/></equal></test>
+          <let><var n="PREP"/>
+               <concat><lit v="^prep"/><lit-tag v="PREP"/><lit v="{^in"/><lit-tag v="pr"/><lit v="$}$ "/></concat>
+          </let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" part="a_cas"/><lit-tag v="abl"/></equal></test>
+          <let><var n="PREP"/>
+               <concat><lit v="^prep"/><lit-tag v="PREP"/><lit v="{^from"/><lit-tag v="pr"/><lit v="$}$ "/></concat>
+          </let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" part="a_cas"/><lit-tag v="dat"/></equal></test>
+          <let><var n="PREP"/>
+               <concat><lit v="^prep"/><lit-tag v="PREP"/><lit v="{^to"/><lit-tag v="pr"/><lit v="$}$ "/></concat>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+  </section-def-macros>
+  <section-rules>
+    <rule comment="REGLA: SN">
+      <pattern>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="insert-prep1">
+          <with-param pos="1"/>
+        </call-macro> 
+        <out>
+          <var n="PREP"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+  </section-rules>
+</interchunk>
+

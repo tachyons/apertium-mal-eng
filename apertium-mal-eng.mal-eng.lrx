@@ -1,0 +1,5 @@
+<rules>
+  <rule>
+    <match lemma="घर" tags="n.nt.*"><select lemma="house" tags="n.*"/></match>
+  </rule>
+</rules>
