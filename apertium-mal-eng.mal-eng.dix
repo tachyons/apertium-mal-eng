@@ -48,8 +48,8 @@
     <sdef n="sent"    c="Sentence marker"/>
     <sdef n="FD"      c="Function to be determined"/>
     <sdef n="vblex"   c="Verb . क्रियापद"/>
-     <sdef n="sint"   c="?"/>
-             <sdef n="dem"    c="???"/>
+     <sdef n="sint"   c="sinthetic"/>
+             <sdef n="dem"    c="demonstrative"/>
   </sdefs>
 
    <section id="main" type="standard">

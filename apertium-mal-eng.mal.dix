@@ -256,6 +256,27 @@
     <pardef n="nochange__adv"> <!--temporary -->
     	       <e><p><l/><r><s n="adv"/></r></p></e>
     </pardef>
+    
+    <!-- proper nouns -->
+    
+    <pardef n="രാജ/ു__np">
+      <e>       <p><l>ു</l><r>ു<s n="np"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ുവിനെ</l><r>ു<s n="np"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ുവിന്റെ</l><r>ു<s n="np"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ുവിന്</l><r>ു<s n="np"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ുവിനാല്‍</l><r>ു<s n="np"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ൂ</l><r>ു<s n="np"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e>       <p><l>ുവിനൊട്</l><r>ു<s n="np"/><s n="sg"/><s n="soc"/></r></p></e>
+    </pardef>
+    <pardef n="രാധ__np">
+      <e>       <p><l></l><r><s n="np"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="np"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>യുടെ</l><r><s n="np"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>യ്ക്</l><r><s n="np"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>വിയാല്‍</l><r><s n="np"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>േ</l><r><s n="np"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e>       <p><l>യോട്</l><r><s n="np"/><s n="sg"/><s n="soc"/></r></p></e>
+    </pardef>
      <!--Co-ordinating conjunction -->
      <pardef n="പക്ഷെ__cnjcoo"> <!--temporary -->
     	       <e><p><l/><r><s n="cnjcoo"/></r></p></e>
@@ -305,6 +326,7 @@
     <!-- SECTION: Nouns -->
 
      <e lm="പട്ടി"><i>പട്ടി</i><par n="പട്ടി__n"/></e>
+     <e lm="പൂച്ച"><i>പൂച്ച</i><par n="പട്ടി__n"/></e>
      <e lm="അമ്മ"><i>അമ്മ</i><par n="അമ്മ__n"/></e>
      <e lm="മേശ"><i>മേശ</i><par n="അമ്മ__n"/></e>
      <e lm="കസേര"><i>കസേര</i><par n="അമ്മ__n"/></e>
@@ -323,7 +345,9 @@
 
      <!--Co-ordinating conjunction -->
           <e lm="പക്ഷെ"><i>പക്ഷെ</i><par n="പക്ഷെ__cnjcoo"/></e>
-
+          <!-- proper nouns -->
+    <e lm="രാജു"><i>രാജ</i><par n="രാജ/ു__np"/></e>
+    <e lm="രാധ"><i>രാധ</i><par n="രാധ__np"/></e>
          <!-- verbs -->
          <!-- <e lm="ചോദിക്കുക"><i>ആകുക</i><par n="ചോദിക്കുക__v"/></e>
         <e lm="ചെയ്യുക"><i>ആകുക</i><par n="ചെയ്യുക__v"/></e>
