@@ -331,6 +331,28 @@
       <e>       <p><l>ക്കുന്നു</l><r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
       <e>       <p><l>ക്കെ</l><r>ക്കുക<s n="vblex"/><s n="sim"/></r></p></e>
     </pardef>
+    <pardef n="ചെയ്/യുക__vblex">
+      <e>       <p><l>യും</l><r>യുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>യാന്‍</l><r>യുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>യണം</l><r>യുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>തു</l><r>യുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>യുന്നു</l><r>യുക<s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l>യെ</l><r>യുക<s n="vblex"/><s n="sim"/></r></p></e>
+    </pardef>
+    <pardef n="തിന്ന/ുക__vblex">
+      <e>       <p><l>ും</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ു</l><r>ുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ുന്നു</l><r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
+     <pardef n="തീര്‍/ക്കുക__vblex">
+      <e>       <p><l>ക്കും</l><r>ക്കുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ക്കാന്‍</l><r>ക്കുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ക്കണം</l><r>ക്കുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ത്തു</l><r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>കുന്നു</l><r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
 
   </pardefs>
 
@@ -419,22 +441,22 @@
 	<e lm="ഉണ്ട്"><i>ഉണ്ട്</i><par n="ഉണ്ട്"/></e>
     
          <!-- verbs -->
-	<e lm="കളിക്കുക"><i>കളി</i><par n="കളി/ക്കുക__vblex"/></e>
-         <!-- <e lm="ചോദിക്കുക"><i></i><par n="ചോദിക്കുക__v"/></e>
-        <e lm="ചെയ്യുക"><i>ആകുക</i><par n="ചെയ്യുക__v"/></e>
-        <e lm="തിന്നുക"><i>തിന്നുക</i><par n="തിന്നുക__v"/></e>
-        <e lm="പരതുക"><i>പരതുക</i><par n="പരതുക__v"/></e>
-        <e lm="തീര്‍കുക"><i>തീര്‍കുക</i><par n="തീര്‍കുക__v"/></e>
-        -->
+	 <e lm="കളിക്കുക"><i>കളി</i><par n="കളി/ക്കുക__vblex"/></e> 
+        <e lm="ചോദിക്കുക"><i>ചോദി</i><par n="കളി/ക്കുക__vblex"/></e> 
+	<e lm="ചെയ്യുക"><i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e> 
+	<e lm="തിന്നുക"><i>തിന്ന</i><par n="തിന്ന/ുക__vblex"/></e>
+        <e lm="പരതുക"><i>പരതുക</i><par n="തിന്ന/ുക__vblex"/></e> 
+    	<e lm="തീര്‍ക്കുക"><i>തീര്‍</i><par n="തീര്‍/ക്കുക__vblex"/></e> 
+        
       <!-- adjectives-->
           <!-- <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
           <e lm="വലിയ"><i>വലിയ</i><par n="നല്ല__adj"/></e>
           <e lm="പുറത്ത്"><i>പുറത്ത്</i><par n="നല്ല__adj"/></e>
           <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
           <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
-          -->
+    -->
 
 
-            <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->
+  <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->
 </section>
 </dictionary>
