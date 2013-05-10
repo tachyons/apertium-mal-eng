@@ -12,13 +12,26 @@
     <sdef n="ij"      c="Interjection"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    
+    <sdef n="vblex"  c="verb"/>
+    <sdef n="fv"     c="finite verb"/>
+    <sdef n="cjv"    c="conjunctive verb"/>
+    <sdef n="av"     c="acrion verb"/>
+    <sdef n="inf"    c="infinitive verb"/>
+    <sdef n="pinf"   c=" purposive infinitive"/>
+    <sdef n="oinf"   c="obligative" />
+    <sdef n="sinf"    c="simultaneous" />
+    <sdef n="df"      c="defective verb" />
+    
+    
+    
+    
 
     <sdef n="m"       c="Masculine · പുല്ലിംഗം"/>
     <sdef n="f"       c="Feminine · സ്ത്രീലിമ്ഗം "/>
     <sdef n="nt"      c="Neuter · നപുംസകലിംഗം"/>
     <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
     <sdef n="mfn"      c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/>
-
     <sdef n="sg"      c="Singular . एकवचन"/>
     <sdef n="pl"      c="Plural . अनेकवचन"/>
     <sdef n="sp"      c="Singular / Plural . एकवचन / अनेकवचन"/>
@@ -36,7 +49,9 @@
     <sdef n="p2"      c="Second person · द्वितिय पुरुष"/>
     <sdef n="p3"      c="Third person · तृतिय पुरुष"/>
 
-    <sdef n="pres"    c="Present tense . वर्तमानकाळ"/>
+    <sdef n="pres"    c="Present tense . വര്‍ത്ത്മാന കാലം "/>
+    <sdef n="past"    c="Past tense . ഭൂത കാലം "/>
+    <sdef n="fut"    c="Future tense . ഭാവി  കാലം "/>
 
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="pers"    c="Personal"/>
@@ -47,7 +62,9 @@
     <sdef n="sent"    c="Sentence marker"/>
     <sdef n="subj"    c="Subject"/>
     <sdef n="sint"    c="???"/>
-        <sdef n="dem"    c="???"/>
+    <sdef n="dem"    c="???"/>
+    <sdef n="vblex"      c="verb"/>
+   <sdef n="v"      c="verb"/> 
 
   </sdefs>
   <pardefs>
@@ -256,7 +273,12 @@
     <pardef n="nochange__adv"> <!--temporary -->
     	       <e><p><l/><r><s n="adv"/></r></p></e>
     </pardef>
-    
+    <pardef n="nochange__n"> <!--temporary -->
+    	       <e><p><l/><r><s n="n"/></r></p></e>
+    </pardef>
+    <pardef n="nochange__adv"> <!--temporary -->
+    	       <e><p><l/><r><s n="adv"/></r></p></e>
+    </pardef>
     <!-- proper nouns -->
     
     <pardef n="രാജ/ു__np">
@@ -280,6 +302,25 @@
      <!--Co-ordinating conjunction -->
      <pardef n="പക്ഷെ__cnjcoo"> <!--temporary -->
     	       <e><p><l/><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+    <!-- conjustive verbs -->
+    <pardef n="ആക്">
+    	<e><p>
+    		<l>യിരുന്നു</l><r><s n="pres"/><s n="vblex"/></r>
+    	</p></e>
+    	<e><p>
+    		<l>യിരുന്നു</l><r><s n="past"/><s n="vblex"/></r>
+    	</p></e>
+    	<e><p>
+    		<l>യിരിക്കും</l><r><s n="past"/><s n="vblex"/></r>
+    	</p></e> 	
+    	
+    </pardef>
+    <pardef n="ഉണ്ട്">
+    	<e><p>
+    		<l></l><r><s n="vblex"/></r>
+    	</p></e>	
+    	
     </pardef>
 
   </pardefs>
@@ -339,15 +380,35 @@
     <e lm="തല"><i>തല</i><par n="പട്ടി__n"/></e>
     <e lm="സമയ"><i>സമയ</i><par n="മര/ം__n"/></e>
     <e lm="വെള്ള"><i>വെള്ള</i><par n="മര/ം__n"/></e>
+    <e lm="മെല്ലെ"><i>മെല്ലെ</i><par n="nochange__adv"/></e>
+    <e lm="മ്രിഗം"><i>മ്രിഗ</i><par n="സന്തോഷ/ം__n"/></e>
+    <e lm="പക്ഷി"><i>പക്ഷി</i><par n="പട്ടി__n"/></e>
 
     <!-- pro nouns-->
      <e lm="ഇത്"><i>ഇത</i><par n="ഇത/്__prn"/></e>
 
      <!--Co-ordinating conjunction -->
           <e lm="പക്ഷെ"><i>പക്ഷെ</i><par n="പക്ഷെ__cnjcoo"/></e>
-          <!-- proper nouns -->
+      <!-- proper nouns -->
     <e lm="രാജു"><i>രാജ</i><par n="രാജ/ു__np"/></e>
     <e lm="രാധ"><i>രാധ</i><par n="രാധ__np"/></e>
+    
+    <!-- numbers -->
+        <e lm="ഒന്ന്"><i>ഒന്ന</i><par n="വീട/്__n"/></e>
+        <e lm="രണ്ട്"><i>രണ്ട</i><par n="വീട/്__n"/></e>
+        <e lm="മൂന്ന്"><i>മൂന്ന</i><par n="വീട/്__n"/></e>
+        <e lm="നാല്"><i>നാല</i><par n="വീട/്__n"/></e>
+        <e lm="അഞ്ച്"><i>അഞ്ച</i><par n="വീട/്__n"/></e>
+        <e lm="ആറ്"><i>ആറ</i><par n="വീട/്__n"/></e>
+        <e lm="ഏഴ്"><i>ഏഴ</i><par n="വീട/്__n"/></e>
+        <e lm="എട്ട്"><i>എട്ട</i><par n="വീട/്__n"/></e>
+        <e lm="ഒന്പത്"><i>ഒന്പത</i><par n="വീട/്__n"/></e>
+        <e lm="പത്ത്"><i>പത്ത</i><par n="വീട/്__n"/></e>
+	<!-- verbs -->
+	<!-- cojunctive verbs -->
+	<e lm="ആക്"><i>ആ</i><par n="ആക്"/></e>
+	<e lm="ഉണ്ട്"><i>ഉണ്ട്</i><par n="ഉണ്ട്"/></e>
+    
          <!-- verbs -->
          <!-- <e lm="ചോദിക്കുക"><i>ആകുക</i><par n="ചോദിക്കുക__v"/></e>
         <e lm="ചെയ്യുക"><i>ആകുക</i><par n="ചെയ്യുക__v"/></e>
