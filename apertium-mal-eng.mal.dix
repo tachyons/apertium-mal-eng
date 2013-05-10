@@ -18,9 +18,9 @@
     <sdef n="cjv"    c="conjunctive verb"/>
     <sdef n="av"     c="acrion verb"/>
     <sdef n="inf"    c="infinitive verb"/>
-    <sdef n="pinf"   c=" purposive infinitive"/>
-    <sdef n="oinf"   c="obligative" />
-    <sdef n="sinf"    c="simultaneous" />
+    <sdef n="infp"   c=" purposive infinitive"/>
+    <sdef n="oblig"   c="obligative" />
+    <sdef n="sim"    c="simultaneous" />
     <sdef n="df"      c="defective verb" />
     
     
@@ -303,7 +303,7 @@
      <pardef n="പക്ഷെ__cnjcoo"> <!--temporary -->
     	       <e><p><l/><r><s n="cnjcoo"/></r></p></e>
     </pardef>
-    <!-- conjustive verbs -->
+    <!-- conjuntive verbs -->
     <pardef n="ആക്">
     	<e><p>
     		<l>യിരുന്നു</l><r><s n="pres"/><s n="vblex"/></r>
@@ -321,6 +321,15 @@
     		<l></l><r><s n="vblex"/></r>
     	</p></e>	
     	
+    </pardef>
+    <!-- verbs -->
+    <pardef n="കളി/ക്കുക__vblex">
+      <e>       <p><l>ക്കും</l><r>ക്കുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ക്കാന്‍</l><r>ക്കുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ക്കണം</l><r>ക്കുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ച്ചു</l><r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ക്കുന്നു</l><r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l>ക്കെ</l><r>ക്കുക<s n="vblex"/><s n="sim"/></r></p></e>
     </pardef>
 
   </pardefs>
@@ -410,7 +419,8 @@
 	<e lm="ഉണ്ട്"><i>ഉണ്ട്</i><par n="ഉണ്ട്"/></e>
     
          <!-- verbs -->
-         <!-- <e lm="ചോദിക്കുക"><i>ആകുക</i><par n="ചോദിക്കുക__v"/></e>
+	<e lm="കളിക്കുക"><i>കളി</i><par n="കളി/ക്കുക__vblex"/></e>
+         <!-- <e lm="ചോദിക്കുക"><i></i><par n="ചോദിക്കുക__v"/></e>
         <e lm="ചെയ്യുക"><i>ആകുക</i><par n="ചെയ്യുക__v"/></e>
         <e lm="തിന്നുക"><i>തിന്നുക</i><par n="തിന്നുക__v"/></e>
         <e lm="പരതുക"><i>പരതുക</i><par n="പരതുക__v"/></e>
