@@ -79,7 +79,7 @@
       <e><i/></e>
     </pardef>
     <pardef n="clitics_nam">
-      <e>       <p><l>ാണ്</l><r><j/>വും<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>യാണ്</l><r><j/>ാണ്<s n="cnjcoo"/></r></p></e>
       <e><i/></e>
     </pardef>
 
@@ -192,7 +192,7 @@
       <e>       <p><l>കളോട്</l><r><s n="n"/><s n="pl"/><s n="soc"/></r></p></e>
     </pardef>
 <pardef n="അമ്മ__n">
-      <e>       <p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p><par n="clitics_nam"/></e>
       <e>       <p><l>യെ</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>യുടെ</l><r><s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
       <e>       <p><l>ക്ക്</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -240,7 +240,8 @@
     </pardef>
 
     <pardef n="കാലാവസ്ഥ__n">
-         <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+    	
+         <e><p><l/><r><s n="n"/><s n="sg"/></r></p><par n="clitics_nam"/></e>
     </pardef>
  <pardef n="പെണ്‍കുട്ടി__n">
          <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
