@@ -47,7 +47,7 @@
     <sdef n="quot"    c="Quotation mark"/>
     <sdef n="sent"    c="Sentence marker"/>
     <sdef n="FD"      c="Function to be determined"/>
-    <sdef n="vblex"   c="Verb . क्रियापद"/>
+    <sdef n="vblex"   c="Verb . ക്രിയ"/>
      <sdef n="sint"   c="sinthetic"/>
              <sdef n="dem"    c="demonstrative"/>
   </sdefs>
@@ -105,13 +105,14 @@
     <e><p><l>മൃഗം<s n="n"/></l><r>animal<s n="n"/></r></p></e>
     <e><p><l>തല<s n="n"/></l><r>head<s n="n"/></r></p></e>
     <e><p><l>സമയം<s n="n"/></l><r>time<s n="n"/></r></p></e>
-    <e><p><l>വെള്ളം<s n="n"/></l><r>water<s n="n"/></r></p></e>   
+    <e><p><l>വെള്ളം<s n="n"/></l><r>water<s n="n"/></r></p></e>
+    <e><p><l>കുട്ടി<s n="n"/></l><r>children<s n="n"/></r></p></e>      
 
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>രാജു<s n="np"/><s n="ant"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>രാധ<s n="np"/><s n="ant"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>രാജു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>രാധ<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
     
@@ -120,6 +121,7 @@
     <e><p><l>പുറത്ത്<s n="adj"/></l><r>outside<s n="adj"/></r></p></e>
     <e><p><l>ചെറിയ<s n="adj"/></l><r>little<s n="adj"/></r></p></e>
      <e><p><l>സന്തോഷം<s n="n"/><s n="sg"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
+     <e><p><l>പഴയ<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -132,6 +134,10 @@
     <e><p><l>ഇപ്പോള്‍<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>എപ്പോഴും<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
     <e><p><l>വളരെ<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+    <e><p><l>പിറകില്‍<s n="adv"/></l><r>behind<s n="adv"/></r></p></e>
+    <e><p><l>അല്ല<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
+    <e><p><l>മെല്ലെ<s n="adv"/></l><r>slow<s n="adv"/></r></p></e>
+    <e><p><l>വീണ്ടും<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
 
 
     <!--SECTION: Verbs -->
@@ -143,8 +149,31 @@
     <e><p><l>തിന്നുക<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
     <e><p><l>പരതുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>തീര്‍കുക<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
-
-
+    <e><p><l>കളിക്കുക<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>നോക്കുക<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>കേള്‍ക്കുക<s n="vblex"/></l><r>here<s n="vblex"/></r></p></e>
+    <e><p><l>സംസാരിക്കുക<s n="vblex"/></l><r>talk<s n="vblex"/></r></p></e>
+    <e><p><l>വ്യക്തമാകുക<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
+   <e><p><l>പോകുക<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+     <e><p><l>കണ്ടെത്തുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+      <e><p><l>കഴിയുക<s n="vblex"/></l><r>able<s n="vblex"/></r></p></e>
+<!-- Interrogative-->
+ 	<e><p><l>എവിടെ<s n="itg"/></l><r>where<s n="itg"/></r></p></e>
+ 	<e><p><l>എന്ത്<s n="itg"/></l><r>what<s n="itg"/></r></p></e>
+ 	<e><p><l>എപ്പോള്‍<s n="itg"/></l><r>when<s n="itg"/></r></p></e>
+ 	<e><p><l>എങ്ങനെ<s n="itg"/></l><r>how<s n="itg"/></r></p></e>
+ 	<e><p><l>ഏന്തിന്<s n="itg"/></l><r>why<s n="itg"/></r></p></e>
+ <!-- numbers -->
+	<e><p><l>ഒന്ന്<s n="num"/></l><r>one<s n="num"/></r></p></e>
+	<e><p><l>രണ്ട്<s n="num"/></l><r>two<s n="num"/></r></p></e>
+	<e><p><l>മൂന്ന്<s n="num"/></l><r>three<s n="num"/></r></p></e>
+	<e><p><l>നാല്<s n="num"/></l><r>four<s n="num"/></r></p></e>
+	<e><p><l>അഞ്ച്<s n="num"/></l><r>five<s n="num"/><s n="sp"/></r></p></e>
+	<e><p><l>ആറ്<s n="num"/></l><r>six<s n="num"/></r></p></e>
+	<e><p><l>ഏഴ്<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+	<e><p><l>എട്ട്<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+	<e><p><l>ഒന്പത്<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+	<e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/></r></p></e>
       
     <!-- SECTION: Interjections -->
 

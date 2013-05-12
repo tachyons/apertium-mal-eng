@@ -23,9 +23,7 @@
     <sdef n="sim"    c="simultaneous" />
     <sdef n="df"      c="defective verb" />
     
-    
-    
-    
+      
 
     <sdef n="m"       c="Masculine · പുല്ലിംഗം"/>
     <sdef n="f"       c="Feminine · സ്ത്രീലിമ്ഗം "/>
@@ -52,6 +50,10 @@
     <sdef n="pres"    c="Present tense . വര്‍ത്ത്മാന കാലം "/>
     <sdef n="past"    c="Past tense . ഭൂത കാലം "/>
     <sdef n="fut"    c="Future tense . ഭാവി  കാലം "/>
+    
+    <sdef n="post" />
+    
+    <sdef n="neg" c="negative വിപരീതം"/>
 
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="pers"    c="Personal"/>
@@ -276,28 +278,26 @@
     <pardef n="nochange__n"> <!--temporary -->
     	       <e><p><l/><r><s n="n"/></r></p></e>
     </pardef>
-    <pardef n="nochange__adv"> <!--temporary -->
-    	       <e><p><l/><r><s n="adv"/></r></p></e>
-    </pardef>
+    
     <!-- proper nouns -->
     
     <pardef n="രാജ/ു__np">
-      <e>       <p><l>ു</l><r>ു<s n="np"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l>ുവിനെ</l><r>ു<s n="np"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e>       <p><l>ുവിന്റെ</l><r>ു<s n="np"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e>       <p><l>ുവിന്</l><r>ു<s n="np"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e>       <p><l>ുവിനാല്‍</l><r>ു<s n="np"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e>       <p><l>ൂ</l><r>ു<s n="np"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e>       <p><l>ുവിനൊട്</l><r>ു<s n="np"/><s n="sg"/><s n="soc"/></r></p></e>
+      <e>       <p><l>ു</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ുവിനെ</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ുവിന്റെ</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ുവിന്</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ുവിനാല്‍</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ൂ</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="voc"/></r></p></e>
+      <e>       <p><l>ുവിനൊട്</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="soc"/></r></p></e>
     </pardef>
     <pardef n="രാധ__np">
-      <e>       <p><l></l><r><s n="np"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l></l><r><s n="np"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e>       <p><l>യുടെ</l><r><s n="np"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e>       <p><l>യ്ക്</l><r><s n="np"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e>       <p><l>വിയാല്‍</l><r><s n="np"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e>       <p><l>േ</l><r><s n="np"/><s n="sg"/><s n="voc"/></r></p></e>
-      <e>       <p><l>യോട്</l><r><s n="np"/><s n="sg"/><s n="soc"/></r></p></e>
+      <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="acc"/></r></p></e>
+      <e>       <p><l>യുടെ</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="gen"/></r></p></e>
+      <e>       <p><l>യ്ക്</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="dat"/></r></p></e>
+      <e>       <p><l>വിയാല്‍</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="ins"/></r></p></e>
+      <e>       <p><l>േ</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="voc"/></r></p></e>
+      <e>       <p><l>യോട്</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="soc"/></r></p></e>
     </pardef>
      <!--Co-ordinating conjunction -->
      <pardef n="പക്ഷെ__cnjcoo"> <!--temporary -->
@@ -353,6 +353,107 @@
       <e>       <p><l>ത്തു</l><r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
       <e>       <p><l>കുന്നു</l><r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
     </pardef>
+    <pardef n="ഉറങ്ങ/ുക__vblex">
+      <e>       <p><l>ും</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ി</l><r>ുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ുന്നു</l><r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
+    <pardef n="കണ്ടെത്ത/ുക__vblex">
+      <e>       <p><l>ുന്നു</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ി</l><r>ുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ുന്നു</l><r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
+    <pardef n="നോക്ക/ുക__vblex">
+      <e>       <p><l>ും</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ി</l><r>ുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ുന്നു</l><r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l>െ</l><r>ുക<s n="vblex"/><s n="sim"/></r></p></e>
+    </pardef>
+        <pardef n="അറി/യുക__vblex">
+      <e>       <p><l>യും</l><r>യുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>യാന്‍</l><r>യുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>യണം</l><r>യുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ഞു</l><r>യുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>യുക</l><r>യുക<s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l>യെ</l><r>യുക<s n="vblex"/><s n="sim"/></r></p></e>
+    </pardef>
+    <pardef n="കേ/ള്‍ക്കുക__vblex">
+      <e>       <p><l>ള്‍ക്കും</l><r>ള്‍ക്കുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ള്‍ക്കാന്‍</l><r>ള്‍ക്കുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ള്‍ക്കണം</l><r>ള്‍ക്കുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ട്ടു</l><r>ള്‍ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ള്‍ക്കുന്നു</l><r>ള്‍ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l>ള്‍ക്കെ</l><r>ള്‍ക്കുക<s n="vblex"/><s n="sim"/></r></p></e>
+    </pardef>
+    <pardef n="എണ്ണ/ുക__vblex">
+      <e>       <p><l>ൂം</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ി</l><r>ുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ൂം</l><r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l>േ</l><r>ുക<s n="vblex"/><s n="sim"/></r></p></e>
+    </pardef>
+    <pardef n="കിട്ട/ുക__vblex">
+      <e>       <p><l>ും</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ി</l><r>ുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ുന്നു</l><r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
+    <pardef n="വ്യക്തമാ/കുക__vblex">
+      <e>       <p><l>കും</l><r>കുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>കാന്‍</l><r>കുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>കണം</l><r>കുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>യി</l><r>കുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>കുന്നു</l><r>കുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
+    <pardef n="ഉണ്ട/്__vblex">
+      <e>       <p><l>ാകും</l><r>്<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാകാന്‍</l><r>്<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ാകണം</l><r>്<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ായിരുന്നു</l><r>്<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>്</l><r>്<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
+    <pardef n="പോ/കുക__vblex">
+      <e>       <p><l>കും</l><r>കുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>കാന്‍</l><r>കുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>കണം</l><r>കുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>യി</l><r>കുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>കുന്നു</l><r>കുക<s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l>കെ</l><r>കുക<s n="vblex"/><s n="sim"/></r></p></e>
+    </pardef>
+    <pardef n="കഴി/യുക__vblex">
+      <e>       <p><l>യും</l><r>യുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>യില്ല</l><r>യുക<s n="vblex"/><s n="fut"/><s n="neg"/></r></p></e>
+      <e>       <p><l>യാന്‍</l><r>യുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>യാതിരിക്കാന്‍</l><r>യുക<s n="vblex"/><s n="infp"/><s n="neg"/></r></p></e>
+      <e>       <p><l>യണം</l><r>യുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>യാതിരിക്കണം</l><r>യുക<s n="vblex"/><s n="oblig"/><s n="neg"/></r></p></e>
+      <e>       <p><l>ഞു</l><r>യുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ഞില്ല</l><r>യുക<s n="vblex"/><s n="past"/><s n="neg"/></r></p></e>
+      <e>       <p><l>യുന്നു</l><r>യുക<s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l>യുന്നില്ല</l><r>യുക<s n="vblex"/><s n="pres"/><s n="neg"/></r></p></e>
+    </pardef>
+
+
+
+    <!-- interrogative -->
+    <pardef n="nochange__itg"> <!--temporary -->
+    	       <e><p><l/><r><s n="itg"/></r></p></e>
+    </pardef>
+    <!--  -->
+    <pardef n="nochange__adj"> <!--temporary -->
+    	       <e><p><l/><r><s n="adj"/></r></p></e>
+    </pardef>
+    <pardef n="nochange__num"> <!--temporary -->
+    	       <e><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
 
   </pardefs>
 
@@ -378,7 +479,7 @@
     <e lm="ഒന്ന്"><i>ഒന്ന്</i><par n="ഒന്ന്__n"/></e>
     <e lm="ചെറിയ"><i>ചെറിയ</i><par n="ചെറിയ__n"/></e>
     <e lm="അവന്‍"><i>അവന</i><par n="അവന/്‍__prn"/></e>
-    <e lm="ആറ്"><i>ആറ്</i><par n="അത് __n"/></e>
+   <!-- <e lm="ആറ്"><i>ആറ്</i><par n="അത് __n"/></e> -->
     <e lm="അവര്‍"><i>അവര</i><par n="അവര/്‍__prn"/></e>
     <e lm="അവള്‍"><i>അവള</i><par n="അവള/്‍__prn"/></e>
     <e lm="ആണ്‍കുട്ടി"><i>ആണ്‍കുട്ടി</i><par n="ആണ്‍കുട്ടി__n"/></e>
@@ -398,6 +499,7 @@
     <!-- SECTION: Nouns -->
 
      <e lm="പട്ടി"><i>പട്ടി</i><par n="പട്ടി__n"/></e>
+    <e lm="കുട്ടി"><i>കുട്ടി</i><par n="പട്ടി__n"/></e>
      <e lm="പൂച്ച"><i>പൂച്ച</i><par n="പട്ടി__n"/></e>
      <e lm="അമ്മ"><i>അമ്മ</i><par n="അമ്മ__n"/></e>
      <e lm="മേശ"><i>മേശ</i><par n="അമ്മ__n"/></e>
@@ -417,6 +519,10 @@
 
     <!-- pro nouns-->
      <e lm="ഇത്"><i>ഇത</i><par n="ഇത/്__prn"/></e>
+     <e lm="അവര്‍"><i>അവര</i><par n="അവര/്‍__prn"/></e>
+    <e lm="അവള്‍"><i>അവള</i><par n="അവള/്‍__prn"/></e>
+    <e lm="ഞാന്‍"><i>ഞാന്‍</i><par n="അവള/്‍__prn"/></e>
+    <e lm="നീ"><i>നീ</i><par n="അവള/്‍__prn"/></e>
 
      <!--Co-ordinating conjunction -->
           <e lm="പക്ഷെ"><i>പക്ഷെ</i><par n="പക്ഷെ__cnjcoo"/></e>
@@ -425,16 +531,16 @@
     <e lm="രാധ"><i>രാധ</i><par n="രാധ__np"/></e>
     
     <!-- numbers -->
-        <e lm="ഒന്ന്"><i>ഒന്ന</i><par n="വീട/്__n"/></e>
-        <e lm="രണ്ട്"><i>രണ്ട</i><par n="വീട/്__n"/></e>
-        <e lm="മൂന്ന്"><i>മൂന്ന</i><par n="വീട/്__n"/></e>
-        <e lm="നാല്"><i>നാല</i><par n="വീട/്__n"/></e>
-        <e lm="അഞ്ച്"><i>അഞ്ച</i><par n="വീട/്__n"/></e>
-        <e lm="ആറ്"><i>ആറ</i><par n="വീട/്__n"/></e>
-        <e lm="ഏഴ്"><i>ഏഴ</i><par n="വീട/്__n"/></e>
-        <e lm="എട്ട്"><i>എട്ട</i><par n="വീട/്__n"/></e>
-        <e lm="ഒന്പത്"><i>ഒന്പത</i><par n="വീട/്__n"/></e>
-        <e lm="പത്ത്"><i>പത്ത</i><par n="വീട/്__n"/></e>
+        <e lm="ഒന്ന്"><i>ഒന്ന</i><par n="nochange__num"/></e>
+        <e lm="രണ്ട്"><i>രണ്ട</i><par n="nochange__num"/></e>
+        <e lm="മൂന്ന്"><i>മൂന്ന</i><par n="nochange__num"/></e>
+        <e lm="നാല്"><i>നാല</i><par n="nochange__num"/></e>
+        <e lm="അഞ്ച്"><i>അഞ്ച</i><par n="nochange__num"/></e>
+        <e lm="ആറ്"><i>ആറ</i><par n="nochange__num"/></e>
+        <e lm="ഏഴ്"><i>ഏഴ</i><par n="nochange__num"/></e>
+        <e lm="എട്ട്"><i>എട്ട</i><par n="nochange__num"/></e>
+        <e lm="ഒന്പത്"><i>ഒന്പത</i><par n="nochange__num"/></e>
+        <e lm="പത്ത്"><i>പത്ത</i><par n="nochange__num"/></e>
 	<!-- verbs -->
 	<!-- cojunctive verbs -->
 	<e lm="ആക്"><i>ആ</i><par n="ആക്"/></e>
@@ -446,16 +552,69 @@
 	<e lm="ചെയ്യുക"><i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e> 
 	<e lm="തിന്നുക"><i>തിന്ന</i><par n="തിന്ന/ുക__vblex"/></e>
         <e lm="പരതുക"><i>പരതുക</i><par n="തിന്ന/ുക__vblex"/></e> 
-    	<e lm="തീര്‍ക്കുക"><i>തീര്‍</i><par n="തീര്‍/ക്കുക__vblex"/></e> 
+    	<e lm="തീര്‍ക്കുക"><i>തീര്‍</i><par n="തീര്‍/ക്കുക__vblex"/></e>
+ 	<e lm="ഉറങ്ങുക"><i>ഉറങ്ങ</i><par n="ഉറങ്ങ/ുക__vblex"/></e>
+ 	<e lm="സംസാരിക്കുക"><i>സംസാരി</i><par n="കളി/ക്കുക__vblex"/></e>
+ 	<e lm="കണ്ടെത്തുക"><i>കണ്ടെത്ത</i><par n="കണ്ടെത്ത/ുക__vblex"/></e>
+ 	<e lm="നോക്കുക"><i>നോക്ക</i><par n="നോക്ക/ുക__vblex"/></e>
+ 	<e lm="ശൃമിക്കു"><i>ശൃമി</i><par n="കളി/ക്കുക__vblex"/></e> 	
+ 	<e lm="അറിയുക"><i>അറി</i><par n="അറി/യുക__vblex"/></e>
+ 	<e lm="കേള്‍ക്കുക"><i>കേ</i><par n="കേ/ള്‍ക്കുക__vblex"/></e>
+ 	<e lm="എണ്ണുക"><i>എണ്ണ</i><par n="എണ്ണ/ുക__vblex"/></e>
+ 	<e lm="കിട്ടുക"><i>കിട്ട</i><par n="കിട്ട/ുക__vblex"/></e>
+ 	<e lm="വ്യക്തമാകുക"><i>വ്യക്തമാ</i><par n="വ്യക്തമാ/കുക__vblex"/></e>
+ 	<e lm="ഉണ്ട്"><i>ഉണ്ട</i><par n="ഉണ്ട/്__vblex"/></e>
+	<e lm="പോകുക"><i>പോ</i><par n="പോ/കുക__vblex"/></e>
+ 	<e lm="കഴിയുക"><i>കഴി</i><par n="കഴി/യുക__vblex"/></e>
+ 	<!--
+ 	adverb
+
+		ഇല്ല
+		വ്യക്തമായി
+		അല്ല
+		വീണ്ടും
+		അവിടെ
+		പിറകില
+		അവിടെ
+		അടിയിലും
+		-->
+    	
         
       <!-- adjectives-->
-          <!-- <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
-          <e lm="വലിയ"><i>വലിയ</i><par n="നല്ല__adj"/></e>
-          <e lm="പുറത്ത്"><i>പുറത്ത്</i><par n="നല്ല__adj"/></e>
-          <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
-          <e lm="നല്ല"><i>നല്ല</i><par n="നല്ല__adj"/></e>
-    -->
-
+          <e lm="നല്ല"><i>നല്ല</i><par n="nochange__adj"/></e>
+          <e lm="വലിയ"><i>വലിയ</i><par n="nochange__adj"/></e>
+          <e lm="പുറത്ത്"><i>പുറത്ത്</i><par n="nochange__adj"/></e>
+          <e lm="പഴയ"><i>പഴയ</i><par n="nochange__adj"/></e>
+          
+     <!--Adverbs -->
+     
+	 <e lm="ഇല്ല"><i>ഇല്ല</i><par n="nochange__adv"/></e>
+	 <e lm="അല്ല"><i>അല്ല</i><par n="nochange__adv"/></e>
+	 <e lm="അവിടെ"><i>അവിടെ</i><par n="nochange__adv"/></e>
+	 <e lm="പിറകില്‍"><i>പിറകില്‍</i><par n="nochange__adv"/></e>
+	 <e lm="അടിയില്‍"><i>അടിയില്‍</i><par n="nochange__adv"/></e>
+	<e lm="വീണ്ടും"><i>വീണ്ടും</i><par n="nochange__adv"/></e>
+	
+	<!-- numbers -->
+	<e lm="ഒന്ന്"><i>ഒന്ന്</i><par n="nochange__num"/></e>
+	<e lm="രണ്ട്"><i>രണ്ട്</i><par n="nochange__num"/></e>
+	<e lm="മൂന്ന്`"><i>മൂന്ന്</i><par n="nochange__num"/></e>
+	<e lm="നാല്"><i>നാല്</i><par n="nochange__num"/></e>
+	<e lm="അഞ്ച്"><i>അഞ്ച്</i><par n="nochange__num"/></e>
+	<e lm="ആറ്"><i>ആറ്</i><par n="nochange__num"/></e>
+	<e lm="ഏഴ്"><i>ഏഴ്</i><par n="nochange__num"/></e>
+	<e lm="എട്ട്"><i>എട്ട്</i><par n="nochange__num"/></e>
+	<e lm="ഒന്പത്"><i>ഒന്പത്</i><par n="nochange__num"/></e>
+	<e lm="പത്ത്"><i>പത്ത്</i><par n="nochange__num"/></e>
+				
+	<!-- Interrogative-->
+	<e lm="എവിടെ"><i>എവിടെ</i><par n="nochange__itg"/></e>
+	<e lm="എന്ത്"><i>എന്ത്</i><par n="nochange__itg"/></e>
+	<e lm="എപ്പോള്‍"><i>എപ്പോള്‍</i><par n="nochange__itg"/></e>
+	<e lm="എങ്ങനെ"><i>എങ്ങനെ</i><par n="nochange__itg"/></e>		
+		
+		
+	
 
   <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->
 </section>
