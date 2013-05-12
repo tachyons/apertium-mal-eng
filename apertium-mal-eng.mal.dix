@@ -71,11 +71,11 @@
   </sdefs>
   <pardefs>
     <pardef n="clitics_u">
-      <e>       <p><l>യ</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>യും</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
       <e><i/></e>
     </pardef>
     <pardef n="clitics_a">
-      <e>       <p><l>വ</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>വും</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
       <e><i/></e>
     </pardef>
     <pardef n="clitics_nam">
