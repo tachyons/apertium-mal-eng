@@ -23,8 +23,9 @@
     <sdef n="sim"    c="simultaneous" />
     <sdef n="df"      c="defective verb" />
     
-      
-
+    <sdef n="det"     c="determinats"/>
+    
+<sdef n="ind"  />
     <sdef n="m"       c="Masculine · പുല്ലിംഗം"/>
     <sdef n="f"       c="Feminine · സ്ത്രീലിമ്ഗം "/>
     <sdef n="nt"      c="Neuter · നപുംസകലിംഗം"/>
@@ -210,6 +211,9 @@
       <e>       <p><l>ാല്‍</l><r>്<s n="prn"/><s n="sg"/><s n="ins"/></r></p></e>
       <e>       <p><l>േ</l><r>്<s n="prn"/><s n="sg"/><s n="voc"/></r></p></e>
       <e>       <p><l>ിനൊട്</l><r>്<s n="prn"/><s n="sg"/><s n="soc"/></r></p></e>
+    </pardef>
+    <pardef n="ഒരു__det">
+    	<e><p><l></l><r><s n="det"/><s n="ind"/></r></p></e>
     </pardef>
 
 	<pardef n="innale__n">
@@ -612,8 +616,8 @@
 	<e lm="എന്ത്"><i>എന്ത്</i><par n="nochange__itg"/></e>
 	<e lm="എപ്പോള്‍"><i>എപ്പോള്‍</i><par n="nochange__itg"/></e>
 	<e lm="എങ്ങനെ"><i>എങ്ങനെ</i><par n="nochange__itg"/></e>		
-		
-		
+	<!-- Determiner	-->
+		<e lm="‌ഒരു"><i>ഒരു</i><par n="ഒരു__det"/></e>		
 	
 
   <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->

@@ -22,7 +22,8 @@
     <sdef n="sg"      c="Singular . ഏകവചനം"/>
     <sdef n="pl"      c="Plural . ബഹുവചനം"/>
     <sdef n="sp"      c="Singular / Plural . एकवचन / अनेकवचन"/>
-
+     <sdef n="det"     c="determinats"/>
+     <sdef n="ind"   c="determinats"/>
     <sdef n="nom"     c="Nominative"/>
     <sdef n="acc"     c="Accusative"/>
     <sdef n="ins"     c="Instrumental"/>
@@ -178,7 +179,7 @@
     <!-- SECTION: Interjections -->
 
     <e><p><l>ഇല്ല<s n="ij"/></l><r>no<s n="ij"/></r></p></e>
-
+    	<e><p><l>ഒരു<s n="det"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     <!-- SECTION: Punctuation-->
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><p><l>"<s n="quot"/></l><r>parquote<s n="quot"/></r></p></e>
