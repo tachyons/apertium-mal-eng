@@ -464,7 +464,7 @@
 
     <!-- interrogative -->
     <pardef n="nochange__itg"> <!--temporary -->
-    	       <e><p><l/><r><s n="itg"/></r></p></e>
+    	       <e><p><l/><r><s n="adv"/><s n="itg"/></r></p></e>
     </pardef>
     <!--  -->
     <pardef n="nochange__adj"> <!--temporary -->
