@@ -68,15 +68,18 @@
     <sdef n="dem"    c="???"/>
     <sdef n="vblex"      c="verb"/>
    <sdef n="v"      c="verb"/> 
-
   </sdefs>
   <pardefs>
     <pardef n="clitics_u">
-      <e>       <p><l>വും</l><r><j/>വും<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>യ</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
       <e><i/></e>
     </pardef>
     <pardef n="clitics_a">
-      <e>       <p><l>യും</l><r><j/>വും<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>വ</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
+      <e><i/></e>
+    </pardef>
+    <pardef n="clitics_nam">
+      <e>       <p><l>ാണ്</l><r><j/>വും<s n="cnjcoo"/></r></p></e>
       <e><i/></e>
     </pardef>
 
@@ -297,7 +300,7 @@
     <!-- proper nouns -->
     
     <pardef n="രാജ/ു__np">
-      <e>       <p><l>ു</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="nom"/></r></p><par n="clitics_u"/></e>
+      <e>       <p><l>ു</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="nom"/></r></p><par n="clitics_a"/></e>
       <e>       <p><l>ുവിനെ</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="acc"/></r></p></e>
       <e>       <p><l>ുവിന്റെ</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="gen"/></r></p></e>
       <e>       <p><l>ുവിന്</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="dat"/></r></p></e>
@@ -306,7 +309,7 @@
       <e>       <p><l>ുവിനൊട്</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="soc"/></r></p></e>
     </pardef>
     <pardef n="രാധ__np">
-      <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="nom"/></r></p><par n="clitics_a"/></e>
+      <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="nom"/></r></p><par n="clitics_u"/></e>
       <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="acc"/></r></p></e>
       <e>       <p><l>യുടെ</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="gen"/></r></p></e>
       <e>       <p><l>യ്ക്</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="dat"/></r></p></e>

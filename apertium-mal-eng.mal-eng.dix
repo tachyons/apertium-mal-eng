@@ -175,6 +175,8 @@
 	<e><p><l>എട്ട്<s n="num"/></l><r>eight<s n="num"/></r></p></e>
 	<e><p><l>ഒന്പത്<s n="num"/></l><r>nine<s n="num"/></r></p></e>
 	<e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+<!--	clitics -->
+	 <e><p><l>ും<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
       
     <!-- SECTION: Interjections -->
 
