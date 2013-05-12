@@ -76,7 +76,7 @@
       <e><i/></e>
     </pardef>
     <pardef n="clitics_a">
-      <e>       <p><l>യും </l><r><j/>വും<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>യും</l><r><j/>വും<s n="cnjcoo"/></r></p></e>
       <e><i/></e>
     </pardef>
 
@@ -469,7 +469,9 @@
     <pardef n="nochange__num"> <!--temporary -->
     	       <e><p><l/><r><s n="num"/></r></p></e>
     </pardef>
-
+	<pardef n="nochange__prn"> <!--temporary -->
+    	       <e><p><l/><r><s n="prn"/></r></p></e>
+    </pardef>
   </pardefs>
 
       <section id="main" type="standard">
@@ -537,7 +539,9 @@
      <e lm="അവര്‍"><i>അവര</i><par n="അവര/്‍__prn"/></e>
     <e lm="അവള്‍"><i>അവള</i><par n="അവള/്‍__prn"/></e>
     <e lm="ഞാന്‍"><i>ഞാന്‍</i><par n="അവള/്‍__prn"/></e>
-    <e lm="നീ"><i>നീ</i><par n="അവള/്‍__prn"/></e>
+    <e lm="നീ"><i>നീ</i><par n="nochange__prn"/></e>
+    <e lm="നിങ്ങള്‍"><i>നിങ്ങള്‍</i><par n="nochange__prn"/></e>
+   <e lm="ഞങ്ങള്‍"><i>ഞങ്ങള്‍</i><par n="nochange__prn"/></e>
 
      <!--Co-ordinating conjunction -->
           <e lm="പക്ഷെ"><i>പക്ഷെ</i><par n="പക്ഷെ__cnjcoo"/></e>
