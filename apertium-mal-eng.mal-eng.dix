@@ -36,6 +36,7 @@
     <sdef n="p2"      c="Second person · द्वितिय पुरुष"/>
     <sdef n="p3"      c="Third person · तृतिय पुरुष"/>
 	<sdef n="past" />
+	<sdef n="vaux" c="oxilary verb"/>
     <sdef n="pres"    c="Present tense . वर्तमानकाळ"/>
 	<sdef n="neg"/>
     <sdef n="ant"     c="Anthroponym"/>
@@ -163,8 +164,10 @@
     <e><p><l>വ്യക്തമാകുക<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
    <e><p><l>പോകുക<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
      <e><p><l>കണ്ടെത്തുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
-      <e><p><l>കഴിയുക<s n="vblex"/></l><r>able<s n="vblex"/></r></p></e>
-      <e><p><l>കഴിയുക<s n="vblex"/><s n="neg"/></l><r>unable<s n="vblex"/></r></p></e>
+      <e><p><l>കഴിയുക<s n="vblex"/></l><r>can<s n="vaux"/><s n="pres"/></r></p></e>
+      <e><p><l>കഴിയുക<s n="vblex"/><s n="past"/></l><r>could<s n="vblex"/></r></p></e>
+      <e><p><l>കഴിയുക<s n="vblex"/><s n="neg"/></l><r>can not<s n="vaux"/><s n="pres"/></r></p></e>
+      <e><p><l>കഴിയുക<s n="vblex"/><s n="past"/><s n="neg"/></l><r>could not<s n="vblex"/></r></p></e>
       <e><p><l>ഒളിക്കുക<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
      <e><p><l>പറയുക<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
      <e><p><l>ഉറങ്ങുക<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>

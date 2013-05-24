@@ -22,7 +22,7 @@
     <sdef n="oblig"   c="obligative" />
     <sdef n="sim"    c="simultaneous" />
     <sdef n="df"      c="defective verb" />
-    
+    <sdef n="vaux" c="oxilary verb"/>
     <sdef n="det"     c="determinats"/>
     
 <sdef n="ind"  />
@@ -119,7 +119,7 @@
       <e>       <p><l>േ</l><r>്‍<s n="prn"/><s n="sg"/><s n="voc"/></r></p></e>
       <e>       <p><l>ോട്</l><r>്‍<s n="prn"/><s n="sg"/><s n="soc"/></r></p></e>
     </pardef>
-    <pardef n="അവര/്‍__prn">
+   <pardef n="അവര/്‍__prn">
       <e>       <p><l>്‍</l><r>്‍<s n="prn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>െ</l><r>്‍<s n="prn"/><s n="pl"/><s n="acc"/></r></p></e>
       <e>       <p><l>ുടെ</l><r>്‍<s n="prn"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -262,7 +262,7 @@
          <e><p><l>കള്‍</l><r><s n="n"/><s n="pl"/></r></p></e>
     </pardef>
      <pardef n="ആണ്‍കുട്ടി__n">
-         <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+         <e><p><l/><r><s n="n"/><s n="sg"/></r></p><par n="clitics_nam"/></e>
          <e><p><l>കള്‍</l><r><s n="n"/><s n="pl"/></r></p></e>
     </pardef>
      <pardef n="സഹോദരി__n">
