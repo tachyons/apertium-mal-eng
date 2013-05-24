@@ -18,7 +18,7 @@
     <sdef n="nt"      c="Neuter · നപുംസകലിംഗം"/>
     <sdef n="mf"      c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
     <sdef n="mfn"      c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/>
-
+	<sdef n="inf"/>
     <sdef n="sg"      c="Singular . ഏകവചനം"/>
     <sdef n="pl"      c="Plural . ബഹുവചനം"/>
     <sdef n="sp"      c="Singular / Plural . एकवचन / अनेकवचन"/>
@@ -35,9 +35,9 @@
     <sdef n="p1"      c="First person · प्रथम पुरुष"/>
     <sdef n="p2"      c="Second person · द्वितिय पुरुष"/>
     <sdef n="p3"      c="Third person · तृतिय पुरुष"/>
-
+	<sdef n="past" />
     <sdef n="pres"    c="Present tense . वर्तमानकाळ"/>
-
+	<sdef n="neg"/>
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="pers"    c="Personal"/>
     <sdef n="itg"     c="Interrogative"/>
@@ -77,6 +77,7 @@
     <e><p><l>അവള്‍<s n="prn"/><s n="sg"/></l><r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
    <e><p><l>അവന്‍<s n="prn"/><s n="sg"/></l><r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
      <e><p><l>ഇത്<s n="prn"/><s n="sg"/></l><r>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+     <e><p><l>കൂടെ<s n="prn" /></l><r>with<s n="prn"/></r></p></e>
    
     
 
@@ -140,15 +141,20 @@
     <e><p><l>മെല്ലെ<s n="adv"/></l><r>slow<s n="adv"/></r></p></e>
     <e><p><l>വീണ്ടും<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
 
-
+	<!-- SECTION vbser -->
+	<e><p><l>ാണ്<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+	<e><p><l>ായിരുന്നു<s n="vbser"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+   
     <!--SECTION: Verbs -->
 
-    <e><p><l>ആവുക<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+    <!-- <e><p><l>ആകുക<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+    <e><p><l>ആണ്<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e> -->
     <e><p><l>ചോദിക്കുക<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
     <e><p><l>എണ്ണുക<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+    <e><p><l>കാണുക<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
     <e><p><l>ചെയ്യുക<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
     <e><p><l>തിന്നുക<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
-    <e><p><l>പരതുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>പരതുക<s n="vblex"/></l><r>search<s n="vblex"/></r></p></e>
     <e><p><l>തീര്‍കുക<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
     <e><p><l>കളിക്കുക<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
     <e><p><l>നോക്കുക<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
@@ -158,6 +164,10 @@
    <e><p><l>പോകുക<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
      <e><p><l>കണ്ടെത്തുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
       <e><p><l>കഴിയുക<s n="vblex"/></l><r>able<s n="vblex"/></r></p></e>
+      <e><p><l>കഴിയുക<s n="vblex"/><s n="neg"/></l><r>unable<s n="vblex"/></r></p></e>
+      <e><p><l>ഒളിക്കുക<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
+     <e><p><l>പറയുക<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
+     <e><p><l>ഉറങ്ങുക<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
 <!-- Interrogative-->
  	<e><p><l>എവിടെ<s n="itg"/></l><r>where<s n="itg"/></r></p></e>
  	<e><p><l>എന്ത്<s n="itg"/></l><r>what<s n="itg"/></r></p></e>

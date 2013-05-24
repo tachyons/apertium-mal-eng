@@ -52,7 +52,7 @@
     <sdef n="past"    c="Past tense . ഭൂത കാലം "/>
     <sdef n="fut"    c="Future tense . ഭാവി  കാലം "/>
     
-    <sdef n="post" />
+  
     
     <sdef n="neg" c="negative വിപരീതം"/>
 
@@ -72,14 +72,21 @@
   <pardefs>
     <pardef n="clitics_u">
       <e>       <p><l>യും</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>ും</l><r><j/>ും<s n="cnjcoo"/></r></p></e>  
       <e><i/></e>
     </pardef>
     <pardef n="clitics_a">
       <e>       <p><l>വും</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>ും</l><r><j/>ും<s n="cnjcoo"/></r></p></e>
       <e><i/></e>
     </pardef>
     <pardef n="clitics_nam">
-      <e>       <p><l>യാണ്</l><r><j/>ാണ്<s n="cnjcoo"/></r></p></e>
+      <e>       <p><l>യാണ്</l><r><j/>ാണ്<s n="vbser"/></r></p></e>
+      <e>       <p><l>ലാണ്</l><r><j/>ാണ്<s n="vbser"/></r></p></e>
+      <e><i/></e>
+    </pardef>
+    <pardef n="clitics_aayirunnu">
+      <e>       <p><l>ായിരുന്നു</l><r><j/>ായിരുന്നു<s n="vbser"/><s n="past"/></r></p></e>
       <e><i/></e>
     </pardef>
 
@@ -129,9 +136,9 @@
                   <l/><r><s n="num"/><s n="sg"/></r>
          </p></e>
 
-      </pardef>
+      </pardef> 
 
-    <!-- SECTION: Nouns -->
+    <!-- SECTION: Nouns --><!-- -->
 
 
 
@@ -141,6 +148,7 @@
       <e>       <p><l>ത്തിന്റെ</l><r>ം<s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
       <e>       <p><l>ത്തിന്</l><r>ം<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
       <e>       <p><l>ത്തില്‍</l><r>ം<s n="n"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e>       <p><l>ത്തി</l><r>ം<s n="n"/><s n="sg"/><s n="loc"/></r></p><par n="clitics_nam"/></e>
       <e>       <p><l>ത്താല്‍</l><r>ം<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
       <e>       <p><l>മേ</l><r>ം<s n="n"/><s n="sg"/><s n="voc"/></r></p></e>
       <e>       <p><l>ത്തൊടു</l><r>ം<s n="n"/><s n="sg"/><s n="soc"/></r></p></e>
@@ -155,6 +163,7 @@
     </pardef>
 
     <pardef n="തണുപ്പ/്__n">
+      <e>       <p><l></l><r>്<s n="n"/><s n="sg"/><s n="nom"/></r></p><par n="clitics_aayirunnu"/></e>
       <e>       <p><l>്</l><r>്<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>ിനെ</l><r>്<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>ിന്റെ</l><r>്<s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -176,7 +185,7 @@
       <e>       <p><l>ിനൊട്</l><r>്<s n="n"/><s n="sg"/><s n="soc"/></r></p></e>
     </pardef>
         <pardef n="പട്ടി__n">
-      <e>       <p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p><par n="clitics_u"/></e>
       <e>       <p><l>യെ</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>യുടെ</l><r><s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
       <e>       <p><l>ക്ക്</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -252,7 +261,7 @@
          <e><p><l>കള്‍</l><r><s n="n"/><s n="pl"/></r></p></e>
     </pardef>
      <pardef n="സഹോദരി__n">
-         <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+         <e><p><l/><r><s n="n"/><s n="sg"/></r></p><par n="clitics_nam"/></e>
          <e><p><l>മാര്‍</l><r><s n="n"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ചെറിയ__n">
@@ -305,6 +314,7 @@
       <e>       <p><l>ുവിനെ</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="acc"/></r></p></e>
       <e>       <p><l>ുവിന്റെ</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="gen"/></r></p></e>
       <e>       <p><l>ുവിന്</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ുവിന</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="dat"/></r></p><par n="clitics_a"/></e>
       <e>       <p><l>ുവിനാല്‍</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="ins"/></r></p></e>
       <e>       <p><l>ൂ</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="voc"/></r></p></e>
       <e>       <p><l>ുവിനൊട്</l><r>ു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/><s n="soc"/></r></p></e>
@@ -314,6 +324,7 @@
       <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="acc"/></r></p></e>
       <e>       <p><l>യുടെ</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="gen"/></r></p></e>
       <e>       <p><l>യ്ക്</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="dat"/></r></p></e>
+      <e>       <p><l>യ്ക</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="dat"/></r></p><par n="clitics_u"/></e>
       <e>       <p><l>വിയാല്‍</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="ins"/></r></p></e>
       <e>       <p><l>േ</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="voc"/></r></p></e>
       <e>       <p><l>യോട്</l><r><s n="np"/><s n="ant"/><s n="sg"/><s n="f"/><s n="soc"/></r></p></e>
@@ -359,6 +370,7 @@
       <e>       <p><l>യെ</l><r>യുക<s n="vblex"/><s n="sim"/></r></p></e>
     </pardef>
     <pardef n="തിന്ന/ുക__vblex">
+    <e>       <p><l>ുക</l><r>ുക<s n="vblex"/></r></p><par n="clitics_nam"/></e>
       <e>       <p><l>ും</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
       <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
       <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
@@ -373,6 +385,7 @@
       <e>       <p><l>കുന്നു</l><r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
     </pardef>
     <pardef n="ഉറങ്ങ/ുക__vblex">
+      <e>       <p><l>ുക</l><r>ുക<s n="vblex"/></r></p><par n="clitics_nam"/></e>
       <e>       <p><l>ും</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
       <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
       <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
@@ -402,6 +415,14 @@
       <e>       <p><l>യുക</l><r>യുക<s n="vblex"/><s n="pres"/></r></p></e>
       <e>       <p><l>യെ</l><r>യുക<s n="vblex"/><s n="sim"/></r></p></e>
     </pardef>
+    <pardef n=" ഷ്ടപ്പെട/ുക__vblex">
+      <e>       <p><l>ും</l><r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാന്‍</l><r>ുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ണം</l><r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>്ടു</l><r>ുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ുന്നു</l><r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
+
     <pardef n="കേ/ള്‍ക്കുക__vblex">
       <e>       <p><l>ള്‍ക്കും</l><r>ള്‍ക്കുക<s n="vblex"/><s n="fut"/></r></p></e>
       <e>       <p><l>ള്‍ക്കാന്‍</l><r>ള്‍ക്കുക<s n="vblex"/><s n="infp"/></r></p></e>
@@ -440,6 +461,7 @@
       <e>       <p><l>്</l><r>്<s n="vblex"/><s n="pres"/></r></p></e>
     </pardef>
     <pardef n="പോ/കുക__vblex">
+      <e>       <p><l>കുക</l><r>കുക<s n="vblex"/></r></p><par n="clitics_u"/></e>
       <e>       <p><l>കും</l><r>കുക<s n="vblex"/><s n="fut"/></r></p></e>
       <e>       <p><l>കാന്‍</l><r>കുക<s n="vblex"/><s n="infp"/></r></p></e>
       <e>       <p><l>കണം</l><r>കുക<s n="vblex"/><s n="oblig"/></r></p></e>
@@ -454,17 +476,35 @@
       <e>       <p><l>യാതിരിക്കാന്‍</l><r>യുക<s n="vblex"/><s n="infp"/><s n="neg"/></r></p></e>
       <e>       <p><l>യണം</l><r>യുക<s n="vblex"/><s n="oblig"/></r></p></e>
       <e>       <p><l>യാതിരിക്കണം</l><r>യുക<s n="vblex"/><s n="oblig"/><s n="neg"/></r></p></e>
-      <e>       <p><l>ഞു</l><r>യുക<s n="vblex"/><s n="past"/></r></p></e>
-      <e>       <p><l>ഞില്ല</l><r>യുക<s n="vblex"/><s n="past"/><s n="neg"/></r></p></e>
+      <e>       <p><l>ഞ്ഞു</l><r>യുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ഞ്ഞില്ല</l><r>യുക<s n="vblex"/><s n="past"/><s n="neg"/></r></p></e>
       <e>       <p><l>യുന്നു</l><r>യുക<s n="vblex"/><s n="pres"/></r></p></e>
       <e>       <p><l>യുന്നില്ല</l><r>യുക<s n="vblex"/><s n="pres"/><s n="neg"/></r></p></e>
     </pardef>
 
+    <pardef n="ഒളി/ക്കുക__vblex">
+      <e>       <p><l>ക്കുക</l><r>ക്കുക<s n="vblex"/></r></p><par n="clitics_nam"/></e>
+      <e>       <p><l>ക്കും</l><r>ക്കുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ക്കാന്‍</l><r>ക്കുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ക്കണം</l><r>ക്കുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ച്ചു</l><r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ക്കുന്നു</l><r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
+        <pardef n="ക/ാണുക__vblex">
+      <e>       <p><l>ാണും</l><r>ാണുക<s n="vblex"/><s n="fut"/></r></p></e>
+      <e>       <p><l>ാണാന്‍</l><r>ാണുക<s n="vblex"/><s n="infp"/></r></p></e>
+      <e>       <p><l>ാണണം</l><r>ാണുക<s n="vblex"/><s n="oblig"/></r></p></e>
+      <e>       <p><l>ണ്ടു</l><r>ാണുക<s n="vblex"/><s n="past"/></r></p></e>
+      <e>       <p><l>ാണുന്നു</l><r>ാണുക<s n="vblex"/><s n="pres"/></r></p></e>
+    </pardef>
 
 
     <!-- interrogative -->
     <pardef n="nochange__itg"> <!--temporary -->
     	       <e><p><l/><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+    <pardef n="എവിടെ__itg"> <!--temporary -->
+    	       <e><p><l/><r><s n="adv"/><s n="itg"/></r></p><par n="clitics_nam"/></e>
     </pardef>
     <!--  -->
     <pardef n="nochange__adj"> <!--temporary -->
@@ -475,6 +515,12 @@
     </pardef>
 	<pardef n="nochange__prn"> <!--temporary -->
     	       <e><p><l/><r><s n="prn"/></r></p></e>
+    </pardef>
+    <pardef n="nochange__post"> <!--temporary -->
+    	       <e><p><l/><r><s n="post"/></r></p></e>
+    </pardef>
+    <pardef n="nochange__vbser"> <!--temporary -->
+    	       <e><p><l/><r><s n="vbser"/></r></p></e>
     </pardef>
   </pardefs>
 
@@ -494,7 +540,7 @@
 
     <e lm="തണുപ്പ്"><i>തണുപ്പ</i><par n="തണുപ്പ/്__n"/></e>
     <e lm="കളിക്കുക"><i>കളിക്കു</i><par n="അത് __n"/></e>
-    <e lm="കഴിയുക "><i>കഴി</i><par n="അത് __n"/></e>
+    <!-- <e lm="കഴിയുക "><i>കഴി</i><par n="അത് __n"/></e> -->
     <e lm="വീട്"><i>വീട</i><par n="വീട/്__n"/></e>
     <e lm="മുമ്പില്‍"><i>മുമ്പില്‍</i><par n="innu__n"/></e>
     <e lm="ഒന്ന്"><i>ഒന്ന്</i><par n="ഒന്ന്__n"/></e>
@@ -515,7 +561,8 @@
     <e lm="കാലാവസ്ഥ"><i>കാലാവസ്ഥ</i><par n="അമ്മ__n"/></e>
     <e lm="പുറത്ത്"><i>പുറത്ത്</i><par n="പുറത്ത്__adj"/></e>
     <e lm="വളരെ"><i>വളരെ</i><par n="nochange__adv"/></e>
-    <e lm="ഒളിക്കുക"><i>ഒളി</i><par n="nochange__adv"/></e>
+    <e lm="ഒളിക്കുക"><i>ഒളി</i><par n="ഒളി/ക്കുക__vblex"/></e>
+    
 
     <!-- SECTION: Nouns -->
 
@@ -537,6 +584,7 @@
     <e lm="മെല്ലെ"><i>മെല്ലെ</i><par n="nochange__adv"/></e>
     <e lm="മ്രിഗം"><i>മ്രിഗ</i><par n="സന്തോഷ/ം__n"/></e>
     <e lm="പക്ഷി"><i>പക്ഷി</i><par n="പട്ടി__n"/></e>
+    <e lm="കൈ"><i>കൈ</i><par n="nochange__n"/></e>
 
     <!-- pro nouns-->
      <e lm="ഇത്"><i>ഇത</i><par n="ഇത/്__prn"/></e>
@@ -546,7 +594,8 @@
     <e lm="നീ"><i>നീ</i><par n="nochange__prn"/></e>
     <e lm="നിങ്ങള്‍"><i>നിങ്ങള്‍</i><par n="nochange__prn"/></e>
    <e lm="ഞങ്ങള്‍"><i>ഞങ്ങള്‍</i><par n="nochange__prn"/></e>
-
+    <e lm="കൂടെ"><i>കൂടെ</i><par n="nochange__prn"/></e>
+    <e lm="എന്തെങ്കിലും"><i>എന്തെങ്കിലും</i><par n="nochange__prn"/></e>
      <!--Co-ordinating conjunction -->
           <e lm="പക്ഷെ"><i>പക്ഷെ</i><par n="പക്ഷെ__cnjcoo"/></e>
       <!-- proper nouns -->
@@ -570,12 +619,13 @@
 	<e lm="ഉണ്ട്"><i>ഉണ്ട്</i><par n="ഉണ്ട്"/></e>
     
          <!-- verbs -->
-	 <e lm="കളിക്കുക"><i>കളി</i><par n="കളി/ക്കുക__vblex"/></e> 
+	 <e lm="കളിക്കുക"><i>കളി</i><par n="കളി/ക്കുക__vblex"/></e>
         <e lm="ചോദിക്കുക"><i>ചോദി</i><par n="കളി/ക്കുക__vblex"/></e> 
-	<e lm="ചെയ്യുക"><i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e> 
+	<e lm="ചെയ്യുക"><i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e>
+	<e lm="പറയുക"><i>പറ</i><par n="ചെയ്/യുക__vblex"/></e>  
 	<e lm="തിന്നുക"><i>തിന്ന</i><par n="തിന്ന/ുക__vblex"/></e>
-        <e lm="പരതുക"><i>പരതുക</i><par n="തിന്ന/ുക__vblex"/></e> 
-    	<e lm="തീര്‍ക്കുക"><i>തീര്‍</i><par n="തീര്‍/ക്കുക__vblex"/></e>
+    <e lm="പരതുക"><i>പരത</i><par n="തിന്ന/ുക__vblex"/></e> 
+    <e lm="തീര്‍ക്കുക"><i>തീര്‍</i><par n="തീര്‍/ക്കുക__vblex"/></e>
  	<e lm="ഉറങ്ങുക"><i>ഉറങ്ങ</i><par n="ഉറങ്ങ/ുക__vblex"/></e>
  	<e lm="സംസാരിക്കുക"><i>സംസാരി</i><par n="കളി/ക്കുക__vblex"/></e>
  	<e lm="കണ്ടെത്തുക"><i>കണ്ടെത്ത</i><par n="കണ്ടെത്ത/ുക__vblex"/></e>
@@ -589,6 +639,8 @@
  	<e lm="ഉണ്ട്"><i>ഉണ്ട</i><par n="ഉണ്ട/്__vblex"/></e>
 	<e lm="പോകുക"><i>പോ</i><par n="പോ/കുക__vblex"/></e>
  	<e lm="കഴിയുക"><i>കഴി</i><par n="കഴി/യുക__vblex"/></e>
+ 	<!-- <e lm="ഇഷ്ടപ്പെടുക"><i>ഇഷ്ടപ്പെട</i><par n="ഇഷ്ടപ്പെട/ുക__vblex"/></e> -->
+ 	<e lm="കാണുക"><i>ക</i><par n="ക/ാണുക__vblex"/></e>
  	<!--
  	adverb
 
@@ -617,6 +669,8 @@
 	 <e lm="പിറകില്‍"><i>പിറകില്‍</i><par n="nochange__adv"/></e>
 	 <e lm="അടിയില്‍"><i>അടിയില്‍</i><par n="nochange__adv"/></e>
 	<e lm="വീണ്ടും"><i>വീണ്ടും</i><par n="nochange__adv"/></e>
+	<e lm="എല്ലായിടത്തും"><i>എല്ലായിടത്തും</i><par n="nochange__adv"/></e>
+	
 	
 	<!-- numbers -->
 	<e lm="ഒന്ന്"><i>ഒന്ന്</i><par n="nochange__num"/></e>
@@ -631,13 +685,18 @@
 	<e lm="പത്ത്"><i>പത്ത്</i><par n="nochange__num"/></e>
 				
 	<!-- Interrogative-->
-	<e lm="എവിടെ"><i>എവിടെ</i><par n="nochange__itg"/></e>
+	<e lm="എവിടെ"><i>എവിടെ</i><par n="എവിടെ__itg"/></e>
 	<e lm="എന്ത്"><i>എന്ത്</i><par n="nochange__itg"/></e>
 	<e lm="എപ്പോള്‍"><i>എപ്പോള്‍</i><par n="nochange__itg"/></e>
 	<e lm="എങ്ങനെ"><i>എങ്ങനെ</i><par n="nochange__itg"/></e>		
 	<!-- Determiner	-->
-		<e lm="‌ഒരു"><i>ഒരു</i><par n="ഒരു__det"/></e>		
-	
+	<e lm="‌ഒരു"><i>ഒരു</i><par n="ഒരു__det"/></e>
+	<!-- post position -->
+			
+	<e lm="നിന്ന്"><i>നിന്ന്</i><par n="nochange__post"/></e>	
+	<!-- verbser-->
+	<e lm="ആണ്"><i>ാണ്</i><par n="nochange__vbser"/></e>	
+		
 
   <!-- <e lm="vana"><i>നല്ല</i><par n="nalla__n"/></e> -->
 </section>
