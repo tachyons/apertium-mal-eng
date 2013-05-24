@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-      <alphabet>അആഇഈഉഊഋഌഎഏഐഒഓഔകഖഗഘങചഛജഝഞടഠഡഢണതഥദധനഩപഫബഭമയരറലളഴവശഷസഹഽാിീുൂൃൄെേൈൊോൌ്ൗൠൡൢൣൺൻൾൿംഃ</alphabet>
+      <alphabet>അആഇഈഉഊഋഌഎഏഐഒഓഔകഖഗഘങചഛജഝഞടഠഡഢണതഥദധനഩപഫബഭമയരറലളഴവശഷസഹഽാിീുൂൃൄെേൈൊോൌ്ൗൠൡൢൣൺൻര്‍ൾൿംഃ</alphabet>
        <sdefs>
     <sdef n="n"       c="Noun . നാമം"/>
     <sdef n="np"      c="Proper noun"/>
@@ -89,7 +89,11 @@
       <e>       <p><l>ായിരുന്നു</l><r><j/>ായിരുന്നു<s n="vbser"/><s n="past"/></r></p></e>
       <e><i/></e>
     </pardef>
-
+	<pardef n="clitics_yodappam">
+      <e><p><l>യോടപ്പം</l><r><j/>ോടപ്പം<s n="post"/></r></p></e>
+      <e><p><l>ലോടപ്പം</l><r><j/>ോടപ്പം<s n="post"/></r></p></e>
+      <e><i/></e>
+    </pardef>
       <pardef n="അത് __n">
          <e><p>
                   <l/><r><s n="prn"/><s n="nt"/><s n="sg"/></r>
@@ -119,7 +123,7 @@
       <e>       <p><l>്‍</l><r>്‍<s n="prn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>െ</l><r>്‍<s n="prn"/><s n="pl"/><s n="acc"/></r></p></e>
       <e>       <p><l>ുടെ</l><r>്‍<s n="prn"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e>       <p><l>്‍ക്</l><r>്‍<s n="prn"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>്‍ക്ക്</l><r>്‍<s n="prn"/><s n="pl"/><s n="dat"/></r></p></e>
       <e>       <p><l>ാല്‍</l><r>്‍<s n="prn"/><s n="pl"/><s n="ins"/></r></p></e>
       <e>       <p><l>േ</l><r>്‍<s n="prn"/><s n="pl"/><s n="voc"/></r></p></e>
       <e>       <p><l>ോട്</l><r>്‍<s n="prn"/><s n="pl"/><s n="soc"/></r></p></e>
@@ -186,6 +190,7 @@
     </pardef>
         <pardef n="പട്ടി__n">
       <e>       <p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p><par n="clitics_u"/></e>
+      <e>       <p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p><par n="clitics_yodappam"/></e>
       <e>       <p><l>യെ</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>യുടെ</l><r><s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
       <e>       <p><l>ക്ക്</l><r><s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
