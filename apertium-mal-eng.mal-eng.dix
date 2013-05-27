@@ -143,7 +143,7 @@
     <e><p><l>വീണ്ടും<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
 
 	<!-- SECTION vbser -->
-	<e><p><l>ാണ്<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+	<e><p><l>ാണ്<s n="vbser"/></l><r>be<s n="vbser"/><s n="inf"/></r></p></e>
 	<e><p><l>ായിരുന്നു<s n="vbser"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
    
     <!--SECTION: Verbs -->
