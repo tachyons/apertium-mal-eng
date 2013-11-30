@@ -56,6 +56,7 @@
 
    <section id="main" type="standard">
 	<e><p><l>മരം<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+	<e><p><l>മാങ്ങ<s n="n"/></l><r>mango<s n="n"/></r></p></e>
 	<e><p><l>വനം<s n="n"/></l><r>forest<s n="n"/></r></p></e>
 	<e><p><l>പൂന്തോട്ടം<s n="n"/></l><r>garden<s n="n"/></r></p></e>
 	<e><p><l>ഇന്നലെ<s n="n"/></l><r>yesterday<s n="n"/></r></p></e>
@@ -72,15 +73,16 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e><p><l>ഞാന്‍ <s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>ഞാന്‍<s n="prn"/><s n="sg"/><s n="nom"/></l><r>I<s n="prn"/></r></p></e>
+    <e><p><l>ഞാന്‍<s n="prn"/><s n="pl"/><s n="nom"/></l><r>we<s n="prn"/></r></p></e>
     <e><p><l>നീ<s n="prn"/></l><r>you<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>അവര്‍<s n="prn"/><s n="pl"/></l><r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>അവള്‍<s n="prn"/><s n="sg"/></l><r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
    <e><p><l>അവന്‍<s n="prn"/><s n="sg"/></l><r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
      <e><p><l>ഇത്<s n="prn"/><s n="sg"/></l><r>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
      <e><p><l>കൂടെ<s n="prn" /></l><r>with<s n="prn"/></r></p></e>
-   
-    
+
+
 
     <!-- SECTION: Nouns -->
 
@@ -109,22 +111,23 @@
     <e><p><l>തല<s n="n"/></l><r>head<s n="n"/></r></p></e>
     <e><p><l>സമയം<s n="n"/></l><r>time<s n="n"/></r></p></e>
     <e><p><l>വെള്ളം<s n="n"/></l><r>water<s n="n"/></r></p></e>
-    <e><p><l>കുട്ടി<s n="n"/></l><r>children<s n="n"/></r></p></e>      
+    <e><p><l>കുട്ടി<s n="n"/></l><r>children<s n="n"/></r></p></e>
 
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>രാജു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>രാധ<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>ജെയിംസ്<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>മേരി<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
-    
+
     <e><p><l>നല്ല<s n="adj"/></l><r>nice<s n="adj"/></r></p></e>
     <e><p><l>വലിയ<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
     <e><p><l>പുറത്ത്<s n="adj"/></l><r>outside<s n="adj"/></r></p></e>
     <e><p><l>ചെറിയ<s n="adj"/></l><r>little<s n="adj"/></r></p></e>
      <e><p><l>സന്തോഷം<s n="n"/><s n="sg"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
      <e><p><l>പഴയ<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
+     <e><p><l>ചൂട്<s n="adj"/></l><r>hot<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -145,7 +148,7 @@
 	<!-- SECTION vbser -->
 	<e><p><l>ാണ്<s n="vbser"/></l><r>be<s n="vbser"/><s n="inf"/></r></p></e>
 	<e><p><l>ായിരുന്നു<s n="vbser"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-   
+
     <!--SECTION: Verbs -->
 
     <!-- <e><p><l>ആകുക<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
@@ -190,7 +193,7 @@
 	<e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/></r></p></e>
 <!--	clitics -->
 	 <e><p><l>ും<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
-      
+
     <!-- SECTION: Interjections -->
 
     <e><p><l>ഇല്ല<s n="ij"/></l><r>no<s n="ij"/></r></p></e>
@@ -198,6 +201,6 @@
     <!-- SECTION: Punctuation-->
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><p><l>"<s n="quot"/></l><r>parquote<s n="quot"/></r></p></e>
-    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>		
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
    </section>
 </dictionary>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <!-- == Marathi → English == -->
- 
   <mode name="mal-eng" install="yes">
     <pipeline>
       <program name="lt-proc">
@@ -11,15 +9,10 @@
         <file name="mal-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mal-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="mal-eng.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer">
         <file name="apertium-mal-eng.mal-eng.t1x"/>
         <file name="mal-eng.t1x.bin"/>
+        <file name="mal-eng.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-mal-eng.mal-eng.t2x"/>
@@ -54,11 +47,10 @@
       <program name="apertium-tagger -g $2">
         <file name="mal-eng.prob"/>
       </program>
-      <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
-  <mode name="mal-eng-biltrans">
+  <mode name="mal-eng-pretransfer">
     <pipeline>
       <program name="lt-proc">
         <file name="mal-eng.automorf.bin"/>
@@ -67,31 +59,8 @@
         <file name="mal-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mal-eng.autobil.bin"/>
-      </program>
     </pipeline>
   </mode>
- 
-  <mode name="mal-eng-lextor">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="mal-eng.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mal-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -t">
-        <file name="mal-eng.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
- 
 
   <mode name="mal-eng-chunker">
     <pipeline>
@@ -102,19 +71,14 @@
         <file name="mal-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mal-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="mal-eng.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer">
         <file name="apertium-mal-eng.mal-eng.t1x"/>
         <file name="mal-eng.t1x.bin"/>
+        <file name="mal-eng.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
-  
+
   <mode name="mal-eng-interchunk">
     <pipeline>
       <program name="lt-proc">
@@ -124,15 +88,10 @@
         <file name="mal-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mal-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="mal-eng.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer">
         <file name="apertium-mal-eng.mal-eng.t1x"/>
         <file name="mal-eng.t1x.bin"/>
+        <file name="mal-eng.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-mal-eng.mal-eng.t2x"/>
@@ -150,15 +109,10 @@
         <file name="mal-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mal-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="mal-eng.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer">
         <file name="apertium-mal-eng.mal-eng.t1x"/>
         <file name="mal-eng.t1x.bin"/>
+        <file name="mal-eng.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-mal-eng.mal-eng.t2x"/>
@@ -180,15 +134,10 @@
         <file name="mal-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mal-eng.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="mal-eng.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer">
         <file name="apertium-mal-eng.mal-eng.t1x"/>
         <file name="mal-eng.t1x.bin"/>
+        <file name="mal-eng.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-mal-eng.mal-eng.t2x"/>
@@ -203,36 +152,157 @@
       </program>
     </pipeline>
   </mode>
- 
-  <mode name="mal-eng-debug" install="no">
+
+  <mode name="eng-mal" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="mal-eng.automorf.bin"/>
+        <file name="eng-mal.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
+        <file name="eng-mal.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mal-eng.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b -b">
-        <file name="apertium-mal-eng.mal-eng.t1x"/>
-        <file name="mal-eng.t1x.bin"/>
+      <program name="apertium-transfer">
+        <file name="apertium-mal-eng.eng-mal.t1x"/>
+        <file name="eng-mal.t1x.bin"/>
+        <file name="eng-mal.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-mal-eng.mal-eng.t2x"/>
-        <file name="mal-eng.t2x.bin"/>
+        <file name="apertium-mal-eng.eng-mal.t2x"/>
+        <file name="eng-mal.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-mal-eng.mal-eng.t3x"/>
-        <file name="mal-eng.t3x.bin"/>
+        <file name="apertium-mal-eng.eng-mal.t3x"/>
+        <file name="eng-mal.t3x.bin"/>
       </program>
-      <program name="lt-proc -d">
-        <file name="mal-eng.autogen.bin"/>
+      <program name="lt-proc $1">
+        <file name="eng-mal.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="eng-mal.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
+  <mode name="eng-mal-anmor">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="eng-mal.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
+  <mode name="eng-mal-tagger">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="eng-mal.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-mal.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-mal-pretransfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="eng-mal.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-mal.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-mal-chunker">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="eng-mal.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-mal.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-mal-eng.eng-mal.t1x"/>
+        <file name="eng-mal.t1x.bin"/>
+        <file name="eng-mal.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-mal-interchunk">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="eng-mal.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-mal.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-mal-eng.eng-mal.t1x"/>
+        <file name="eng-mal.t1x.bin"/>
+        <file name="eng-mal.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-mal-eng.eng-mal.t2x"/>
+        <file name="eng-mal.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-mal-postchunk">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="eng-mal.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-mal.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-mal-eng.eng-mal.t1x"/>
+        <file name="eng-mal.t1x.bin"/>
+        <file name="eng-mal.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-mal-eng.eng-mal.t2x"/>
+        <file name="eng-mal.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-mal-eng.eng-mal.t3x"/>
+        <file name="eng-mal.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-mal-generador">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="eng-mal.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-mal.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-mal-eng.eng-mal.t1x"/>
+        <file name="eng-mal.t1x.bin"/>
+        <file name="eng-mal.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-mal-eng.eng-mal.t2x"/>
+        <file name="eng-mal.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-mal-eng.eng-mal.t3x"/>
+        <file name="eng-mal.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="eng-mal.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 </modes>
