@@ -8,6 +8,7 @@ all:
 	lt-comp rl apertium-mal-eng.eng.dix mal-eng.autogen.bin
 	lt-comp lr apertium-mal-eng.post-eng.dix mal-eng.autopgen.bin
 	lrx-comp apertium-mal-eng.mal-eng.lrx mal-eng.autolex.bin
+	cg-comp apertium-mal-eng.mal-eng.rlx mal-eng.rlx.bin
 	apertium-preprocess-transfer apertium-mal-eng.mal-eng.t1x mal-eng.t1x.bin
 	apertium-preprocess-transfer apertium-mal-eng.mal-eng.t2x mal-eng.t2x.bin
 	apertium-preprocess-transfer apertium-mal-eng.mal-eng.t3x mal-eng.t3x.bin

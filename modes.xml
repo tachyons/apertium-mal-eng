@@ -5,8 +5,8 @@
       <program name="lt-proc">
         <file name="mal-eng.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
+      <program name="cg-proc -1 -n">
+        <file name="mal-eng.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -44,8 +44,8 @@
       <program name="lt-proc">
         <file name="mal-eng.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
+      <program name="cg-proc -1 -n">
+        <file name="mal-eng.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -55,8 +55,8 @@
       <program name="lt-proc">
         <file name="mal-eng.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
+      <program name="cg-proc -1 -n">
+        <file name="mal-eng.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
@@ -67,8 +67,8 @@
       <program name="lt-proc">
         <file name="mal-eng.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
+      <program name="cg-proc -1 -n">
+        <file name="mal-eng.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -84,8 +84,8 @@
       <program name="lt-proc">
         <file name="mal-eng.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
+      <program name="cg-proc -1 -n">
+        <file name="mal-eng.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -105,8 +105,8 @@
       <program name="lt-proc">
         <file name="mal-eng.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
+      <program name="cg-proc -1 -n">
+        <file name="mal-eng.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -130,8 +130,8 @@
       <program name="lt-proc">
         <file name="mal-eng.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mal-eng.prob"/>
+      <program name="cg-proc -1 -n">
+        <file name="mal-eng.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -158,7 +158,7 @@
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="cg-proc -1 -n">
         <file name="eng-mal.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -197,7 +197,7 @@
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="cg-proc -1 -n">
         <file name="eng-mal.prob"/>
       </program>
     </pipeline>
@@ -208,7 +208,7 @@
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="cg-proc -1 -n">
         <file name="eng-mal.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -220,7 +220,7 @@
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="cg-proc -1 -n">
         <file name="eng-mal.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -237,7 +237,7 @@
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="cg-proc -1 -n">
         <file name="eng-mal.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -258,7 +258,7 @@
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="cg-proc -1 -n">
         <file name="eng-mal.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -283,7 +283,7 @@
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="cg-proc -1 -n">
         <file name="eng-mal.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
