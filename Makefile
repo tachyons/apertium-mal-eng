@@ -12,5 +12,8 @@ all:
 	apertium-preprocess-transfer apertium-mal-eng.mal-eng.t1x mal-eng.t1x.bin
 	apertium-preprocess-transfer apertium-mal-eng.mal-eng.t2x mal-eng.t2x.bin
 	apertium-preprocess-transfer apertium-mal-eng.mal-eng.t3x mal-eng.t3x.bin
+	apertium-preprocess-transfer apertium-mal-eng.eng-mal.t1x eng-mal.t1x.bin
+	apertium-preprocess-transfer apertium-mal-eng.eng-mal.t2x eng-mal.t2x.bin
+	apertium-preprocess-transfer apertium-mal-eng.eng-mal.t3x eng-mal.t3x.bin
 	apertium-gen-modes modes.xml
 	cp *.mode modes/

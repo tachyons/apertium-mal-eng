@@ -5,14 +5,32 @@
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
+    <def-cat n="pronoun">
+      <cat-item tags="prn.*"/>
+      <cat-item tags="prn"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="vblex"/>
+    </def-cat>
+    <def-cat n="noun">
+      <cat-item tags="n.*"/>
+      <cat-item tags="n"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
+  <def-attr n="a_vblex">
+      <attr-item tags="vblex"/>
+    </def-attr>
+  <def-attr n="a_prn">
+      <attr-item tags="prn"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
@@ -28,6 +46,10 @@
       <attr-item tags="m"/>
       <attr-item tags="nt"/>
       <attr-item tags="f"/>
+    </def-attr>
+    <def-attr n="a_tens">
+    	<attr-item tags="past"/>
+    	<attr-item tags="pres"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -63,12 +85,12 @@
   </section-def-macros>
   <section-rules>
 
-    <rule comment="REGLA: NOM">
+    <!-- <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <call-macro n="case-handler1"> 
+        <call-macro n="case-handler1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -87,7 +109,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule>   -->
 
     <rule comment="REGLA: adj">
       <pattern>
@@ -126,7 +148,67 @@
         </out>
       </action>
     </rule>
-
+	<rule>
+     <pattern>
+       <pattern-item n="noun"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="noun" case="caseFirstWord">
+           <tags>
+             <!-- <tag><lit-tag v="SN"/></tag> -->
+             <tag><clip pos="1" side="tl" part="a_nom"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom" link-to="2"/>
+             <clip pos="1" side="tl" part="a_nbr" />
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  	</rule>
+  	<rule>
+     <pattern>
+       <pattern-item n="pronoun"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="pronoun" case="caseFirstWord">
+           <tags>
+             <!-- <tag><lit-tag v="SN"/></tag> -->
+             <tag><clip pos="1" side="tl" part="a_prn"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_prn" link-to="2"/>
+             <clip pos="1" side="tl" part="a_nbr" />
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  	</rule>
+  	<rule>
+     <pattern>
+       <pattern-item n="verb"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <!-- <tag><lit-tag v="SN"/></tag> -->
+             <tag><clip pos="1" side="tl" part="a_vblex"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_tens" />
+             <clip pos="1" side="tl" part="a_vblex" link-to="1"/>
+             <clip pos="1" side="tl" part="a_nbr" />
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  	</rule>
 
   </section-rules>
 </transfer>

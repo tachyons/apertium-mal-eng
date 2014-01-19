@@ -4,10 +4,22 @@
   <section-def-cats>
     <def-cat n="SN">
       <cat-item tags="SN"/>
-      <cat-item tags="SN.*"/>
+      <!-- <cat-item tags="SN.*"/> -->
     </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
+    </def-cat>
+    <def-cat n="pronoun">
+    	<cat-item tags="prn"/>
+      	<cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="noun">
+    	<cat-item tags="n"/>
+      	<cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="verb">
+    	<cat-item tags="vblex"/>
+  		<cat-item tags="vblex.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -60,24 +72,45 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
-    <rule comment="REGLA: SN">
+<!-- <rule comment="REGLA: SN">
+	  <pattern>
+		<pattern-item n="SN"/>
+	  </pattern>
+	  <action>
+	  <call-macro n="insert-prep1">
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <var n="PREP"/>
+		  <chunk>
+		    <clip pos="1" part="lem"/>
+		    <clip pos="1" part="tags"/>
+		    <clip pos="1" part="chcontent"/>
+		  </chunk>
+		</out>
+	  </action>
+	</rule> -->
+    <rule comment="prn-noun-verb">
       <pattern>
-        <pattern-item n="SN"/>
+		<pattern-item n="pronoun"/>
+		<pattern-item n="noun"/>
+		<pattern-item n="verb"/>
       </pattern>
       <action>
-        <call-macro n="insert-prep1">
-          <with-param pos="1"/>
-        </call-macro> 
-        <out>
-          <var n="PREP"/>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-        </out>
-      </action>
+		<out>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+		</out>
+		</action>
     </rule>
   </section-rules>
 </interchunk>
-

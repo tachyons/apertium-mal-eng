@@ -116,8 +116,8 @@
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>ജെയിംസ്<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>മേരി<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>രാജു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>രാധ<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -146,7 +146,7 @@
     <e><p><l>വീണ്ടും<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
 
 	<!-- SECTION vbser -->
-	<e><p><l>ാണ്<s n="vbser"/></l><r>be<s n="vbser"/><s n="inf"/></r></p></e>
+	<e><p><l>ാണ്<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
 	<e><p><l>ായിരുന്നു<s n="vbser"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
 
     <!--SECTION: Verbs -->
