@@ -546,7 +546,7 @@
 
     <!-- interrogative -->
     <pardef n="nochange__itg"> <!--temporary -->
-    	       <e><p><l/><r><s n="adv"/><s n="itg"/></r></p></e>
+    	       <e><p><l/><r><s n="itg"/></r></p></e>
     </pardef>
     <pardef n="എവിടെ__itg"> <!--temporary -->
     	       <e><p><l/><r><s n="adv"/><s n="itg"/></r></p><par n="clitics_nam"/></e>
@@ -735,6 +735,7 @@
 	<e lm="എന്ത്"><i>എന്ത്</i><par n="nochange__itg"/></e>
 	<e lm="എപ്പോള്‍"><i>എപ്പോള്‍</i><par n="nochange__itg"/></e>
 	<e lm="എങ്ങനെ"><i>എങ്ങനെ</i><par n="nochange__itg"/></e>
+	<e lm="ആര്"><i>ആര്</i><par n="nochange__itg"/></e>
 	<!-- Determiner	-->
 	<e lm="‌ഒരു"><i>ഒരു</i><par n="ഒരു__det"/></e>
 	<!-- post position -->

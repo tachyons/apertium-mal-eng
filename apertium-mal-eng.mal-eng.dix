@@ -44,7 +44,7 @@
     <sdef n="itg"     c="Interrogative"/>
 
     <sdef n="subj"   c="Subject . क्रियापद"/>
-
+	<sdef n="obj"   c="object"/>
     <sdef n="cm"      c="Comma"/>
     <sdef n="quot"    c="Quotation mark"/>
     <sdef n="sent"    c="Sentence marker"/>
@@ -74,8 +74,9 @@
     <!-- SECTION: Pronouns -->
 
     <e><p><l>ഞാന്‍<s n="prn"/><s n="sg"/><s n="nom"/></l><r>I<s n="prn"/></r></p></e>
-    <e><p><l>ഞാന്‍<s n="prn"/><s n="pl"/><s n="nom"/></l><r>we<s n="prn"/></r></p></e>
+    <e><p><l>ഞങ്ങള്‍<s n="prn"/><s n="pl"/><s n="nom"/></l><r>we<s n="prn"/></r></p></e>
     <e><p><l>നീ<s n="prn"/></l><r>you<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>നീ<s n="prn"/></l><r>you<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>അവര്‍<s n="prn"/><s n="pl"/></l><r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>അവള്‍<s n="prn"/><s n="sg"/></l><r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
    <e><p><l>അവന്‍<s n="prn"/><s n="sg"/></l><r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -86,7 +87,7 @@
 
     <!-- SECTION: Nouns -->
 
-
+	<e><p><l>മണ്ടന്‍<s n="n"/></l><r>idiot<s n="n"/></r></p></e>
     <e><p><l>പട്ടി<s n="n"/></l><r>dog<s n="n"/></r></p></e>
     <e><p><l>വീട്<s n="n"/><s n="sg"/></l><r>house<s n="n"/><s n="sg"/></r></p></e>
     <!-- <e><p><l>വീട്<s n="n"/><s n="nt"/></l><r>home<s n="n"/></r></p></e> -->
@@ -146,7 +147,8 @@
     <e><p><l>വീണ്ടും<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
 
 	<!-- SECTION vbser -->
-	<e><p><l>ാണ്<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+	<e><p><l>ാണ്<s n="vbser"/></l><r>be<s n="vbser"/><s n="pres"/></r></p></e>
+	<e><p><l>ആണ്<s n="vbser"/></l><r>be<s n="vbser"/><s n="pres"/></r></p></e>
 	<e><p><l>ായിരുന്നു<s n="vbser"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
 
     <!--SECTION: Verbs -->
@@ -175,11 +177,13 @@
      <e><p><l>പറയുക<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
      <e><p><l>ഉറങ്ങുക<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
 <!-- Interrogative-->
- 	<e><p><l>എവിടെ<s n="itg"/></l><r>where<s n="itg"/></r></p></e>
+ 	<e><p><l>എവിടെ<s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
+ 	<e><p><l>ആര്<s n="itg"/></l><r>who<s n="adv"/><s n="itg"/></r></p></e>
  	<e><p><l>എന്ത്<s n="itg"/></l><r>what<s n="itg"/></r></p></e>
  	<e><p><l>എപ്പോള്‍<s n="itg"/></l><r>when<s n="itg"/></r></p></e>
- 	<e><p><l>എങ്ങനെ<s n="itg"/></l><r>how<s n="itg"/></r></p></e>
- 	<e><p><l>ഏന്തിന്<s n="itg"/></l><r>why<s n="itg"/></r></p></e>
+ 	<e><p><l>എങ്ങനെ<s n="itg"/></l><r>how<s n="adv"/><s n="itg"/></r></p></e>
+ 	<e><p><l>എങ്ങനെ<s n="itg"/></l><r>how<s n="adv"/>></r></p></e>
+ 	<e><p><l>ഏന്തിന്<s n="itg"/></l><r>why<s n="adv"/><s n="itg"/></r></p></e>
  <!-- numbers -->
 	<e><p><l>ഒന്ന്<s n="num"/></l><r>one<s n="num"/></r></p></e>
 	<e><p><l>രണ്ട്<s n="num"/></l><r>two<s n="num"/></r></p></e>
@@ -193,7 +197,7 @@
 	<e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/></r></p></e>
 <!--	clitics -->
 	 <e><p><l>ും<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
-
+	<e><p><l>ോടപ്പം<s n="post"/></l><r>with<s n="cnjcoo"/></r></p></e>
     <!-- SECTION: Interjections -->
 
     <e><p><l>ഇല്ല<s n="ij"/></l><r>no<s n="ij"/></r></p></e>

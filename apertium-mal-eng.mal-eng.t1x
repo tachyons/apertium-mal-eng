@@ -10,7 +10,8 @@
       <cat-item tags="prn"/>
     </def-cat>
     <def-cat n="nom">
-      <cat-item tags="n.*"/>
+      <cat-item tags="nom.*"/>
+      <cat-item tags="nom"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -19,14 +20,40 @@
       <cat-item tags="vblex.*"/>
       <cat-item tags="vblex"/>
     </def-cat>
+    <def-cat n="adv">
+      <cat-item tags="adv.*"/>
+      <cat-item tags="adv"/>
+    </def-cat>
+     <def-cat n="vbser">
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbser"/>
+    </def-cat>
     <def-cat n="noun">
       <cat-item tags="n.*"/>
       <cat-item tags="n"/>
+    </def-cat>
+     <def-cat n="np">
+      <cat-item tags="np.*"/>
+      <cat-item tags="np"/>
+    </def-cat>
+    <def-cat n="interogative">
+      <cat-item tags="itg.*"/>
+      <cat-item tags="itg"/>
+      <cat-item tags="*.itg"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
   <def-attr n="a_vblex">
       <attr-item tags="vblex"/>
+    </def-attr>
+    <def-attr n="a_np">
+      <attr-item tags="np"/>
+    </def-attr>
+    <def-attr n="a_itg">
+      <attr-item tags="itg"/>
+    </def-attr>
+    <def-attr n="a_vbser">
+      <attr-item tags="vbser"/>
     </def-attr>
   <def-attr n="a_prn">
       <attr-item tags="prn"/>
@@ -38,6 +65,10 @@
       <attr-item tags="adj"/>
       <attr-item tags="adj.sint"/>
     </def-attr>
+    <def-attr n="a_adv">
+      <attr-item tags="adv"/>
+     <!-- <attr-item tags="adj.sint"/> -->
+    </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -47,6 +78,8 @@
       <attr-item tags="nt"/>
       <attr-item tags="f"/>
     </def-attr>
+
+
     <def-attr n="a_tens">
     	<attr-item tags="past"/>
     	<attr-item tags="pres"/>
@@ -85,7 +118,7 @@
   </section-def-macros>
   <section-rules>
 
-    <!-- <rule comment="REGLA: NOM">
+    <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -94,7 +127,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="n" case="caseFirstWord">
+          <chunk name="nominative" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="sl" part="a_cas"/></tag>
@@ -109,7 +142,7 @@
           </chunk>
         </out>
       </action>
-    </rule>   -->
+    </rule>
 
     <rule comment="REGLA: adj">
       <pattern>
@@ -148,7 +181,7 @@
         </out>
       </action>
     </rule>
-	<rule>
+	<rule comment="noun">
      <pattern>
        <pattern-item n="noun"/>
      </pattern>
@@ -161,14 +194,14 @@
            </tags>
            <lu>
              <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_nom" link-to="2"/>
+             <clip pos="1" side="tl" part="a_nom" link-to="1"/>
              <clip pos="1" side="tl" part="a_nbr" />
            </lu>
          </chunk>
        </out>
      </action>
   	</rule>
-  	<rule>
+  	<rule comment="pronoun">
      <pattern>
        <pattern-item n="pronoun"/>
      </pattern>
@@ -188,7 +221,7 @@
        </out>
      </action>
   	</rule>
-  	<rule>
+  	<rule comment="verb(lex)">
      <pattern>
        <pattern-item n="verb"/>
      </pattern>
@@ -198,17 +231,82 @@
            <tags>
              <!-- <tag><lit-tag v="SN"/></tag> -->
              <tag><clip pos="1" side="tl" part="a_vblex"/></tag>
+             <tag><clip pos="1" side="tl" part="a_tens"/></tag>
            </tags>
            <lu>
              <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_tens" />
              <clip pos="1" side="tl" part="a_vblex" link-to="1"/>
+             <clip pos="1" side="tl" part="a_tens" link-to="2"/>
              <clip pos="1" side="tl" part="a_nbr" />
            </lu>
          </chunk>
        </out>
      </action>
   	</rule>
-
+  	<rule comment="interogative">
+     <pattern>
+       <pattern-item n="interogative"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="interogative" case="caseFirstWord">
+           <tags>
+             <!-- <tag><lit-tag v="SN"/></tag> -->
+             <tag><clip pos="1" side="tl" part="a_itg"/></tag>
+             <tag><clip pos="1" side="tl" part="a_adv"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_itg" link-to="1"/>
+             <clip pos="1" side="tl" part="a_adv" link-to="2"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  	</rule>
+  	<rule comment="verb(ser)">
+     <pattern>
+       <pattern-item n="vbser"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="verbser" case="caseFirstWord">
+           <tags>
+             <!-- <tag><lit-tag v="SN"/></tag> -->
+             <tag><clip pos="1" side="tl" part="a_vbser"/></tag>
+             <tag><clip pos="1" side="tl" part="a_tens"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_vbser" link-to="1"/>
+             <clip pos="1" side="tl" part="a_tens" link-to="2"/>
+             <clip pos="1" side="tl" part="a_nbr" />
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  	</rule>
+  	<rule comment="proper noun">
+     <pattern>
+       <pattern-item n="np"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="propernoun" case="caseFirstWord">
+           <tags>
+             <!-- <tag><lit-tag v="SN"/></tag> -->
+             <tag><clip pos="1" side="tl" part="a_np"/></tag>
+             <tag><clip pos="1" side="tl" part="a_nom"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_np" link-to="1"/>
+             <clip pos="1" side="tl" part="a_nom" link-to="2"/>
+             <clip pos="1" side="tl" part="a_nbr" />
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  	</rule>
   </section-rules>
 </transfer>

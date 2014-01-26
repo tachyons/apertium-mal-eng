@@ -152,13 +152,12 @@
       </program>
     </pipeline>
   </mode>
-
-  <mode name="eng-mal" install="yes">
+<mode name="eng-mal" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="cg-proc -1 -n">
+      <program name="apertium-tagger -g $2">
         <file name="eng-mal.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -198,7 +197,7 @@
         <file name="eng-mal.automorf.bin"/>
       </program>
       <program name="cg-proc -1 -n">
-        <file name="eng-mal.prob"/>
+        <file name="eng-mal.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -209,7 +208,7 @@
         <file name="eng-mal.automorf.bin"/>
       </program>
       <program name="cg-proc -1 -n">
-        <file name="eng-mal.prob"/>
+        <file name="eng-mal.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
@@ -221,7 +220,7 @@
         <file name="eng-mal.automorf.bin"/>
       </program>
       <program name="cg-proc -1 -n">
-        <file name="eng-mal.prob"/>
+        <file name="eng-mal.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -238,7 +237,7 @@
         <file name="eng-mal.automorf.bin"/>
       </program>
       <program name="cg-proc -1 -n">
-        <file name="eng-mal.prob"/>
+        <file name="eng-mal.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -259,7 +258,7 @@
         <file name="eng-mal.automorf.bin"/>
       </program>
       <program name="cg-proc -1 -n">
-        <file name="eng-mal.prob"/>
+        <file name="eng-mal.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -284,7 +283,7 @@
         <file name="eng-mal.automorf.bin"/>
       </program>
       <program name="cg-proc -1 -n">
-        <file name="eng-mal.prob"/>
+        <file name="eng-mal.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">

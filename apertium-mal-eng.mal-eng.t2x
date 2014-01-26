@@ -4,7 +4,7 @@
   <section-def-cats>
     <def-cat n="SN">
       <cat-item tags="SN"/>
-      <!-- <cat-item tags="SN.*"/> -->
+      <cat-item tags="SN.*"/>
     </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
@@ -20,6 +20,18 @@
     <def-cat n="verb">
     	<cat-item tags="vblex"/>
   		<cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="verbser">
+    	<cat-item tags="vbser"/>
+  		<cat-item tags="vbser.*"/>
+    </def-cat>
+    <def-cat n="interogative">
+    	<cat-item tags="itg"/>
+  		<cat-item tags="itg.*"/>
+    </def-cat>
+    <def-cat n="propernoun">
+    	<cat-item tags="np"/>
+  		<cat-item tags="np.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -108,6 +120,28 @@
 			<b/>
 			<chunk>
 				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+		</out>
+		</action>
+    </rule>
+    <rule comment="nom-inter-verbser">
+      <pattern>
+		<pattern-item n="propernoun"/>
+		<pattern-item n="interogative"/>
+		<pattern-item n="verbser"/>
+      </pattern>
+      <action>
+		<out>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
 			</chunk>
 		</out>
 		</action>
