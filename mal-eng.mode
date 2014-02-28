@@ -1,0 +1,3 @@
+    
+    lt-proc /home/tachyons/apertium-mal-eng/mal-eng.automorf.bin |cg-proc -1 -n /home/tachyons/apertium-mal-eng/mal-eng.rlx.bin |apertium-pretransfer|apertium-transfer /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal-eng.t1x  /home/tachyons/apertium-mal-eng/mal-eng.t1x.bin  /home/tachyons/apertium-mal-eng/mal-eng.autobil.bin |apertium-interchunk /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal-eng.t2x  /home/tachyons/apertium-mal-eng/mal-eng.t2x.bin |apertium-postchunk /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal-eng.t3x  /home/tachyons/apertium-mal-eng/mal-eng.t3x.bin |lt-proc $1 /home/tachyons/apertium-mal-eng/mal-eng.autogen.bin |lt-proc -p /home/tachyons/apertium-mal-eng/mal-eng.autopgen.bin 
+  

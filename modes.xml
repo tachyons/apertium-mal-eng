@@ -196,8 +196,8 @@
       <program name="lt-proc">
         <file name="eng-mal.automorf.bin"/>
       </program>
-      <program name="cg-proc -1 -n">
-        <file name="eng-mal.rlx.bin"/>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-mal.prob"/>
       </program>
     </pipeline>
   </mode>

@@ -4,10 +4,11 @@ all:
 	lt-comp rl apertium-mal-eng.mal.dix eng-mal.autogen.bin #generator
 	lt-comp lr apertium-mal-eng.mal-eng.dix mal-eng.autobil.bin
 	lt-comp rl apertium-mal-eng.mal-eng.dix eng-mal.autobil.bin
-	#lt-comp lr apertium-mal-eng.eng.dix eng-mal.automorf.bin
-	#lt-comp rl apertium-mal-eng.eng.dix mal-eng.autogen.bin
+	lt-comp lr apertium-mal-eng.eng.dix eng-mal.automorf.bin
+	lt-comp rl apertium-mal-eng.eng.dix mal-eng.autogen.bin
 	lt-comp lr apertium-mal-eng.post-eng.dix mal-eng.autopgen.bin
 	lt-comp lr apertium-mal-eng.post-mal.dix eng-mal.autopgen.bin
+	lt-comp lr mal-eng.translit.dix mal-eng.translit.bin
 	lrx-comp apertium-mal-eng.mal-eng.lrx mal-eng.autolex.bin
 	cg-comp apertium-mal-eng.mal-eng.rlx mal-eng.rlx.bin
 	lrx-comp apertium-mal-eng.eng-mal.lrx eng-mal.autolex.bin #for testing
