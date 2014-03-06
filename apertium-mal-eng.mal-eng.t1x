@@ -10,6 +10,10 @@
       <cat-item tags="prn.*"/>
       <cat-item tags="prn"/>
     </def-cat>
+    <def-cat n="noun">
+      <cat-item tags="n.*"/>
+      <cat-item tags="n"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="nom.*"/>
       <cat-item tags="nom"/>
@@ -285,7 +289,7 @@
        <pattern-item n="verb"/>
      </pattern>
      <action>
-     
+
        <out>
          <chunk name="verb" case="caseFirstWord">
            <tags>
@@ -338,8 +342,8 @@
            </tags>
            <lu>
              <clip pos="1" side="tl" part="whole"/>
-             
-           </lu>  
+
+           </lu>
          </chunk>
        </out>
      </action>
@@ -519,14 +523,14 @@
 		   <b/>
 		    <lu>
 		     <clip pos="3" side="tl" part="whole"/>
-		     
+
 		    </lu>
-		    <b/> 
+		    <b/>
 		    <lu>
 		     <clip pos="1" side="tl" part="lem"/>
 		     <clip pos="1" side="tl" part="a_adv" link-to="1"/>
 		    </lu>
-		    <b/> 
+		    <b/>
 		   <lu>
 		     <clip pos="2" side="tl" part="lem"/>
 		     <clip pos="2" side="tl" part="a_nom" link-to="2"/>
@@ -556,13 +560,13 @@
 		      <lit-tag v="prn"/><lit-tag v="subj"/><lit-tag v="p3"/><lit-tag v="nt"/><lit-tag v="sg"/>
 		   </lu>
 		   <b/>
-		    
-		    <b/> 
+
+		    <b/>
 		    <lu>
 		     <clip pos="1" side="tl" part="lem"/>
 		     <clip pos="1" side="tl" part="a_adv" link-to="1"/>
 		    </lu>
-		    <b/> 
+		    <b/>
 		   <lu>
 		     <clip pos="2" side="tl" part="lem"/>
 		     <clip pos="2" side="tl" part="a_nom" link-to="2"/>
@@ -572,7 +576,7 @@
 		 </chunk>
        </out>
      </action>
-  </rule> 
+  </rule>
   <rule comment="adj+verb">
      <pattern>
        <pattern-item n="adj"/>
@@ -582,7 +586,7 @@
        <out>
          <chunk name="adjVerb" case="caseFirstWord">
            <tags>
-             
+
              <tag><clip pos="1" side="tl" part="a_adj"/></tag>
              <tag><clip pos="2" side="tl" part="a_vblex"/></tag>
 
@@ -596,11 +600,11 @@
              <clip pos="1" side="tl" part="lem"/>
              <clip pos="1" side="tl" part="a_adj" link-to="1"/>
            </lu>
-           
+
          </chunk>
        </out>
      </action>
-  </rule> -->  
+  </rule> -->
   <rule comment="prn-noun-verb-vbser">
       <pattern>
       		<pattern-item n="pronoun"/>
@@ -612,12 +616,12 @@
        <out>
          <chunk name="prnNVerbVb" case="caseFirstWord">
             <tags> <lit-tag v="PRNNVERBVB"/> </tags>
-             
+
            <lu>
 		   <clip pos="1" side="tl" part="whole"/>
-            
+
            </lu>
-           <b/> 
+           <b/>
            <lu>
 		   <clip pos="4" side="tl" part="whole"/>
 		   <lit-tag v="p3"/>
@@ -631,13 +635,55 @@
            <b/>
            <lu>
 		   <clip pos="2" side="tl" part="whole"/>
-		   
+
            </lu>
-           
+
          </chunk>
        </out>
      </action>
-  </rule>  
- 
+  </rule>
+ <rule comment="noun-adverb-adj-vbser">
+      <pattern>
+		<pattern-item n="noun"/>
+		<pattern-item n="adv"/>
+		<pattern-item n="adj"/>
+		<pattern-item n="vbser"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="noun-adverb-adj-vbser" case="caseFirstWord">
+            <tags> <lit-tag v="noun-adverb-adj-vbser"/> </tags>
+			<lu>
+				<lit v="the"/>
+				<lit-tag v="det"/>
+				<lit-tag v="def"/>
+				<lit-tag v="sp"/>
+			</lu>
+			<b/>
+           <lu>
+		   <clip pos="1" side="tl" part="whole"/>
+
+           </lu>
+           <b/>
+           <lu>
+		   <clip pos="4" side="tl" part="whole"/>
+		   <lit-tag v="p3"/>
+		   <clip pos="1" side="tl" part="a_nbr"/>
+	   </lu>
+           <b/>
+           <lu>
+		   <clip pos="3" side="tl" part="whole"/>
+		   <lit-tag v="pprs"/>
+           </lu>
+           <b/>
+           <lu>
+		   <clip pos="2" side="tl" part="whole"/>
+
+           </lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
   </section-rules>
 </transfer>

@@ -70,7 +70,8 @@
 <e>       <p><l>പൂന്തോട്ടം<s n="n"/></l>               <r>garden<s n="n"/></r></p></e>
 <e>       <p><l>ഇന്നലെ<s n="n"/></l>                   <r>yesterday<s n="n"/></r></p></e>
 <e>       <p><l>ഇന്ന്<s n="adv"/></l>                  <r>today<s n="adv"/></r></p></e>
-<e>       <p><l>നല്ല<s n="adv"/></l>                   <r>nice<s n="adj"/></r></p></e>
+<e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/></r></p></e>
+<e>       <p><l>നല്ല<s n="adv"/></l>                   <r>nice<s n="adv"/></r></p></e>
 <e>       <p><l>കാലാവസ്ഥ<s n="n"/><s n="sg"/></l>      <r>weather<s n="n"/><s n="sg"/></r></p></e>
 <e>       <p><l>അത്<s n="prn"/><s n="nt"/><s n="sg"/></l><r>it<s n="prn"/><s n="prn"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l>തണുപ്പ്<s n="n"/></l>                  <r>cold<s n="n"/></r></p></e>
@@ -144,6 +145,7 @@
 
     <!-- SECTION: Adjectives -->
 
+<e>       <p><l>ഊഷ്മളം<s n="adj"/></l>                   <r>warm<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>good<s n="adj"/></r></p></e>
 <e>       <p><l>വലിയ<s n="adj"/></l>                   <r>big<s n="adj"/></r></p></e>
