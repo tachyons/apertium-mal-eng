@@ -86,6 +86,116 @@
 	<e><p><l>ഷ</l><r>sha</r></p></e>
 	<e><p><l>സ</l><r>sa</r></p></e>
 	<e><p><l>ഹ</l><r>ha</r></p></e>
+<!-- i -->
+	<e><p><l>കി</l><r>ki</r></p></e>
+    <e><p><l>ഖി</l><r>khi</r></p></e>
+    <e><p><l>ഗി</l><r>gi</r></p></e>
+    <e><p><l>ചി</l><r>chi</r></p></e>
+    <e><p><l>ഛി</l><r>chhi</r></p></e>
+    <e><p><l>ജി</l><r>ji</r></p></e>
+    <e><p><l>ഝി</l><r>thdi</r></p></e>
+    <e><p><l>ഞി</l><r>nji</r></p></e>
+    <e><p><l>ടി</l><r>ti</r></p></e>
+    <e><p><l>ഠി</l><r>dti</r></p></e>
+    <e><p><l>തി</l><r>thi</r></p></e>
+    <e><p><l>ഡി</l><r>di</r></p></e>
+    <e><p><l>ഢി</l><r>ddi</r></p></e>
+    <e><p><l>ണി</l><r>ni</r></p></e>
+    <e><p><l>ഥി</l><r>thi</r></p></e>
+    <e><p><l>ദി</l><r>di</r></p></e>
+    <e><p><l>ധി</l><r>dhi</r></p></e>
+    <e><p><l>നി</l><r>ni</r></p></e>
+    <e><p><l>ഩി</l><r>ni</r></p></e>
+	<e><p><l>പി</l><r>pi</r></p></e>
+	<e><p><l>ഫി</l><r>fi</r></p></e>
+	<e><p><l>ബി</l><r>bi</r></p></e>
+	<e><p><l>ഭി</l><r>bhi</r></p></e>
+	<e><p><l>മി</l><r>mi</r></p></e>
+	<e><p><l>യി</l><r>yi</r></p></e>
+	<e><p><l>രി</l><r>ri</r></p></e>
+	<e><p><l>റി</l><r>ri</r></p></e>
+	<e><p><l>ലി</l><r>li</r></p></e>
+	<e><p><l>ളി</l><r>li</r></p></e>
+	<e><p><l>ഴി</l><r>zhi</r></p></e>
+	<e><p><l>വി</l><r>vi</r></p></e>
+	<e><p><l>ശി</l><r>shi</r></p></e>
+	<e><p><l>ഷി</l><r>shi</r></p></e>
+	<e><p><l>സി</l><r>si</r></p></e>
+	<e><p><l>ഹി</l><r>hi</r></p></e>
+	<!-- u-->
+	<!-- u -->
+	<e><p><l>കു</l><r>ku</r></p></e>
+    <e><p><l>ഖു</l><r>khu</r></p></e>
+    <e><p><l>ഗു</l><r>gu</r></p></e>
+    <e><p><l>ചു</l><r>chu</r></p></e>
+    <e><p><l>ഛു</l><r>chhu</r></p></e>
+    <e><p><l>ജു</l><r>ju</r></p></e>
+    <e><p><l>ഝു</l><r>thdu</r></p></e>
+    <e><p><l>ഞു</l><r>nju</r></p></e>
+    <e><p><l>ടു</l><r>tu</r></p></e>
+    <e><p><l>ഠു</l><r>dtu</r></p></e>
+    <e><p><l>തു</l><r>thu</r></p></e>
+    <e><p><l>ഡു</l><r>du</r></p></e>
+    <e><p><l>ഢു</l><r>ddu</r></p></e>
+    <e><p><l>ണു</l><r>nu</r></p></e>
+    <e><p><l>ഥു</l><r>thu</r></p></e>
+    <e><p><l>ദു</l><r>du</r></p></e>
+    <e><p><l>ധു</l><r>dhu</r></p></e>
+    <e><p><l>നു</l><r>nu</r></p></e>
+    <e><p><l>ഩു</l><r>nu</r></p></e>
+	<e><p><l>പു</l><r>pu</r></p></e>
+	<e><p><l>ഫു</l><r>fu</r></p></e>
+	<e><p><l>ബു</l><r>bu</r></p></e>
+	<e><p><l>ഭു</l><r>bhu</r></p></e>
+	<e><p><l>മു</l><r>mu</r></p></e>
+	<e><p><l>യു</l><r>yu</r></p></e>
+	<e><p><l>രു</l><r>ru</r></p></e>
+	<e><p><l>റു</l><r>ru</r></p></e>
+	<e><p><l>ലു</l><r>lu</r></p></e>
+	<e><p><l>ളു</l><r>lu</r></p></e>
+	<e><p><l>ഴു</l><r>zhu</r></p></e>
+	<e><p><l>വു</l><r>vu</r></p></e>
+	<e><p><l>ശു</l><r>shu</r></p></e>
+	<e><p><l>ഷു</l><r>shu</r></p></e>
+	<e><p><l>സു</l><r>su</r></p></e>
+	<e><p><l>ഹു</l><r>hu</r></p></e>
+	<!-- e -->
+	<!-- e -->
+	<e><p><l>കെ</l><r>ke</r></p></e>
+    <e><p><l>ഖെ</l><r>khe</r></p></e>
+    <e><p><l>ഗെ</l><r>ge</r></p></e>
+    <e><p><l>ചെ</l><r>che</r></p></e>
+    <e><p><l>ഛെ</l><r>chhe</r></p></e>
+    <e><p><l>ജെ</l><r>je</r></p></e>
+    <e><p><l>ഝെ</l><r>thde</r></p></e>
+    <e><p><l>ഞെ</l><r>nje</r></p></e>
+    <e><p><l>ടെ</l><r>te</r></p></e>
+    <e><p><l>ഠെ</l><r>dte</r></p></e>
+    <e><p><l>തെ</l><r>the</r></p></e>
+    <e><p><l>ഡെ</l><r>de</r></p></e>
+    <e><p><l>ഢെ</l><r>dde</r></p></e>
+    <e><p><l>ണെ</l><r>ne</r></p></e>
+    <e><p><l>ഥെ</l><r>the</r></p></e>
+    <e><p><l>ദെ</l><r>de</r></p></e>
+    <e><p><l>ധെ</l><r>dhe</r></p></e>
+    <e><p><l>നെ</l><r>ne</r></p></e>
+    <e><p><l>ഩെ</l><r>ne</r></p></e>
+	<e><p><l>പെ</l><r>pe</r></p></e>
+	<e><p><l>ഫെ</l><r>fe</r></p></e>
+	<e><p><l>ബെ</l><r>be</r></p></e>
+	<e><p><l>ഭെ</l><r>bhe</r></p></e>
+	<e><p><l>മെ</l><r>me</r></p></e>
+	<e><p><l>യെ</l><r>ye</r></p></e>
+	<e><p><l>രെ</l><r>re</r></p></e>
+	<e><p><l>റെ</l><r>re</r></p></e>
+	<e><p><l>ലെ</l><r>le</r></p></e>
+	<e><p><l>ളെ</l><r>le</r></p></e>
+	<e><p><l>ഴെ</l><r>zhe</r></p></e>
+	<e><p><l>വെ</l><r>ve</r></p></e>
+	<e><p><l>ശെ</l><r>she</r></p></e>
+	<e><p><l>ഷെ</l><r>she</r></p></e>
+	<e><p><l>സെ</l><r>se</r></p></e>
+	<e><p><l>ഹെ</l><r>he</r></p></e>
 	<e><p><l>ാ</l><r>a</r></p></e>
     <e><p><l>ി</l><r>i</r></p></e>
     <e><p><l>ീ</l><r>ee</r></p></e>

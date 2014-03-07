@@ -28,6 +28,9 @@
       <program name="lt-proc -p">
         <file name="mal-eng.autopgen.bin"/>
       </program>
+    <program name="lt-proc -t">
+        <file name="mal-eng.translit.bin"/>
+      </program>
     </pipeline>
   </mode>
 

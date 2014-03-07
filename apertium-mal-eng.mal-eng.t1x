@@ -685,5 +685,40 @@
        </out>
      </action>
   </rule>
+  <rule comment="adverb-adj-vbser">
+      <pattern>
+      	<pattern-item n="pronoun"/>
+		<pattern-item n="adv"/>
+		<pattern-item n="adj"/>
+		<pattern-item n="vbser"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="prn-adverb-adj-vbser" case="caseFirstWord">
+            <tags> <lit-tag v="adverb-adj-vbser"/> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b/>
+           	<lu>
+		   		<clip pos="4" side="tl" part="whole"/>
+		   		<lit-tag v="p3"/>
+		   		<clip pos="1" side="tl" part="a_nbr"/>
+	   		</lu>
+           <b/>
+           <lu>
+		   <clip pos="2" side="tl" part="whole"/>
+		   <lit-tag v="pprs"/>
+           </lu>
+           <b/>
+           <lu>
+		   <clip pos="3" side="tl" part="whole"/>
+
+           </lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
   </section-rules>
 </transfer>

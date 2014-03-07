@@ -69,6 +69,7 @@
 <e>       <p><l>വനം<s n="n"/></l>                      <r>forest<s n="n"/></r></p></e>
 <e>       <p><l>പൂന്തോട്ടം<s n="n"/></l>               <r>garden<s n="n"/></r></p></e>
 <e>       <p><l>ഇന്നലെ<s n="n"/></l>                   <r>yesterday<s n="n"/></r></p></e>
+<e>       <p><l>ഇന്നലെ<s n="adv"/></l>                   <r>yesterday<s n="adv"/></r></p></e>
 <e>       <p><l>ഇന്ന്<s n="adv"/></l>                  <r>today<s n="adv"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adv"/></l>                   <r>nice<s n="adv"/></r></p></e>
@@ -95,6 +96,7 @@
 <e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/></l>       <r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/></l>       <r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>അവന്<s n="prn"/><s n="sg"/><s n="dat"/></l><r>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>it<s n="prn"/><s n="subj"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>അത്<s n="prn"/><s n="sg"/></l>         <r>that<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>കൂടെ<s n="prn"/></l>                   <r>with<s n="prn"/></r></p></e>
