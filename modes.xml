@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
+  <mode name="mal-eng-debug">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="mal-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -1 -n">
+        <file name="mal-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-mal-eng.mal-eng.t1x"/>
+        <file name="mal-eng.t1x.bin"/>
+        <file name="mal-eng.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-mal-eng.mal-eng.t2x"/>
+        <file name="mal-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-mal-eng.mal-eng.t3x"/>
+        <file name="mal-eng.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="mal-eng.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="mal-eng" install="yes">
     <pipeline>
       <program name="lt-proc">
