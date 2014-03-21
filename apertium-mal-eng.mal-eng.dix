@@ -154,7 +154,7 @@
 
     <!-- SECTION: Adjectives -->
 
-<e>       <p><l>ഊഷ്മളം<s n="adj"/></l>                   <r>warm<s n="adj"/></r></p></e>
+<e>       <p><l>ഊഷ്മളം<s n="adj"/></l>                   <r>warm<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>മുന്നില്‍<s n="adj"/></l>                   <r>in<b/>front<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>good<s n="adj"/></r></p></e>
