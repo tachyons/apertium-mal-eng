@@ -10,6 +10,14 @@
       <cat-item tags="prn.*"/>
       <cat-item tags="prn"/>
     </def-cat>
+    <def-cat n="cnjcoo_um">
+      <cat-item lemma="ും" tags="cnjcoo.*"/>
+      <cat-item lemma="ും" tags="cnjcoo"/>
+    </def-cat>
+    <def-cat n="det">
+      <cat-item tags="det.*"/>
+      <cat-item tags="det"/>
+    </def-cat>
     <def-cat n="noun">
       <cat-item tags="n.*"/>
       <cat-item tags="n"/>
@@ -17,6 +25,10 @@
     <def-cat n="nom">
       <cat-item tags="nom.*"/>
       <cat-item tags="nom"/>
+    </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+      <cat-item tags="num"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -35,13 +47,21 @@
     </def-cat>
    <def-cat n="nloc">
       <cat-item tags="n.*.loc"/>
+      <cat-item tags="n.*.loc.*"/>
+    </def-cat>
+    <def-cat n="vblex_infp">
+      <cat-item tags="vblex.infp"/>
+      <cat-item tags="vblex.infp.*"/>
     </def-cat>
     <def-cat n="nnom">
       <cat-item tags="n.*.nom"/>
       <cat-item tags="n"/>
     </def-cat>
-
-
+	
+	<def-cat n="infpverb">
+      <cat-item tags="vblex.infp"/>
+      <cat-item tags="vblex.infp.*"/>
+    </def-cat>
      <def-cat n="np">
       <cat-item tags="np.*"/>
       <cat-item tags="np"/>
@@ -69,8 +89,14 @@
   <def-attr n="a_vblex">
       <attr-item tags="vblex"/>
     </def-attr>
+    <def-attr n="a_noun">
+      <attr-item tags="n"/>
+    </def-attr>
     <def-attr n="a_np">
       <attr-item tags="np"/>
+    </def-attr>
+    <def-attr n="a_ant">
+      <attr-item tags="ant"/>
     </def-attr>
     <def-attr n="a_itg">
       <attr-item tags="itg"/>
@@ -284,7 +310,7 @@
        </out>
      </action>
   	</rule>
-  	<rule comment="verb(lex)">
+  	<!-- <rule comment="verb(lex)">
      <pattern>
        <pattern-item n="verb"/>
      </pattern>
@@ -292,9 +318,9 @@
 
        <out>
          <chunk name="verb" case="caseFirstWord">
-           <tags>
+           <tags> -->
              <!-- <tag><lit-tag v="SN"/></tag> -->
-             <tag><clip pos="1" side="tl" part="a_vblex"/></tag>
+            <!-- <tag><clip pos="1" side="tl" part="a_vblex"/></tag>
              <tag><clip pos="1" side="tl" part="a_tens"/></tag>
            </tags>
            <lu>
@@ -306,17 +332,17 @@
          </chunk>
        </out>
      </action>
-  	</rule>
-  	<rule comment="interogative">
+  	</rule> -->
+  	<!-- <rule comment="interogative">
      <pattern>
        <pattern-item n="interogative"/>
      </pattern>
      <action>
        <out>
          <chunk name="interogative" case="caseFirstWord">
-           <tags>
+           <tags> -->
              <!-- <tag><lit-tag v="SN"/></tag> -->
-             <tag><clip pos="1" side="tl" part="a_itg"/></tag>
+             <!-- <tag><clip pos="1" side="tl" part="a_itg"/></tag>
              <tag><clip pos="1" side="tl" part="a_adv"/></tag>
            </tags>
            <lu>
@@ -327,7 +353,7 @@
          </chunk>
        </out>
      </action>
-  	</rule>
+  	</rule> -->
   	<rule comment="verb(ser)">
      <pattern>
        <pattern-item n="vbser"/>
@@ -349,7 +375,7 @@
      </action>
   	</rule>
 
-  <rule comment="proper noun">
+   <rule comment="proper noun">
      <pattern>
        <pattern-item n="propn"/>
      </pattern>
@@ -366,14 +392,13 @@
              <clip pos="1" side="tl" part="lem"/>
              <clip pos="1" side="tl" part="a_np" link-to="1"/>
              <clip pos="1" side="tl" part="a_propn" link-to="2"/>
-             <clip pos="1" side="tl" part="a_nbr" />
              <clip pos="1" side="tl" part="a_gen" />
-             <clip pos="1" side="tl" part="a_cas" />
+             <clip pos="1" side="tl" part="a_nbr" />
            </lu>
          </chunk>
        </out>
      </action>
-  </rule>
+  </rule> 
   <!-- <rule comment="proper noun+vbser">
      <pattern>
        <pattern-item n="propn"/>
@@ -434,10 +459,14 @@
      <action>
          <out>
   	  <chunk name="PrepNoun" case="caseFirstWord">
-    		<tags><lit-tag v="pr"/></tags>
+    		<tags><tag><lit-tag v="pr"/></tag></tags>
     		<lu>
      		   <lit v="in"/><lit-tag v="pr"/>
-   	 	</lu>
+   	 		</lu>
+   	 		<b/>
+   	 		<lu>
+     		   <lit v="the"/><lit-tag v="pr"/>
+   	 		</lu>
    	 	<b/>
     		<lu>
      		   <clip pos="1" side="tl" part="whole"/>
@@ -446,17 +475,19 @@
  	</out>
      </action>
   </rule>
-  <rule comment="nloc">
+  <rule comment="nloc-vbser">
      <pattern>
        <pattern-item n="nloc"/>
        <pattern-item n="vbser"/>
      </pattern>
      <action>
          <out>
-			<chunk name="PrepNounvb" case="caseFirstWord">
+			<chunk name="nloc-vbser" case="caseFirstWord">
 				<tags><lit-tag v="pr"/></tags>
 				<lu>
 				   <clip pos="2" side="tl" part="whole"/>
+				   <lit-tag v="p3"/>
+				   <clip pos="1" side="tl" part="a_nbr"/>
 				</lu>
 				<b/>
 				<lu>
@@ -464,11 +495,16 @@
 				</lu>
 				<b/>
 				<lu>
-				   <lit v="the"/><lit-tag v="det"/><lit-tag v="def"/><lit-tag v="sp"/>
+				   <lit v="the"/>
+				   <lit-tag v="det"/>
+				   <lit-tag v="def"/>
+				   <lit-tag v="sp"/>
 				</lu>
 				<b/>
 				<lu>
-				   <clip pos="1" side="tl" part="whole"/>
+				   <clip pos="1" side="tl" part="lem"/>
+				   <clip pos="1" side="tl" part="a_noun"/>
+					<clip pos="1" side="tl" part="a_nbr"/>
 				</lu>
 			</chunk>
  		</out>
@@ -496,7 +532,11 @@
 				</lu>
 				<b/>
 				<lu>
-					<clip pos="1" side="tl" part="whole"/>
+					<clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_np" />
+				     <clip pos="1" side="tl" part="a_propn" />
+				     <clip pos="1" side="tl" part="a_gen" />
+				     <clip pos="1" side="tl" part="a_nbr" />
 				</lu>
 			</chunk>
  		</out>
@@ -661,24 +701,25 @@
 			</lu>
 			<b/>
            <lu>
-		   <clip pos="1" side="tl" part="whole"/>
+				<clip pos="1" side="tl" part="lem"/>
+				<clip pos="1" side="tl" part="a_noun"/>
+				<clip pos="1" side="tl" part="a_nbr"/>
 
            </lu>
            <b/>
            <lu>
-		   <clip pos="4" side="tl" part="whole"/>
-		   <lit-tag v="p3"/>
-		   <clip pos="1" side="tl" part="a_nbr"/>
-	   </lu>
-           <b/>
-           <lu>
-		   <clip pos="3" side="tl" part="whole"/>
-		   <lit-tag v="pprs"/>
-           </lu>
-           <b/>
-           <lu>
-		   <clip pos="2" side="tl" part="whole"/>
-
+		   		<clip pos="4" side="tl" part="whole"/>
+			   <lit-tag v="p3"/>
+			   <clip pos="1" side="tl" part="a_nbr"/>
+			</lu>
+           	<b/>
+           	<lu>
+		   		<clip pos="3" side="tl" part="whole"/>
+		   		<lit-tag v="sint"/>
+           	</lu>
+           	<b/>
+           	<lu>
+		   		<clip pos="2" side="tl" part="whole"/>
            </lu>
 
          </chunk>
@@ -716,6 +757,416 @@
 
            </lu>
 
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <rule comment="prn-adj-vblex-vblex">
+      <pattern>
+      	<pattern-item n="pronoun"/>
+		<pattern-item n="adj"/>
+		<pattern-item n="verb"/>
+		<pattern-item n="verb"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="prn-adj-vblex-vblex" case="caseFirstWord">
+            <tags> <lit-tag v="prn-adj-vblex-vblex"/> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b/>
+           	<lu>
+		   		<clip pos="4" side="tl" part="whole"/>
+	   		</lu>
+           <b/>
+           <lu>
+		   <clip pos="3" side="tl" part="whole"/>
+           </lu>
+           <b/>
+           <lu>
+		   <clip pos="2" side="tl" part="whole"/>
+
+           </lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <!-- കളിക്കാന്‍ ഇഷ്ടപ്പെടുന്നു -->
+  <rule comment="infp-verb">
+      <pattern>
+      	<pattern-item n="infpverb"/>
+		<pattern-item n="verb"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="infp-verb" case="caseFirstWord">
+            <tags> <lit-tag v="infp-verb"/> </tags>
+            <lu>
+            	<clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b/>
+            <lu>
+				<lit v="to"/>
+				<lit-tag v="to"/>
+			</lu>
+			<b/>
+           	<lu>
+		   		<clip pos="1" side="tl" part="whole"/>
+	   		</lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <!-- ഒരുമിച്ച് കളിക്കുന്നു -->
+  <rule comment="adv-verb">
+      <pattern>
+      	<pattern-item n="adv"/>
+		<pattern-item n="verb"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="adv-verb" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="adv-verb"/> </tag> </tags>
+            <lu>
+            	<clip pos="2" side="tl" part="whole"/>
+            </lu>
+			<b/>
+           	<lu>
+		   		<clip pos="1" side="tl" part="whole"/>
+	   		</lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <rule comment="adjective-noun-adjective">
+      <pattern>
+      	<pattern-item n="adj"/>
+      	<pattern-item n="noun"/>
+		<pattern-item n="adj"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="adj-noun-adj" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="adj-noun-adj"/></tag> </tags>
+             <lu>
+            	<clip pos="3" side="tl" part="whole"/>
+            </lu>
+			<b/>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+			<b/>
+           	<lu>
+		   		<clip pos="2" side="tl" part="whole"/>
+	   		</lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <!-- രാജു ഒരു ചെറിയ ആണ്‍കുട്ടിയാണ്  -->
+  <rule comment="adjective-noun-adjective">
+      <pattern>
+        <pattern-item n="propn"/>
+      	<pattern-item n="det"/>
+      	<pattern-item n="adj"/>
+		<pattern-item n="noun"/>
+		<pattern-item n="vbser"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="adj-noun-adj" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="adj-noun-adj"/></tag> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b/>
+             <lu>
+            	<clip pos="5" side="tl" part="whole"/>
+            	<lit-tag v="p3"/>
+            	<lit-tag v="sg"/>
+            </lu>
+			<b/>
+             <lu>
+            	<clip pos="2" side="tl" part="whole"/>
+            </lu>
+			<b/>
+            <lu>
+            	<clip pos="3" side="tl" part="whole"/>
+            </lu>
+			<b/>
+           	<lu>
+		   		<clip pos="4" side="tl" part="whole"/>
+	   		</lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <!--ആറാണ് --> 
+  <rule comment="num-vbser">
+      <pattern>
+      	<pattern-item n="noun"/>
+        <pattern-item n="num"/>
+      	<pattern-item n="vbser"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="num-vbser" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="num-vbser"/></tag> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+			<b/>
+            <lu>
+            	<clip pos="3" side="tl" part="whole"/>
+            	<lit-tag v="p3"/>
+            	<lit-tag v="sg"/>
+            </lu>
+			<b/>
+           	<lu>
+		   		<clip pos="2" side="tl" part="whole"/>
+	   		</lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <!-- അവന്റെ സഹോദരിയാണ്  -->
+    <rule comment="prn-noun-vbser">
+      <pattern>
+      	<pattern-item n="pronoun"/>
+        <pattern-item n="noun"/>
+      	<pattern-item n="vbser"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="prn-noun-vbser" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="num-vbser"/></tag> </tags>
+            <lu>
+            	<clip pos="3" side="tl" part="whole"/>
+            	<lit-tag v="p3"/>
+            	<lit-tag v="sg"/>
+            </lu>
+			<b/>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+			<b/>
+           	<lu>
+		   		<clip pos="2" side="tl" part="whole"/>
+	   		</lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <!-- രാദയ്കും   -->
+    <rule comment="np-um">
+      <pattern>
+      	<pattern-item n="np"/>
+        <pattern-item n="cnjcoo_um"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="np-um" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="np-um"/></tag> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+			<b/>
+           	<lu>
+		   		<lit v="also"/>
+				<lit-tag v="adv"/>
+	   		</lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+   <!-- രാധയും രാജുവും    -->
+    <rule comment="np-um">
+      <pattern>
+      	<pattern-item n="np"/>
+        <pattern-item n="cnjcoo_um"/>
+        <pattern-item n="np"/>
+        <pattern-item n="cnjcoo_um"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="np-um" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="np-um"/></tag> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="lem"/>
+            	<clip pos="1" side="tl" part="a_np"/>
+            	<clip pos="1" side="tl" part="a_ant"/>
+            	<clip pos="1" side="tl" part="a_gen"/>
+            	<clip pos="1" side="tl" part="a_nbr"/>
+            </lu>
+			<b/>
+			<lu>
+            	<clip pos="2" side="tl" part="whole"/>
+            </lu>
+			<b/>
+			<lu>
+            	<clip pos="3" side="tl" part="lem"/>
+            	<clip pos="3" side="tl" part="a_np"/>
+            	<clip pos="3" side="tl" part="a_ant"/>
+            	<clip pos="3" side="tl" part="a_gen"/>
+            	<clip pos="3" side="tl" part="a_nbr"/>
+            </lu>
+			<b/>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <rule comment="noun-um">
+      <pattern>
+      	<pattern-item n="noun"/>
+        <pattern-item n="cnjcoo_um"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="noun-um" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="noun-um"/></tag> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+			<b/>
+           	<lu>
+		   		<lit v="also"/>
+				<lit-tag v="adv"/>
+	   		</lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+   <!-- രാധയും രാജുവും    -->
+    <rule comment="noun-um">
+      <pattern>
+      	<pattern-item n="noun"/>
+        <pattern-item n="cnjcoo_um"/>
+        <pattern-item n="noun"/>
+        <pattern-item n="cnjcoo_um"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="np-um" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="np-um"/></tag> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+			<b/>
+			<lu>
+            	<clip pos="2" side="tl" part="whole"/>
+            </lu>
+			<b/>
+			<lu>
+            	<clip pos="3" side="tl" part="whole"/>
+            </lu>
+			<b/>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <!-- പൂച്ച് ഉറങ്ങുകയാണ്    -->
+    <rule comment="noun-um">
+      <pattern>
+      	<pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="vbser"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="np-um" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="np-um"/></tag> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+			<b/>
+			<lu>
+            	<clip pos="3" side="tl" part="whole"/>
+            	<lit-tag v="p3"/>
+            	<clip pos="1" side="tl" part="a_nbr"/>
+            </lu>
+			<b/>
+			<lu>
+            	<clip pos="2" side="tl" part="whole"/>
+            </lu>
+			<b/>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <!-- ഒരു ശബ്ദം കേട്ടു    -->
+    <rule comment="noun-um">
+      <pattern>
+      	<pattern-item n="det"/>
+        <pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="np-um" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="np-um"/></tag> </tags>
+            <lu>
+            	<clip pos="3" side="tl" part="whole"/>
+            </lu>
+			<b/>
+			<lu>
+            	<clip pos="1" side="tl" part="whole"/>
+            </lu>
+			<b/>
+			<lu>
+            	<clip pos="2" side="tl" part="lem"/>
+            	<clip pos="2" side="tl" part="a_noun"/>
+            	<clip pos="2" side="tl" part="a_nbr"/>
+            </lu>
+			<b/>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <rule comment="np">
+      <pattern>
+      	<pattern-item n="np"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="np" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="np"/></tag> </tags>
+            <lu>
+            	<clip pos="1" side="tl" part="lem"/>
+            	<clip pos="1" side="tl" part="a_np"/>
+            	<clip pos="1" side="tl" part="a_ant"/>
+            	<clip pos="1" side="tl" part="a_gen"/>
+            	<clip pos="1" side="tl" part="a_nbr"/>
+            </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <rule comment="vblex_infp">
+      <pattern>
+      	<pattern-item n="vblex_infp"/>
+      </pattern>
+      <action>
+       <out>
+         <chunk name="vblex_infp" case="caseFirstWord">
+            <tags> <tag> <lit-tag v="vblex_infp"/></tag> </tags>
+            <lu>
+            	<lit v="to"/>
+				<lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+            	<clip pos="1" side="tl" part="lem"/>
+            	<clip pos="1" side="tl" part="a_verb"/>
+            	<lit-tag v="inf"/>
+            </lu>
          </chunk>
        </out>
      </action>

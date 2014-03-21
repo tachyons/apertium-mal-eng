@@ -61,6 +61,9 @@
 		<sdef n="sint" 	c="sinthetic"/>
 		<sdef n="dem" 	c="demonstrative"/>
 		<sdef n="def" />
+		<sdef n="unknown"/> 
+		<sdef n="pr"/> 
+		<sdef n="cnjadv"/> 
 	</sdefs>
 	<section id="main" type="standard">
 <e>       <p><l>മരം<s n="n"/></l>                      <r>tree<s n="n"/></r></p></e>
@@ -96,6 +99,8 @@
 <e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/></l>       <r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/></l>       <r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>അവന്<s n="prn"/><s n="sg"/><s n="dat"/></l><r>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/><s n="gen"/></l>       <r>his<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/><s n="gen"/></l>       <r>her<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>it<s n="prn"/><s n="subj"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>അത്<s n="prn"/><s n="sg"/></l>         <r>that<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -140,14 +145,17 @@
 <e>       <p><l>രേഖ<s n="n"/></l>                      <r>document<s n="n"/></r></p></e>
 <e>       <p><l>വീട്<s n="n"/></l>                     <r>house<s n="n"/></r></p></e>
 <e>       <p><l>സ്വാഗതം<s n="n"/></l>                  <r>welcome<s n="adj"/></r></p></e>
-    <!-- SECTION: Proper nouns -->
+<e>       <p><l>വയസ്സ്<s n="n"/></l>                  <r>age<s n="adj"/></r></p></e>
+<e>       <p><l>ഇഷ്ടം<s n="n"/></l>                  <r>love<s n="adj"/></r></p></e>
 
+    <!-- SECTION: Proper nouns -->
 <e>       <p><l>രാജു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></r></p></e>
-<e>       <p><l>രാധ<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>രാധ<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
 <e>       <p><l>ഊഷ്മളം<s n="adj"/></l>                   <r>warm<s n="adj"/></r></p></e>
+<e>       <p><l>മുന്നില്‍<s n="adj"/></l>                   <r>in<b/>front<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>good<s n="adj"/></r></p></e>
 <e>       <p><l>വലിയ<s n="adj"/></l>                   <r>big<s n="adj"/></r></p></e>
@@ -175,6 +183,10 @@
 <e>       <p><l>അല്ല<s n="adv"/></l>                   <r>not<s n="adv"/></r></p></e>
 <e>       <p><l>മെല്ലെ<s n="adv"/></l>                 <r>slow<s n="adv"/></r></p></e>
 <e>       <p><l>വീണ്ടും<s n="adv"/></l>                <r>again<s n="adv"/></r></p></e>
+<e>       <p><l>ഒരുമിച്ച്<s n="adv"/></l>                <r>together<s n="adv"/></r></p></e>
+<e>       <p><l>എല്ലായിടത്തും<s n="adv"/></l>                <r>everywhere<s n="adv"/></r></p></e>
+<e>       <p><l>പിന്നെ<s n="adv"/></l>                <r>then<s n="cnjadv"/></r></p></e>
+<e>       <p><l>ഒന്നും<s n="adv"/></l>                <r>anything<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 
 	<!-- SECTION vbser -->
 <e>       <p><l>ാണ്<s n="vbser"/></l>                  <r>be<s n="vbser"/><s n="pres"/></r></p></e>
@@ -197,7 +209,7 @@
     <e><p><l>തീര്‍കുക<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
     <e><p><l>കളിക്കുക<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
     <e><p><l>നോക്കുക<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
-    <e><p><l>കേള്‍ക്കുക<s n="vblex"/></l><r>here<s n="vblex"/></r></p></e>
+    <e><p><l>കേള്‍ക്കുക<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
     <e><p><l>സംസാരിക്കുക<s n="vblex"/></l><r>talk<s n="vblex"/></r></p></e>
     <e><p><l>വ്യക്തമാകുക<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
    <e><p><l>പോകുക<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
@@ -264,10 +276,14 @@
 	<e><p><l>തുറക്കുക<s n="vblex"/></l><r>open<s n="vblex"/></r></p></e>
 	<e><p><l>അറിയിക്കുക<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e>
 	<e><p><l>സഹായിക്കുക<s n="vblex"/></l><r>help<s n="vblex"/></r></p></e>
-	<e><p><l>പാഠീക്കുക<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
+	<e><p><l>പാഠിക്കുക<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
 	<e><p><l>ഒഴുകുക<s n="vblex"/></l><r>flow<s n="vblex"/></r></p></e>
 	<e><p><l>സൂചിപ്പിക്കുക<s n="vblex"/></l><r>intimate<s n="vblex"/></r></p></e>
-	 Interrogative-->
+		<e><p><l>ഇഷ്ടപ്പെടുക<s n="vblex"/></l><r>love<s n="vblex"/></r></p></e>
+	<e><p><l>ഉണ്ട്<s n="vblex"/></l><r>have<s n="vblex"/></r></p></e>
+		<e><p><l>വരുക<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
+
+	<!-- Interrogative-->
  	<e><p><l>എവിടെ<s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
  	<e><p><l>ആര്<s n="itg"/></l><r>who<s n="adv"/><s n="itg"/></r></p></e>
  	<e><p><l>എന്ത്<s n="itg"/></l><r>what<s n="itg"/></r></p></e>
@@ -287,6 +303,7 @@
 <e>       <p><l>ഒന്പത്<s n="num"/></l>                 <r>nine<s n="num"/></r></p></e>
 <e>       <p><l>പത്ത്<s n="num"/></l>                  <r>ten<s n="num"/></r></p></e>
 <!--	clitics -->
+<e>       <p><l>ും<s n="cnjcoo"/></l>                  <r>also<s n="adv"/></r></p></e>
 <e>       <p><l>ും<s n="cnjcoo"/></l>                  <r>and<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ോടപ്പം<s n="post"/></l>                <r>with<s n="cnjcoo"/></r></p></e>
     <!-- SECTION: Interjections -->
@@ -297,7 +314,10 @@
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
 <e>       <p><l>&quot;<s n="quot"/></l>                <r>parquote<s n="quot"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
+<!-- post-->
+    <e>       <p><l>നിന്ന്<s n="post"/></l>                  <r>from<s n="pr"/></r></p></e>
     <!-- none -->
-<e>       <p><l>ഹായ്</l>                               <r>hi</r></p></e>
+    <e>       <p><l>ലൂടെ<s n="unknown"/></l>                  <r>through<s n="pr"/></r></p></e>
+	<e>       <p><l>ഹായ്</l>                               <r>hi</r></p></e>
 	</section>
 </dictionary>
