@@ -53,6 +53,10 @@
       <cat-item tags="vblex.infp"/>
       <cat-item tags="vblex.infp.*"/>
     </def-cat>
+    <def-cat n="vblex_cont">
+      <cat-item tags="vblex.cont"/>
+      <cat-item tags="vblex.cont.*"/>
+    </def-cat>
     <def-cat n="nnom">
       <cat-item tags="n.*.nom"/>
       <cat-item tags="n"/>
@@ -282,7 +286,7 @@
              <clip pos="1" side="tl" part="lem"/>
              <clip pos="1" side="tl" part="a_nom" link-to="1"/>
              <clip pos="1" side="tl" part="a_nbr" />
-             <clip pos="1" side="tl" part="a_cas"/>
+             <!-- <clip pos="1" side="tl" part="a_cas"/> -->
            </lu>
          </chunk>
        </out>
@@ -1171,5 +1175,27 @@
        </out>
      </action>
   </rule>
+  <rule comment="present continous">
+        <pattern>
+        	<pattern-item n="vblex_cont"/>
+        </pattern>
+        <action>
+         <out>
+           <chunk name="vblex_cont" case="caseFirstWord">
+              <tags> <tag> <lit-tag v="vblex_cont"/></tag> </tags>
+              <lu>
+				<lit v="be"/>
+				<lit-tag v="vbser.pres.p3.sg"/>
+              </lu>
+              <b/>
+              <lu>
+              	<clip pos="1" side="tl" part="lem"/>
+              	<clip pos="1" side="tl" part="a_vblex"/>
+				<lit-tag v="ger"/>
+              </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
   </section-rules>
 </transfer>

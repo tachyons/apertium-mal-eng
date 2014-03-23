@@ -51,7 +51,7 @@
         <file name="apertium-mal-eng.mal-eng.t3x"/>
         <file name="mal-eng.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1"> <!-- temporary change -->
         <file name="mal-eng.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
