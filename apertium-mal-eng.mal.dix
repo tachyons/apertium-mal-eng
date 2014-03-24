@@ -425,7 +425,7 @@
   <e>       <p><l>ണം</l>        <r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
   <e>       <p><l>്തു</l>       <r>ുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ുന്നു</l>     <r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
-  <e>       <p><l>്തുകൊണ്ടിരിക്കുന്നു</l>     <r>ുക<s n="vblex"/><s n="cont"/></r></p></e>
+  <e>       <p><l>്തുകൊണ്ടിരിക്കുന്നു</l><r>ുക<s n="vblex"/><s n="cont"/></r></p></e>
 </pardef>
 <pardef n="വെറു/ക്കു__vblex">
   <e>       <p><l>ക്കും</l>     <r>ക്കു<s n="vblex"/><s n="fut"/></r></p></e>
@@ -532,6 +532,7 @@
   <e>       <p><l>ക്കണം</l>     <r>ക്കുക<s n="vblex"/><s n="oblig"/></r></p></e>
   <e>       <p><l>ച്ചു</l>      <r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ക്കുന്നു</l>  <r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
+  <e>       <p><l>ച്ചാല്‍</l>  <r>ക്കുക<s n="vblex"/></r></p></e>
 </pardef>
 <pardef n="പോ/കുക__vblex">
   <e>       <p><l>കും</l>       <r>കുക<s n="vblex"/><s n="fut"/></r></p></e>
@@ -775,7 +776,7 @@
   <!-- interrogative -->
 <pardef n="nochange__itg">
    <!--temporary -->
-  <e>       <p><l>്</l>          <r>്<s n="itg"/></r></p></e>
+  <e>       <p><l>്</l>         <r>്<s n="itg"/></r></p></e>
   <e>       <p><l></l>          <r>്<s n="itg"/></r></p></e>
   <e>       <p><l></l>          <r>്<s n="itg"/></r></p><par n="clitics_nam"/></e>
 </pardef>
@@ -1056,7 +1057,7 @@
 <e lm="കൊല്ലുക">         <i>കൊ</i><par n="കൊ/ല്ലുക__vblex"/></e>
 <e lm="ചാകുക">           <i>ച</i><par n="ച/ാകുക__vblex"/></e>
 <e lm="ചികില്‍സിക്കുക">  <i>ചികില്‍സി</i><par n="വ/യ്ക്കുക__vblex"/></e>
-<!-- <e lm="ചെയ്യുക">         <i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e> -->
+  <!-- <e lm="ചെയ്യുക">         <i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e> -->
 <e lm="ചെയ്യപ്പെടുക">    <i>ചെയ്യപ്പെട</i><par n="ഇഷ്ടപ്പെട/ുക__vblex"/></e>
 <e lm="ചെയ്യുക">         <i>ചെയ്യു</i><par n="പെയ്യ/ുക__vblex"/></e>
 <e lm="ചേര്‍ക്കുക">      <i>ചേര്‍</i><par n="വെറു/ക്കു__vblex"/></e>
@@ -1189,5 +1190,6 @@
 <e lm="ശ്രമിക്കുക">      <i>ശ്രമി</i><par n="അടി/ക്കുക__vblex"/></e>
 <e lm="താഴെ">            <i>താഴെ</i><par n="nochange__adj"/></e>
 <e lm="അടുത്ത്">         <i>അടുത്ത്</i><par n="nochange__adj"/></e>
+<e lm="സംസാരിക്കുക">     <i>സംസാരി</i><par n="അടി/ക്കുക__vblex"/></e>
   </section>
 </dictionary>

@@ -537,7 +537,7 @@
     </pardef>
 
     <pardef n="the__det">
-      <e r="LR"><p>        <l></l>        <r><s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p>        <l></l>        <r><s n="det"/><s n="def"/><s n="sp"/></r></p></e> <!-- removed direction flag-->
       <e r="RL">      <p>        <l></l>        <r><s n="det"/><s n="def"/><s n="sg"/></r></p></e>
       <e r="RL">      <p>        <l></l>        <r><s n="det"/><s n="def"/><s n="pl"/></r></p></e>
     </pardef>
