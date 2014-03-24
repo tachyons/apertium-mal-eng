@@ -533,6 +533,7 @@
   <e>       <p><l>ച്ചു</l>      <r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ക്കുന്നു</l>  <r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
   <e>       <p><l>ച്ചാല്‍</l>  <r>ക്കുക<s n="vblex"/></r></p></e>
+  <e>       <p><l>ച്ചുകൊണ്ടിരിക്കുന്നു</l>  <r>ക്കുക<s n="vblex"/><s n="cont"/></r></p></e>
 </pardef>
 <pardef n="പോ/കുക__vblex">
   <e>       <p><l>കും</l>       <r>കുക<s n="vblex"/><s n="fut"/></r></p></e>
