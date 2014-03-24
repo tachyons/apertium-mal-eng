@@ -145,7 +145,7 @@
 <e>       <p><l>രേഖ<s n="n"/></l>                      <r>document<s n="n"/></r></p></e>
 <e>       <p><l>വീട്<s n="n"/></l>                     <r>house<s n="n"/></r></p></e>
 <e>       <p><l>സ്വാഗതം<s n="n"/></l>                  <r>welcome<s n="adj"/></r></p></e>
-<e>       <p><l>വയസ്സ്<s n="n"/></l>                  <r>age<s n="adj"/></r></p></e>
+<e>       <p><l>വയസ്സ്<s n="n"/></l>                  <r>age<s n="n"/></r></p></e>
 <e>       <p><l>ഇഷ്ടം<s n="n"/></l>                  <r>love<s n="adj"/></r></p></e>
 <e>       <p><l>മറുപടി<s n="n"/></l>                    <r>reply<s n="n"/></r></p></e>
 <e>       <p><l>മ്രിഗം<s n="n"/></l>                    <r>animal<s n="n"/></r></p></e>
@@ -172,6 +172,8 @@
 <e>       <p><l>ഉയരമുള്ള<s n="adj"/></l>               <r>tall<s n="adj"/></r></p></e>
 <e>       <p><l>മണ്ടന്‍<s n="adj"/></l>                <r>idiot<s n="adj"/></r></p></e>
 <e>       <p><l>അകത്ത്<s n="adj"/></l>                <r>inside<s n="adj"/></r></p></e>
+<e>       <p><l>താഴെ<s n="adj"/></l>                <r>below<s n="adj"/></r></p></e>
+<e>       <p><l>അടുത്ത്<s n="adj"/></l>                <r>near<s n="adj"/><s n="sint"/></r></p></e>
     <!-- SECTION: Adverbs -->
 
 
@@ -194,6 +196,7 @@
 <e>       <p><l>ചുറ്റും<s n="adv"/></l>                    <r>around<s n="adv"/></r></p></e>
 <e>       <p><l>അപ്പോള്‍<s n="adv"/></l>                    <r>when<s n="cnjadv"/></r></p></e>
 <e>       <p><l>തീര്‍ച്ചയായും<s n="adv"/></l>                    <r>of<b/>course<s n="adv"/></r></p></e>
+<e>       <p><l>പെട്ടെന്ന്<s n="adv"/></l>                    <r>quickly<s n="adv"/></r></p></e>
 
 	<!-- SECTION vbser -->
 <e>       <p><l>ാണ്<s n="vbser"/></l>                  <r>be<s n="vbser"/><s n="pres"/></r></p></e>
@@ -205,6 +208,8 @@
 
     <!-- <e><p><l>ആകുക<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>ആണ്<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e> -->
+    <e><p><l>കരുതുക<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
+    <e><p><l>ഇരിക്കുക<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
     <e><p><l>ചോദിക്കുക<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
     <e><p><l>എണ്ണുക<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
    	<e><p><l>മറിയുക<s n="vblex"/></l><r>rotate<s n="vblex"/></r></p></e>

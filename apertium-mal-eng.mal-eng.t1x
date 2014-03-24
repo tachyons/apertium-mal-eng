@@ -579,7 +579,6 @@
 		     <clip pos="2" side="tl" part="lem"/>
 		     <clip pos="2" side="tl" part="a_nom" link-to="2"/>
 		     <clip pos="2" side="tl" part="a_nbr" />
-		     <clip pos="2" side="tl" part="a_cas" />
 		   </lu>
 		 </chunk>
        </out>
@@ -777,7 +776,9 @@
          <chunk name="prn-adj-vblex-vblex" case="caseFirstWord">
             <tags> <lit-tag v="prn-adj-vblex-vblex"/> </tags>
             <lu>
-            	<clip pos="1" side="tl" part="whole"/>
+            	<clip pos="1" side="tl" part="lem"/>
+            	<clip pos="1" side="tl" part="a_prn"/>
+            	<lit-tag v="subj.p3.mf.pl"/>	
             </lu>
             <b/>
            	<lu>
@@ -785,7 +786,10 @@
 	   		</lu>
            <b/>
            <lu>
-		   <clip pos="3" side="tl" part="whole"/>
+		   <clip pos="3" side="tl" part="lem"/>
+		   <clip pos="3" side="tl" part="a_vblex"/>
+		   <clip pos="3" side="tl" part="a_nbr"/>
+		   	<lit-tag v="inf"/>
            </lu>
            <b/>
            <lu>
@@ -923,7 +927,9 @@
          <chunk name="num-vbser" case="caseFirstWord">
             <tags> <tag> <lit-tag v="num-vbser"/></tag> </tags>
             <lu>
-            	<clip pos="1" side="tl" part="whole"/>
+            	<clip pos="1" side="tl" part="lem"/>
+            	<clip pos="1" side="tl" part="a_noun"/>
+            	<clip pos="1" side="tl" part="a_nbr"/>
             </lu>
 			<b/>
             <lu>
@@ -934,6 +940,7 @@
 			<b/>
            	<lu>
 		   		<clip pos="2" side="tl" part="whole"/>
+		   		<lit-tag v="sp"/>
 	   		</lu>
 
          </chunk>
@@ -1197,5 +1204,36 @@
          </out>
        </action>
     </rule>
+    <rule comment="det-adv-noun-vbser">
+          <pattern>
+          	<pattern-item n="det"/>
+          	<pattern-item n="adv"/>
+          	<pattern-item n="noun"/>
+          	<pattern-item n="vbser"/>
+          </pattern>
+          <action>
+           <out>
+             <chunk name="det-adv-noun-vbser" case="caseFirstWord">
+                <tags> <tag> <lit-tag v="det-adv-noun-vbser"/></tag> </tags>
+                <lu>
+              		<clip pos="4" side="tl" part="whole"/>
+              		<lit-tag v="p3.sg"/>
+                </lu>
+                <b/>
+                <lu>
+              		<clip pos="1" side="tl" part="whole"/>
+                </lu>
+                <b/>
+                <lu>
+              		<clip pos="2" side="tl" part="whole" />
+                </lu>
+                <b/>
+                <lu>
+                	<clip pos="3" side="tl" part="whole"/>
+                </lu>
+             </chunk>
+           </out>
+         </action>
+      </rule>
   </section-rules>
 </transfer>
