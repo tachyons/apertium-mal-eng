@@ -92,6 +92,7 @@
   <section-def-attrs>
   <def-attr n="a_vblex">
       <attr-item tags="vblex"/>
+      <attr-item tags="vblex.*"/>
     </def-attr>
     <def-attr n="a_noun">
       <attr-item tags="n"/>
@@ -469,7 +470,7 @@
    	 		</lu>
    	 		<b/>
    	 		<lu>
-     		   <lit v="the"/><lit-tag v="pr"/>
+     		   <lit v="the"/><lit-tag v="det.def.sp"/>
    	 		</lu>
    	 	<b/>
     		<lu>
@@ -817,11 +818,13 @@
             <b/>
             <lu>
 				<lit v="to"/>
-				<lit-tag v="to"/>
+				<lit-tag v="pr"/>
 			</lu>
 			<b/>
            	<lu>
-		   		<clip pos="1" side="tl" part="whole"/>
+		   		<clip pos="1" side="tl" part="lem"/>
+		   		<clip pos="1" side="tl" part="a_vblex"/>
+		   		<clip pos="1" side="tl" part="a_tens"/>
 	   		</lu>
 
          </chunk>
@@ -1235,5 +1238,61 @@
            </out>
          </action>
       </rule>
+      <rule comment="prn-prn-verb">
+            <pattern>
+            	<pattern-item n="pronoun"/>
+            	<pattern-item n="pronoun"/>
+            	<pattern-item n="verb"/>
+            </pattern>
+            <action>
+             <out>
+               <chunk name="prn-prn-verb" case="caseFirstWord">
+                  <tags> <tag> <lit-tag v="prn-prn-verb"/></tag> </tags>
+                  <lu>
+                	<clip pos="1" side="tl" part="whole"/>
+                  </lu>
+                  <b/>
+                  <lu>
+                  	<clip pos="3" side="tl" part="whole"/>
+                  </lu>
+                  <b/>
+                  <lu>
+                	<clip pos="2" side="tl" part="whole"/>
+                  </lu>
+               
+               </chunk>
+             </out>
+           </action>
+        </rule>
+        <rule comment="det-adv-noun-vblex">
+              <pattern>
+              	<pattern-item n="det"/>
+              	 <pattern-item n="adv"/> 
+              	<pattern-item n="noun"/>
+              	<pattern-item n="verb"/>
+              </pattern>
+              <action>
+               <out>
+                 <chunk name="det-adv-noun-vblex" case="caseFirstWord">
+                    <tags> <tag> <lit-tag v="det-adv-noun-vblex"/></tag> </tags>
+                    <lu>
+                  		<clip pos="4" side="tl" part="whole"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                    	<clip pos="1" side="tl" part="whole"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                    	<clip pos="2" side="tl" part="whole"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                    	<clip pos="3" side="tl" part="whole"/>
+                    </lu>
+                 </chunk>
+               </out>
+             </action>
+          </rule>
   </section-rules>
 </transfer>

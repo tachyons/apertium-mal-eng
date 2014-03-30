@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 305
+	Entries: 307
 	Sdefs: 58
 	Paradigms: 96
 	Last processed by: apertium-dixtools format /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal.dix /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal.dix  -useTabs
@@ -201,6 +201,7 @@
   <e>       <p><l>ത്തിന്റെ</l>  <r>ം<s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>ത്തിന്</l>    <r>ം<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>ത്തില്‍</l>   <r>ം<s n="n"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e>       <p><l>ത്തി</l>      <r>ം<s n="n"/><s n="sg"/><s n="loc"/></r></p><par n="clitics_loode"/></e>
   <e>       <p><l>ത്തി</l>      <r>ം<s n="n"/><s n="sg"/><s n="loc"/></r></p><par n="clitics_nam"/></e>
   <e>       <p><l>ത്താല്‍</l>   <r>ം<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
   <e>       <p><l>മേ</l>        <r>ം<s n="n"/><s n="sg"/><s n="voc"/></r></p></e>
@@ -532,8 +533,8 @@
   <e>       <p><l>ക്കണം</l>     <r>ക്കുക<s n="vblex"/><s n="oblig"/></r></p></e>
   <e>       <p><l>ച്ചു</l>      <r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ക്കുന്നു</l>  <r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
-  <e>       <p><l>ച്ചാല്‍</l>  <r>ക്കുക<s n="vblex"/></r></p></e>
-  <e>       <p><l>ച്ചുകൊണ്ടിരിക്കുന്നു</l>  <r>ക്കുക<s n="vblex"/><s n="cont"/></r></p></e>
+  <e>       <p><l>ച്ചാല്‍</l>   <r>ക്കുക<s n="vblex"/></r></p></e>
+  <e>       <p><l>ച്ചുകൊണ്ടിരിക്കുന്നു</l><r>ക്കുക<s n="vblex"/><s n="cont"/></r></p></e>
 </pardef>
 <pardef n="പോ/കുക__vblex">
   <e>       <p><l>കും</l>       <r>കുക<s n="vblex"/><s n="fut"/></r></p></e>
@@ -625,6 +626,7 @@
   <e>       <p><l>ക്കെ</l>      <r>ക്കുക<s n="vblex"/><s n="sim"/></r></p></e>
 </pardef>
 <pardef n="ചെയ്/യുക__vblex">
+  <e>       <p><l>യുക</l>       <r>യുക<s n="vblex"/><s n="pres"/></r></p><par n="clitics_um"/></e>
   <e>       <p><l>യും</l>       <r>യുക<s n="vblex"/><s n="fut"/></r></p></e>
   <e>       <p><l>യാന്‍</l>     <r>യുക<s n="vblex"/><s n="infp"/></r></p></e>
   <e>       <p><l>യണം</l>       <r>യുക<s n="vblex"/><s n="oblig"/></r></p></e>
@@ -703,7 +705,7 @@
   <e>       <p><l>ി</l>         <r>ുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ൂം</l>        <r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
   <e>       <p><l>േ</l>         <r>ുക<s n="vblex"/><s n="sim"/></r></p></e>
-  <e>       <p><l>ിക്കൊണ്ടിരിക്കുന്നു</l>         <r>ുക<s n="vblex"/><s n="cont"/></r></p></e>
+  <e>       <p><l>ിക്കൊണ്ടിരിക്കുന്നു</l><r>ുക<s n="vblex"/><s n="cont"/></r></p></e>
 </pardef>
 <pardef n="കിട്ട/ുക__vblex">
   <e>       <p><l>ും</l>        <r>ുക<s n="vblex"/><s n="fut"/></r></p></e>
@@ -1059,9 +1061,9 @@
 <e lm="കൊല്ലുക">         <i>കൊ</i><par n="കൊ/ല്ലുക__vblex"/></e>
 <e lm="ചാകുക">           <i>ച</i><par n="ച/ാകുക__vblex"/></e>
 <e lm="ചികില്‍സിക്കുക">  <i>ചികില്‍സി</i><par n="വ/യ്ക്കുക__vblex"/></e>
-  <!-- <e lm="ചെയ്യുക">         <i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e> -->
+ <e lm="ചെയ്യുക">         <i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e> 
 <e lm="ചെയ്യപ്പെടുക">    <i>ചെയ്യപ്പെട</i><par n="ഇഷ്ടപ്പെട/ുക__vblex"/></e>
-<e lm="ചെയ്യുക">         <i>ചെയ്യു</i><par n="പെയ്യ/ുക__vblex"/></e>
+<!-- <e lm="ചെയ്യുക">         <i>ചെയ്യു</i><par n="പെയ്യ/ുക__vblex"/></e> -->
 <e lm="ചേര്‍ക്കുക">      <i>ചേര്‍</i><par n="വെറു/ക്കു__vblex"/></e>
 <e lm="ചോദിക്കുക">       <i>ചോദി</i><par n="കളി/ക്കുക__vblex"/></e>
 <e lm="ചോദിക്കുക">       <i>ചോദി</i><par n="വ/യ്ക്കുക__vblex"/></e>
@@ -1193,5 +1195,7 @@
 <e lm="താഴെ">            <i>താഴെ</i><par n="nochange__adj"/></e>
 <e lm="അടുത്ത്">         <i>അടുത്ത്</i><par n="nochange__adj"/></e>
 <e lm="സംസാരിക്കുക">     <i>സംസാരി</i><par n="അടി/ക്കുക__vblex"/></e>
+<e lm="ശ്രദ്ധ">          <i>ശ്രദ്ധ</i><par n="മാങ്ങ__n"/></e>
+<e lm="കാണുക">           <i>കാണ</i><par n="പാട/ുക__vblex"/></e>
   </section>
 </dictionary>
