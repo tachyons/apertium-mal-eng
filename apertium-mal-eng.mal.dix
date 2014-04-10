@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 307
+	Entries: 308
 	Sdefs: 58
 	Paradigms: 96
 	Last processed by: apertium-dixtools format /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal.dix /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal.dix  -useTabs
@@ -1061,9 +1061,9 @@
 <e lm="കൊല്ലുക">         <i>കൊ</i><par n="കൊ/ല്ലുക__vblex"/></e>
 <e lm="ചാകുക">           <i>ച</i><par n="ച/ാകുക__vblex"/></e>
 <e lm="ചികില്‍സിക്കുക">  <i>ചികില്‍സി</i><par n="വ/യ്ക്കുക__vblex"/></e>
- <e lm="ചെയ്യുക">         <i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e> 
+<e lm="ചെയ്യുക">         <i>ചെയ്</i><par n="ചെയ്/യുക__vblex"/></e>
 <e lm="ചെയ്യപ്പെടുക">    <i>ചെയ്യപ്പെട</i><par n="ഇഷ്ടപ്പെട/ുക__vblex"/></e>
-<!-- <e lm="ചെയ്യുക">         <i>ചെയ്യു</i><par n="പെയ്യ/ുക__vblex"/></e> -->
+  <!-- <e lm="ചെയ്യുക">         <i>ചെയ്യു</i><par n="പെയ്യ/ുക__vblex"/></e> -->
 <e lm="ചേര്‍ക്കുക">      <i>ചേര്‍</i><par n="വെറു/ക്കു__vblex"/></e>
 <e lm="ചോദിക്കുക">       <i>ചോദി</i><par n="കളി/ക്കുക__vblex"/></e>
 <e lm="ചോദിക്കുക">       <i>ചോദി</i><par n="വ/യ്ക്കുക__vblex"/></e>
@@ -1197,5 +1197,6 @@
 <e lm="സംസാരിക്കുക">     <i>സംസാരി</i><par n="അടി/ക്കുക__vblex"/></e>
 <e lm="ശ്രദ്ധ">          <i>ശ്രദ്ധ</i><par n="മാങ്ങ__n"/></e>
 <e lm="കാണുക">           <i>കാണ</i><par n="പാട/ുക__vblex"/></e>
+<e lm="ഇപ്പോഴും">        <i>ഇപ്പോഴും</i><par n="nochange__adv"/></e>
   </section>
 </dictionary>
