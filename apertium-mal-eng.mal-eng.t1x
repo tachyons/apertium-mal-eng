@@ -1294,5 +1294,51 @@
                </out>
              </action>
           </rule>
+          <!-- temp rule -->
+          <rule comment="prn-n-n-post-n-adj-vbser">
+                <pattern>
+                	<pattern-item n="prn"/>
+            	 	<pattern-item n="n"/>
+            	 	<pattern-item n="n"/>
+            	 	<pattern-item n="post"/>              
+            		<pattern-item n="n"/>
+            		<pattern-item n="adj"/>
+            		<pattern-item n="vbser"/>
+                </pattern>
+                <action>
+                 <out>
+                   <chunk name="prn-n-n-post-n-adj-vbser" case="caseFirstWord">
+                      <tags> <tag> <lit-tag v="prn-n-n-post-n-adj-vbser"/></tag> </tags>
+                      <lu>
+                    
+                      </lu>
+                      <b/>
+                      <lu>
+                    
+                      </lu>
+                      <b/>
+                      <lu>
+                    
+                      </lu>
+                      <b/>
+                      <lu>
+                    
+                      </lu>
+                      <b/>
+                      <lu>
+                    
+                      </lu>
+                      <b/>
+                      <lu>
+                      	
+                      </lu>
+                      <lu>
+                    
+                      </lu>
+                      <b/>
+                   </chunk>
+                 </out>
+               </action>
+            </rule>
   </section-rules>
 </transfer>

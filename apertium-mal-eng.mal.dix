@@ -2,9 +2,9 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 308
-	Sdefs: 58
-	Paradigms: 96
+	Entries: 310
+	Sdefs: 59
+	Paradigms: 97
 	Last processed by: apertium-dixtools format /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal.dix /home/tachyons/apertium-mal-eng/apertium-mal-eng.mal.dix  -useTabs
 
 -->
@@ -66,6 +66,7 @@
     <sdef n="subj" 	c="Subject"/> 
     <sdef n="sint" 	c="???"/> 
     <sdef n="dem" 	c="???"/> 
+    <sdef n="neg" 	c="negative"/> 
     <sdef n="vblex" 	c="verb"/> 
     <sdef n="unknown" /> 
     <sdef n="v" 	c="verb"/> 
@@ -124,6 +125,10 @@
   <e>       <p><l>യോടപ്പം</l>   <r><j/>ോടപ്പം<s n="post"/></r></p></e>
   <e>       <p><l>ലോടപ്പം</l>   <r><j/>ോടപ്പം<s n="post"/></r></p></e>
   <e>       <i></i></e>
+</pardef>
+<pardef n="clitics_ode">
+  <e>       <p><l>യോടെ</l>      <r><j/><s n="post"/></r></p></e>
+  <e>       <p><l>ലോടെ</l>      <r><j/><s n="post"/></r></p></e>
 </pardef>
 <pardef n="അത് __n">
   <e>       <p><l></l>          <r><s n="prn"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -209,7 +214,7 @@
   <e>       <p><l>ങ്ങള്‍</l>    <r>ം<s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>ങ്ങളെ</l>     <r>ം<s n="n"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>ങ്ങളുടെ</l>   <r>ം<s n="n"/><s n="pl"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ങ്ങള്‍കൂ</l>  <r>ം<s n="n"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ങ്ങള്‍ക്</l>  <r>ം<s n="n"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>ങ്ങളില്‍</l>  <r>ം<s n="n"/><s n="pl"/><s n="loc"/></r></p></e>
   <e>       <p><l>ങ്ങളാല്‍</l>  <r>ം<s n="n"/><s n="pl"/><s n="ins"/></r></p></e>
   <e>       <p><l>ങ്ങളേ</l>     <r>ം<s n="n"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -217,6 +222,8 @@
 </pardef>
   <!-- മാങ്ങ; മാങ്ങ; 16 -->
 <pardef n="മാങ്ങ__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="sg"/><s n="nom"/></r></p><par n="clitics_nam"/><par n="clitics_ode"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="sg"/><s n="nom"/></r></p><par n="clitics_nam"/></e>
   <e>       <p><l>യെ</l>        <r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>യുടെ</l>      <r><s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -504,6 +511,7 @@
   <e>       <p><l>ാണണം</l>      <r>ാണുക<s n="vblex"/><s n="oblig"/></r></p></e>
   <e>       <p><l>ണ്ടു</l>      <r>ാണുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ാണുന്നു</l>   <r>ാണുക<s n="vblex"/><s n="pres"/></r></p></e>
+  <e>       <p><l>ണ്ടിരുന്നൊ</l><r>ാണുക<s n="vblex"/><s n="past"/><s n="itg"/></r></p></e>
 </pardef>
 <pardef n="നി/ല്‍ക്കുക__vblex">
   <e>       <p><l>ല്‍ക്കും</l>  <r>ല്‍ക്കുക<s n="vblex"/><s n="fut"/></r></p></e>
@@ -677,6 +685,7 @@
   <e>       <p><l>യും</l>       <r>യുക<s n="vblex"/><s n="fut"/></r></p></e>
   <e>       <p><l>യാന്‍</l>     <r>യുക<s n="vblex"/><s n="infp"/></r></p></e>
   <e>       <p><l>യണം</l>       <r>യുക<s n="vblex"/><s n="oblig"/></r></p></e>
+  <e>       <p><l>യൂ</l>        <r>യുക<s n="vblex"/><s n="oblig"/><s n="pres"/></r></p></e>
   <e>       <p><l>ഞ്ഞു</l>      <r>യുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>യുക</l>       <r>യുക<s n="vblex"/><s n="pres"/></r></p></e>
   <e>       <p><l>യില്ല</l>     <r>യുക<s n="vblex"/><s n="neg"/></r></p></e>
@@ -713,6 +722,7 @@
   <e>       <p><l>ണം</l>        <r>ുക<s n="vblex"/><s n="oblig"/></r></p></e>
   <e>       <p><l>ി</l>         <r>ുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ുന്നു</l>     <r>ുക<s n="vblex"/><s n="pres"/></r></p></e>
+  <e>       <p><l>ിയില്ല</l>    <r>ുക<s n="vblex"/></r></p></e>
 </pardef>
 <pardef n="വ്യക്തമാ/കുക__vblex">
   <e>       <p><l>കും</l>       <r>കുക<s n="vblex"/><s n="fut"/></r></p></e>
@@ -758,6 +768,7 @@
   <e>       <p><l>ക്കണം</l>     <r>ക്കുക<s n="vblex"/><s n="oblig"/></r></p></e>
   <e>       <p><l>ച്ചു</l>      <r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ക്കുന്നു</l>  <r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
+  <e>       <p><l>ക്കാറില്ല</l> <r>ക്കുക<s n="vblex"/><s n="pres"/><s n="neg"/></r></p></e>
 </pardef>
   <!-- pronun-->
   <!-- നീ; ന; 14 -->
@@ -1198,5 +1209,7 @@
 <e lm="ശ്രദ്ധ">          <i>ശ്രദ്ധ</i><par n="മാങ്ങ__n"/></e>
 <e lm="കാണുക">           <i>കാണ</i><par n="പാട/ുക__vblex"/></e>
 <e lm="ഇപ്പോഴും">        <i>ഇപ്പോഴും</i><par n="nochange__adv"/></e>
+<e lm="ജനം">             <i>ജന</i><par n="മര/ം__n"/></e>
+<e lm="മറുപടി">          <i>മറുപടി</i><par n="മാങ്ങ__n"/></e>
   </section>
 </dictionary>

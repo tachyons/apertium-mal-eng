@@ -94,7 +94,7 @@
 <e>       <p><l>നീ<s n="prn"/></l>                     <r>you<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>നീ<s n="prn"/></l>                     <r>you<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>നീ<s n="prn"/><s n="sg"/><s n="gen"/></l><r>your<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-
+<e>       <p><l>അവന്‍<s n="prn"/><s n="pl"/><s n="gen"/></l><r>their<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
 <e>       <p><l>അവര്‍<s n="prn"/><s n="pl"/></l>       <r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 <e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/></l>       <r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/></l>       <r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -149,7 +149,8 @@
 <e>       <p><l>ഇഷ്ടം<s n="n"/></l>                  <r>love<s n="adj"/></r></p></e>
 <e>       <p><l>മറുപടി<s n="n"/></l>                    <r>reply<s n="n"/></r></p></e>
 <e>       <p><l>മ്രിഗം<s n="n"/></l>                    <r>animal<s n="n"/></r></p></e>
-
+<e>       <p><l>ശ്രദ്ധ<s n="n"/></l>                    <r>carefully<s n="adv"/></r></p></e>
+<e>       <p><l>ജനം<s n="n"/></l>                    <r>people<s n="n"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 <e>       <p><l>രാജു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></r></p></e>
@@ -256,7 +257,7 @@
 	<e><p><l>കണ്ടെത്തുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
 	<e><p><l>ഉണ്ടാക്കുക<s n="vblex"/></l><r>construct<s n="vblex"/></r></p></e>
 	<e><p><l>അവലംബിക്കുക<s n="vblex"/></l><r>depend<s n="vblex"/></r></p></e>
-	<e><p><l>കിട്ടുക<s n="vblex"/></l><r>earn<s n="vblex"/></r></p></e>
+	<e><p><l>കിട്ടുക<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
 	<e><p><l>വഹിക്കുക<s n="vblex"/></l><r>bear<s n="vblex"/></r></p></e>
 	<e><p><l>ചെയ്യപ്പെടുക<s n="vblex"/></l><r>to be carried out<s n="vblex"/></r></p></e>
 	<e><p><l>എഴുതുക<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
