@@ -481,6 +481,7 @@
   <e>       <p><l>ക്കണം</l>     <r>ക്കുക<s n="vblex"/><s n="oblig"/></r></p></e>
   <e>       <p><l>ന്നു</l>      <r>ക്കുക<s n="vblex"/><s n="past"/></r></p></e>
   <e>       <p><l>ക്കുന്നു</l>  <r>ക്കുക<s n="vblex"/><s n="pres"/></r></p></e>
+  <e>       <p><l>ന്നപ്പോള്‍</l>  <r>ക്കുക<s n="vblex"/></r></p></e>
 </pardef>
 <pardef n="ത/രുക__vblex">
   <e>       <p><l>രും</l>       <r>രുക<s n="vblex"/><s n="fut"/></r></p></e>
