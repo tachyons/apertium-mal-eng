@@ -37,6 +37,10 @@
       <cat-item tags="vblex.*"/>
       <cat-item tags="vblex"/>
     </def-cat>
+    <def-cat n="post">
+      <cat-item tags="post.*"/>
+      <cat-item tags="post"/>
+    </def-cat>
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
       <cat-item tags="adv"/>
@@ -1297,11 +1301,11 @@
           <!-- temp rule -->
           <rule comment="prn-n-n-post-n-adj-vbser">
                 <pattern>
-                	<pattern-item n="prn"/>
-            	 	<pattern-item n="n"/>
-            	 	<pattern-item n="n"/>
+                	<pattern-item n="pronoun"/>
+            	 	<pattern-item n="noun"/>
+            	 	<pattern-item n="noun"/>
             	 	<pattern-item n="post"/>              
-            		<pattern-item n="n"/>
+            		<pattern-item n="noun"/>
             		<pattern-item n="adj"/>
             		<pattern-item n="vbser"/>
                 </pattern>
@@ -1310,30 +1314,31 @@
                    <chunk name="prn-n-n-post-n-adj-vbser" case="caseFirstWord">
                       <tags> <tag> <lit-tag v="prn-n-n-post-n-adj-vbser"/></tag> </tags>
                       <lu>
-                    
+						<clip pos="1" side="tl" part="lem"/>
+						<lit-tag v="det.pos.sp"/>                    
                       </lu>
                       <b/>
                       <lu>
-                    
+                    	<clip pos="2" side="tl" part="whole"/>
                       </lu>
                       <b/>
                       <lu>
-                    
+                    	<clip pos="7" side="tl" part="whole"/>
                       </lu>
                       <b/>
                       <lu>
-                    
+                    	<clip pos="6" side="tl" part="whole"/>
                       </lu>
                       <b/>
                       <lu>
-                    
+                    	<clip pos="5" side="tl" part="whole"/>
                       </lu>
                       <b/>
                       <lu>
-                      	
+                      	<clip pos="4" side="tl" part="whole"/>
                       </lu>
                       <lu>
-                    
+                    	<clip pos="3" side="tl" part="whole"/>	
                       </lu>
                       <b/>
                    </chunk>
