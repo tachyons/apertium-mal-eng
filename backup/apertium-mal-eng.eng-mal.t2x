@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<interchunk>
+
+  <section-def-cats>
+    <def-cat n="SN">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+    </def-cat>
+    <def-cat n="pronoun">
+    	<cat-item tags="prn"/>
+      	<cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="itg_vbser">
+    	<cat-item tags="itg_vbser"/>
+      	<cat-item tags="itg_vbser.*"/>
+    </def-cat>
+    <def-cat n="noun">
+    	<cat-item tags="n"/>
+      	<cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="verb">
+    	<cat-item tags="vblex"/>
+  		<cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="vbser">
+    	<cat-item tags="vbser"/>
+  		<cat-item tags="vbser.*"/>
+    </def-cat>
+    <def-cat n="will_vblex">
+    	<cat-item tags="will_vblex"/>
+  		<cat-item tags="will_vblex.*"/>
+    </def-cat>
+    <def-cat n="det_noun">
+    	<cat-item tags="det_noun"/>
+  		<cat-item tags="det_noun.*"/>
+    </def-cat>
+    <def-cat n="any">
+     	<cat-item tags="*"/>
+   </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="paraula"/>
+  </section-def-vars>
+
+  <section-rules>
+
+    <rule comment="REGLA: SN">
+      <pattern>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="prn-noun-verb">
+      <pattern>
+		<pattern-item n="pronoun"/>
+		<pattern-item n="verb"/>
+		<pattern-item n="noun"/>
+      </pattern>
+      <action>
+		<out>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+		</out>
+		</action>
+    </rule>
+	<rule comment="itg_vbser+pronoun">
+		<pattern>
+			<pattern-item n="itg_vbser"/>
+			<pattern-item n="pronoun"/>
+		</pattern>
+		<action>
+		<out>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+		</out>
+		</action>
+	</rule>
+	<rule comment="will_verb+det_noun">
+		<pattern>
+			<pattern-item n="will_vblex"/>
+			<pattern-item n="det_noun"/>
+		</pattern>
+		<action>
+		<out>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+		</out>
+		</action>
+	</rule>
+	<rule comment="will_verb+noun">
+		<pattern>
+			<pattern-item n="will_vblex"/>
+			<pattern-item n="noun"/>
+		</pattern>
+		<action>
+		<out>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+		</out>
+		</action>
+	</rule>
+	<rule comment="vbser_any">
+		<pattern>
+			<pattern-item n="vbser"/>
+			<pattern-item n="any"/>
+		</pattern>
+		<action>
+		<out>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+		</out>
+		</action>
+	</rule>
+  </section-rules>
+</interchunk>

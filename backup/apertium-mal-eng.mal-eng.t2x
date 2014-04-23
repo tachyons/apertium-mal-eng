@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<interchunk>
+  <section-def-cats>
+    <def-cat n="SN">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+    </def-cat>
+    <def-cat n="SENT">
+      <cat-item tags="SENT"/>
+    </def-cat>
+    <def-cat n="pronoun">
+    	<cat-item tags="prn"/>
+      	<cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="noun">
+    	<cat-item tags="n"/>
+      	<cat-item tags="n.*.nom"/>
+    </def-cat>
+    <def-cat n="verb">
+    	<cat-item tags="vblex"/>
+  		<cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="verbser">
+    	<cat-item tags="vbser"/>
+  		<cat-item tags="vbser.*"/>
+    </def-cat>
+    <def-cat n="VerbVb">
+	<cat-item tags="\svblex\svbser\s"/>
+	<cat-item tags=".*\svblex\svbser\s.*"/>
+    </def-cat>
+    <def-cat n="propernoun">
+    	<cat-item tags="np"/>
+  	<cat-item tags="np.*"/>
+   </def-cat>
+    <def-cat n="interogative">
+    	<cat-item tags="itg"/>
+  	<cat-item tags="itg.*"/>
+    </def-cat>
+    <def-cat n="nountype">
+    	<cat-item tags="np"/>
+  	<cat-item tags="np.*"/>
+  	<cat-item tags="n"/>
+      	<cat-item tags="n.*"/>
+      	<cat-item tags="prn"/>
+      	<cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="coconj">
+    	<cat-item tags="cnjcoo"/>
+  	<cat-item tags="cnjcoo.*"/>
+    </def-cat>
+    <def-cat n="nloc">
+      <cat-item tags="n.*.loc"/>
+    </def-cat>
+    <def-cat n="adv">
+      <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="adjVerb">
+      <cat-item tags="adj vblex"/>
+      <cat-item tags=".*adj vblex.*"/>
+    </def-cat>
+    <def-cat n="advNounvb">
+      <cat-item tags="adv n vbser"/>
+      <cat-item tags=".*adv n vbser.*"/>
+    </def-cat>
+    <def-cat n="advNoun">
+      <cat-item tags="(advn)"/>
+      <cat-item tags="(advn).*"/>
+    </def-cat>
+    <def-cat n="adj-noun-adj">
+    	<cat-item tags="adj-noun-adj"/>
+      	<cat-item tags="adj-noun-adj.*"/>
+    </def-cat>
+    <def-cat n="prepNoun">
+    	<cat-item tags="pr"/>
+      	<cat-item tags="pr.*"/>
+    </def-cat>
+    <def-cat n="adv-verb">
+    	<cat-item tags="adv-verb"/>
+      	<cat-item tags="adv-verb.*"/>
+    </def-cat>
+  </section-def-cats>
+  <section-def-attrs>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="a_cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="ins"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="abl"/>
+    </def-attr>
+  </section-def-attrs>
+  <section-def-vars>
+    <def-var n="number"/>
+    <def-var n="PREP"/>
+  </section-def-vars>
+  <section-def-macros>
+    <def-macro n="insert-prep1" npar="1">
+      <let>
+        <var n="PREP"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" part="a_cas"/><lit-tag v="loc"/></equal></test>
+          <let><var n="PREP"/>
+               <concat><lit v="^prep"/><lit-tag v="PREP"/><lit v="{^in"/><lit-tag v="pr"/><lit v="$}$ "/></concat>
+          </let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" part="a_cas"/><lit-tag v="abl"/></equal></test>
+          <let><var n="PREP"/>
+               <concat><lit v="^prep"/><lit-tag v="PREP"/><lit v="{^from"/><lit-tag v="pr"/><lit v="$}$ "/></concat>
+          </let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" part="a_cas"/><lit-tag v="dat"/></equal></test>
+          <let><var n="PREP"/>
+               <concat><lit v="^prep"/><lit-tag v="PREP"/><lit v="{^to"/><lit-tag v="pr"/><lit v="$}$ "/></concat>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+  </section-def-macros>
+  <section-rules>
+<!-- <rule comment="REGLA: SN">
+	  <pattern>
+		<pattern-item n="SN"/>
+	  </pattern>
+	  <action>
+	  <call-macro n="insert-prep1">
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <var n="PREP"/>
+		  <chunk>
+		    <clip pos="1" part="lem"/>
+		    <clip pos="1" part="tags"/>
+		    <clip pos="1" part="chcontent"/>
+		  </chunk>
+		</out>
+	  </action>
+	</rule> -->
+    <rule comment="prn-noun-verb">
+      <pattern>
+		<pattern-item n="pronoun"/>
+		<pattern-item n="noun"/>
+		<pattern-item n="verb"/>
+      </pattern>
+      <action>
+		<out>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+		</out>
+    </action>
+    </rule>
+    <rule comment="prn-noun-verb">
+      <pattern>
+		<pattern-item n="pronoun"/>
+		<pattern-item n="verb"/>
+		<pattern-item n="verb"/>
+      </pattern>
+      <action>
+      			
+		<out>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+		</out>
+    </action>
+    </rule>
+    <rule comment="prn-noun-verb-vb">
+     <pattern>
+		<pattern-item n="pronoun"/>
+		<pattern-item n="noun"/>
+		<pattern-item n="verb"/>
+		<pattern-item n="verbser"/>
+      </pattern>
+      <action>
+      			
+		<out>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="4" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+		</out>
+    </action>
+    </rule>
+    
+    
+  <!---  <rule comment="nom-inter-verbser">
+      <pattern>
+		<pattern-item n="propernoun"/>
+		<pattern-item n="interogative"/>
+		<pattern-item n="verbser"/>
+      </pattern>
+      <action>
+		<out>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+		</out>
+		</action>
+    </rule> -->
+   <rule comment="propn-cooconj-propn-coocon"> <!--propn+cooconj+propn+coocon -> propn+cooconj+propn -->
+      <pattern>
+		<pattern-item n="nountype"/>
+		<pattern-item n="coconj"/>
+		<pattern-item n="nountype"/>
+		<pattern-item n="coconj"/>
+
+      </pattern>
+      <action>
+		<out>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+
+		</out>
+		</action>
+    </rule>
+    <rule comment="propn-cooconj-propn-coocon">
+      <pattern>
+		<pattern-item n="nloc"/>
+		<pattern-item n="verbser"/>
+      </pattern>
+        <action>
+		<out>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+
+		</out>
+	</action>
+    </rule>
+<!--    <rule comment="noun+(adv+noun+vbser)">
+      <pattern>
+		<pattern-item n="noun"/>
+		<pattern-item n="advNoun"/>
+		<pattern-item n="verbser"/>
+		
+      </pattern>
+        <action>
+		<out>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			
+
+		</out>
+	</action>
+    </rule> -->
+     <rule comment="noun+adv+noun+vbser">
+      <pattern>
+		<pattern-item n="noun"/>
+		<pattern-item n="adv"/>
+		<pattern-item n="noun"/>
+		<pattern-item n="verbser"/>
+		
+      </pattern>
+        <action>
+		<out>
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="4" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			
+
+		</out>
+	</action>
+    </rule>
+    <!-- <rule comment="prn+(adj+verb)+verb">
+      <pattern>
+		<pattern-item n="pronoun"/>
+		<pattern-item n="adj"/>
+		<pattern-item n="verb"/>
+		<pattern-item n="verb"/>
+		
+      </pattern>
+        <action>
+		<out>
+			
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="4" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+
+		</out>
+	</action>
+    </rule> 
+     <rule comment="prn+(adj+verb)+verb">
+      <pattern>
+		<pattern-item n="pronoun"/>
+		<pattern-item n="adjVerb"/>
+		<pattern-item n="verb"/>
+		
+      </pattern>
+        <action>
+		<out>
+			
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+
+		</out>
+	</action>
+    </rule> --> 
+	<rule comment="adj-noun-adjprepNounadv-verb">
+      <pattern>
+		<pattern-item n="adj-noun-adj"/>
+		<pattern-item n="prepNoun"/>
+		 <pattern-item n="adv-verb"/>
+      </pattern>
+        <action>
+		<out>
+			 <chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/> 
+			
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+			
+
+		</out>
+	</action>
+    </rule>
+  </section-rules>
+</interchunk>
