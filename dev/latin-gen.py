@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#usage python3 latin-gen.py bidix.dix newdix.dix 
 import sys
 from xml.dom import minidom
 import subprocess
