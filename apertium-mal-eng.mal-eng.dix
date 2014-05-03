@@ -2,77 +2,77 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 140
-	Sdefs: 51
-	Last processed by: apertium-dixtools fix apertium-mal-eng.mal-eng.dix apertium-mal-eng.mal-eng.dix -useTabs -debug
+	Entries: 236
+	Sdefs: 54
+	Last processed by: apertium-dixtools fix apertium-mal-eng.mal-eng.dix apertium-mal-eng.mal-eng.dix
 
 -->
 <dictionary>
-	<alphabet></alphabet>
-	<sdefs>
-		<sdef n="n" 	c="Noun . നാമം"/>
-		<sdef n="np" 	c="Proper noun"/>
-		<sdef n="adv" 	c="Adverb . ക്രിയാ വിശേഷണപദം"/>
-		<sdef n="adj" 	c="Adjective . നാമവിശേഷണം"/>
-		<sdef n="num" 	c="Numeral"/>
-		<sdef n="prn" 	c="Pronoun .സര്‍വ്വനാമം"/>
-		<sdef n="post" 	c="Postposition"/>
-		<sdef n="ij" 	c="Interjection"/>
-		<sdef n="vbser" 	c="Verb 'to be'"/>
-		<sdef n="cnjcoo" 	c="Co-ordinating conjunction"/>
-		<sdef n="m" 	c="Masculine · പുല്ലിംഗം"/>
-		<sdef n="f" 	c="Feminine · സ്ത്രീലിമ്ഗം "/>
-		<sdef n="nt" 	c="Neuter · നപുംസകലിംഗം"/>
-		<sdef n="mf" 	c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/>
-		<sdef n="mfn" 	c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/>
-		<sdef n="inf" />
-		<sdef n="sg" 	c="Singular . ഏകവചനം"/>
-		<sdef n="pl" 	c="Plural . ബഹുവചനം"/>
-		<sdef n="sp" 	c="Singular / Plural . एकवचन / अनेकवचन"/>
-		<sdef n="det" 	c="determinats"/>
-		<sdef n="ind" 	c="determinats"/>
-		<sdef n="nom" 	c="Nominative"/>
-		<sdef n="acc" 	c="Accusative"/>
-		<sdef n="ins" 	c="Instrumental"/>
-		<sdef n="soc" 	c="Sociative"/>
-		<sdef n="dat" 	c="Dative"/>
-		<sdef n="voc" 	c="Vocative"/>
-		<sdef n="gen" 	c="Genitive"/>
-		<sdef n="loc" 	c="Locative"/>
-		<sdef n="p1" 	c="First person · प्रथम पुरुष"/>
-		<sdef n="p2" 	c="Second person · द्वितिय पुरुष"/>
-		<sdef n="p3" 	c="Third person · तृतिय पुरुष"/>
-		<sdef n="past" />
-		<sdef n="vaux" 	c="oxilary verb"/>
-		<sdef n="pres" 	c="Present tense . वर्तमानकाळ"/>
-		<sdef n="pprs" 	c="Present participle tense"/>
-		<sdef n="neg" />
-		<sdef n="ant" 	c="Anthroponym"/>
-		<sdef n="pers" 	c="Personal"/>
-		<sdef n="itg" 	c="Interrogative"/>
-		<sdef n="subj" 	c="Subject . क्रियापद"/>
-		<sdef n="obj" 	c="object"/>
-		<sdef n="cm" 	c="Comma"/>
-		<sdef n="quot" 	c="Quotation mark"/>
-		<sdef n="sent" 	c="Sentence marker"/>
-		<sdef n="FD" 	c="Function to be determined"/>
-		<sdef n="vblex" 	c="Verb . ക്രിയ"/>
-		<sdef n="pos" 	c="possessive"/>
-		<sdef n="sint" 	c="sinthetic"/>
-		<sdef n="dem" 	c="demonstrative"/>
-		<sdef n="def" />
-		<sdef n="unknown"/> 
-		<sdef n="pr"/> 
-		<sdef n="cnjadv"/> 
-	</sdefs>
-	<section id="main" type="standard">
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="n" 	c="Noun . നാമം"/> 
+    <sdef n="np" 	c="Proper noun"/> 
+    <sdef n="adv" 	c="Adverb . ക്രിയാ വിശേഷണപദം"/> 
+    <sdef n="adj" 	c="Adjective . നാമവിശേഷണം"/> 
+    <sdef n="num" 	c="Numeral"/> 
+    <sdef n="prn" 	c="Pronoun .സര്‍വ്വനാമം"/> 
+    <sdef n="post" 	c="Postposition"/> 
+    <sdef n="ij" 	c="Interjection"/> 
+    <sdef n="vbser" 	c="Verb 'to be'"/> 
+    <sdef n="cnjcoo" 	c="Co-ordinating conjunction"/> 
+    <sdef n="m" 	c="Masculine · പുല്ലിംഗം"/> 
+    <sdef n="f" 	c="Feminine · സ്ത്രീലിമ്ഗം "/> 
+    <sdef n="nt" 	c="Neuter · നപുംസകലിംഗം"/> 
+    <sdef n="mf" 	c="Masculine / Feminine · पु:लिंग /स्त्रीलिंग"/> 
+    <sdef n="mfn" 	c="Masculine / Feminine / Neuter · पु:लिंग / स्त्रीलिंग / नपुसकलिंग"/> 
+    <sdef n="inf" /> 
+    <sdef n="sg" 	c="Singular . ഏകവചനം"/> 
+    <sdef n="pl" 	c="Plural . ബഹുവചനം"/> 
+    <sdef n="sp" 	c="Singular / Plural . एकवचन / अनेकवचन"/> 
+    <sdef n="det" 	c="determinats"/> 
+    <sdef n="ind" 	c="determinats"/> 
+    <sdef n="nom" 	c="Nominative"/> 
+    <sdef n="acc" 	c="Accusative"/> 
+    <sdef n="ins" 	c="Instrumental"/> 
+    <sdef n="soc" 	c="Sociative"/> 
+    <sdef n="dat" 	c="Dative"/> 
+    <sdef n="voc" 	c="Vocative"/> 
+    <sdef n="gen" 	c="Genitive"/> 
+    <sdef n="loc" 	c="Locative"/> 
+    <sdef n="p1" 	c="First person · प्रथम पुरुष"/> 
+    <sdef n="p2" 	c="Second person · द्वितिय पुरुष"/> 
+    <sdef n="p3" 	c="Third person · तृतिय पुरुष"/> 
+    <sdef n="past" /> 
+    <sdef n="vaux" 	c="oxilary verb"/> 
+    <sdef n="pres" 	c="Present tense . वर्तमानकाळ"/> 
+    <sdef n="pprs" 	c="Present participle tense"/> 
+    <sdef n="neg" /> 
+    <sdef n="ant" 	c="Anthroponym"/> 
+    <sdef n="pers" 	c="Personal"/> 
+    <sdef n="itg" 	c="Interrogative"/> 
+    <sdef n="subj" 	c="Subject . क्रियापद"/> 
+    <sdef n="obj" 	c="object"/> 
+    <sdef n="cm" 	c="Comma"/> 
+    <sdef n="quot" 	c="Quotation mark"/> 
+    <sdef n="sent" 	c="Sentence marker"/> 
+    <sdef n="FD" 	c="Function to be determined"/> 
+    <sdef n="vblex" 	c="Verb . ക്രിയ"/> 
+    <sdef n="pos" 	c="possessive"/> 
+    <sdef n="sint" 	c="sinthetic"/> 
+    <sdef n="dem" 	c="demonstrative"/> 
+    <sdef n="def" /> 
+    <sdef n="unknown" /> 
+    <sdef n="pr" /> 
+    <sdef n="cnjadv" /> 
+  </sdefs>
+  <section id="main" type="standard">
 <e>       <p><l>മരം<s n="n"/></l>                      <r>tree<s n="n"/></r></p></e>
 <e>       <p><l>മാങ്ങ<s n="n"/></l>                    <r>mango<s n="n"/></r></p></e>
 <e>       <p><l>ആപ്പിള്‍<s n="n"/></l>                 <r>apple<s n="n"/></r></p></e>
 <e>       <p><l>വനം<s n="n"/></l>                      <r>forest<s n="n"/></r></p></e>
 <e>       <p><l>പൂന്തോട്ടം<s n="n"/></l>               <r>garden<s n="n"/></r></p></e>
 <e>       <p><l>ഇന്നലെ<s n="n"/></l>                   <r>yesterday<s n="n"/></r></p></e>
-<e>       <p><l>ഇന്നലെ<s n="adv"/></l>                   <r>yesterday<s n="adv"/></r></p></e>
+<e>       <p><l>ഇന്നലെ<s n="adv"/></l>                 <r>yesterday<s n="adv"/></r></p></e>
 <e>       <p><l>ഇന്ന്<s n="adv"/></l>                  <r>today<s n="adv"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adv"/></l>                   <r>nice<s n="adv"/></r></p></e>
@@ -99,8 +99,8 @@
 <e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/></l>       <r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/></l>       <r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>അവന്<s n="prn"/><s n="sg"/><s n="dat"/></l><r>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/><s n="gen"/></l>       <r>his<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/><s n="gen"/></l>       <r>her<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/><s n="gen"/></l><r>his<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/><s n="gen"/></l><r>her<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>it<s n="prn"/><s n="subj"/><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>അത്<s n="prn"/><s n="sg"/></l>         <r>that<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -109,7 +109,7 @@
 
 
     <!-- SECTION: Nouns -->
-<e>       <p><l>കണ്ണ്<s n="n"/></l>                <r>eye<s n="n"/></r></p></e>
+<e>       <p><l>കണ്ണ്<s n="n"/></l>                    <r>eye<s n="n"/></r></p></e>
 <e>       <p><l>മണ്ടന്‍<s n="adj"/></l>                <r>idiot<s n="n"/></r></p></e>
 <e>       <p><l>പട്ടി<s n="n"/></l>                    <r>dog<s n="n"/></r></p></e>
 <e>       <p><l>വീട്<s n="n"/><s n="sg"/></l>          <r>house<s n="n"/><s n="sg"/></r></p></e>
@@ -145,12 +145,12 @@
 <e>       <p><l>രേഖ<s n="n"/></l>                      <r>document<s n="n"/></r></p></e>
 <e>       <p><l>വീട്<s n="n"/></l>                     <r>house<s n="n"/></r></p></e>
 <e>       <p><l>സ്വാഗതം<s n="n"/></l>                  <r>welcome<s n="adj"/></r></p></e>
-<e>       <p><l>വയസ്സ്<s n="n"/></l>                  <r>age<s n="n"/></r></p></e>
-<e>       <p><l>ഇഷ്ടം<s n="n"/></l>                  <r>love<s n="adj"/></r></p></e>
-<e>       <p><l>മറുപടി<s n="n"/></l>                    <r>reply<s n="n"/></r></p></e>
-<e>       <p><l>മ്രിഗം<s n="n"/></l>                    <r>animal<s n="n"/></r></p></e>
-<e>       <p><l>ശ്രദ്ധ<s n="n"/></l>                    <r>carefully<s n="adv"/></r></p></e>
-<e>       <p><l>ജനം<s n="n"/></l>                    <r>people<s n="n"/></r></p></e>
+<e>       <p><l>വയസ്സ്<s n="n"/></l>                   <r>age<s n="n"/></r></p></e>
+<e>       <p><l>ഇഷ്ടം<s n="n"/></l>                    <r>love<s n="adj"/></r></p></e>
+<e>       <p><l>മറുപടി<s n="n"/></l>                   <r>reply<s n="n"/></r></p></e>
+<e>       <p><l>മ്രിഗം<s n="n"/></l>                   <r>animal<s n="n"/></r></p></e>
+<e>       <p><l>ശ്രദ്ധ<s n="n"/></l>                   <r>carefully<s n="adv"/></r></p></e>
+<e>       <p><l>ജനം<s n="n"/></l>                      <r>people<s n="n"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 <e>       <p><l>രാജു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></r></p></e>
@@ -158,9 +158,8 @@
 
     <!-- SECTION: Adjectives -->
 
-<e>       <p><l>ഊഷ്മളം<s n="adj"/></l>                   <r>warm<s n="adj"/><s n="sint"/></r></p></e>
-<e>       <p><l>മുന്നില്‍<s n="adj"/></l>                   <r>in<b/>front<s n="adj"/></r></p></e>
-<e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/></r></p></e>
+<e>       <p><l>ഊഷ്മളം<s n="adj"/></l>                 <r>warm<s n="adj"/><s n="sint"/></r></p></e>
+<e>       <p><l>മുന്നില്‍<s n="adj"/></l>              <r>in<b/>front<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>good<s n="adj"/></r></p></e>
 <e>       <p><l>വലിയ<s n="adj"/></l>                   <r>big<s n="adj"/></r></p></e>
 <e>       <p><l>പുറത്ത്<s n="adj"/></l>                <r>outside<s n="adj"/></r></p></e>
@@ -172,12 +171,12 @@
 <e>       <p><l>ഹലോ<s n="adj"/></l>                    <r>hello<s n="adj"/></r></p></e>
 <e>       <p><l>ഉയരമുള്ള<s n="adj"/></l>               <r>tall<s n="adj"/></r></p></e>
 <e>       <p><l>മണ്ടന്‍<s n="adj"/></l>                <r>idiot<s n="adj"/></r></p></e>
-<e>       <p><l>അകത്ത്<s n="adj"/></l>                <r>inside<s n="adj"/></r></p></e>
-<e>       <p><l>താഴെ<s n="adj"/></l>                <r>below<s n="adj"/></r></p></e>
+<e>       <p><l>അകത്ത്<s n="adj"/></l>                 <r>inside<s n="adj"/></r></p></e>
+<e>       <p><l>താഴെ<s n="adj"/></l>                   <r>below<s n="adj"/></r></p></e>
 <e>       <p><l>അടുത്ത്<s n="adj"/></l>                <r>near<s n="adj"/><s n="sint"/></r></p></e>
     <!-- SECTION: Adverbs -->
 
-<e>       <p><l>കൂടെ<s n="adv"/></l>                  <r>there<s n="pr"/></r></p></e>
+<e>       <p><l>കൂടെ<s n="adv"/></l>                   <r>there<s n="pr"/></r></p></e>
 <e>       <p><l>എവിടെ<s n="adv"/><s n="itg"/></l>      <r>where<s n="adv"/><s n="itg"/></r></p></e>
 <e>       <p><l>അവിടെ<s n="adv"/></l>                  <r>there<s n="adv"/></r></p></e>
 <e>       <p><l>ഇല്ല<s n="adv"/></l>                   <r>no<s n="adv"/></r></p></e>
@@ -190,15 +189,15 @@
 <e>       <p><l>അല്ല<s n="adv"/></l>                   <r>not<s n="adv"/></r></p></e>
 <e>       <p><l>മെല്ലെ<s n="adv"/></l>                 <r>slow<s n="adv"/></r></p></e>
 <e>       <p><l>വീണ്ടും<s n="adv"/></l>                <r>again<s n="adv"/></r></p></e>
-<e>       <p><l>ഒരുമിച്ച്<s n="adv"/></l>                <r>together<s n="adv"/></r></p></e>
-<e>       <p><l>എല്ലായിടത്തും<s n="adv"/></l>                <r>everywhere<s n="adv"/></r></p></e>
-<e>       <p><l>പിന്നെ<s n="adv"/></l>                <r>then<s n="cnjadv"/></r></p></e>
-<e>       <p><l>ഒന്നും<s n="adv"/></l>                <r>anything<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-<e>       <p><l>ചുറ്റും<s n="adv"/></l>                    <r>around<s n="adv"/></r></p></e>
-<e>       <p><l>അപ്പോള്‍<s n="adv"/></l>                    <r>when<s n="cnjadv"/></r></p></e>
-<e>       <p><l>തീര്‍ച്ചയായും<s n="adv"/></l>                    <r>of<b/>course<s n="adv"/></r></p></e>
-<e>       <p><l>പെട്ടെന്ന്<s n="adv"/></l>                    <r>quickly<s n="adv"/></r></p></e>
-<e>       <p><l>ഇപ്പോഴും<s n="adv"/></l>                    <r>still<s n="adv"/></r></p></e>
+<e>       <p><l>ഒരുമിച്ച്<s n="adv"/></l>              <r>together<s n="adv"/></r></p></e>
+<e>       <p><l>എല്ലായിടത്തും<s n="adv"/></l>          <r>everywhere<s n="adv"/></r></p></e>
+<e>       <p><l>പിന്നെ<s n="adv"/></l>                 <r>then<s n="cnjadv"/></r></p></e>
+<e>       <p><l>ഒന്നും<s n="adv"/></l>                 <r>anything<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+<e>       <p><l>ചുറ്റും<s n="adv"/></l>                <r>around<s n="adv"/></r></p></e>
+<e>       <p><l>അപ്പോള്‍<s n="adv"/></l>               <r>when<s n="cnjadv"/></r></p></e>
+<e>       <p><l>തീര്‍ച്ചയായും<s n="adv"/></l>          <r>of<b/>course<s n="adv"/></r></p></e>
+<e>       <p><l>പെട്ടെന്ന്<s n="adv"/></l>             <r>quickly<s n="adv"/></r></p></e>
+<e>       <p><l>ഇപ്പോഴും<s n="adv"/></l>               <r>still<s n="adv"/></r></p></e>
 
 
 	<!-- SECTION vbser -->
@@ -211,104 +210,102 @@
 
     <!-- <e><p><l>ആകുക<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>ആണ്<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e> -->
-    <e><p><l>കരുതുക<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
-    <e><p><l>ഇരിക്കുക<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
-    <e><p><l>ചോദിക്കുക<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
-    <e><p><l>എണ്ണുക<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
-   	<e><p><l>മറിയുക<s n="vblex"/></l><r>rotate<s n="vblex"/></r></p></e>
-     <e><p><l>അറിയുക<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e>
-    <e><p><l>കാണുക<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
-    <e><p><l>ചെയ്യുക<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
-    <e><p><l>തിന്നുക<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
-    <e><p><l>പരതുക<s n="vblex"/></l><r>search<s n="vblex"/></r></p></e>
-    <e><p><l>തീര്‍കുക<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
-    <e><p><l>കളിക്കുക<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
-    <e><p><l>നോക്കുക<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
-    <e><p><l>കേള്‍ക്കുക<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
-    <e><p><l>സംസാരിക്കുക<s n="vblex"/></l><r>talk<s n="vblex"/></r></p></e>
-    <e><p><l>വ്യക്തമാകുക<s n="vblex"/></l><r>clear<s n="vblex"/></r></p></e>
-   <e><p><l>പോകുക<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
-     <e><p><l>കണ്ടെത്തുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
-      <e><p><l>കഴിയുക<s n="vblex"/></l><r>can<s n="vaux"/><s n="pres"/></r></p></e>
-      <e><p><l>കഴിയുക<s n="vblex"/><s n="past"/></l><r>could<s n="vblex"/></r></p></e>
-      <e><p><l>കഴിയുക<s n="vblex"/><s n="neg"/></l><r>can not<s n="vaux"/><s n="pres"/></r></p></e>
-      <e><p><l>കഴിയുക<s n="vblex"/><s n="past"/><s n="neg"/></l><r>could not<s n="vblex"/></r></p></e>
-      <e><p><l>ഒളിക്കുക<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
-     <e><p><l>പറയുക<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
-     <e><p><l>ഉറങ്ങുക<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
-     <e><p><l>പറയുക<s n="vblex"/></l><r>talk<s n="vblex"/></r></p></e>
-    <e><p><l>ഭരിക്കുക<s n="vblex"/></l><r>govern<s n="vblex"/></r></p></e>
-    <e><p><l>ഉപയോഗിക്കുക<s n="vblex"/></l><r>use<s n="vblex"/></r></p></e>
-    <e><p><l>കണക്കാക്കുക<s n="vblex"/></l><r>calculate<s n="vblex"/></r></p></e>
-    <e><p><l>വിശ്വസിക്കുക<s n="vblex"/></l><r>belive<s n="vblex"/></r></p></e>
-    <e><p><l>വളരുക<s n="vblex"/></l><r>grow<s n="vblex"/></r></p></e>
-	<e><p><l>പിന്തുണക്കുക<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
-	<e><p><l>ചോദിക്കുക<s n="vblex"/></l><r>question<s n="vblex"/></r></p></e>
-	<e><p><l>നല്‍കുക<s n="vblex"/></l><r>give<s n="vblex"/></r></p></e>
-	<e><p><l>നടത്തുക<s n="vblex"/></l><r>conduct<s n="vblex"/></r></p></e>
-	<e><p><l>ലഭിക്കുക<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
-	<e><p><l>ഉണ്ടാകുക<s n="vblex"/></l><r>form<s n="vblex"/></r></p></e>
-	<e><p><l>തുടരുക<s n="vblex"/></l><r>continue<s n="vblex"/></r></p></e>
-	<e><p><l>പ്രവര്‍ത്തിക്കുക<s n="vblex"/></l><r>act<s n="vblex"/></r></p></e>
-	<e><p><l>തിരഞ്ഞെടുക്കുക<s n="vblex"/></l><r>select<s n="vblex"/></r></p></e>
-	<e><p><l>ചേര്‍ക്കുക<s n="vblex"/></l><r>attach<s n="vblex"/></r></p></e>
-	<e><p><l>വരക്കുക<s n="vblex"/></l><r>draw<s n="vblex"/></r></p></e>
-	<e><p><l>രചിക്കുക<s n="vblex"/></l><r>compose<s n="vblex"/></r></p></e>
-	<e><p><l>കണ്ടെത്തുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
-	<e><p><l>ഉണ്ടാക്കുക<s n="vblex"/></l><r>construct<s n="vblex"/></r></p></e>
-	<e><p><l>അവലംബിക്കുക<s n="vblex"/></l><r>depend<s n="vblex"/></r></p></e>
-	<e><p><l>കിട്ടുക<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
-	<e><p><l>വഹിക്കുക<s n="vblex"/></l><r>bear<s n="vblex"/></r></p></e>
-	<e><p><l>ചെയ്യപ്പെടുക<s n="vblex"/></l><r>to be carried out<s n="vblex"/></r></p></e>
-	<e><p><l>എഴുതുക<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
-	<e><p><l>ശ്രമിക്കുക<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
-	<e><p><l>മരിക്കുക<s n="vblex"/></l><r>die<s n="vblex"/></r></p></e>
-	<e><p><l>പഠിക്കുക<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
-	<e><p><l>അവതരിപ്പിക്കുക<s n="vblex"/></l><r>present<s n="vblex"/></r></p></e>
-	<e><p><l>അഭിനയിക്കുക<s n="vblex"/></l><r>act<s n="vblex"/></r></p></e>
-	<e><p><l>കടക്കുക<s n="vblex"/></l><r>overreach<s n="vblex"/></r></p></e>
-	<e><p><l>തുടങ്ങുക<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>
-	<e><p><l>വാദിക്കുക<s n="vblex"/></l><r>argue<s n="vblex"/></r></p></e>
-	<e><p><l>അടക്കുക<s n="vblex"/></l><r>refrain<s n="vblex"/></r></p></e>
-	<e><p><l>പെടുക്കുക<s n="vblex"/></l><r>tinkle<s n="vblex"/></r></p></e>
-	<e><p><l>നിര്‍വഹിക്കുക<s n="vblex"/></l><r>administer<s n="vblex"/></r></p></e>
-	<e><p><l>അടക്കുക<s n="vblex"/></l><r>close<s n="vblex"/></r></p></e>
-	<e><p><l>പങ്കെടുക്കുക<s n="vblex"/></l><r>participate<s n="vblex"/></r></p></e>
-	<e><p><l>നടക്കുക<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
-	<e><p><l>പ്രവര്‍ത്തിക്കുക<s n="vblex"/></l><r>exercise<s n="vblex"/></r></p></e>
-	<e><p><l>ചെയ്യുക<s n="vblex"/></l><r>does<s n="vblex"/></r></p></e>
-	<e><p><l>പൂര്‍ത്തിയാക്കുക<s n="vblex"/></l><r>complete<s n="vblex"/></r></p></e>
-	<e><p><l>ആരംഭിക്കുക<s n="vblex"/></l><r>begin<s n="vblex"/></r></p></e>
-	<e><p><l>ബന്ധിപ്പിക്കുക<s n="vblex"/></l><r>implicate<s n="vblex"/></r></p></e>
-	<e><p><l>ജീവിക്കുക<s n="vblex"/></l><r>live<s n="vblex"/></r></p></e>
-	<e><p><l>രേഖപ്പെടുതുക<s n="vblex"/></l><r>write itn<s n="vblex"/></r></p></e>
-	<e><p><l>ചികില്‍സിക്കുക<s n="vblex"/></l><r>treat<s n="vblex"/></r></p></e>
-	<e><p><l>കൈമാറുക<s n="vblex"/></l><r>exchange<s n="vblex"/></r></p></e>
-	<e><p><l>തിരിച്ചറിയുക<s n="vblex"/></l><r>distinguish<s n="vblex"/></r></p></e>
-	<e><p><l>മാറുക<s n="vblex"/></l><r>change<s n="vblex"/></r></p></e>
-	<e><p><l>വിചാരിക്കുക<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
-	<e><p><l>കാണുക<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
-	<e><p><l>തുറക്കുക<s n="vblex"/></l><r>open<s n="vblex"/></r></p></e>
-	<e><p><l>അറിയിക്കുക<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e>
-	<e><p><l>സഹായിക്കുക<s n="vblex"/></l><r>help<s n="vblex"/></r></p></e>
-	<e><p><l>പാഠിക്കുക<s n="vblex"/></l><r>study<s n="vblex"/></r></p></e>
-	<e><p><l>ഒഴുകുക<s n="vblex"/></l><r>flow<s n="vblex"/></r></p></e>
-	<e><p><l>സൂചിപ്പിക്കുക<s n="vblex"/></l><r>intimate<s n="vblex"/></r></p></e>
-		<e><p><l>ചിരിക്കുക<s n="vblex"/></l><r>laugh<s n="vblex"/></r></p></e>
-	<e><p><l>കണ്ടുപിടിക്കുക<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
-		<e><p><l>ഇഷ്ടപ്പെടുക<s n="vblex"/></l><r>love<s n="vblex"/></r></p></e>
-	<e><p><l>ഉണ്ട്<s n="vblex"/></l><r>have<s n="vblex"/></r></p></e>
-		<e><p><l>വരുക<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
-		<e>       <p><l>തീരുക<s n="vblex"/></l>                    <r>finish<s n="vblex"/></r></p></e>
+<e>       <p><l>കരുതുക<s n="vblex"/></l>               <r>think<s n="vblex"/></r></p></e>
+<e>       <p><l>ഇരിക്കുക<s n="vblex"/></l>             <r>sit<s n="vblex"/></r></p></e>
+<e>       <p><l>ചോദിക്കുക<s n="vblex"/></l>            <r>ask<s n="vblex"/></r></p></e>
+<e>       <p><l>എണ്ണുക<s n="vblex"/></l>               <r>count<s n="vblex"/></r></p></e>
+<e>       <p><l>മറിയുക<s n="vblex"/></l>               <r>rotate<s n="vblex"/></r></p></e>
+<e>       <p><l>അറിയുക<s n="vblex"/></l>               <r>know<s n="vblex"/></r></p></e>
+<e>       <p><l>കാണുക<s n="vblex"/></l>                <r>see<s n="vblex"/></r></p></e>
+<e>       <p><l>ചെയ്യുക<s n="vblex"/></l>              <r>do<s n="vblex"/></r></p></e>
+<e>       <p><l>തിന്നുക<s n="vblex"/></l>              <r>eat<s n="vblex"/></r></p></e>
+<e>       <p><l>പരതുക<s n="vblex"/></l>                <r>search<s n="vblex"/></r></p></e>
+<e>       <p><l>തീര്‍കുക<s n="vblex"/></l>             <r>finish<s n="vblex"/></r></p></e>
+<e>       <p><l>കളിക്കുക<s n="vblex"/></l>             <r>play<s n="vblex"/></r></p></e>
+<e>       <p><l>നോക്കുക<s n="vblex"/></l>              <r>look<s n="vblex"/></r></p></e>
+<e>       <p><l>കേള്‍ക്കുക<s n="vblex"/></l>           <r>hear<s n="vblex"/></r></p></e>
+<e>       <p><l>സംസാരിക്കുക<s n="vblex"/></l>          <r>talk<s n="vblex"/></r></p></e>
+<e>       <p><l>വ്യക്തമാകുക<s n="vblex"/></l>          <r>clear<s n="vblex"/></r></p></e>
+<e>       <p><l>പോകുക<s n="vblex"/></l>                <r>go<s n="vblex"/></r></p></e>
+<e>       <p><l>കണ്ടെത്തുക<s n="vblex"/></l>           <r>find<s n="vblex"/></r></p></e>
+<e>       <p><l>കഴിയുക<s n="vblex"/></l>               <r>can<s n="vaux"/><s n="pres"/></r></p></e>
+<e>       <p><l>കഴിയുക<s n="vblex"/><s n="past"/></l>  <r>could<s n="vblex"/></r></p></e>
+<e>       <p><l>കഴിയുക<s n="vblex"/><s n="neg"/></l>   <r>can not<s n="vaux"/><s n="pres"/></r></p></e>
+<e>       <p><l>കഴിയുക<s n="vblex"/><s n="past"/><s n="neg"/></l><r>could not<s n="vblex"/></r></p></e>
+<e>       <p><l>ഒളിക്കുക<s n="vblex"/></l>             <r>hide<s n="vblex"/></r></p></e>
+<e>       <p><l>പറയുക<s n="vblex"/></l>                <r>tell<s n="vblex"/></r></p></e>
+<e>       <p><l>ഉറങ്ങുക<s n="vblex"/></l>              <r>sleep<s n="vblex"/></r></p></e>
+<e>       <p><l>പറയുക<s n="vblex"/></l>                <r>talk<s n="vblex"/></r></p></e>
+<e>       <p><l>ഭരിക്കുക<s n="vblex"/></l>             <r>govern<s n="vblex"/></r></p></e>
+<e>       <p><l>ഉപയോഗിക്കുക<s n="vblex"/></l>          <r>use<s n="vblex"/></r></p></e>
+<e>       <p><l>കണക്കാക്കുക<s n="vblex"/></l>          <r>calculate<s n="vblex"/></r></p></e>
+<e>       <p><l>വിശ്വസിക്കുക<s n="vblex"/></l>         <r>belive<s n="vblex"/></r></p></e>
+<e>       <p><l>വളരുക<s n="vblex"/></l>                <r>grow<s n="vblex"/></r></p></e>
+<e>       <p><l>പിന്തുണക്കുക<s n="vblex"/></l>         <r>support<s n="vblex"/></r></p></e>
+<e>       <p><l>ചോദിക്കുക<s n="vblex"/></l>            <r>question<s n="vblex"/></r></p></e>
+<e>       <p><l>നല്‍കുക<s n="vblex"/></l>              <r>give<s n="vblex"/></r></p></e>
+<e>       <p><l>നടത്തുക<s n="vblex"/></l>              <r>conduct<s n="vblex"/></r></p></e>
+<e>       <p><l>ലഭിക്കുക<s n="vblex"/></l>             <r>get<s n="vblex"/></r></p></e>
+<e>       <p><l>ഉണ്ടാകുക<s n="vblex"/></l>             <r>form<s n="vblex"/></r></p></e>
+<e>       <p><l>തുടരുക<s n="vblex"/></l>               <r>continue<s n="vblex"/></r></p></e>
+<e>       <p><l>പ്രവര്‍ത്തിക്കുക<s n="vblex"/></l>     <r>act<s n="vblex"/></r></p></e>
+<e>       <p><l>തിരഞ്ഞെടുക്കുക<s n="vblex"/></l>       <r>select<s n="vblex"/></r></p></e>
+<e>       <p><l>ചേര്‍ക്കുക<s n="vblex"/></l>           <r>attach<s n="vblex"/></r></p></e>
+<e>       <p><l>വരക്കുക<s n="vblex"/></l>              <r>draw<s n="vblex"/></r></p></e>
+<e>       <p><l>രചിക്കുക<s n="vblex"/></l>             <r>compose<s n="vblex"/></r></p></e>
+<e>       <p><l>ഉണ്ടാക്കുക<s n="vblex"/></l>           <r>construct<s n="vblex"/></r></p></e>
+<e>       <p><l>അവലംബിക്കുക<s n="vblex"/></l>          <r>depend<s n="vblex"/></r></p></e>
+<e>       <p><l>കിട്ടുക<s n="vblex"/></l>              <r>get<s n="vblex"/></r></p></e>
+<e>       <p><l>വഹിക്കുക<s n="vblex"/></l>             <r>bear<s n="vblex"/></r></p></e>
+<e>       <p><l>ചെയ്യപ്പെടുക<s n="vblex"/></l>         <r>to be carried out<s n="vblex"/></r></p></e>
+<e>       <p><l>എഴുതുക<s n="vblex"/></l>               <r>write<s n="vblex"/></r></p></e>
+<e>       <p><l>ശ്രമിക്കുക<s n="vblex"/></l>           <r>try<s n="vblex"/></r></p></e>
+<e>       <p><l>മരിക്കുക<s n="vblex"/></l>             <r>die<s n="vblex"/></r></p></e>
+<e>       <p><l>പഠിക്കുക<s n="vblex"/></l>             <r>study<s n="vblex"/></r></p></e>
+<e>       <p><l>അവതരിപ്പിക്കുക<s n="vblex"/></l>       <r>present<s n="vblex"/></r></p></e>
+<e>       <p><l>അഭിനയിക്കുക<s n="vblex"/></l>          <r>act<s n="vblex"/></r></p></e>
+<e>       <p><l>കടക്കുക<s n="vblex"/></l>              <r>overreach<s n="vblex"/></r></p></e>
+<e>       <p><l>തുടങ്ങുക<s n="vblex"/></l>             <r>start<s n="vblex"/></r></p></e>
+<e>       <p><l>വാദിക്കുക<s n="vblex"/></l>            <r>argue<s n="vblex"/></r></p></e>
+<e>       <p><l>അടക്കുക<s n="vblex"/></l>              <r>refrain<s n="vblex"/></r></p></e>
+<e>       <p><l>പെടുക്കുക<s n="vblex"/></l>            <r>tinkle<s n="vblex"/></r></p></e>
+<e>       <p><l>നിര്‍വഹിക്കുക<s n="vblex"/></l>        <r>administer<s n="vblex"/></r></p></e>
+<e>       <p><l>അടക്കുക<s n="vblex"/></l>              <r>close<s n="vblex"/></r></p></e>
+<e>       <p><l>പങ്കെടുക്കുക<s n="vblex"/></l>         <r>participate<s n="vblex"/></r></p></e>
+<e>       <p><l>നടക്കുക<s n="vblex"/></l>              <r>walk<s n="vblex"/></r></p></e>
+<e>       <p><l>പ്രവര്‍ത്തിക്കുക<s n="vblex"/></l>     <r>exercise<s n="vblex"/></r></p></e>
+<e>       <p><l>ചെയ്യുക<s n="vblex"/></l>              <r>does<s n="vblex"/></r></p></e>
+<e>       <p><l>പൂര്‍ത്തിയാക്കുക<s n="vblex"/></l>     <r>complete<s n="vblex"/></r></p></e>
+<e>       <p><l>ആരംഭിക്കുക<s n="vblex"/></l>           <r>begin<s n="vblex"/></r></p></e>
+<e>       <p><l>ബന്ധിപ്പിക്കുക<s n="vblex"/></l>       <r>implicate<s n="vblex"/></r></p></e>
+<e>       <p><l>ജീവിക്കുക<s n="vblex"/></l>            <r>live<s n="vblex"/></r></p></e>
+<e>       <p><l>രേഖപ്പെടുതുക<s n="vblex"/></l>         <r>write itn<s n="vblex"/></r></p></e>
+<e>       <p><l>ചികില്‍സിക്കുക<s n="vblex"/></l>       <r>treat<s n="vblex"/></r></p></e>
+<e>       <p><l>കൈമാറുക<s n="vblex"/></l>              <r>exchange<s n="vblex"/></r></p></e>
+<e>       <p><l>തിരിച്ചറിയുക<s n="vblex"/></l>         <r>distinguish<s n="vblex"/></r></p></e>
+<e>       <p><l>മാറുക<s n="vblex"/></l>                <r>change<s n="vblex"/></r></p></e>
+<e>       <p><l>വിചാരിക്കുക<s n="vblex"/></l>          <r>think<s n="vblex"/></r></p></e>
+<e>       <p><l>തുറക്കുക<s n="vblex"/></l>             <r>open<s n="vblex"/></r></p></e>
+<e>       <p><l>അറിയിക്കുക<s n="vblex"/></l>           <r>know<s n="vblex"/></r></p></e>
+<e>       <p><l>സഹായിക്കുക<s n="vblex"/></l>           <r>help<s n="vblex"/></r></p></e>
+<e>       <p><l>പാഠിക്കുക<s n="vblex"/></l>            <r>study<s n="vblex"/></r></p></e>
+<e>       <p><l>ഒഴുകുക<s n="vblex"/></l>               <r>flow<s n="vblex"/></r></p></e>
+<e>       <p><l>സൂചിപ്പിക്കുക<s n="vblex"/></l>        <r>intimate<s n="vblex"/></r></p></e>
+<e>       <p><l>ചിരിക്കുക<s n="vblex"/></l>            <r>laugh<s n="vblex"/></r></p></e>
+<e>       <p><l>കണ്ടുപിടിക്കുക<s n="vblex"/></l>       <r>find<s n="vblex"/></r></p></e>
+<e>       <p><l>ഇഷ്ടപ്പെടുക<s n="vblex"/></l>          <r>love<s n="vblex"/></r></p></e>
+<e>       <p><l>ഉണ്ട്<s n="vblex"/></l>                <r>have<s n="vblex"/></r></p></e>
+<e>       <p><l>വരുക<s n="vblex"/></l>                 <r>come<s n="vblex"/></r></p></e>
+<e>       <p><l>തീരുക<s n="vblex"/></l>                <r>finish<s n="vblex"/></r></p></e>
 
 	<!-- Interrogative-->
- 	<e><p><l>എവിടെ<s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
- 	<e><p><l>ആര്<s n="itg"/></l><r>who<s n="adv"/><s n="itg"/></r></p></e>
- 	<e><p><l>എന്ത്<s n="itg"/></l><r>what<s n="itg"/></r></p></e>
- 	<e><p><l>എപ്പോള്‍<s n="itg"/></l><r>when<s n="itg"/></r></p></e>
- 	<e><p><l>എങ്ങനെ<s n="itg"/></l><r>how<s n="adv"/><s n="itg"/></r></p></e>
- 	<e><p><l>എങ്ങനെ<s n="itg"/></l><r>how<s n="adv"/>></r></p></e>
- 	<e><p><l>ഏന്തിന്<s n="itg"/></l><r>why<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>എവിടെ<s n="itg"/></l>                  <r>where<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>ആര്<s n="itg"/></l>                    <r>who<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>എന്ത്<s n="itg"/></l>                  <r>what<s n="itg"/></r></p></e>
+<e>       <p><l>എപ്പോള്‍<s n="itg"/></l>               <r>when<s n="itg"/></r></p></e>
+<e>       <p><l>എങ്ങനെ<s n="itg"/></l>                 <r>how<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>എങ്ങനെ<s n="itg"/></l>                 <r>how<s n="adv"/></r></p></e>
+<e>       <p><l>ഏന്തിന്<s n="itg"/></l>                <r>why<s n="adv"/><s n="itg"/></r></p></e>
  <!-- numbers -->
 <e>       <p><l>ഒന്ന്<s n="num"/></l>                  <r>one<s n="num"/></r></p></e>
 <e>       <p><l>രണ്ട്<s n="num"/></l>                  <r>two<s n="num"/></r></p></e>
@@ -323,7 +320,7 @@
 <!--	clitics -->
 <e>       <p><l>ും<s n="cnjcoo"/></l>                  <r>also<s n="adv"/></r></p></e>
 <e>       <p><l>ും<s n="cnjcoo"/></l>                  <r>and<s n="cnjcoo"/></r></p></e>
-<e>       <p><l>ോ<s n="cnjcoo"/></l>                  <r>or<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>ോ<s n="cnjcoo"/></l>                   <r>or<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ലേക്ക്<s n="pr"/></l>                  <r>to<s n="pr"/></r></p></e>
 <e>       <p><l>ോടപ്പം<s n="post"/></l>                <r>with<s n="pr"/></r></p></e>
     <!-- SECTION: Interjections -->
@@ -335,9 +332,9 @@
 <e>       <p><l>&quot;<s n="quot"/></l>                <r>parquote<s n="quot"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
 <!-- post-->
-    <e>       <p><l>നിന്ന്<s n="post"/></l>                  <r>from<s n="pr"/></r></p></e>
+<e>       <p><l>നിന്ന്<s n="post"/></l>                <r>from<s n="pr"/></r></p></e>
     <!-- none -->
-    <e>       <p><l>ലൂടെ<s n="unknown"/></l>                  <r>through<s n="pr"/></r></p></e>
-	<e>       <p><l>ഹായ്</l>                               <r>hi</r></p></e>
-	</section>
+<e>       <p><l>ലൂടെ<s n="unknown"/></l>               <r>through<s n="pr"/></r></p></e>
+<e>       <p><l>ഹായ്</l>                               <r>hi</r></p></e>
+  </section>
 </dictionary>

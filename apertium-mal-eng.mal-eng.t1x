@@ -13,6 +13,21 @@
       <attr-item tags="n"/>
       <attr-item tags="np"/>
     </def-attr>
+    <def-attr n="a_cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="ins"/>
+      <attr-item tags="abl"/>
+      <attr-item tags="erg"/>
+      <attr-item tags="gen"/>
+    </def-attr>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -32,7 +47,9 @@
               <tag><lit-tag v="SN"/></tag>
             </tags>
             <lu>
-              <clip side="tl" pos="1" part="whole"/>
+              <clip side="tl" pos="1" part="lem"/>
+              <clip side="tl" pos="1" part="a_nom"/>
+              <clip side="tl" pos="1" part="a_nbr"/>
             </lu>
           </chunk>
         </out>
