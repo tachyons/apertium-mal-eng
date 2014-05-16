@@ -153,8 +153,8 @@
 <e>       <p><l>ജനം<s n="n"/></l>                      <r>people<s n="n"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
-<e>       <p><l>രാജു<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="sg"/><s n="m"/></r></p></e>
-<e>       <p><l>രാധ<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="sg"/><s n="f"/></r></p></e>
+<e>       <p><l>രാജു<s n="np"/><s n="ant"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>രാധ<s n="np"/><s n="ant"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
