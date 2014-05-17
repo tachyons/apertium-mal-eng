@@ -58,7 +58,8 @@
     <sdef n="sint" 	c="sinthetic"/> 
     <sdef n="dem" 	c="demonstrative"/> 
     <sdef n="def" /> 
-
+    <sdef n="tv" 	c="transitive"/> 
+    <sdef n="iv" 	c="intransitive"/> 
     <sdef n="pr" /> 
     <sdef n="vbcop" /> 
     <sdef n="cnjadv" /> 
@@ -74,6 +75,7 @@
 
 
     <e><p><l>യും<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e><p><l>യും<s n="cnjcoo"/></l><r>also<s n="adv"/></r></p></e>
     <e><p><l>യോ<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
     <e><p><l>ഉം<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
     <e><p><l>പക്ഷെ<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
@@ -188,6 +190,8 @@
     <e><p><l>അകത്ത്<s n="adj"/></l><r>inside<s n="adj"/></r></p></e>
     <e><p><l>അടുത്ത്<s n="adj"/></l><r>near<s n="adj"/><s n="sint"/></r></p></e>
 
+    <e><p><l>ഇഷ്ടം<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
+
     <!-- SECTION: Adverbs -->
 
     <e><p><l>എവിടെ<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
@@ -232,18 +236,18 @@
     <e><p><l>തിന്നുക<s n="v"/></l><r>eat<s n="vblex"/></r></p></e>
     <e><p><l>പരതുക<s n="v"/></l><r>search<s n="vblex"/></r></p></e>
     <e><p><l>തീര്‍കുക<s n="v"/></l><r>finish<s n="vblex"/></r></p></e>
-    <e><p><l>കളിക്കുക<s n="v"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>കളിക്കുക<s n="v"/><s n="iv"/></l><r>play<s n="vblex"/></r></p></e>
     <e><p><l>നോക്കുക<s n="v"/></l><r>look<s n="vblex"/></r></p></e>
     <e><p><l>കേള്‍ക്കുക<s n="v"/></l><r>hear<s n="vblex"/></r></p></e>
     <e><p><l>സംസാരിക്കുക<s n="v"/></l><r>talk<s n="vblex"/></r></p></e>
     <e><p><l>വ്യക്തമാകുക<s n="v"/></l><r>clear<s n="vblex"/></r></p></e>
-    <e><p><l>പോകുക<s n="v"/></l><r>go<s n="vblex"/></r></p></e>
+    <e><p><l>പോകുക<s n="v"/><s n="iv"/></l><r>go<s n="vblex"/></r></p></e>
     <e><p><l>കണ്ടെത്തുക<s n="v"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>കഴിയുക<s n="v"/></l><r>can<s n="vaux"/><s n="pres"/></r></p></e>
     <e><p><l>ഒളിക്കുക<s n="v"/></l><r>hide<s n="vblex"/></r></p></e>
     <e><p><l>പറയുക<s n="v"/></l><r>say<s n="vblex"/></r></p></e>
     <e><p><l>പറയുക<s n="v"/></l><r>tell<s n="vblex"/></r></p></e>
-    <e><p><l>ഉറങ്ങുക<s n="v"/></l><r>sleep<s n="vblex"/></r></p></e>
+    <e><p><l>ഉറങ്ങുക<s n="v"/><s n="iv"/></l><r>sleep<s n="vblex"/></r></p></e>
     <e><p><l>പറയുക<s n="v"/></l><r>talk<s n="vblex"/></r></p></e>
     <e><p><l>ഭരിക്കുക<s n="v"/></l><r>govern<s n="vblex"/></r></p></e>
     <e><p><l>ഉപയോഗിക്കുക<s n="v"/></l><r>use<s n="vblex"/></r></p></e>
@@ -298,7 +302,7 @@
     <e><p><l>പാഠിക്കുക<s n="v"/></l><r>study<s n="vblex"/></r></p></e>
     <e><p><l>ഒഴുകുക<s n="v"/></l><r>flow<s n="vblex"/></r></p></e>
     <e><p><l>സൂചിപ്പിക്കുക<s n="v"/></l><r>intimate<s n="vblex"/></r></p></e>
-    <e><p><l>ചിരിക്കുക<s n="v"/></l><r>laugh<s n="vblex"/></r></p></e>
+    <e><p><l>ചിരിക്കുക<s n="v"/><s n="iv"/></l><r>laugh<s n="vblex"/></r></p></e>
     <e><p><l>കണ്ടുപിടിക്കുക<s n="v"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>ഇഷ്ടപ്പെടുക<s n="v"/></l><r>love<s n="vblex"/></r></p></e>
     <e><p><l>ഉണ്ട്<s n="vbcop"/></l><r>have<s n="vbhaver"/></r></p></e>
