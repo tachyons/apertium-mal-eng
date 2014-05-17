@@ -307,7 +307,10 @@
 <e>       <p><l>&quot;<s n="quot"/></l>                <r>parquote<s n="quot"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
 <!-- post-->
-<e>       <p><l>നിന്ന്<s n="post"/></l>                <r>from<s n="pr"/></r></p></e>
+<e>       <p><l>നിന്ന്<s n="spost"/></l>                <r>from<s n="pr"/></r></p></e>
+<e>       <p><l>കൂടെ<s n="spost"/></l>                <r>with<s n="pr"/></r></p></e>
+<e>       <p><l>അകത്ത്<s n="spost"/></l>                <r>inside<s n="pr"/></r></p></e>
+<e>       <p><l>യോടപ്പം<s n="post"/></l>                <r>with<s n="pr"/></r></p></e>
     <!-- none -->
 
 
