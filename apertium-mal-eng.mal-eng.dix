@@ -79,10 +79,19 @@
 <e>       <p><l>ഇന്ന്<s n="n"/></l>                  <r>today<s n="adv"/></r></p></e>
 
 
-<e>       <p><l>അത്<s n="prn"/><s n="nt"/><s n="sg"/></l><r>it<s n="prn"/><s n="prn"/><s n="nt"/><s n="sg"/></r></p></e>
         <!-- SECTION: Postpositions -->
 <e><p><l>മുന്നില്‍<s n="spost"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
-
+<e>       <p><l>നിന്ന്<s n="spost"/></l>                <r>from<s n="pr"/></r></p></e>
+<e>       <p><l>കൂടെ<s n="spost"/></l>                <r>with<s n="pr"/></r></p></e>
+<e>       <p><l>അകത്ത്<s n="spost"/></l>                <r>inside<s n="pr"/></r></p></e>
+<e>       <p><l>യോടപ്പം<s n="post"/></l>                <r>with<s n="pr"/></r></p></e>
+<e>       <p><l>ൂടെ<s n="post"/></l>                <r>through<s n="pr"/></r></p></e>
+<e>       <p><l>േക്ക്<s n="post"/></l>                <r>to<s n="pr"/></r></p></e>
+<e>       <p><l>അടുത്ത്<s n="post"/></l>                <r>near<s n="pr"/></r></p></e>
+<e>       <p><l>അടുത്ത്<s n="spost"/></l>                <r>near<s n="pr"/></r></p></e>
+<e>       <p><l>പിറകില്<s n="spost"/></l>               <r>behind<s n="pr"/></r></p></e>
+<e>       <p><l>താഴെ<s n="spost"/></l>               <r>under<s n="pr"/></r></p></e>
+<e>       <p><l>മുമ്പില്‍<s n="spost"/></l>              <r>in<b/>front<b/>of<s n="pr"/></r></p></e>
 	<!-- SECTION: Conjunctions -->
 
 <e>       <p><l>ഉം<s n="cnjcoo"/></l>                  <r>and<s n="cnjcoo"/></r></p></e>
@@ -95,6 +104,15 @@
 <e>       <p><l>അവന്‍<s n="prn"/><s n="pers"/><s n="p3"/></l><r>he<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
 <e>       <p><l>അവള്‍<s n="prn"/><s n="pers"/><s n="p3"/></l><r>she<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
 <e>       <p><l>അവര്‍<s n="prn"/><s n="pers"/><s n="p3"/></l><r>they<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
+
+<e>       <p><l>അത്<s n="prn"/><s n="dem"/></l><r>that<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
+<e>       <p><l>ഇത്<s n="prn"/><s n="dem"/></l><r>this<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
+
+<e>       <p><l>എന്ത്<s n="prn"/><s n="itg"/></l><r>what<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
+
+    <!-- SECTION: Determiners -->
+<e>       <p><l>അത്<s n="det"/><s n="dem"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+<e>       <p><l>ഇത്<s n="det"/><s n="dem"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
 
 
     <!-- SECTION: Nouns -->
@@ -133,6 +151,7 @@
 <e>       <p><l>പേര്<s n="n"/></l>                     <r>name<s n="n"/></r></p></e>
 <e>       <p><l>മനുഷ്യന്‍<s n="n"/></l>                <r>man<s n="n"/></r></p></e>
 <e>       <p><l>പുസ്തകം<s n="n"/></l>                  <r>book<s n="n"/></r></p></e>
+<e>       <p><l>നേരം<s n="n"/></l>                  <r>time<s n="n"/></r></p></e>
 <e>       <p><l>വൈയ്കുന്നേരം<s n="n"/></l>             <r>evening<s n="n"/></r></p></e>
 <e>       <p><l>പ്രൊജെക്റ്റ്<s n="n"/></l>             <r>project<s n="n"/></r></p></e>
 <e>       <p><l>പേന<s n="n"/></l>                      <r>pen<s n="n"/></r></p></e>
@@ -169,12 +188,12 @@
 <e>       <p><l>എവിടെ<s n="adv"/><s n="itg"/></l>      <r>where<s n="adv"/><s n="itg"/></r></p></e>
 <e>       <p><l>അവിടെ<s n="adv"/></l>                  <r>there<s n="adv"/></r></p></e>
 <e>       <p><l>ഇല്ല<s n="adv"/></l>                   <r>no<s n="adv"/></r></p></e>
-<e>       <p><l>മുമ്പില്‍<s n="adv"/></l>              <r>in<b/>front<s n="adv"/></r></p></e>
+
 <e>       <p><l>ചെറിയ<s n="adv"/></l>                  <r>little<s n="adv"/></r></p></e>
 <e>       <p><l>ഇപ്പോള്‍<s n="adv"/></l>               <r>now<s n="adv"/></r></p></e>
 <e>       <p><l>എപ്പോഴും<s n="adv"/></l>               <r>always<s n="adv"/></r></p></e>
 <e>       <p><l>വളരെ<s n="preadv"/></l>                   <r>very<s n="preadv"/></r></p></e>
-<e>       <p><l>പിറകില്‍<s n="adv"/></l>               <r>behind<s n="adv"/></r></p></e>
+
 <e>       <p><l>അല്ല<s n="adv"/></l>                   <r>not<s n="adv"/></r></p></e>
 <e>       <p><l>മെല്ലെ<s n="adv"/></l>                 <r>slowly<s n="adv"/></r></p></e>
 <e>       <p><l>വീണ്ടും<s n="adv"/></l>                <r>again<s n="adv"/></r></p></e>
@@ -188,6 +207,11 @@
 <e>       <p><l>പെട്ടെന്ന്<s n="adv"/></l>             <r>quickly<s n="adv"/></r></p></e>
 <e>       <p><l>ഇപ്പോഴും<s n="adv"/></l>               <r>still<s n="adv"/></r></p></e>
 
+<e>       <p><l>അതുകൊണ്ട്<s n="adv"/></l>               <r>so<s n="adv"/></r></p></e>
+<e>       <p><l>കൂടി<s n="adv"/></l>               <r>too<s n="adv"/></r></p></e>
+<e>       <p><l>തന്നെ<s n="adv"/></l>               <r>definitely<s n="adv"/></r></p></e>
+<e>       <p><l>വ്യക്തമായി<s n="adv"/></l>               <r>clearly<s n="adv"/></r></p></e>
+<e>       <p><l>പുറത്ത്<s n="adv"/></l>               <r>outside<s n="adv"/></r></p></e>
 
 	<!-- SECTION vbser -->
 <e>       <p><l>ആക്<s n="vbcop"/></l>                  <r>be<s n="vbser"/></r></p></e>
@@ -307,11 +331,7 @@
 <e>       <p><l>&quot;<s n="quot"/></l>                <r>parquote<s n="quot"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
 <!-- post-->
-<e>       <p><l>നിന്ന്<s n="spost"/></l>                <r>from<s n="pr"/></r></p></e>
-<e>       <p><l>കൂടെ<s n="spost"/></l>                <r>with<s n="pr"/></r></p></e>
-<e>       <p><l>അകത്ത്<s n="spost"/></l>                <r>inside<s n="pr"/></r></p></e>
-<e>       <p><l>യോടപ്പം<s n="post"/></l>                <r>with<s n="pr"/></r></p></e>
-    <!-- none -->
+
 
 
   </section>
