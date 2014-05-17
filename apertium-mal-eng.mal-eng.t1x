@@ -6,6 +6,9 @@
     <def-cat n="ant">
       <cat-item tags="np.ant.*"/>
     </def-cat>
+    <def-cat n="pron-pers">
+      <cat-item tags="prn.pers.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -26,6 +29,11 @@
       <attr-item tags="abl"/>
       <attr-item tags="erg"/>
       <attr-item tags="gen"/>
+    </def-attr>
+    <def-attr n="subj-obj">
+      <attr-item tags="FD"/>
+      <attr-item tags="subj"/>
+      <attr-item tags="obj"/>
     </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="m"/>
@@ -64,7 +72,6 @@
       </action>
     </rule>
 
-
     <rule comment="nom">
       <pattern>
         <pattern-item n="nom"/>
@@ -84,6 +91,35 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="pron-pers">
+      <pattern>
+        <pattern-item n="pron-pers"/>
+      </pattern>
+      <action>
+       <choose>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal></test>
+                <let><clip pos="1" side="tl" part="subj-obj"/><lit-tag v="subj"/></let>
+          </when>
+          <otherwise>
+                <let><clip pos="1" side="tl" part="subj-obj"/><lit-tag v="obj"/></let>
+          </otherwise>
+        </choose>
+        <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
   </section-rules>
 </transfer>
