@@ -42,11 +42,16 @@ TARGETS_COMMON = \
 	echo " ?* " | hfst-regexp2fst > .deps/any-symbol.hfst
 	hfst-concatenate -1 .deps/$(PREFIX1).autobil.upper -2 .deps/any-symbol.hfst -o .deps/$(PREFIX1).autobil.prefixes
 
-$(PREFIX1).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.att.gz .deps/$(PREFIX1).autobil.prefixes .deps/.d
-	$(ZCAT) $< | hfst-txt2fst > .deps/$(LANG1).automorf.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.trimmed
-	hfst-fst2txt -i .deps/$(PREFIX1).automorf.trimmed -o .deps/$(PREFIX1).automorf.trimmed.att
-	lt-comp lr .deps/$(PREFIX1).automorf.trimmed.att $@
+
+$(PREFIX1).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.att.gz .deps/.d
+	$(ZCAT) $< > .deps/$(LANG1).automorf.att
+	lt-comp lr .deps/$(LANG1).automorf.att $@
+
+#$(PREFIX1).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.att.gz .deps/$(PREFIX1).autobil.prefixes .deps/.d
+#	$(ZCAT) $< | hfst-txt2fst > .deps/$(LANG1).automorf.hfst
+#	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.trimmed
+#	hfst-fst2txt -i .deps/$(PREFIX1).automorf.trimmed -o .deps/$(PREFIX1).automorf.trimmed.att
+#	lt-comp lr .deps/$(PREFIX1).automorf.trimmed.att $@
 
 $(PREFIX2).autogen.hfst: $(AP_LIB1)/$(LANG1).autogen.hfst
 	cp $< $@
