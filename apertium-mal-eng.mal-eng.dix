@@ -116,11 +116,11 @@
 <e>       <p><l>പട്ടി<s n="n"/></l>                    <r>dog<s n="n"/></r></p></e>
 <e>       <p><l>വീട്<s n="n"/><s n="sg"/></l>          <r>house<s n="n"/><s n="sg"/></r></p></e>
 <e>       <p><l>വീട്<s n="n"/><s n="sg"/></l>          <r>home<s n="n"/><s n="sg"/></r></p></e>
-    <!-- <e><p><l>വീട്<s n="n"/><s n="nt"/></l><r>home<s n="n"/></r></p></e> -->
 <e>       <p><l>ആണ്‍കുട്ടി<s n="n"/></l>               <r>boy<s n="n"/></r></p></e>
 <e>       <p><l>പെണ്‍കുട്ടി<s n="n"/></l>              <r>girl<s n="n"/></r></p></e>
 <e>       <p><l>പൂച്ച<s n="n"/></l>                    <r>cat<s n="n"/></r></p></e>
 <e>       <p><l>സഹോദരി<s n="n"/></l>                   <r>sister<s n="n"/></r></p></e>
+<e>       <p><l>കുട്ടി<s n="n"/></l>                   <r>child<s n="n"/><s n="pl"/></r></p></e>
 <e>       <p><l>അമ്മ<s n="n"/></l>                     <r>mother<s n="n"/></r></p></e>
 <e>       <p><l>മേശ<s n="n"/></l>                      <r>table<s n="n"/></r></p></e>
 <e>       <p><l>കസേര<s n="n"/></l>                     <r>chair<s n="n"/></r></p></e>
@@ -136,7 +136,6 @@
 <e>       <p><l>തല<s n="n"/></l>                       <r>head<s n="n"/></r></p></e>
 <e>       <p><l>സമയം<s n="n"/></l>                     <r>time<s n="n"/></r></p></e>
 <e>       <p><l>വെള്ളം<s n="n"/></l>                   <r>water<s n="n"/></r></p></e>
-<e>       <p><l>കുട്ടി<s n="n"/></l>                   <r>children<s n="n"/></r></p></e>
 <e>       <p><l>പേര്<s n="n"/></l>                     <r>name<s n="n"/></r></p></e>
 <e>       <p><l>മനുഷ്യന്‍<s n="n"/></l>                <r>man<s n="n"/></r></p></e>
 <e>       <p><l>പുസ്തകം<s n="n"/></l>                  <r>book<s n="n"/></r></p></e>
@@ -146,13 +145,11 @@
 <e>       <p><l>കത്ത്<s n="n"/></l>                    <r>letter<s n="n"/></r></p></e>
 <e>       <p><l>രേഖ<s n="n"/></l>                      <r>document<s n="n"/></r></p></e>
 <e>       <p><l>വീട്<s n="n"/></l>                     <r>house<s n="n"/></r></p></e>
-<e>       <p><l>സ്വാഗതം<s n="n"/></l>                  <r>welcome<s n="adj"/></r></p></e>
 <e>       <p><l>വയസ്സ്<s n="n"/></l>                   <r>age<s n="n"/></r></p></e>
 <e>       <p><l>ഇഷ്ടം<s n="n"/></l>                    <r>love<s n="adj"/></r></p></e>
 <e>       <p><l>മറുപടി<s n="n"/></l>                   <r>reply<s n="n"/></r></p></e>
 <e>       <p><l>മ്രിഗം<s n="n"/></l>                   <r>animal<s n="n"/></r></p></e>
-<e>       <p><l>ശ്രദ്ധ<s n="n"/></l>                   <r>carefully<s n="adv"/></r></p></e>
-<e>       <p><l>ജനം<s n="n"/></l>                      <r>people<s n="n"/></r></p></e>
+<e>       <p><l>ജനം<s n="n"/></l>                      <r>person<s n="n"/><s n="pl"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 <e>       <p><l>രാജു<s n="np"/><s n="ant"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -161,20 +158,16 @@
     <!-- SECTION: Adjectives -->
 
 <e>       <p><l>ഊഷ്മളം<s n="adj"/></l>                 <r>warm<s n="adj"/><s n="sint"/></r></p></e>
-<e>       <p><l>മുന്നില്‍<s n="adj"/></l>              <r>in<b/>front<s n="adj"/></r></p></e>
-<e>       <p><l>നല്ല<s n="adj"/></l>                   <r>good<s n="adj"/></r></p></e>
-<e>       <p><l>വലിയ<s n="adj"/></l>                   <r>big<s n="adj"/></r></p></e>
+<e>       <p><l>നല്ല<s n="adj"/></l>                   <r>good<s n="adj"/><s n="sint"/></r></p></e>
+<e>       <p><l>വലിയ<s n="adj"/></l>                   <r>big<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>പുറത്ത്<s n="adj"/></l>                <r>outside<s n="adj"/></r></p></e>
-<e>       <p><l>ചെറിയ<s n="adj"/></l>                  <r>little<s n="adj"/></r></p></e>
+<e>       <p><l>ചെറിയ<s n="adj"/></l>                  <r>little<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>സന്തോഷം<s n="n"/><s n="sg"/></l>       <r>happy<s n="adj"/><s n="sint"/></r></p></e>
-<e>       <p><l>പഴയ<s n="adj"/></l>                    <r>old<s n="adj"/></r></p></e>
-<e>       <p><l>ചൂട്<s n="adj"/></l>                   <r>hot<s n="adj"/></r></p></e>
+<e>       <p><l>പഴയ<s n="adj"/></l>                    <r>old<s n="adj"/><s n="sint"/></r></p></e>
+<e>       <p><l>ചൂട്<s n="adj"/></l>                   <r>hot<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>നീല<s n="adj"/></l>                    <r>blue<s n="adj"/><s n="sint"/></r></p></e>
-<e>       <p><l>ഹലോ<s n="adj"/></l>                    <r>hello<s n="adj"/></r></p></e>
-<e>       <p><l>ഉയരമുള്ള<s n="adj"/></l>               <r>tall<s n="adj"/></r></p></e>
-<e>       <p><l>മണ്ടന്‍<s n="adj"/></l>                <r>idiot<s n="adj"/></r></p></e>
+<e>       <p><l>ഉയരമുള്ള<s n="adj"/></l>               <r>tall<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>അകത്ത്<s n="adj"/></l>                 <r>inside<s n="adj"/></r></p></e>
-<e>       <p><l>താഴെ<s n="adj"/></l>                   <r>below<s n="adj"/></r></p></e>
 <e>       <p><l>അടുത്ത്<s n="adj"/></l>                <r>near<s n="adj"/><s n="sint"/></r></p></e>
     <!-- SECTION: Adverbs -->
 
@@ -189,7 +182,7 @@
 <e>       <p><l>വളരെ<s n="adv"/></l>                   <r>very<s n="adv"/></r></p></e>
 <e>       <p><l>പിറകില്‍<s n="adv"/></l>               <r>behind<s n="adv"/></r></p></e>
 <e>       <p><l>അല്ല<s n="adv"/></l>                   <r>not<s n="adv"/></r></p></e>
-<e>       <p><l>മെല്ലെ<s n="adv"/></l>                 <r>slow<s n="adv"/></r></p></e>
+<e>       <p><l>മെല്ലെ<s n="adv"/></l>                 <r>slowly<s n="adv"/></r></p></e>
 <e>       <p><l>വീണ്ടും<s n="adv"/></l>                <r>again<s n="adv"/></r></p></e>
 <e>       <p><l>ഒരുമിച്ച്<s n="adv"/></l>              <r>together<s n="adv"/></r></p></e>
 <e>       <p><l>എല്ലായിടത്തും<s n="adv"/></l>          <r>everywhere<s n="adv"/></r></p></e>

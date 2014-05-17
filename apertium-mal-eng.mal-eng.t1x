@@ -3,6 +3,9 @@
 <transfer default="chunk">
 
   <section-def-cats>
+    <def-cat n="ant">
+      <cat-item tags="np.ant.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -11,7 +14,7 @@
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
-      <attr-item tags="np"/>
+      <attr-item tags="np.ant"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -24,6 +27,10 @@
       <attr-item tags="erg"/>
       <attr-item tags="gen"/>
     </def-attr>
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+    </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -35,6 +42,28 @@
   </section-def-vars>
 
   <section-rules>
+
+    <rule comment="ant">
+      <pattern>
+        <pattern-item n="ant"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="ant" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lem"/>
+              <clip side="tl" pos="1" part="a_nom"/>
+              <clip side="tl" pos="1" part="a_gen"/>
+              <clip side="tl" pos="1" part="a_nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="nom">
       <pattern>
