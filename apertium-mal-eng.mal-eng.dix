@@ -307,8 +307,8 @@
 
     <!-- SECTION: Numerals -->
 
-    <e><p><l>ഒന്ന്<s n="num"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
-    <e><p><l>ഒന്ന്<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>ഒരു<s n="num"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+    <e><p><l>ഒരു<s n="num"/></l><r>one<s n="num"/></r></p></e>
     <e><p><l>രണ്ട്<s n="num"/></l><r>two<s n="num"/></r></p></e>
     <e><p><l>മൂന്ന്<s n="num"/></l><r>three<s n="num"/></r></p></e>
     <e><p><l>നാല്<s n="num"/></l><r>four<s n="num"/></r></p></e>
