@@ -15,6 +15,7 @@
     <sdef n="adv" 	c="Adverb . ക്രിയാ വിശേഷണപദം"/> 
     <sdef n="adj" 	c="Adjective . നാമവിശേഷണം"/> 
     <sdef n="num" 	c="Numeral"/> 
+    <sdef n="vbhaver" 	c="Numeral"/> 
     <sdef n="prn" 	c="Pronoun .സര്‍വ്വനാമം"/> 
     <sdef n="post" 	c="Postposition"/> 
     <sdef n="spost" 	c="Separable postposition"/> 
@@ -64,18 +65,23 @@
     <sdef n="sint" 	c="sinthetic"/> 
     <sdef n="dem" 	c="demonstrative"/> 
     <sdef n="def" /> 
-    <sdef n="unknown" /> 
+
     <sdef n="pr" /> 
     <sdef n="vbcop" /> 
     <sdef n="cnjadv" /> 
+    <sdef n="qst" /> 
   </sdefs>
   <section id="main" type="standard">
+
+<e r="LR">       <p><l>ോ<s n="qst"/></l>                   <r></r></p></e>
 
 <e>       <p><l>ഇന്നലെ<s n="n"/></l>                   <r>yesterday<s n="adv"/></r></p></e>
 <e>       <p><l>ഇന്ന്<s n="n"/></l>                  <r>today<s n="adv"/></r></p></e>
 
 
 <e>       <p><l>അത്<s n="prn"/><s n="nt"/><s n="sg"/></l><r>it<s n="prn"/><s n="prn"/><s n="nt"/><s n="sg"/></r></p></e>
+        <!-- SECTION: Postpositions -->
+<e><p><l>മുന്നില്‍<s n="spost"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
 
 	<!-- SECTION: Conjunctions -->
 
@@ -148,7 +154,7 @@
 <e>       <p><l>ഊഷ്മളം<s n="adj"/></l>                 <r>warm<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>good<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>വലിയ<s n="adj"/></l>                   <r>big<s n="adj"/><s n="sint"/></r></p></e>
-<e>       <p><l>പുറത്ത്<s n="adj"/></l>                <r>outside<s n="adj"/></r></p></e>
+
 <e>       <p><l>ചെറിയ<s n="adj"/></l>                  <r>little<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/><s n="sint"/></r></p></e>
 
@@ -271,7 +277,7 @@
 <e>       <p><l>ചിരിക്കുക<s n="v"/></l>            <r>laugh<s n="vblex"/></r></p></e>
 <e>       <p><l>കണ്ടുപിടിക്കുക<s n="v"/></l>       <r>find<s n="vblex"/></r></p></e>
 <e>       <p><l>ഇഷ്ടപ്പെടുക<s n="v"/></l>          <r>love<s n="vblex"/></r></p></e>
-<e>       <p><l>ഉണ്ട്<s n="v"/></l>                <r>have<s n="vblex"/></r></p></e>
+<e>       <p><l>ഉണ്ട്<s n="vbcop"/></l>                <r>have<s n="vbhaver"/></r></p></e>
 <e>       <p><l>വരുക<s n="v"/></l>                 <r>come<s n="vblex"/></r></p></e>
 <e>       <p><l>തീരുക<s n="v"/></l>                <r>finish<s n="vblex"/></r></p></e>
 
@@ -303,7 +309,7 @@
 <!-- post-->
 <e>       <p><l>നിന്ന്<s n="post"/></l>                <r>from<s n="pr"/></r></p></e>
     <!-- none -->
-<e>       <p><l>ലൂടെ<s n="unknown"/></l>               <r>through<s n="pr"/></r></p></e>
-<e>       <p><l>ഹായ്</l>                               <r>hi</r></p></e>
+
+
   </section>
 </dictionary>
