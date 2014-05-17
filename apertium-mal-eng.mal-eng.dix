@@ -19,6 +19,7 @@
     <sdef n="post" 	c="Postposition"/> 
     <sdef n="ij" 	c="Interjection"/> 
     <sdef n="vbser" 	c="Verb 'to be'"/> 
+    <sdef n="preadv" 	c="Preadverb"/> 
     <sdef n="cnjcoo" 	c="Co-ordinating conjunction"/> 
     <sdef n="m" 	c="Masculine · പുല്ലിംഗം"/> 
     <sdef n="f" 	c="Feminine · സ്ത്രീലിമ്ഗം "/> 
@@ -171,7 +172,6 @@
 <e>       <p><l>അടുത്ത്<s n="adj"/></l>                <r>near<s n="adj"/><s n="sint"/></r></p></e>
     <!-- SECTION: Adverbs -->
 
-<e>       <p><l>കൂടെ<s n="adv"/></l>                   <r>there<s n="pr"/></r></p></e>
 <e>       <p><l>എവിടെ<s n="adv"/><s n="itg"/></l>      <r>where<s n="adv"/><s n="itg"/></r></p></e>
 <e>       <p><l>അവിടെ<s n="adv"/></l>                  <r>there<s n="adv"/></r></p></e>
 <e>       <p><l>ഇല്ല<s n="adv"/></l>                   <r>no<s n="adv"/></r></p></e>
@@ -179,7 +179,7 @@
 <e>       <p><l>ചെറിയ<s n="adv"/></l>                  <r>little<s n="adv"/></r></p></e>
 <e>       <p><l>ഇപ്പോള്‍<s n="adv"/></l>               <r>now<s n="adv"/></r></p></e>
 <e>       <p><l>എപ്പോഴും<s n="adv"/></l>               <r>always<s n="adv"/></r></p></e>
-<e>       <p><l>വളരെ<s n="adv"/></l>                   <r>very<s n="adv"/></r></p></e>
+<e>       <p><l>വളരെ<s n="preadv"/></l>                   <r>very<s n="preadv"/></r></p></e>
 <e>       <p><l>പിറകില്‍<s n="adv"/></l>               <r>behind<s n="adv"/></r></p></e>
 <e>       <p><l>അല്ല<s n="adv"/></l>                   <r>not<s n="adv"/></r></p></e>
 <e>       <p><l>മെല്ലെ<s n="adv"/></l>                 <r>slowly<s n="adv"/></r></p></e>
@@ -187,7 +187,7 @@
 <e>       <p><l>ഒരുമിച്ച്<s n="adv"/></l>              <r>together<s n="adv"/></r></p></e>
 <e>       <p><l>എല്ലായിടത്തും<s n="adv"/></l>          <r>everywhere<s n="adv"/></r></p></e>
 <e>       <p><l>പിന്നെ<s n="adv"/></l>                 <r>then<s n="cnjadv"/></r></p></e>
-<e>       <p><l>ഒന്നും<s n="adv"/></l>                 <r>anything<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+
 <e>       <p><l>ചുറ്റും<s n="adv"/></l>                <r>around<s n="adv"/></r></p></e>
 <e>       <p><l>അപ്പോള്‍<s n="adv"/></l>               <r>when<s n="cnjadv"/></r></p></e>
 <e>       <p><l>തീര്‍ച്ചയായും<s n="adv"/></l>          <r>of<b/>course<s n="adv"/></r></p></e>
@@ -222,9 +222,6 @@
 <e>       <p><l>പോകുക<s n="v"/></l>                <r>go<s n="vblex"/></r></p></e>
 <e>       <p><l>കണ്ടെത്തുക<s n="v"/></l>           <r>find<s n="vblex"/></r></p></e>
 <e>       <p><l>കഴിയുക<s n="v"/></l>               <r>can<s n="vaux"/><s n="pres"/></r></p></e>
-<e>       <p><l>കഴിയുക<s n="v"/><s n="past"/></l>  <r>could<s n="vblex"/></r></p></e>
-<e>       <p><l>കഴിയുക<s n="v"/><s n="neg"/></l>   <r>can not<s n="vaux"/><s n="pres"/></r></p></e>
-<e>       <p><l>കഴിയുക<s n="v"/><s n="past"/><s n="neg"/></l><r>could not<s n="vblex"/></r></p></e>
 <e>       <p><l>ഒളിക്കുക<s n="v"/></l>             <r>hide<s n="vblex"/></r></p></e>
 <e>       <p><l>പറയുക<s n="v"/></l>                <r>tell<s n="vblex"/></r></p></e>
 <e>       <p><l>ഉറങ്ങുക<s n="v"/></l>              <r>sleep<s n="vblex"/></r></p></e>
@@ -232,7 +229,7 @@
 <e>       <p><l>ഭരിക്കുക<s n="v"/></l>             <r>govern<s n="vblex"/></r></p></e>
 <e>       <p><l>ഉപയോഗിക്കുക<s n="v"/></l>          <r>use<s n="vblex"/></r></p></e>
 <e>       <p><l>കണക്കാക്കുക<s n="v"/></l>          <r>calculate<s n="vblex"/></r></p></e>
-<e>       <p><l>വിശ്വസിക്കുക<s n="v"/></l>         <r>belive<s n="vblex"/></r></p></e>
+<e>       <p><l>വിശ്വസിക്കുക<s n="v"/></l>         <r>believe<s n="vblex"/></r></p></e>
 <e>       <p><l>വളരുക<s n="v"/></l>                <r>grow<s n="vblex"/></r></p></e>
 <e>       <p><l>പിന്തുണക്കുക<s n="v"/></l>         <r>support<s n="vblex"/></r></p></e>
 <e>       <p><l>ചോദിക്കുക<s n="v"/></l>            <r>question<s n="vblex"/></r></p></e>
@@ -250,7 +247,6 @@
 <e>       <p><l>അവലംബിക്കുക<s n="v"/></l>          <r>depend<s n="vblex"/></r></p></e>
 <e>       <p><l>കിട്ടുക<s n="v"/></l>              <r>get<s n="vblex"/></r></p></e>
 <e>       <p><l>വഹിക്കുക<s n="v"/></l>             <r>bear<s n="vblex"/></r></p></e>
-<e>       <p><l>ചെയ്യപ്പെടുക<s n="v"/></l>         <r>to be carried out<s n="vblex"/></r></p></e>
 <e>       <p><l>എഴുതുക<s n="v"/></l>               <r>write<s n="vblex"/></r></p></e>
 <e>       <p><l>ശ്രമിക്കുക<s n="v"/></l>           <r>try<s n="vblex"/></r></p></e>
 <e>       <p><l>മരിക്കുക<s n="v"/></l>             <r>die<s n="vblex"/></r></p></e>
@@ -272,7 +268,6 @@
 <e>       <p><l>ആരംഭിക്കുക<s n="v"/></l>           <r>begin<s n="vblex"/></r></p></e>
 <e>       <p><l>ബന്ധിപ്പിക്കുക<s n="v"/></l>       <r>implicate<s n="vblex"/></r></p></e>
 <e>       <p><l>ജീവിക്കുക<s n="v"/></l>            <r>live<s n="vblex"/></r></p></e>
-<e>       <p><l>രേഖപ്പെടുതുക<s n="v"/></l>         <r>write itn<s n="vblex"/></r></p></e>
 <e>       <p><l>ചികില്‍സിക്കുക<s n="v"/></l>       <r>treat<s n="vblex"/></r></p></e>
 <e>       <p><l>കൈമാറുക<s n="v"/></l>              <r>exchange<s n="vblex"/></r></p></e>
 <e>       <p><l>തിരിച്ചറിയുക<s n="v"/></l>         <r>distinguish<s n="vblex"/></r></p></e>
@@ -291,14 +286,6 @@
 <e>       <p><l>വരുക<s n="v"/></l>                 <r>come<s n="vblex"/></r></p></e>
 <e>       <p><l>തീരുക<s n="v"/></l>                <r>finish<s n="vblex"/></r></p></e>
 
-	<!-- Interrogative-->
-<e>       <p><l>എവിടെ<s n="itg"/></l>                  <r>where<s n="adv"/><s n="itg"/></r></p></e>
-<e>       <p><l>ആര്<s n="itg"/></l>                    <r>who<s n="adv"/><s n="itg"/></r></p></e>
-<e>       <p><l>എന്ത്<s n="itg"/></l>                  <r>what<s n="itg"/></r></p></e>
-<e>       <p><l>എപ്പോള്‍<s n="itg"/></l>               <r>when<s n="itg"/></r></p></e>
-<e>       <p><l>എങ്ങനെ<s n="itg"/></l>                 <r>how<s n="adv"/><s n="itg"/></r></p></e>
-<e>       <p><l>എങ്ങനെ<s n="itg"/></l>                 <r>how<s n="adv"/></r></p></e>
-<e>       <p><l>ഏന്തിന്<s n="itg"/></l>                <r>why<s n="adv"/><s n="itg"/></r></p></e>
  <!-- numbers -->
 <e>       <p><l>ഒന്ന്<s n="num"/></l>                  <r>one<s n="num"/></r></p></e>
 <e>       <p><l>രണ്ട്<s n="num"/></l>                  <r>two<s n="num"/></r></p></e>
@@ -310,6 +297,7 @@
 <e>       <p><l>എട്ട്<s n="num"/></l>                  <r>eight<s n="num"/></r></p></e>
 <e>       <p><l>ഒന്പത്<s n="num"/></l>                 <r>nine<s n="num"/></r></p></e>
 <e>       <p><l>പത്ത്<s n="num"/></l>                  <r>ten<s n="num"/></r></p></e>
+
 <!--	clitics -->
 <e>       <p><l>ും<s n="cnjcoo"/></l>                  <r>also<s n="adv"/></r></p></e>
 <e>       <p><l>യും<s n="cnjcoo"/></l>                  <r>and<s n="cnjcoo"/></r></p></e>
@@ -317,8 +305,7 @@
 <e>       <p><l>ലേക്ക്<s n="pr"/></l>                  <r>to<s n="pr"/></r></p></e>
 <e>       <p><l>ോടപ്പം<s n="post"/></l>                <r>with<s n="pr"/></r></p></e>
     <!-- SECTION: Interjections -->
-<e>       <p><l></l>                                   <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
-<e>       <p><l>ഇല്ല<s n="ij"/></l>                    <r>no<s n="ij"/></r></p></e>
+
 <e>       <p><l>ഒരു<s n="num"/></l>        <r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     <!-- SECTION: Punctuation-->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
