@@ -84,25 +84,11 @@
 
     <!-- SECTION: Pronouns -->
 
-<e>       <p><l>ഞാന്‍<s n="prn"/><s n="sg"/><s n="nom"/></l><r>I<s n="prn"/></r></p></e>
-<e>       <p><l>ഞാന്‍<s n="prn"/><s n="pl"/><s n="gen"/></l><r>our<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-<e>       <p><l>ഞാന്‍<s n="prn"/><s n="sg"/><s n="gen"/></l><r>my<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-<e>       <p><l>ഞങ്ങള്‍<s n="prn"/><s n="pl"/><s n="nom"/></l><r>we<s n="prn"/></r></p></e>
-<e>       <p><l>നീ<s n="prn"/></l>                     <r>you<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>നീ<s n="prn"/></l>                     <r>you<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>നീ<s n="prn"/><s n="sg"/><s n="gen"/></l><r>your<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-<e>       <p><l>അവന്‍<s n="prn"/><s n="pl"/><s n="gen"/></l><r>their<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-<e>       <p><l>അവര്‍<s n="prn"/></l>       <r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-<e>       <p><l>അവള്‍<s n="prn"/><s n="pers"/></l>       <r>she<s n="prn"/><s n="subj"/></r></p></e>
-<e>       <p><l>അവന്‍<s n="prn"/><s n="pers"/></l>       <r>he<s n="prn"/><s n="subj"/></r></p></e>
-<e>       <p><l>അവന്<s n="prn"/><s n="pers"/><s n="dat"/></l><r>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/><s n="gen"/></l><r>his<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/><s n="gen"/></l><r>her<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>it<s n="prn"/><s n="subj"/><s n="nt"/><s n="sg"/></r></p></e>
-<e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-<e>       <p><l>അത്<s n="det"/><s n="dem"/></l>         <r>that<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-<e>       <p><l>കൂടെ<s n="prn"/></l>                   <r>with<s n="pr"/></r></p></e>
-
+<e>       <p><l>എനിക്ക്<s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
+<e>       <p><l>നീ<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
+<e>       <p><l>അവൻ<s n="prn"/><s n="pers"/><s n="p3"/></l><r>he<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
+<e>       <p><l>അവൾ<s n="prn"/><s n="pers"/><s n="p3"/></l><r>she<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
+<e>       <p><l>അവര്‍<s n="prn"/><s n="pers"/><s n="p3"/></l><r>they<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
 
 
     <!-- SECTION: Nouns -->
@@ -163,7 +149,7 @@
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>good<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>വലിയ<s n="adj"/></l>                   <r>big<s n="adj"/><s n="sint"/></r></p></e>
 <e>       <p><l>പുറത്ത്<s n="adj"/></l>                <r>outside<s n="adj"/></r></p></e>
-<e>       <p><l>ചെറിയ<s n="adj"/></l>                  <r>little<s n="adj"/><s n="sint"/></r></p></e>
+<e>       <p><l>ചെറിയ<s n="adj"/></l>                  <r>little<s n="adj"/></r></p></e>
 <e>       <p><l>നല്ല<s n="adj"/></l>                   <r>nice<s n="adj"/><s n="sint"/></r></p></e>
 
 <e>       <p><l>പഴയ<s n="adj"/></l>                    <r>old<s n="adj"/><s n="sint"/></r></p></e>
@@ -198,8 +184,8 @@
 
 
 	<!-- SECTION vbser -->
-<e>       <p><l>ആക്<s n="vbcop"/></l>                  <r>be<s n="vbser"/><s n="pres"/></r></p></e>
-<e>       <p><l>ആയിരുന്നു<s n="vbcop"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+<e>       <p><l>ആക്<s n="vbcop"/></l>                  <r>be<s n="vbser"/></r></p></e>
+
 
     <!--SECTION: Verbs -->
 
