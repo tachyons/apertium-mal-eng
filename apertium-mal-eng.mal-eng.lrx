@@ -1,5 +1,6 @@
 <rules>
   <rule>
-    <match lemma="घर" tags="n.nt.*"><select lemma="house" tags="n.*"/></match>
+    <match tags="adj"/>
+    <match lemma="വീട്" tags="n.*"><select lemma="house" tags="n.*"/></match>
   </rule>
 </rules>

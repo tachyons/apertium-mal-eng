@@ -9,6 +9,19 @@
     <def-cat n="pron-pers">
       <cat-item tags="prn.pers.*"/>
     </def-cat>
+    <def-cat n="post">
+      <cat-item tags="post"/>
+    </def-cat>
+    <def-cat n="spost">
+      <cat-item tags="spost"/>
+    </def-cat>
+    <def-cat n="det">
+      <cat-item tags="det.ind"/>
+      <cat-item tags="det.dem"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -47,7 +60,37 @@
 
   <section-def-vars>
     <def-var n="caseFirstWord"/>
+    <def-var n="sn-type"/>
+    <def-var n="spost-lema"/>
+    <def-var n="post-lema"/>
   </section-def-vars>
+
+  <section-def-macros>
+    <def-macro n="set-post-type" npar="1">
+                <let><var n="post-lema"/><clip pos="1" side="sl" part="lem"/></let>
+    </def-macro>
+
+    <def-macro n="set-spost-type" npar="1">
+                <let><var n="spost-lema"/><clip pos="1" side="sl" part="lem"/></let>
+    </def-macro>
+
+    <def-macro n="set-sn-type" npar="1">
+       <choose>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="gen"/></equal></test>
+                <let><var n="sn-type"/><lit-tag v="GEN"/></let>
+          </when>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></test>
+                <let><var n="sn-type"/><lit-tag v="LOC"/></let>
+          </when>
+          <otherwise>
+                <let><var n="sn-type"/><lit-tag v="UND"/></let>
+          </otherwise>
+        </choose>
+ 
+    </def-macro>
+  </section-def-macros>
 
   <section-rules>
 
@@ -77,10 +120,14 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="set-sn-type">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><var n="sn-type"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="lem"/>
@@ -91,6 +138,115 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="adj nom">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set-sn-type">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="adj-nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="sn-type"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip side="tl" pos="2" part="lemh"/>
+              <clip side="tl" pos="2" part="a_nom"/>
+              <clip side="tl" pos="2" part="a_nbr"/>
+              <clip side="tl" pos="2" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="adj adj nom">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set-sn-type">
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk name="adj-adj-nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="sn-type"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip side="tl" pos="2" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip side="tl" pos="3" part="lemh"/>
+              <clip side="tl" pos="3" part="a_nom"/>
+              <clip side="tl" pos="3" part="a_nbr"/>
+              <clip side="tl" pos="3" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="det adj adj nom">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set-sn-type">
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk name="det-adj-adj-nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="sn-type"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip side="tl" pos="2" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip side="tl" pos="3" part="whole"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip side="tl" pos="4" part="lemh"/>
+              <clip side="tl" pos="4" part="a_nom"/>
+              <clip side="tl" pos="4" part="a_nbr"/>
+              <clip side="tl" pos="4" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="pron-pers">
       <pattern>
@@ -120,6 +276,48 @@
       </action>
     </rule>
 
+
+    <rule comment="post">
+      <pattern>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+        <call-macro n="set-post-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="post-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="POST"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="spost">
+      <pattern>
+        <pattern-item n="spost"/>
+      </pattern>
+      <action>
+        <call-macro n="set-spost-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="spost-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SPOST"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
   </section-rules>
 </transfer>
