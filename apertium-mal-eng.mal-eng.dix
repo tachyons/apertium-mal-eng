@@ -64,6 +64,7 @@
     <sdef n="def" /> 
     <sdef n="unknown" /> 
     <sdef n="pr" /> 
+    <sdef n="vbcop" /> 
     <sdef n="cnjadv" /> 
   </sdefs>
   <section id="main" type="standard">
@@ -96,10 +97,10 @@
 <e>       <p><l>നീ<s n="prn"/></l>                     <r>you<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>നീ<s n="prn"/><s n="sg"/><s n="gen"/></l><r>your<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
 <e>       <p><l>അവന്‍<s n="prn"/><s n="pl"/><s n="gen"/></l><r>their<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-<e>       <p><l>അവര്‍<s n="prn"/><s n="pl"/></l>       <r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-<e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/></l>       <r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/></l>       <r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>അവന്<s n="prn"/><s n="sg"/><s n="dat"/></l><r>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>അവര്‍<s n="prn"/></l>       <r>they<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+<e>       <p><l>അവള്‍<s n="prn"/><s n="pers"/></l>       <r>she<s n="prn"/><s n="subj"/></r></p></e>
+<e>       <p><l>അവന്‍<s n="prn"/><s n="pers"/></l>       <r>he<s n="prn"/><s n="subj"/></r></p></e>
+<e>       <p><l>അവന്<s n="prn"/><s n="pers"/><s n="dat"/></l><r>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>അവന്‍<s n="prn"/><s n="sg"/><s n="gen"/></l><r>his<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>അവള്‍<s n="prn"/><s n="sg"/><s n="gen"/></l><r>her<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>ഇത്<s n="prn"/><s n="sg"/></l>         <r>it<s n="prn"/><s n="subj"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -202,10 +203,8 @@
 
 
 	<!-- SECTION vbser -->
-<e>       <p><l>ാണ്<s n="vbser"/></l>                  <r>be<s n="vbser"/><s n="pres"/></r></p></e>
-<e>       <p><l>ആണ്<s n="vbser"/></l>                  <r>be<s n="vbser"/><s n="pres"/></r></p></e>
-<e>       <p><l>ആയിരുന്നു<s n="vbser"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-<e>       <p><l>ായിരുന്നു<s n="vbser"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+<e>       <p><l>ആക്<s n="vbcop"/></l>                  <r>be<s n="vbser"/><s n="pres"/></r></p></e>
+<e>       <p><l>ആയിരുന്നു<s n="vbcop"/><s n="past"/></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
 
     <!--SECTION: Verbs -->
 
@@ -320,14 +319,14 @@
 <e>       <p><l>പത്ത്<s n="num"/></l>                  <r>ten<s n="num"/></r></p></e>
 <!--	clitics -->
 <e>       <p><l>ും<s n="cnjcoo"/></l>                  <r>also<s n="adv"/></r></p></e>
-<e>       <p><l>ും<s n="cnjcoo"/></l>                  <r>and<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>യും<s n="cnjcoo"/></l>                  <r>and<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ോ<s n="cnjcoo"/></l>                   <r>or<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ലേക്ക്<s n="pr"/></l>                  <r>to<s n="pr"/></r></p></e>
 <e>       <p><l>ോടപ്പം<s n="post"/></l>                <r>with<s n="pr"/></r></p></e>
     <!-- SECTION: Interjections -->
 <e>       <p><l></l>                                   <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
 <e>       <p><l>ഇല്ല<s n="ij"/></l>                    <r>no<s n="ij"/></r></p></e>
-<e>       <p><l>ഒരു<s n="det"/><s n="ind"/></l>        <r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+<e>       <p><l>ഒരു<s n="num"/></l>        <r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     <!-- SECTION: Punctuation-->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
 <e>       <p><l>&quot;<s n="quot"/></l>                <r>parquote<s n="quot"/></r></p></e>
