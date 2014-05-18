@@ -8,8 +8,16 @@
       <cat-item tags="POST"/>
     </def-cat>
 
+    <def-cat n="SN-LOC">
+      <cat-item tags="SN.LOC.*"/>
+    </def-cat>
+
+    <def-cat n="SN-DAT">
+      <cat-item tags="SN.DAT.*"/>
+    </def-cat>
+
     <def-cat n="SN-GEN">
-      <cat-item tags="SN.GEN"/>
+      <cat-item tags="SN.GEN.*"/>
     </def-cat>
 
     <def-cat n="SV-FIN">
@@ -32,6 +40,53 @@
   </section-def-vars>
 
   <section-rules>
+
+    <rule comment="REGLA: SN-LOC">
+      <pattern>
+        <pattern-item n="SN-LOC"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <lit v="in"/>
+            <lit-tag v="PREP"/>
+            <lit v="{^in"/>
+            <lit-tag v="pr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN-DAT">
+      <pattern>
+        <pattern-item n="SN-DAT"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <lit v="to"/>
+            <lit-tag v="PREP"/>
+            <lit v="{^to"/>
+            <lit-tag v="pr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN-GEN POST">
       <pattern>

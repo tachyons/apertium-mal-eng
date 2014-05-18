@@ -15,6 +15,16 @@
       <cat-item tags="vbcop.pres"/>
       <cat-item tags="vbcop.past"/>
     </def-cat>
+    <def-cat n="cop-fin">
+      <cat-item tags="vbcop.pres"/>
+      <cat-item tags="vbcop.past"/>
+    </def-cat>
+    <def-cat n="inf-k">
+      <cat-item tags="v.*.inf_k"/>
+    </def-cat>
+    <def-cat n="inf-n">
+      <cat-item tags="v.*.inf_n"/>
+    </def-cat>
     <def-cat n="post">
       <cat-item tags="post"/>
     </def-cat>
@@ -25,8 +35,9 @@
       <cat-item tags="det.ind"/>
       <cat-item tags="det.dem"/>
     </def-cat>
-    <def-cat n="adj">
+    <def-cat n="adj-num">
       <cat-item tags="adj"/>
+      <cat-item tags="num"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -36,6 +47,7 @@
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="adv"/> <!-- e.g. today -->
       <attr-item tags="np.ant"/>
     </def-attr>
     <def-attr n="a_cas">
@@ -96,6 +108,10 @@
     <def-macro n="set-sn-type" npar="1">
        <choose>
           <when>
+                <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="dat"/></equal></test>
+                <let><var n="sn-type"/><lit-tag v="DAT"/></let>
+          </when>
+          <when>
                 <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="gen"/></equal></test>
                 <let><var n="sn-type"/><lit-tag v="GEN"/></let>
           </when>
@@ -141,6 +157,7 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="sn-type"/></tag>
+              <tag><clip side="tl" pos="1" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="lem"/>
@@ -166,6 +183,7 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="sn-type"/></tag>
+              <tag><clip side="tl" pos="1" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="lem"/>
@@ -179,7 +197,7 @@
 
     <rule comment="adj nom">
       <pattern>
-        <pattern-item n="adj"/>
+        <pattern-item n="adj-num"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -191,6 +209,7 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="sn-type"/></tag>
+              <tag><clip side="tl" pos="2" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="whole"/>
@@ -210,8 +229,8 @@
 
     <rule comment="adj adj nom">
       <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="adj"/>
+        <pattern-item n="adj-num"/>
+        <pattern-item n="adj-num"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -223,6 +242,7 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="sn-type"/></tag>
+              <tag><clip side="tl" pos="3" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="whole"/>
@@ -247,8 +267,8 @@
     <rule comment="det adj adj nom">
       <pattern>
         <pattern-item n="det"/>
-        <pattern-item n="adj"/>
-        <pattern-item n="adj"/>
+        <pattern-item n="adj-num"/>
+        <pattern-item n="adj-num"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -260,6 +280,7 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="sn-type"/></tag>
+              <tag><clip side="tl" pos="4" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="whole"/>
@@ -309,6 +330,7 @@
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="sn-type"/></tag>
+              <tag><clip side="tl" pos="1" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="whole"/>
@@ -339,6 +361,43 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="inf-n inf-k cop-fin">
+      <pattern>
+        <pattern-item n="inf-n"/>
+        <pattern-item n="inf-k"/>
+        <pattern-item n="cop-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="verb-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><var n="last-nom-pers"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="3" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip side="tl" pos="2" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <lit v="to"/><lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
 
