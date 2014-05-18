@@ -118,7 +118,7 @@
 
     <!-- SECTION: Nouns -->
 
-    <e><p><l>ഇന്നലെ<s n="n"/></l><r>yesterday<s n="adv"/></r></p></e>
+    <e><p><l>ഇന്നലെ<s n="n"/><s n="sg"/></l><r>yesterday<s n="adv"/></r></p></e>
     <e><p><l>ഇന്ന്<s n="n"/><s n="sg"/></l><r>today<s n="adv"/></r></p></e>
 
     <e><p><l>കാലാവസ്ഥ<s n="n"/><s n="sg"/></l><r>weather<s n="n"/><s n="sg"/></r></p></e>
