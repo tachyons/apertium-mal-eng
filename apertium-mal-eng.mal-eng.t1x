@@ -362,6 +362,35 @@
       </action>
     </rule>
 
+    <rule comment="inf-k cop-fin">
+      <pattern>
+        <pattern-item n="inf-k"/>
+        <pattern-item n="cop-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="verb-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><var n="last-nom-pers"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="2" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="inf-n inf-k cop-fin">
       <pattern>
         <pattern-item n="inf-n"/>
