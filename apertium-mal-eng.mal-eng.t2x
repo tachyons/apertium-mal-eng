@@ -87,6 +87,28 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: SN-LOC POST">
+      <pattern>
+        <pattern-item n="SN-LOC"/>
+        <pattern-item n="POST"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN-GEN POST">
       <pattern>
