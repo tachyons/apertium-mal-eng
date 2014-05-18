@@ -12,6 +12,10 @@
       <cat-item tags="SN.GEN"/>
     </def-cat>
 
+    <def-cat n="SV-FIN">
+      <cat-item tags="SV.*"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -80,6 +84,21 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: SV-FIN">
+      <pattern>
+        <pattern-item n="SV-FIN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <lit v="verb"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
   </section-rules>
 </interchunk>

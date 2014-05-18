@@ -3,12 +3,30 @@
 <postchunk>
 
   <section-def-cats>
+    <def-cat n="verb">
+      <cat-item name="verb"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item name="nom"/>
     </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="a_temps">
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np"/>
@@ -17,11 +35,12 @@
 
   <section-def-vars>
     <def-var n="paraula"/>
+    <def-var n="person"/>
   </section-def-vars>
 
   <section-rules>
 
-    <rule comment="CHUNK:">
+    <rule comment="CHUNK: nom">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>

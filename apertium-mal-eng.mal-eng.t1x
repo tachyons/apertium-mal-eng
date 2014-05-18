@@ -9,6 +9,12 @@
     <def-cat n="pron-pers">
       <cat-item tags="prn.pers.*"/>
     </def-cat>
+    <def-cat n="verb-fin">
+      <cat-item tags="v.*.pres"/>
+      <cat-item tags="v.*.past"/>
+      <cat-item tags="vbcop.pres"/>
+      <cat-item tags="vbcop.past"/>
+    </def-cat>
     <def-cat n="post">
       <cat-item tags="post"/>
     </def-cat>
@@ -52,9 +58,16 @@
       <attr-item tags="m"/>
       <attr-item tags="f"/>
     </def-attr>
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
     </def-attr>
   </section-def-attrs>
 
@@ -62,10 +75,16 @@
     <def-var n="caseFirstWord"/>
     <def-var n="sn-type"/>
     <def-var n="spost-lema"/>
+    <def-var n="verb-lema"/>
     <def-var n="post-lema"/>
+    <def-var n="last-nom-pers"/>
   </section-def-vars>
 
   <section-def-macros>
+    <def-macro n="set-verb-type" npar="1">
+                <let><var n="verb-lema"/><clip pos="1" side="sl" part="lem"/></let>
+    </def-macro>
+
     <def-macro n="set-post-type" npar="1">
                 <let><var n="post-lema"/><clip pos="1" side="sl" part="lem"/></let>
     </def-macro>
@@ -79,6 +98,21 @@
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="gen"/></equal></test>
                 <let><var n="sn-type"/><lit-tag v="GEN"/></let>
+          </when>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal></test>
+                <let><var n="sn-type"/><lit-tag v="NOM"/></let>
+                <choose>
+                  <when>
+                    <test><equal><clip pos="1" side="sl" part="a_pers"/><lit v=""/></equal></test>
+                    <let><var n="last-nom-pers"/><concat><lit-tag v="p3"/><clip pos="1" side="tl" part="a_nbr"/></concat></let>
+                  </when>
+                  <otherwise>
+                    <let><var n="last-nom-pers"/><concat>           
+                           <clip pos="1" side="tl" part="a_pers"/>
+                           <clip pos="1" side="tl" part="a_nbr"/></concat></let>
+                  </otherwise>
+                </choose>
           </when>
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></test>
@@ -99,10 +133,14 @@
         <pattern-item n="ant"/>
       </pattern>
       <action>
+        <call-macro n="set-sn-type">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="ant" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><var n="sn-type"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="lem"/>
@@ -253,6 +291,9 @@
         <pattern-item n="pron-pers"/>
       </pattern>
       <action>
+        <call-macro n="set-sn-type">
+          <with-param pos="1"/>
+        </call-macro>
        <choose>
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal></test>
@@ -267,6 +308,7 @@
           <chunk name="nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><var n="sn-type"/></tag>
             </tags>
             <lu>
               <clip side="tl" pos="1" part="whole"/>
@@ -275,6 +317,29 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="verb-fin">
+      <pattern>
+        <pattern-item n="verb-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="verb-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><var n="last-nom-pers"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="post">
