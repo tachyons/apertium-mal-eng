@@ -331,7 +331,7 @@
 
     <!-- SECTION: Punctuation-->
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-    <e><p><l>&quot;<s n="pquot"/></l><r>parquote<s n="pquot"/></r></p></e>
+    <e><p><l>&quot;<s n="pquot"/></l><r>parquote<s n="quot"/></r></p></e>
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
   </section>
