@@ -49,7 +49,7 @@
     <sdef n="subj" 	c="Subject . क्रियापद"/> 
     <sdef n="obj" 	c="object"/> 
     <sdef n="cm" 	c="Comma"/> 
-    <sdef n="quot" 	c="Quotation mark"/> 
+    <sdef n="pquot" 	c="Quotation mark"/> 
     <sdef n="sent" 	c="Sentence marker"/> 
     <sdef n="FD" 	c="Function to be determined"/> 
     <sdef n="v" 	c="Verb . ക്രിയ"/> 
@@ -64,12 +64,15 @@
     <sdef n="vbcop" /> 
     <sdef n="cnjadv" /> 
     <sdef n="qst" /> 
+    <sdef n="quot" /> 
   </sdefs>
   <section id="main" type="standard">
 
     <!-- SECTION: Miscellaneous -->
 
     <e r="LR"><p><l>ോ<s n="qst"/></l><r></r></p></e>
+    <e r="LR"><p><l>എന്ന്<s n="quot"/></l><r></r></p></e>
+
 
     <!-- SECTION: Conjunctions -->
 
@@ -328,7 +331,7 @@
 
     <!-- SECTION: Punctuation-->
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-    <e><p><l>&quot;<s n="quot"/></l><r>parquote<s n="quot"/></r></p></e>
+    <e><p><l>&quot;<s n="pquot"/></l><r>parquote<s n="pquot"/></r></p></e>
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
   </section>
