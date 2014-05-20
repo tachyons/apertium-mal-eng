@@ -119,6 +119,23 @@
     <e><p><l>അത്<s n="det"/><s n="dem"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>ഇത്<s n="det"/><s n="dem"/></l><r>this<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
 
+
+    <!-- SECTION: Numerals -->
+
+    <e><p><l>ഒരു<s n="num"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+    <e><p><l>ഒരു<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>രണ്ട്<s n="num"/></l><r>two<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>മൂന്ന്<s n="num"/></l><r>three<s n="num"/></r></p></e>
+    <e><p><l>നാല്<s n="num"/></l><r>four<s n="num"/></r></p></e>
+    <e><p><l>അഞ്ച്<s n="num"/></l><r>five<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>ആറ്<s n="num"/></l><r>six<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>ഏഴ്<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+    <e><p><l>എട്ട്<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+    <e><p><l>ഒന്പത്<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+    <e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+
+
+
     <!-- SECTION: Nouns -->
 
     <e><p><l>ഇന്നലെ<s n="n"/><s n="sg"/></l><r>yesterday<s n="adv"/></r></p></e>
@@ -229,30 +246,30 @@
     <!--SECTION: Verbs -->
 
     <e><p><l>ആക്<s n="vbcop"/></l><r>be<s n="vbser"/></r></p></e>
-    <e><p><l>കരുതുക<s n="v"/></l><r>think<s n="vblex"/></r></p></e>
-    <e><p><l>ഇരിക്കുക<s n="v"/></l><r>sit<s n="vblex"/></r></p></e>
-    <e><p><l>ചോദിക്കുക<s n="v"/></l><r>ask<s n="vblex"/></r></p></e>
-    <e><p><l>എണ്ണുക<s n="v"/></l><r>count<s n="vblex"/></r></p></e>
+    <e><p><l>കരുതുക<s n="v"/><s n="iv"/></l><r>think<s n="vblex"/></r></p></e>
+    <e><p><l>ഇരിക്കുക<s n="v"/><s n="iv"/></l><r>sit<s n="vblex"/></r></p></e>
+    <e><p><l>ചോദിക്കുക<s n="v"/><s n="iv"/></l><r>ask<s n="vblex"/></r></p></e>
+    <e><p><l>എണ്ണുക<s n="v"/><s n="tv"/></l><r>count<s n="vblex"/></r></p></e>
     <e><p><l>മറിയുക<s n="v"/></l><r>rotate<s n="vblex"/></r></p></e>
-    <e><p><l>അറിയുക<s n="v"/></l><r>know<s n="vblex"/></r></p></e>
-    <e><p><l>കാണുക<s n="v"/></l><r>see<s n="vblex"/></r></p></e>
-    <e><p><l>ചെയ്യുക<s n="v"/></l><r>do<s n="vblex"/></r></p></e>
-    <e><p><l>തിന്നുക<s n="v"/></l><r>eat<s n="vblex"/></r></p></e>
-    <e><p><l>പരതുക<s n="v"/></l><r>search<s n="vblex"/></r></p></e>
-    <e><p><l>തീര്‍കുക<s n="v"/></l><r>finish<s n="vblex"/></r></p></e>
+    <e><p><l>അറിയുക<s n="v"/><s n="tv"/></l><r>know<s n="vblex"/></r></p></e>
+    <e><p><l>കാണുക<s n="v"/><s n="tv"/></l><r>see<s n="vblex"/></r></p></e>
+    <e><p><l>ചെയ്യുക<s n="v"/><s n="tv"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>തിന്നുക<s n="v"/><s n="tv"/></l><r>eat<s n="vblex"/></r></p></e>
+    <e><p><l>പരതുക<s n="v"/><s n="tv"/></l><r>search<s n="vblex"/></r></p></e>
+    <e><p><l>തീര്‍കുക<s n="v"/><s n="iv"/></l><r>finish<s n="vblex"/></r></p></e>
     <e><p><l>കളിക്കുക<s n="v"/><s n="iv"/></l><r>play<s n="vblex"/></r></p></e>
     <e><p><l>നോക്കുക<s n="v"/><s n="tv"/></l><r>look<s n="vblex"/></r></p></e>
-    <e><p><l>കേള്‍ക്കുക<s n="v"/></l><r>hear<s n="vblex"/></r></p></e>
-    <e><p><l>സംസാരിക്കുക<s n="v"/></l><r>talk<s n="vblex"/></r></p></e>
+    <e><p><l>കേള്‍ക്കുക<s n="v"/><s n="tv"/></l><r>hear<s n="vblex"/></r></p></e>
+    <e><p><l>സംസാരിക്കുക<s n="v"/><s n="iv"/></l><r>talk<s n="vblex"/></r></p></e>
     <e><p><l>വ്യക്തമാകുക<s n="v"/></l><r>clear<s n="vblex"/></r></p></e>
     <e><p><l>പോകുക<s n="v"/><s n="iv"/></l><r>go<s n="vblex"/></r></p></e>
     <e><p><l>കണ്ടെത്തുക<s n="v"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>കഴിയുക<s n="v"/></l><r>can<s n="vaux"/><s n="pres"/></r></p></e>
-    <e><p><l>ഒളിക്കുക<s n="v"/></l><r>hide<s n="vblex"/></r></p></e>
+    <e><p><l>ഒളിക്കുക<s n="v"/><s n="iv"/></l><r>hide<s n="vblex"/></r></p></e>
     <e><p><l>പറയുക<s n="v"/></l><r>say<s n="vblex"/></r></p></e>
-    <e><p><l>പറയുക<s n="v"/></l><r>tell<s n="vblex"/></r></p></e>
+    <e><p><l>പറയുക<s n="v"/><s n="tv"/></l><r>tell<s n="vblex"/></r></p></e>
     <e><p><l>ഉറങ്ങുക<s n="v"/><s n="iv"/></l><r>sleep<s n="vblex"/></r></p></e>
-    <e><p><l>പറയുക<s n="v"/></l><r>talk<s n="vblex"/></r></p></e>
+    <e><p><l>പറയുക<s n="v"/><s n="iv"/></l><r>talk<s n="vblex"/></r></p></e>
     <e><p><l>ഭരിക്കുക<s n="v"/></l><r>govern<s n="vblex"/></r></p></e>
     <e><p><l>ഉപയോഗിക്കുക<s n="v"/></l><r>use<s n="vblex"/></r></p></e>
     <e><p><l>കണക്കാക്കുക<s n="v"/></l><r>calculate<s n="vblex"/></r></p></e>
@@ -262,7 +279,7 @@
     <e><p><l>ചോദിക്കുക<s n="v"/></l><r>question<s n="vblex"/></r></p></e>
     <e><p><l>നല്‍കുക<s n="v"/></l><r>give<s n="vblex"/></r></p></e>
     <e><p><l>നടത്തുക<s n="v"/></l><r>conduct<s n="vblex"/></r></p></e>
-    <e><p><l>ലഭിക്കുക<s n="v"/></l><r>get<s n="vblex"/></r></p></e>
+    <e><p><l>ലഭിക്കുക<s n="v"/><s n="tv"/></l><r>get<s n="vblex"/></r></p></e>
     <e><p><l>ഉണ്ടാകുക<s n="v"/></l><r>form<s n="vblex"/></r></p></e>
     <e><p><l>തുടരുക<s n="v"/></l><r>continue<s n="vblex"/></r></p></e>
     <e><p><l>പ്രവര്‍ത്തിക്കുക<s n="v"/></l><r>act<s n="vblex"/></r></p></e>
@@ -272,10 +289,10 @@
     <e><p><l>രചിക്കുക<s n="v"/></l><r>compose<s n="vblex"/></r></p></e>
     <e><p><l>ഉണ്ടാക്കുക<s n="v"/></l><r>construct<s n="vblex"/></r></p></e>
     <e><p><l>അവലംബിക്കുക<s n="v"/></l><r>depend<s n="vblex"/></r></p></e>
-    <e><p><l>കിട്ടുക<s n="v"/></l><r>get<s n="vblex"/></r></p></e>
+    <e><p><l>കിട്ടുക<s n="v"/><s n="tv"/></l><r>get<s n="vblex"/></r></p></e>
     <e><p><l>വഹിക്കുക<s n="v"/></l><r>bear<s n="vblex"/></r></p></e>
     <e><p><l>എഴുതുക<s n="v"/></l><r>write<s n="vblex"/></r></p></e>
-    <e><p><l>ശ്രമിക്കുക<s n="v"/></l><r>try<s n="vblex"/></r></p></e>
+    <e><p><l>ശ്രമിക്കുക<s n="v"/><s n="iv"/></l><r>try<s n="vblex"/></r></p></e>
     <e><p><l>മരിക്കുക<s n="v"/></l><r>die<s n="vblex"/></r></p></e>
     <e><p><l>പഠിക്കുക<s n="v"/></l><r>study<s n="vblex"/></r></p></e>
     <e><p><l>അവതരിപ്പിക്കുക<s n="v"/></l><r>present<s n="vblex"/></r></p></e>
@@ -288,9 +305,9 @@
     <e><p><l>നിര്‍വഹിക്കുക<s n="v"/></l><r>administer<s n="vblex"/></r></p></e>
     <e><p><l>അടക്കുക<s n="v"/></l><r>close<s n="vblex"/></r></p></e>
     <e><p><l>പങ്കെടുക്കുക<s n="v"/></l><r>participate<s n="vblex"/></r></p></e>
-    <e><p><l>നടക്കുക<s n="v"/></l><r>walk<s n="vblex"/></r></p></e>
+    <e><p><l>നടക്കുക<s n="v"/><s n="iv"/></l><r>walk<s n="vblex"/></r></p></e>
     <e><p><l>പ്രവര്‍ത്തിക്കുക<s n="v"/></l><r>exercise<s n="vblex"/></r></p></e>
-    <e><p><l>ചെയ്യുക<s n="v"/></l><r>does<s n="vblex"/></r></p></e>
+    <e><p><l>ചെയ്യുക<s n="v"/><s n="tv"/></l><r>do<s n="vblex"/></r></p></e>
     <e><p><l>പൂര്‍ത്തിയാക്കുക<s n="v"/></l><r>complete<s n="vblex"/></r></p></e>
     <e><p><l>ആരംഭിക്കുക<s n="v"/></l><r>begin<s n="vblex"/></r></p></e>
     <e><p><l>ബന്ധിപ്പിക്കുക<s n="v"/></l><r>implicate<s n="vblex"/></r></p></e>
@@ -301,32 +318,17 @@
     <e><p><l>മാറുക<s n="v"/></l><r>change<s n="vblex"/></r></p></e>
     <e><p><l>വിചാരിക്കുക<s n="v"/></l><r>think<s n="vblex"/></r></p></e>
     <e><p><l>തുറക്കുക<s n="v"/></l><r>open<s n="vblex"/></r></p></e>
-    <e><p><l>അറിയിക്കുക<s n="v"/></l><r>know<s n="vblex"/></r></p></e>
+    <e><p><l>അറിയിക്കുക<s n="v"/><s n="tv"/></l><r>know<s n="vblex"/></r></p></e>
     <e><p><l>സഹായിക്കുക<s n="v"/></l><r>help<s n="vblex"/></r></p></e>
     <e><p><l>പാഠിക്കുക<s n="v"/></l><r>study<s n="vblex"/></r></p></e>
     <e><p><l>ഒഴുകുക<s n="v"/></l><r>flow<s n="vblex"/></r></p></e>
     <e><p><l>സൂചിപ്പിക്കുക<s n="v"/></l><r>intimate<s n="vblex"/></r></p></e>
     <e><p><l>ചിരിക്കുക<s n="v"/><s n="iv"/></l><r>laugh<s n="vblex"/></r></p></e>
-    <e><p><l>കണ്ടുപിടിക്കുക<s n="v"/></l><r>find<s n="vblex"/></r></p></e>
-    <e><p><l>ഇഷ്ടപ്പെടുക<s n="v"/></l><r>love<s n="vblex"/></r></p></e>
+    <e><p><l>കണ്ടുപിടിക്കുക<s n="v"/><s n="tv"/></l><r>find<s n="vblex"/></r></p></e>
+    <e><p><l>ഇഷ്ടപ്പെടുക<s n="v"/><s n="tv"/></l><r>love<s n="vblex"/></r></p></e>
     <e><p><l>ഉണ്ട്<s n="vbcop"/></l><r>have<s n="vbhaver"/></r></p></e>
-    <e><p><l>വരുക<s n="v"/></l><r>come<s n="vblex"/></r></p></e>
-    <e><p><l>തീരുക<s n="v"/></l><r>finish<s n="vblex"/></r></p></e>
-
-    <!-- SECTION: Numerals -->
-
-    <e><p><l>ഒരു<s n="num"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
-    <e><p><l>ഒരു<s n="num"/></l><r>one<s n="num"/></r></p></e>
-    <e><p><l>രണ്ട്<s n="num"/></l><r>two<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>മൂന്ന്<s n="num"/></l><r>three<s n="num"/></r></p></e>
-    <e><p><l>നാല്<s n="num"/></l><r>four<s n="num"/></r></p></e>
-    <e><p><l>അഞ്ച്<s n="num"/></l><r>five<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>ആറ്<s n="num"/></l><r>six<s n="num"/></r></p></e>
-    <e><p><l>ഏഴ്<s n="num"/></l><r>seven<s n="num"/></r></p></e>
-    <e><p><l>എട്ട്<s n="num"/></l><r>eight<s n="num"/></r></p></e>
-    <e><p><l>ഒന്പത്<s n="num"/></l><r>nine<s n="num"/></r></p></e>
-    <e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/></r></p></e>
-
+    <e><p><l>വരുക<s n="v"/><s n="iv"/></l><r>come<s n="vblex"/></r></p></e>
+    <e><p><l>തീരുക<s n="v"/><s n="iv"/></l><r>finish<s n="vblex"/></r></p></e>
 
 
     <!-- SECTION: Punctuation-->
