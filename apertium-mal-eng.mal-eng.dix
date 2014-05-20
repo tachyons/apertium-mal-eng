@@ -82,6 +82,7 @@
     <e><p><l>യോ<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
     <e><p><l>ഉം<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
     <e><p><l>പക്ഷെ<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>അപ്പോള്‍<s n="cnjadv"/></l><r>when<s n="cnjadv"/></r></p></e>    
 
     <!-- SECTION: Postpositions -->
 
@@ -91,6 +92,7 @@
     <e><p><l>മുന്നില്‍<s n="spost"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
     <e><p><l>നിന്ന്<s n="spost"/></l><r>from<s n="pr"/></r></p></e>
     <e><p><l>കൂടെ<s n="spost"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>കൊണ്ട്<s n="spost"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>അകത്ത്<s n="spost"/></l><r>inside<s n="pr"/></r></p></e>
     <e><p><l>യോടപ്പം<s n="post"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>ൂടെ<s n="post"/></l><r>through<s n="pr"/></r></p></e>
@@ -100,6 +102,7 @@
     <e><p><l>പിറകില്<s n="spost"/></l><r>behind<s n="pr"/></r></p></e>
     <e><p><l>താഴെ<s n="spost"/></l><r>under<s n="pr"/></r></p></e>
     <e><p><l>മുമ്പില്‍<s n="spost"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>പുറത്ത്<s n="spost"/></l><r>outside<s n="pr"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
@@ -113,6 +116,9 @@
     <e><p><l>ഇത്<s n="prn"/><s n="dem"/></l><r>this<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
 
     <e><p><l>എന്ത്<s n="prn"/><s n="itg"/></l><r>what<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
+
+    <e><p><l>എന്തെങ്കിലും<s n="prn"/><s n="ind"/></l><r>anything<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+    <e><p><l>എന്തെങ്കിലും<s n="prn"/><s n="ind"/></l><r>something<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
 
     <!-- SECTION: Determiners -->
 
@@ -142,6 +148,7 @@
     <e><p><l>ഇന്ന്<s n="n"/><s n="sg"/></l><r>today<s n="adv"/></r></p></e>
 
     <e><p><l>കാലാവസ്ഥ<s n="n"/><s n="sg"/></l><r>weather<s n="n"/><s n="sg"/></r></p></e>
+    <e><p><l>പേര്‍<s n="n"/></l><r>person<s n="n"/></r></p></e>
     <e><p><l>തണുപ്പ്<s n="n"/></l><r>cold<s n="n"/></r></p></e>
     <e><p><l>മരം<s n="n"/></l><r>tree<s n="n"/></r></p></e>
     <e><p><l>മാങ്ങ<s n="n"/></l><r>mango<s n="n"/></r></p></e>
@@ -216,6 +223,8 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>എവിടെ<s n="adv"/><s n="itg"/></l><r>where<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>എന്തുകൊണ്ട്<s n="adv"/><s n="itg"/></l><r>why<s n="adv"/><s n="itg"/></r></p></e>
+
     <e><p><l>അവിടെ<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
     <e><p><l>ഇല്ല<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
 
@@ -223,7 +232,7 @@
     <e><p><l>ഇപ്പോള്‍<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
     <e><p><l>എപ്പോഴും<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
     <e><p><l>വളരെ<s n="preadv"/></l><r>very<s n="preadv"/></r></p></e>
-
+    <e><p><l>അങ്ങനെ<s n="adv"/></l><r>like<b/>that<s n="adv"/></r></p></e>
     <e><p><l>അല്ല<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
     <e><p><l>മെല്ലെ<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
     <e><p><l>വീണ്ടും<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
@@ -246,6 +255,8 @@
     <!--SECTION: Verbs -->
 
     <e><p><l>ആക്<s n="vbcop"/></l><r>be<s n="vbser"/></r></p></e>
+    <e><p><l>ഉണ്ട്<s n="vbcop"/></l><r>have<s n="vbhaver"/></r></p></e>
+
     <e><p><l>കരുതുക<s n="v"/><s n="iv"/></l><r>think<s n="vblex"/></r></p></e>
     <e><p><l>ഇരിക്കുക<s n="v"/><s n="iv"/></l><r>sit<s n="vblex"/></r></p></e>
     <e><p><l>ചോദിക്കുക<s n="v"/><s n="iv"/></l><r>ask<s n="vblex"/></r></p></e>
@@ -267,6 +278,7 @@
     <e><p><l>കഴിയുക<s n="v"/><s n="tv"/></l><r>can<s n="vaux"/></r></p></e>
     <e><p><l>ഒളിക്കുക<s n="v"/><s n="iv"/></l><r>hide<s n="vblex"/></r></p></e>
     <e><p><l>പറയുക<s n="v"/></l><r>say<s n="vblex"/></r></p></e>
+    <e><p><l>കുടിക്കുക<s n="v"/><s n="tv"/></l><r>drink<s n="vblex"/></r></p></e>
     <e><p><l>പറയുക<s n="v"/><s n="tv"/></l><r>tell<s n="vblex"/></r></p></e>
     <e><p><l>ഉറങ്ങുക<s n="v"/><s n="iv"/></l><r>sleep<s n="vblex"/></r></p></e>
     <e><p><l>പറയുക<s n="v"/><s n="iv"/></l><r>talk<s n="vblex"/></r></p></e>
@@ -280,6 +292,7 @@
     <e><p><l>നല്‍കുക<s n="v"/></l><r>give<s n="vblex"/></r></p></e>
     <e><p><l>നടത്തുക<s n="v"/></l><r>conduct<s n="vblex"/></r></p></e>
     <e><p><l>ലഭിക്കുക<s n="v"/><s n="tv"/></l><r>get<s n="vblex"/></r></p></e>
+    <e><p><l>കിട്ടുകു<s n="v"/><s n="tv"/></l><r>get<s n="vblex"/></r></p></e>
     <e><p><l>ഉണ്ടാകുക<s n="v"/></l><r>form<s n="vblex"/></r></p></e>
     <e><p><l>തുടരുക<s n="v"/></l><r>continue<s n="vblex"/></r></p></e>
     <e><p><l>പ്രവര്‍ത്തിക്കുക<s n="v"/></l><r>act<s n="vblex"/></r></p></e>
@@ -326,7 +339,7 @@
     <e><p><l>ചിരിക്കുക<s n="v"/><s n="iv"/></l><r>laugh<s n="vblex"/></r></p></e>
     <e><p><l>കണ്ടുപിടിക്കുക<s n="v"/><s n="tv"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>ഇഷ്ടപ്പെടുക<s n="v"/><s n="tv"/></l><r>love<s n="vblex"/></r></p></e>
-    <e><p><l>ഉണ്ട്<s n="vbcop"/></l><r>have<s n="vbhaver"/></r></p></e>
+
     <e><p><l>വരുക<s n="v"/><s n="iv"/></l><r>come<s n="vblex"/></r></p></e>
     <e><p><l>തീരുക<s n="v"/><s n="iv"/></l><r>finish<s n="vblex"/></r></p></e>
 
