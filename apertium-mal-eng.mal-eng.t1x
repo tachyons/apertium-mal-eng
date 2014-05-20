@@ -42,6 +42,10 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+     <def-cat n="vbser">
+      <cat-item tags="vbser"/>
+      <cat-item tags="vbser*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -143,7 +147,7 @@
   </section-def-macros>
 
   <section-rules>
-
+	<!--Rule 1 : ant-->
     <rule comment="ant">
       <pattern>
         <pattern-item n="ant"/>
@@ -471,6 +475,30 @@
         </out>
       </action>
     </rule>
+    <!-- Rule No 12 -->
+    <!--Example:  -->
+    <rule comment="adj vbser">
+		<pattern>
+			<pattern-item n="adj-num"/>
+			<pattern-item n="vbser"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk namefrom="" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="ADJ-VBSER"/></tag>
+					</tags>
+					<lu>
+						<clip side="tl" pos="2" part="whole"/>
+					</lu>
+					<lu>
+						<clip side="tl" pos="1" part="whole"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+    </rule>
+    
 
   </section-rules>
 </transfer>
