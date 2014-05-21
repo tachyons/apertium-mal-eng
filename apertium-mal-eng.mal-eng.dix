@@ -402,7 +402,7 @@
     <e><p><l>ഫെബ്രുവരി<s n="n"/></l><r>february<s n="n"/></r></p></e>
     <e><p><l>നിയമം<s n="n"/></l><r>statute<s n="n"/></r></p></e>
     <e><p><l>നിയമം<s n="n"/></l><r>rule<s n="n"/></r></p></e>
-    <e><p><l>നിയമം<s n="n"/></l><r>rigor<s n="n"/></r></p></e>
+    <e><p><l>നിയമം<s n="n"/></l><r>rigour<s n="n"/></r></p></e>
     <e><p><l>നിയമം<s n="n"/></l><r>regulation<s n="n"/></r></p></e>
     <e><p><l>നിയമം<s n="n"/></l><r>precept<s n="n"/></r></p></e>
     <e><p><l>നിയമം<s n="n"/></l><r>pact<s n="n"/></r></p></e>
@@ -584,7 +584,7 @@
     <e><p><l>പദ്ധതി<s n="n"/></l><r>design<s n="n"/></r></p></e>
     <e><p><l>പദ്ധതി<s n="n"/></l><r>arrangement<s n="n"/></r></p></e>
     <e><p><l>പദ്ധതി<s n="n"/></l><r>aim<s n="n"/></r></p></e>
-    <e><p><l>ഹിന്ദി<s n="n"/></l><r>hindi<s n="n"/></r></p></e>
+    <e><p><l>ഹിന്ദി<s n="n"/></l><r>Hindi<s n="n"/></r></p></e>
     <e><p><l>വിശ്വാസം<s n="n"/></l><r>trust<s n="n"/></r></p></e>
     <e><p><l>വിശ്വാസം<s n="n"/></l><r>security<s n="n"/></r></p></e>
     <e><p><l>വിശ്വാസം<s n="n"/></l><r>religion<s n="n"/></r></p></e>
@@ -607,7 +607,7 @@
     <e><p><l>സ്ഥലം<s n="n"/></l><r>location<s n="n"/></r></p></e>
     <e><p><l>സ്ഥലം<s n="n"/></l><r>ground<s n="n"/></r></p></e>
     <e><p><l>നീളം<s n="n"/></l><r>stature<s n="n"/></r></p></e>
-    <e><p><l>നീളം<s n="n"/></l><r>meter<s n="n"/></r></p></e>
+    <e><p><l>നീളം<s n="n"/></l><r>metre<s n="n"/></r></p></e>
     <e><p><l>നീളം<s n="n"/></l><r>measure<s n="n"/></r></p></e>
     <e><p><l>നീളം<s n="n"/></l><r>length<s n="n"/></r></p></e>
     <e><p><l>നീളം<s n="n"/></l><r>footage<s n="n"/></r></p></e>
@@ -643,7 +643,6 @@
     <e><p><l>വിഭാഗം<s n="n"/></l><r>branch<s n="n"/></r></p></e>
     <e><p><l>ജനങ്ങള്‍<s n="n"/></l><r>public<s n="n"/></r></p></e>
     <e><p><l>ചലച്ചിത്രം<s n="n"/></l><r>picture<s n="n"/></r></p></e>
-    <e><p><l>ചലച്ചിത്രം<s n="n"/></l><r>movie<s n="n"/></r></p></e>
     <e><p><l>ചലച്ചിത്രം<s n="n"/></l><r>film<s n="n"/></r></p></e>
     <e><p><l>ചലച്ചിത്രം<s n="n"/></l><r>cinema<s n="n"/></r></p></e>
     <e><p><l>കമ്പനി<s n="n"/></l><r>firm<s n="n"/></r></p></e>
@@ -698,17 +697,14 @@
     <e><p><l>ലക്ഷ്യം<s n="n"/></l><r>aim<s n="n"/></r></p></e>
     <e><p><l>അമ്മ<s n="n"/></l><r>mummy<s n="n"/></r></p></e>
     <e><p><l>അമ്മ<s n="n"/></l><r>mother<s n="n"/></r></p></e>
-    <e><p><l>അമ്മ<s n="n"/></l><r>mom<s n="n"/></r></p></e>
-    <e><p><l>അമ്മ<s n="n"/></l><r>mamma<s n="n"/></r></p></e>
+    <e><p><l>അമ്മ<s n="n"/></l><r>mum<s n="n"/></r></p></e>
     <e><p><l>മാസം<s n="n"/></l><r>moon<s n="n"/></r></p></e>
     <e><p><l>മാസം<s n="n"/></l><r>month<s n="n"/></r></p></e>
     <e><p><l>നിറം<s n="n"/></l><r>tone<s n="n"/></r></p></e>
     <e><p><l>നിറം<s n="n"/></l><r>shade<s n="n"/></r></p></e>
     <e><p><l>നിറം<s n="n"/></l><r>dye<s n="n"/></r></p></e>
     <e><p><l>നിറം<s n="n"/></l><r>colour<s n="n"/></r></p></e>
-    <e><p><l>നിറം<s n="n"/></l><r>color<s n="n"/></r></p></e>
     <e><p><l>അവസാനം<s n="n"/></l><r>terminal<s n="n"/></r></p></e>
-    <e><p><l>അവസാനം<s n="n"/></l><r>rescission<s n="n"/></r></p></e>
     <e><p><l>അവസാനം<s n="n"/></l><r>end<s n="n"/></r></p></e>
     <e><p><l>അവസാനം<s n="n"/></l><r>conclusion<s n="n"/></r></p></e>
     <e><p><l>അവസാനം<s n="n"/></l><r>closure<s n="n"/></r></p></e>
@@ -793,7 +789,6 @@
     <e><p><l>അടി<s n="n"/></l><r>beat<s n="n"/></r></p></e>
     <e><p><l>ശരാശരി<s n="n"/></l><r>average<s n="n"/></r></p></e>
     <e><p><l>കുടുംബം<s n="n"/></l><r>strain<s n="n"/></r></p></e>
-    <e><p><l>കുടുംബം<s n="n"/></l><r>kindred<s n="n"/></r></p></e>
     <e><p><l>കുടുംബം<s n="n"/></l><r>household<s n="n"/></r></p></e>
     <e><p><l>കുടുംബം<s n="n"/></l><r>house<s n="n"/></r></p></e>
     <e><p><l>കുടുംബം<s n="n"/></l><r>family<s n="n"/></r></p></e>
@@ -801,7 +796,7 @@
     <e><p><l>ഘടന<s n="n"/></l><r>system<s n="n"/></r></p></e>
     <e><p><l>ഘടന<s n="n"/></l><r>structure<s n="n"/></r></p></e>
     <e><p><l>ഘടന<s n="n"/></l><r>project<s n="n"/></r></p></e>
-    <e><p><l>ഘടന<s n="n"/></l><r>organization<s n="n"/></r></p></e>
+    <e><p><l>ഘടന<s n="n"/></l><r>organisation<s n="n"/></r></p></e>
     <e><p><l>ഘടന<s n="n"/></l><r>make-up<s n="n"/></r></p></e>
     <e><p><l>ഘടന<s n="n"/></l><r>frame<s n="n"/></r></p></e>
     <e><p><l>ഘടന<s n="n"/></l><r>formation<s n="n"/></r></p></e>
@@ -836,7 +831,7 @@
     <e><p><l>അവലംബം<s n="n"/></l><r>citation<s n="n"/></r></p></e>
     <e><p><l>ജനസംഖ്യ<s n="n"/></l><r>population<s n="n"/></r></p></e>
     <e><p><l>സിനിമ<s n="n"/></l><r>film<s n="n"/></r></p></e>
-    <e><p><l>സംഘടന<s n="n"/></l><r>organization<s n="n"/></r></p></e>
+    <e><p><l>സംഘടന<s n="n"/></l><r>organisation<s n="n"/></r></p></e>
     <e><p><l>സംഘടന<s n="n"/></l><r>establishment<s n="n"/></r></p></e>
     <e><p><l>സംഘടന<s n="n"/></l><r>construction<s n="n"/></r></p></e>
     <e><p><l>സംഘടന<s n="n"/></l><r>college<s n="n"/></r></p></e>
@@ -991,7 +986,7 @@
     <e><p><l>സിദ്ധാന്തം<s n="n"/></l><r>theorem<s n="n"/></r></p></e>
     <e><p><l>സിദ്ധാന്തം<s n="n"/></l><r>system<s n="n"/></r></p></e>
     <e><p><l>സിദ്ധാന്തം<s n="n"/></l><r>saw<s n="n"/></r></p></e>
-    <e><p><l>സിദ്ധാന്തം<s n="n"/></l><r>rigor<s n="n"/></r></p></e>
+    <e><p><l>സിദ്ധാന്തം<s n="n"/></l><r>rigour<s n="n"/></r></p></e>
     <e><p><l>സിദ്ധാന്തം<s n="n"/></l><r>principle<s n="n"/></r></p></e>
     <e><p><l>സിദ്ധാന്തം<s n="n"/></l><r>pretext<s n="n"/></r></p></e>
     <e><p><l>സിദ്ധാന്തം<s n="n"/></l><r>lore<s n="n"/></r></p></e>
@@ -1046,7 +1041,7 @@
     <e><p><l>വാദം<s n="n"/></l><r>assertion<s n="n"/></r></p></e>
     <e><p><l>വാദം<s n="n"/></l><r>argument<s n="n"/></r></p></e>
     <e><p><l>പ്രത്യേകത<s n="n"/></l><r>specialty<s n="n"/></r></p></e>
-    <e><p><l>പ്രത്യേകത<s n="n"/></l><r>specialization<s n="n"/></r></p></e>
+    <e><p><l>പ്രത്യേകത<s n="n"/></l><r>specialisation<s n="n"/></r></p></e>
     <e><p><l>പ്രത്യേകത<s n="n"/></l><r>speciality<s n="n"/></r></p></e>
     <e><p><l>പ്രത്യേകത<s n="n"/></l><r>singularity<s n="n"/></r></p></e>
     <e><p><l>പ്രത്യേകത<s n="n"/></l><r>singular<s n="n"/></r></p></e>
@@ -1066,7 +1061,7 @@
     <e><p><l>വ്യവസ്ഥ<s n="n"/></l><r>regularity<s n="n"/></r></p></e>
     <e><p><l>വ്യവസ്ഥ<s n="n"/></l><r>qualification<s n="n"/></r></p></e>
     <e><p><l>വ്യവസ്ഥ<s n="n"/></l><r>provision<s n="n"/></r></p></e>
-    <e><p><l>വ്യവസ്ഥ<s n="n"/></l><r>organization<s n="n"/></r></p></e>
+    <e><p><l>വ്യവസ്ഥ<s n="n"/></l><r>organisation<s n="n"/></r></p></e>
     <e><p><l>വ്യവസ്ഥ<s n="n"/></l><r>order<s n="n"/></r></p></e>
     <e><p><l>വ്യവസ്ഥ<s n="n"/></l><r>method<s n="n"/></r></p></e>
     <e><p><l>വ്യവസ്ഥ<s n="n"/></l><r>measure<s n="n"/></r></p></e>
@@ -1354,7 +1349,7 @@
     <e><p><l>അംഗീകാരം<s n="n"/></l><r>endorsement<s n="n"/></r></p></e>
     <e><p><l>അംഗീകാരം<s n="n"/></l><r>credit<s n="n"/></r></p></e>
     <e><p><l>അംഗീകാരം<s n="n"/></l><r>consent<s n="n"/></r></p></e>
-    <e><p><l>അംഗീകാരം<s n="n"/></l><r>authorization<s n="n"/></r></p></e>
+    <e><p><l>അംഗീകാരം<s n="n"/></l><r>authorisation<s n="n"/></r></p></e>
     <e><p><l>അംഗീകാരം<s n="n"/></l><r>assumption<s n="n"/></r></p></e>
     <e><p><l>അംഗീകാരം<s n="n"/></l><r>approval<s n="n"/></r></p></e>
     <e><p><l>അംഗീകാരം<s n="n"/></l><r>acceptance<s n="n"/></r></p></e>
@@ -1671,9 +1666,9 @@
     <e><p><l>അനുമതി<s n="n"/></l><r>sanction<s n="n"/></r></p></e>
     <e><p><l>അനുമതി<s n="n"/></l><r>permit<s n="n"/></r></p></e>
     <e><p><l>അനുമതി<s n="n"/></l><r>permission<s n="n"/></r></p></e>
-    <e><p><l>അനുമതി<s n="n"/></l><r>license<s n="n"/></r></p></e>
+    <e><p><l>അനുമതി<s n="n"/></l><r>licence<s n="n"/></r></p></e>
     <e><p><l>അനുമതി<s n="n"/></l><r>consent<s n="n"/></r></p></e>
-    <e><p><l>അനുമതി<s n="n"/></l><r>authorization<s n="n"/></r></p></e>
+    <e><p><l>അനുമതി<s n="n"/></l><r>authorisation<s n="n"/></r></p></e>
     <e><p><l>അനുമതി<s n="n"/></l><r>authority<s n="n"/></r></p></e>
     <e><p><l>അനുമതി<s n="n"/></l><r>assortment<s n="n"/></r></p></e>
     <e><p><l>അനുമതി<s n="n"/></l><r>assent<s n="n"/></r></p></e>
@@ -1793,7 +1788,7 @@
     <e><p><l>അവസ്ഥ<s n="n"/></l><r>rank<s n="n"/></r></p></e>
     <e><p><l>അവസ്ഥ<s n="n"/></l><r>post<s n="n"/></r></p></e>
     <e><p><l>അവസ്ഥ<s n="n"/></l><r>position<s n="n"/></r></p></e>
-    <e><p><l>അവസ്ഥ<s n="n"/></l><r>polarization<s n="n"/></r></p></e>
+    <e><p><l>അവസ്ഥ<s n="n"/></l><r>polarisation<s n="n"/></r></p></e>
     <e><p><l>അവസ്ഥ<s n="n"/></l><r>place<s n="n"/></r></p></e>
     <e><p><l>അവസ്ഥ<s n="n"/></l><r>nadir<s n="n"/></r></p></e>
     <e><p><l>അവസ്ഥ<s n="n"/></l><r>mood<s n="n"/></r></p></e>
@@ -2155,7 +2150,6 @@
     <e><p><l>തുറമുഖം<s n="n"/></l><r>port<s n="n"/></r></p></e>
     <e><p><l>തുറമുഖം<s n="n"/></l><r>haven<s n="n"/></r></p></e>
     <e><p><l>തുറമുഖം<s n="n"/></l><r>harbour<s n="n"/></r></p></e>
-    <e><p><l>തുറമുഖം<s n="n"/></l><r>harbor<s n="n"/></r></p></e>
     <e><p><l>തുറമുഖം<s n="n"/></l><r>basin<s n="n"/></r></p></e>
     <e><p><l>കുറവ്<s n="n"/></l><r>defect<s n="n"/></r></p></e>
     <e><p><l>ദേവാലയം<s n="n"/></l><r>temple<s n="n"/></r></p></e>
@@ -2201,7 +2195,6 @@
     <e><p><l>ബഹുമതി<s n="n"/></l><r>respect<s n="n"/></r></p></e>
     <e><p><l>ബഹുമതി<s n="n"/></l><r>premium<s n="n"/></r></p></e>
     <e><p><l>ബഹുമതി<s n="n"/></l><r>honour<s n="n"/></r></p></e>
-    <e><p><l>ബഹുമതി<s n="n"/></l><r>honor<s n="n"/></r></p></e>
     <e><p><l>ആയിരം<s n="n"/></l><r>thousand<s n="n"/></r></p></e>
     <e><p><l>രാഷ്ട്രപതി<s n="n"/></l><r>president<s n="n"/></r></p></e>
     <e><p><l>മല<s n="n"/></l><r>mount<s n="n"/></r></p></e>
@@ -2338,7 +2331,7 @@
     <e><p><l>പ്രതി<s n="n"/></l><r>party<s n="n"/></r></p></e>
     <e><p><l>പ്രതി<s n="n"/></l><r>copy<s n="n"/></r></p></e>
     <e><p><l>പനി<s n="n"/></l><r>temperature<s n="n"/></r></p></e>
-    <e><p><l>പനി<s n="n"/></l><r>rigor<s n="n"/></r></p></e>
+    <e><p><l>പനി<s n="n"/></l><r>rigour<s n="n"/></r></p></e>
     <e><p><l>പനി<s n="n"/></l><r>fever<s n="n"/></r></p></e>
     <e><p><l>ലക്ഷണം<s n="n"/></l><r>trace<s n="n"/></r></p></e>
     <e><p><l>ലക്ഷണം<s n="n"/></l><r>symptom<s n="n"/></r></p></e>
@@ -2371,7 +2364,6 @@
     <e><p><l>ആഹ്വാനം<s n="n"/></l><r>challenge<s n="n"/></r></p></e>
     <e><p><l>ആഹ്വാനം<s n="n"/></l><r>call<s n="n"/></r></p></e>
     <e><p><l>പ്രഭാവം<s n="n"/></l><r>vigour<s n="n"/></r></p></e>
-    <e><p><l>പ്രഭാവം<s n="n"/></l><r>vigor<s n="n"/></r></p></e>
     <e><p><l>പ്രഭാവം<s n="n"/></l><r>superiority<s n="n"/></r></p></e>
     <e><p><l>പ്രഭാവം<s n="n"/></l><r>strength<s n="n"/></r></p></e>
     <e><p><l>പ്രഭാവം<s n="n"/></l><r>steam<s n="n"/></r></p></e>
@@ -2395,7 +2387,6 @@
     <e><p><l>നടപടി<s n="n"/></l><r>mode<s n="n"/></r></p></e>
     <e><p><l>നടപടി<s n="n"/></l><r>habit<s n="n"/></r></p></e>
     <e><p><l>നടപടി<s n="n"/></l><r>demeanour<s n="n"/></r></p></e>
-    <e><p><l>നടപടി<s n="n"/></l><r>demeanor<s n="n"/></r></p></e>
     <e><p><l>നടപടി<s n="n"/></l><r>action<s n="n"/></r></p></e>
     <e><p><l>ശേഷി<s n="n"/></l><r>sufficiency<s n="n"/></r></p></e>
     <e><p><l>ശേഷി<s n="n"/></l><r>skill<s n="n"/></r></p></e>
@@ -2437,7 +2428,7 @@
     <e><p><l>അനുവാദം<s n="n"/></l><r>sanction<s n="n"/></r></p></e>
     <e><p><l>അനുവാദം<s n="n"/></l><r>permit<s n="n"/></r></p></e>
     <e><p><l>അനുവാദം<s n="n"/></l><r>may<s n="n"/></r></p></e>
-    <e><p><l>അനുവാദം<s n="n"/></l><r>license<s n="n"/></r></p></e>
+    <e><p><l>അനുവാദം<s n="n"/></l><r>licence<s n="n"/></r></p></e>
     <e><p><l>അനുവാദം<s n="n"/></l><r>licence<s n="n"/></r></p></e>
     <e><p><l>അനുവാദം<s n="n"/></l><r>allowance<s n="n"/></r></p></e>
     <e><p><l>മാധ്യമം<s n="n"/></l><r>vehicle<s n="n"/></r></p></e>
@@ -2449,7 +2440,6 @@
     <e><p><l>വീര്യം<s n="n"/></l><r>vitality<s n="n"/></r></p></e>
     <e><p><l>വീര്യം<s n="n"/></l><r>virtue<s n="n"/></r></p></e>
     <e><p><l>വീര്യം<s n="n"/></l><r>vigour<s n="n"/></r></p></e>
-    <e><p><l>വീര്യം<s n="n"/></l><r>vigor<s n="n"/></r></p></e>
     <e><p><l>വീര്യം<s n="n"/></l><r>steam<s n="n"/></r></p></e>
     <e><p><l>വീര്യം<s n="n"/></l><r>sperm<s n="n"/></r></p></e>
     <e><p><l>വീര്യം<s n="n"/></l><r>sap<s n="n"/></r></p></e>
@@ -2793,7 +2783,7 @@
     <e><p><l>പാറ<s n="n"/></l><r>rock<s n="n"/></r></p></e>
     <e><p><l>പാറ<s n="n"/></l><r>cliff<s n="n"/></r></p></e>
     <e><p><l>ആരാധന<s n="n"/></l><r>worship<s n="n"/></r></p></e>
-    <e><p><l>ആരാധന<s n="n"/></l><r>honor<s n="n"/></r></p></e>
+    <e><p><l>ആരാധന<s n="n"/></l><r>honour<s n="n"/></r></p></e>
     <e><p><l>ആരാധന<s n="n"/></l><r>homage<s n="n"/></r></p></e>
     <e><p><l>ആരാധന<s n="n"/></l><r>cult<s n="n"/></r></p></e>
     <e><p><l>ആരാധന<s n="n"/></l><r>adoration<s n="n"/></r></p></e>
@@ -3082,7 +3072,6 @@
     <e><p><l>ചായം<s n="n"/></l><r>paint<s n="n"/></r></p></e>
     <e><p><l>ചായം<s n="n"/></l><r>dye<s n="n"/></r></p></e>
     <e><p><l>ചായം<s n="n"/></l><r>colour<s n="n"/></r></p></e>
-    <e><p><l>ചായം<s n="n"/></l><r>color<s n="n"/></r></p></e>
     <e><p><l>പഞ്ചസാര<s n="n"/></l><r>sugar<s n="n"/></r></p></e>
     <e><p><l>നിലയം<s n="n"/></l><r>post<s n="n"/></r></p></e>
     <e><p><l>നിലയം<s n="n"/></l><r>nest<s n="n"/></r></p></e>
@@ -3419,7 +3408,7 @@
     <e><p><l>ഉദയം<s n="n"/></l><r>emergence<s n="n"/></r></p></e>
     <e><p><l>ഉദയം<s n="n"/></l><r>birth<s n="n"/></r></p></e>
     <e><p><l>ഉദയം<s n="n"/></l><r>appearance<s n="n"/></r></p></e>
-    <e><p><l>ഉച്ചാരണം<s n="n"/></l><r>vocalization<s n="n"/></r></p></e>
+    <e><p><l>ഉച്ചാരണം<s n="n"/></l><r>vocalisation<s n="n"/></r></p></e>
     <e><p><l>ഉച്ചാരണം<s n="n"/></l><r>pronunciation<s n="n"/></r></p></e>
     <e><p><l>ഉച്ചാരണം<s n="n"/></l><r>phonation<s n="n"/></r></p></e>
     <e><p><l>ഉച്ചാരണം<s n="n"/></l><r>articulation<s n="n"/></r></p></e>
@@ -3666,7 +3655,7 @@
     <e><p><l>കാഠിന്യം<s n="n"/></l><r>steel<s n="n"/></r></p></e>
     <e><p><l>കാഠിന്യം<s n="n"/></l><r>severity<s n="n"/></r></p></e>
     <e><p><l>കാഠിന്യം<s n="n"/></l><r>sclerosis<s n="n"/></r></p></e>
-    <e><p><l>കാഠിന്യം<s n="n"/></l><r>rigor<s n="n"/></r></p></e>
+    <e><p><l>കാഠിന്യം<s n="n"/></l><r>rigour<s n="n"/></r></p></e>
     <e><p><l>കാഠിന്യം<s n="n"/></l><r>rigidity<s n="n"/></r></p></e>
     <e><p><l>കാഠിന്യം<s n="n"/></l><r>rage<s n="n"/></r></p></e>
     <e><p><l>കാഠിന്യം<s n="n"/></l><r>knot<s n="n"/></r></p></e>
@@ -3712,7 +3701,7 @@
     <e><p><l>സ്വരൂപം<s n="n"/></l><r>figure<s n="n"/></r></p></e>
     <e><p><l>രൂപീകരണം<s n="n"/></l><r>shape<s n="n"/></r></p></e>
     <e><p><l>രൂപീകരണം<s n="n"/></l><r>plan<s n="n"/></r></p></e>
-    <e><p><l>രൂപീകരണം<s n="n"/></l><r>organization<s n="n"/></r></p></e>
+    <e><p><l>രൂപീകരണം<s n="n"/></l><r>organisation<s n="n"/></r></p></e>
     <e><p><l>രൂപീകരണം<s n="n"/></l><r>formation<s n="n"/></r></p></e>
     <e><p><l>രൂപീകരണം<s n="n"/></l><r>creation<s n="n"/></r></p></e>
     <e><p><l>രൂപീകരണം<s n="n"/></l><r>composition<s n="n"/></r></p></e>
@@ -3899,7 +3888,6 @@
     <e><p><l>ഗന്ധം<s n="n"/></l><r>trace<s n="n"/></r></p></e>
     <e><p><l>ഗന്ധം<s n="n"/></l><r>smell<s n="n"/></r></p></e>
     <e><p><l>ഗന്ധം<s n="n"/></l><r>odour<s n="n"/></r></p></e>
-    <e><p><l>ഗന്ധം<s n="n"/></l><r>odor<s n="n"/></r></p></e>
     <e><p><l>ഗന്ധം<s n="n"/></l><r>nose<s n="n"/></r></p></e>
     <e><p><l>ഗണം<s n="n"/></l><r>team<s n="n"/></r></p></e>
     <e><p><l>ഗണം<s n="n"/></l><r>side<s n="n"/></r></p></e>
@@ -4290,8 +4278,8 @@
     <e><p><l>ഗുഹ<s n="n"/></l><r>grotto<s n="n"/></r></p></e>
     <e><p><l>ഗുഹ<s n="n"/></l><r>cell<s n="n"/></r></p></e>
     <e><p><l>ഗുഹ<s n="n"/></l><r>cave<s n="n"/></r></p></e>
-    <e><p><l>ക്രമീകരണം<s n="n"/></l><r>systematization<s n="n"/></r></p></e>
-    <e><p><l>ക്രമീകരണം<s n="n"/></l><r>standardization<s n="n"/></r></p></e>
+    <e><p><l>ക്രമീകരണം<s n="n"/></l><r>systematisation<s n="n"/></r></p></e>
+    <e><p><l>ക്രമീകരണം<s n="n"/></l><r>standardisation<s n="n"/></r></p></e>
     <e><p><l>ക്രമീകരണം<s n="n"/></l><r>standardisation<s n="n"/></r></p></e>
     <e><p><l>ക്രമീകരണം<s n="n"/></l><r>orientation<s n="n"/></r></p></e>
     <e><p><l>ക്രമീകരണം<s n="n"/></l><r>moderation<s n="n"/></r></p></e>
@@ -4312,7 +4300,7 @@
     <e><p><l>ഉറപ്പ്<s n="n"/></l><r>assurance<s n="n"/></r></p></e>
     <e><p><l>അനുമതിപത്രം<s n="n"/></l><r>permit<s n="n"/></r></p></e>
     <e><p><l>അനുമതിപത്രം<s n="n"/></l><r>pass<s n="n"/></r></p></e>
-    <e><p><l>അനുമതിപത്രം<s n="n"/></l><r>license<s n="n"/></r></p></e>
+    <e><p><l>അനുമതിപത്രം<s n="n"/></l><r>licence<s n="n"/></r></p></e>
     <e><p><l>അടിയന്തരാവസ്ഥ<s n="n"/></l><r>emergency<s n="n"/></r></p></e>
     <e><p><l>മന്ത്രാലയം<s n="n"/></l><r>ministry<s n="n"/></r></p></e>
     <e><p><l>തുലാം<s n="n"/></l><r>tie<s n="n"/></r></p></e>
@@ -4460,7 +4448,7 @@
     <e><p><l>പീഡനം<s n="n"/></l><r>cross<s n="n"/></r></p></e>
     <e><p><l>നാഗരികത<s n="n"/></l><r>urbanity<s n="n"/></r></p></e>
     <e><p><l>നാഗരികത<s n="n"/></l><r>polish<s n="n"/></r></p></e>
-    <e><p><l>നാഗരികത<s n="n"/></l><r>civilization<s n="n"/></r></p></e>
+    <e><p><l>നാഗരികത<s n="n"/></l><r>civilisation<s n="n"/></r></p></e>
     <e><p><l>കുരു<s n="n"/></l><r>sore<s n="n"/></r></p></e>
     <e><p><l>കുരു<s n="n"/></l><r>botch<s n="n"/></r></p></e>
     <e><p><l>അടയാളം<s n="n"/></l><r>trail<s n="n"/></r></p></e>
@@ -4583,7 +4571,6 @@
     <e><p><l>ഭാവന<s n="n"/></l><r>imagination<s n="n"/></r></p></e>
     <e><p><l>പ്രീതി<s n="n"/></l><r>pleasure<s n="n"/></r></p></e>
     <e><p><l>പ്രീതി<s n="n"/></l><r>favour<s n="n"/></r></p></e>
-    <e><p><l>പ്രീതി<s n="n"/></l><r>favor<s n="n"/></r></p></e>
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>usage<s n="n"/></r></p></e>
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>treatment<s n="n"/></r></p></e>
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>play<s n="n"/></r></p></e>
@@ -4592,7 +4579,6 @@
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>manner<s n="n"/></r></p></e>
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>form<s n="n"/></r></p></e>
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>demeanour<s n="n"/></r></p></e>
-    <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>demeanor<s n="n"/></r></p></e>
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>conduct<s n="n"/></r></p></e>
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>carriage<s n="n"/></r></p></e>
     <e><p><l>പെരുമാറ്റം<s n="n"/></l><r>behaviour<s n="n"/></r></p></e>
@@ -4673,7 +4659,7 @@
     <e><p><l>അവയവം<s n="n"/></l><r>member<s n="n"/></r></p></e>
     <e><p><l>അക്രമം<s n="n"/></l><r>violence<s n="n"/></r></p></e>
     <e><p><l>അക്രമം<s n="n"/></l><r>outrage<s n="n"/></r></p></e>
-    <e><p><l>ശീതം<s n="n"/></l><r>rigor<s n="n"/></r></p></e>
+    <e><p><l>ശീതം<s n="n"/></l><r>rigour<s n="n"/></r></p></e>
     <e><p><l>വല<s n="n"/></l><r>web<s n="n"/></r></p></e>
     <e><p><l>വല<s n="n"/></l><r>tissue<s n="n"/></r></p></e>
     <e><p><l>വല<s n="n"/></l><r>net<s n="n"/></r></p></e>
@@ -5118,7 +5104,7 @@
     <e><p><l>സഞ്ചാരി<s n="n"/></l><r>traveler<s n="n"/></r></p></e>
     <e><p><l>സങ്കലനം<s n="n"/></l><r>synthesis<s n="n"/></r></p></e>
     <e><p><l>സങ്കലനം<s n="n"/></l><r>sum<s n="n"/></r></p></e>
-    <e><p><l>സങ്കലനം<s n="n"/></l><r>fertilization<s n="n"/></r></p></e>
+    <e><p><l>സങ്കലനം<s n="n"/></l><r>fertilisation<s n="n"/></r></p></e>
     <e><p><l>സങ്കലനം<s n="n"/></l><r>composition<s n="n"/></r></p></e>
     <e><p><l>സങ്കലനം<s n="n"/></l><r>compilation<s n="n"/></r></p></e>
     <e><p><l>സങ്കലനം<s n="n"/></l><r>combination<s n="n"/></r></p></e>
@@ -5329,7 +5315,6 @@
     <e><p><l>മൃഗം<s n="n"/></l><r>antelope<s n="n"/></r></p></e>
     <e><p><l>മൃഗം<s n="n"/></l><r>animal<s n="n"/></r></p></e>
     <e><p><l>മണം<s n="n"/></l><r>odour<s n="n"/></r></p></e>
-    <e><p><l>മണം<s n="n"/></l><r>odor<s n="n"/></r></p></e>
     <e><p><l>മണം<s n="n"/></l><r>flavour<s n="n"/></r></p></e>
     <e><p><l>പരിവേഷം<s n="n"/></l><r>aureole<s n="n"/></r></p></e>
     <e><p><l>പരിവേഷം<s n="n"/></l><r>aura<s n="n"/></r></p></e>
@@ -5452,7 +5437,7 @@
     <e><p><l>ശാപം<s n="n"/></l><r>imprecation<s n="n"/></r></p></e>
     <e><p><l>ശാപം<s n="n"/></l><r>curse<s n="n"/></r></p></e>
     <e><p><l>ശാപം<s n="n"/></l><r>anathema<s n="n"/></r></p></e>
-    <e><p><l>വ്യവസ്ഥിതി<s n="n"/></l><r>organization<s n="n"/></r></p></e>
+    <e><p><l>വ്യവസ്ഥിതി<s n="n"/></l><r>organisation<s n="n"/></r></p></e>
     <e><p><l>വ്യവസ്ഥിതി<s n="n"/></l><r>discipline<s n="n"/></r></p></e>
     <e><p><l>വ്യവസ്ഥിതി<s n="n"/></l><r>condition<s n="n"/></r></p></e>
     <e><p><l>രക്തസാക്ഷി<s n="n"/></l><r>martyr<s n="n"/></r></p></e>
@@ -5600,11 +5585,11 @@
     <e><p><l>പ്രതാപം<s n="n"/></l><r>dignity<s n="n"/></r></p></e>
     <e><p><l>പ്രതാപം<s n="n"/></l><r>amplitude<s n="n"/></r></p></e>
     <e><p><l>പരിചരണം<s n="n"/></l><r>treatment<s n="n"/></r></p></e>
-    <e><p><l>നവീകരണം<s n="n"/></l><r>reorganization<s n="n"/></r></p></e>
+    <e><p><l>നവീകരണം<s n="n"/></l><r>reorganisation<s n="n"/></r></p></e>
     <e><p><l>നവീകരണം<s n="n"/></l><r>renewal<s n="n"/></r></p></e>
     <e><p><l>നവീകരണം<s n="n"/></l><r>reform<s n="n"/></r></p></e>
     <e><p><l>നവീകരണം<s n="n"/></l><r>orientation<s n="n"/></r></p></e>
-    <e><p><l>നവീകരണം<s n="n"/></l><r>modernization<s n="n"/></r></p></e>
+    <e><p><l>നവീകരണം<s n="n"/></l><r>modernisation<s n="n"/></r></p></e>
     <e><p><l>ദഹനം<s n="n"/></l><r>inflammation<s n="n"/></r></p></e>
     <e><p><l>ദഹനം<s n="n"/></l><r>incineration<s n="n"/></r></p></e>
     <e><p><l>ദഹനം<s n="n"/></l><r>digestion<s n="n"/></r></p></e>
@@ -5616,7 +5601,6 @@
     <e><p><l>തൂലിക<s n="n"/></l><r>brush<s n="n"/></r></p></e>
     <e><p><l>ചൈതന്യം<s n="n"/></l><r>vitality<s n="n"/></r></p></e>
     <e><p><l>ചൈതന്യം<s n="n"/></l><r>vigour<s n="n"/></r></p></e>
-    <e><p><l>ചൈതന്യം<s n="n"/></l><r>vigor<s n="n"/></r></p></e>
     <e><p><l>ചൈതന്യം<s n="n"/></l><r>spark<s n="n"/></r></p></e>
     <e><p><l>ചൈതന്യം<s n="n"/></l><r>life<s n="n"/></r></p></e>
     <e><p><l>ചൈതന്യം<s n="n"/></l><r>energy<s n="n"/></r></p></e>
@@ -5853,7 +5837,7 @@
     <e><p><l>ബഹുമാനം<s n="n"/></l><r>respect<s n="n"/></r></p></e>
     <e><p><l>ബഹുമാനം<s n="n"/></l><r>regard<s n="n"/></r></p></e>
     <e><p><l>ബഹുമാനം<s n="n"/></l><r>laurel<s n="n"/></r></p></e>
-    <e><p><l>ബഹുമാനം<s n="n"/></l><r>honor<s n="n"/></r></p></e>
+    <e><p><l>ബഹുമാനം<s n="n"/></l><r>honour<s n="n"/></r></p></e>
     <e><p><l>ബഹുമാനം<s n="n"/></l><r>estimation<s n="n"/></r></p></e>
     <e><p><l>ബഹുമാനം<s n="n"/></l><r>esteem<s n="n"/></r></p></e>
     <e><p><l>ബഹുമാനം<s n="n"/></l><r>duty<s n="n"/></r></p></e>
@@ -6685,7 +6669,7 @@
     <e><p><l>അഭിരുചി<s n="n"/></l><r>preference<s n="n"/></r></p></e>
     <e><p><l>അഭിരുചി<s n="n"/></l><r>palate<s n="n"/></r></p></e>
     <e><p><l>അഭിരുചി<s n="n"/></l><r>interest<s n="n"/></r></p></e>
-    <e><p><l>അഭിരുചി<s n="n"/></l><r>flavor<s n="n"/></r></p></e>
+    <e><p><l>അഭിരുചി<s n="n"/></l><r>flavour<s n="n"/></r></p></e>
     <e><p><l>അഭിരുചി<s n="n"/></l><r>aptitude<s n="n"/></r></p></e>
     <e><p><l>അഭിരുചി<s n="n"/></l><r>appetite<s n="n"/></r></p></e>
     <e><p><l>അദ്വൈതം<s n="n"/></l><r>monotheism<s n="n"/></r></p></e>
@@ -6725,7 +6709,6 @@
     <e><p><l>ഫലിതം<s n="n"/></l><r>salt<s n="n"/></r></p></e>
     <e><p><l>ഫലിതം<s n="n"/></l><r>joke<s n="n"/></r></p></e>
     <e><p><l>ഫലിതം<s n="n"/></l><r>humour<s n="n"/></r></p></e>
-    <e><p><l>ഫലിതം<s n="n"/></l><r>humor<s n="n"/></r></p></e>
     <e><p><l>ഫലിതം<s n="n"/></l><r>fun<s n="n"/></r></p></e>
     <e><p><l>ഫലിതം<s n="n"/></l><r>anecdote<s n="n"/></r></p></e>
     <e><p><l>പ്രസരണം<s n="n"/></l><r>stretch<s n="n"/></r></p></e>
@@ -7353,13 +7336,12 @@
     <e><p><l>വ്യവഹാരം<s n="n"/></l><r>behaviour<s n="n"/></r></p></e>
     <e><p><l>വ്യവഹാരം<s n="n"/></l><r>affair<s n="n"/></r></p></e>
     <e><p><l>വൈഭവം<s n="n"/></l><r>splendour<s n="n"/></r></p></e>
-    <e><p><l>വൈഭവം<s n="n"/></l><r>splendor<s n="n"/></r></p></e>
     <e><p><l>വൈഭവം<s n="n"/></l><r>majesty<s n="n"/></r></p></e>
     <e><p><l>വൈഭവം<s n="n"/></l><r>grandstand<s n="n"/></r></p></e>
     <e><p><l>വിരസത<s n="n"/></l><r>slowness<s n="n"/></r></p></e>
     <e><p><l>വിരസത<s n="n"/></l><r>boredom<s n="n"/></r></p></e>
     <e><p><l>വിനിയോഗം<s n="n"/></l><r>dedication<s n="n"/></r></p></e>
-    <e><p><l>വികേന്ദ്രീകരണം<s n="n"/></l><r>decentralization<s n="n"/></r></p></e>
+    <e><p><l>വികേന്ദ്രീകരണം<s n="n"/></l><r>decentralisation<s n="n"/></r></p></e>
     <e><p><l>വികേന്ദ്രീകരണം<s n="n"/></l><r>decentralisation<s n="n"/></r></p></e>
     <e><p><l>വാസസ്ഥാനം<s n="n"/></l><r>residence<s n="n"/></r></p></e>
     <e><p><l>വാസസ്ഥാനം<s n="n"/></l><r>home<s n="n"/></r></p></e>
@@ -7472,7 +7454,7 @@
     <e><p><l>മുറം<s n="n"/></l><r>sieve<s n="n"/></r></p></e>
     <e><p><l>മുറം<s n="n"/></l><r>riddle<s n="n"/></r></p></e>
     <e><p><l>മുഴ<s n="n"/></l><r>wart<s n="n"/></r></p></e>
-    <e><p><l>മുഴ<s n="n"/></l><r>tumor<s n="n"/></r></p></e>
+    <e><p><l>മുഴ<s n="n"/></l><r>tumour<s n="n"/></r></p></e>
     <e><p><l>മുഴ<s n="n"/></l><r>tuber<s n="n"/></r></p></e>
     <e><p><l>മുഴ<s n="n"/></l><r>thrombus<s n="n"/></r></p></e>
     <e><p><l>മുഴ<s n="n"/></l><r>swelling<s n="n"/></r></p></e>
@@ -7577,7 +7559,6 @@
     <e><p><l>ആനുകൂല്യം<s n="n"/></l><r>luck<s n="n"/></r></p></e>
     <e><p><l>ആനുകൂല്യം<s n="n"/></l><r>field<s n="n"/></r></p></e>
     <e><p><l>ആനുകൂല്യം<s n="n"/></l><r>favour<s n="n"/></r></p></e>
-    <e><p><l>ആനുകൂല്യം<s n="n"/></l><r>favor<s n="n"/></r></p></e>
     <e><p><l>ആനുകൂല്യം<s n="n"/></l><r>chance<s n="n"/></r></p></e>
     <e><p><l>ആനുകൂല്യം<s n="n"/></l><r>benefit<s n="n"/></r></p></e>
     <e><p><l>ആനുകൂല്യം<s n="n"/></l><r>advantage<s n="n"/></r></p></e>
@@ -7975,7 +7956,6 @@
     <e><p><l>ആക്ഷേപം<s n="n"/></l><r>criticism<s n="n"/></r></p></e>
     <e><p><l>ആക്ഷേപം<s n="n"/></l><r>contradiction<s n="n"/></r></p></e>
     <e><p><l>ആക്ഷേപം<s n="n"/></l><r>clamour<s n="n"/></r></p></e>
-    <e><p><l>ആക്ഷേപം<s n="n"/></l><r>clamor<s n="n"/></r></p></e>
     <e><p><l>അസൂയ<s n="n"/></l><r>prejudice<s n="n"/></r></p></e>
     <e><p><l>അസൂയ<s n="n"/></l><r>jealousy<s n="n"/></r></p></e>
     <e><p><l>അസൂയ<s n="n"/></l><r>grudge<s n="n"/></r></p></e>
@@ -8245,7 +8225,6 @@
     <e><p><l>കിംവദന്തി<s n="n"/></l><r>tale<s n="n"/></r></p></e>
     <e><p><l>കിംവദന്തി<s n="n"/></l><r>speech<s n="n"/></r></p></e>
     <e><p><l>കിംവദന്തി<s n="n"/></l><r>rumour<s n="n"/></r></p></e>
-    <e><p><l>കിംവദന്തി<s n="n"/></l><r>rumor<s n="n"/></r></p></e>
     <e><p><l>കിംവദന്തി<s n="n"/></l><r>report<s n="n"/></r></p></e>
     <e><p><l>കിംവദന്തി<s n="n"/></l><r>gossip<s n="n"/></r></p></e>
     <e><p><l>കിംവദന്തി<s n="n"/></l><r>breeze<s n="n"/></r></p></e>
@@ -8441,7 +8420,6 @@
     <e><p><l>ആചരണം<s n="n"/></l><r>manner<s n="n"/></r></p></e>
     <e><p><l>ആചരണം<s n="n"/></l><r>function<s n="n"/></r></p></e>
     <e><p><l>ആചരണം<s n="n"/></l><r>demeanour<s n="n"/></r></p></e>
-    <e><p><l>ആചരണം<s n="n"/></l><r>demeanor<s n="n"/></r></p></e>
     <e><p><l>ആചരണം<s n="n"/></l><r>celebration<s n="n"/></r></p></e>
     <e><p><l>ആചരണം<s n="n"/></l><r>bearer<s n="n"/></r></p></e>
     <e><p><l>ആക്ഷേപഹാസ്യം<s n="n"/></l><r>satire<s n="n"/></r></p></e>
@@ -8513,7 +8491,6 @@
     <e><p><l>ലജ്ജ<s n="n"/></l><r>modesty<s n="n"/></r></p></e>
     <e><p><l>രൂക്ഷത<s n="n"/></l><r>severity<s n="n"/></r></p></e>
     <e><p><l>രൂക്ഷത<s n="n"/></l><r>rigour<s n="n"/></r></p></e>
-    <e><p><l>രൂക്ഷത<s n="n"/></l><r>rigor<s n="n"/></r></p></e>
     <e><p><l>രൂക്ഷത<s n="n"/></l><r>intensity<s n="n"/></r></p></e>
     <e><p><l>രൂക്ഷത<s n="n"/></l><r>ardor<s n="n"/></r></p></e>
     <e><p><l>രൂക്ഷത<s n="n"/></l><r>acerbity<s n="n"/></r></p></e>
@@ -8596,7 +8573,6 @@
     <e><p><l>ചങ്ങാടം<s n="n"/></l><r>raft<s n="n"/></r></p></e>
     <e><p><l>ഗാംഭീര്യം<s n="n"/></l><r>sublimity<s n="n"/></r></p></e>
     <e><p><l>ഗാംഭീര്യം<s n="n"/></l><r>splendour<s n="n"/></r></p></e>
-    <e><p><l>ഗാംഭീര്യം<s n="n"/></l><r>splendor<s n="n"/></r></p></e>
     <e><p><l>ഗാംഭീര്യം<s n="n"/></l><r>solemnity<s n="n"/></r></p></e>
     <e><p><l>ഗാംഭീര്യം<s n="n"/></l><r>seriousness<s n="n"/></r></p></e>
     <e><p><l>ഗാംഭീര്യം<s n="n"/></l><r>majesty<s n="n"/></r></p></e>
@@ -8877,7 +8853,7 @@
     <e><p><l>രാജപാത<s n="n"/></l><r>road<s n="n"/></r></p></e>
     <e><p><l>രാജപാത<s n="n"/></l><r>highway<s n="n"/></r></p></e>
     <e><p><l>യുക്തിവാദം<s n="n"/></l><r>reasoning<s n="n"/></r></p></e>
-    <e><p><l>യുക്തിവാദം<s n="n"/></l><r>rationalization<s n="n"/></r></p></e>
+    <e><p><l>യുക്തിവാദം<s n="n"/></l><r>rationalisation<s n="n"/></r></p></e>
     <e><p><l>യുക്തിവാദം<s n="n"/></l><r>rationalism<s n="n"/></r></p></e>
     <e><p><l>മൗലികത<s n="n"/></l><r>originality<s n="n"/></r></p></e>
     <e><p><l>മേനി<s n="n"/></l><r>body<s n="n"/></r></p></e>
@@ -8968,8 +8944,8 @@
     <e><p><l>കരണ്ടി<s n="n"/></l><r>spoon<s n="n"/></r></p></e>
     <e><p><l>കരണ്ടി<s n="n"/></l><r>rake<s n="n"/></r></p></e>
     <e><p><l>കപ്പേള<s n="n"/></l><r>chapel<s n="n"/></r></p></e>
-    <e><p><l>കഠിനാദ്ധ്വാനം<s n="n"/></l><r>labor<s n="n"/></r></p></e>
-    <e><p><l>കഠിനാദ്ധ്വാനം<s n="n"/></l><r>endeavor<s n="n"/></r></p></e>
+    <e><p><l>കഠിനാദ്ധ്വാനം<s n="n"/></l><r>labour<s n="n"/></r></p></e>
+    <e><p><l>കഠിനാദ്ധ്വാനം<s n="n"/></l><r>endeavour<s n="n"/></r></p></e>
     <e><p><l>കച്ചി<s n="n"/></l><r>straw<s n="n"/></r></p></e>
     <e><p><l>കച്ചി<s n="n"/></l><r>hay<s n="n"/></r></p></e>
     <e><p><l>ഏകാഗ്രത<s n="n"/></l><r>concentration<s n="n"/></r></p></e>
@@ -8981,7 +8957,6 @@
     <e><p><l>ഉപചാരം<s n="n"/></l><r>treatment<s n="n"/></r></p></e>
     <e><p><l>ഉപചാരം<s n="n"/></l><r>notice<s n="n"/></r></p></e>
     <e><p><l>ഉപചാരം<s n="n"/></l><r>honour<s n="n"/></r></p></e>
-    <e><p><l>ഉപചാരം<s n="n"/></l><r>honor<s n="n"/></r></p></e>
     <e><p><l>ഉപചാരം<s n="n"/></l><r>formality<s n="n"/></r></p></e>
     <e><p><l>ഉപചാരം<s n="n"/></l><r>form<s n="n"/></r></p></e>
     <e><p><l>ഉപചാരം<s n="n"/></l><r>courtesy<s n="n"/></r></p></e>
@@ -8998,12 +8973,10 @@
     <e><p><l>ആരവം<s n="n"/></l><r>sound<s n="n"/></r></p></e>
     <e><p><l>ആരവം<s n="n"/></l><r>noise<s n="n"/></r></p></e>
     <e><p><l>ആരവം<s n="n"/></l><r>clamour<s n="n"/></r></p></e>
-    <e><p><l>ആരവം<s n="n"/></l><r>clamor<s n="n"/></r></p></e>
     <e><p><l>ആയാസം<s n="n"/></l><r>vexation<s n="n"/></r></p></e>
     <e><p><l>ആയാസം<s n="n"/></l><r>toil<s n="n"/></r></p></e>
     <e><p><l>ആയാസം<s n="n"/></l><r>stress<s n="n"/></r></p></e>
     <e><p><l>ആയാസം<s n="n"/></l><r>labour<s n="n"/></r></p></e>
-    <e><p><l>ആയാസം<s n="n"/></l><r>labor<s n="n"/></r></p></e>
     <e><p><l>ആയാസം<s n="n"/></l><r>fatigue<s n="n"/></r></p></e>
     <e><p><l>ആയാസം<s n="n"/></l><r>difficulty<s n="n"/></r></p></e>
     <e><p><l>ആട്ടം<s n="n"/></l><r>sport<s n="n"/></r></p></e>
