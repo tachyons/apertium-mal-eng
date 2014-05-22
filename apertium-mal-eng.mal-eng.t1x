@@ -44,7 +44,15 @@
     </def-cat>
      <def-cat n="vbser">
       <cat-item tags="vbser"/>
-      <cat-item tags="vbser*"/>
+      <cat-item tags="vbser.*"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
+    </def-cat>
+     <def-cat n="v-iter">
+      <cat-item tags="v.*.iter"/>
+      <cat-item tags="v.*.iter.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -84,6 +92,15 @@
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+    </def-attr>
+    <def-attr n="a_sint">
+      <attr-item tags="sint"/>
+    </def-attr>
+     <def-attr n="a_vblex">
+      <attr-item tags="vblex"/>
     </def-attr>
   </section-def-attrs>
 
@@ -476,29 +493,82 @@
       </action>
     </rule>
     <!-- Rule No 12 -->
-    <!--Example:  -->
+    <!--Example: നല്ലതാണ് = is nice -->
     <rule comment="adj vbser">
 		<pattern>
-			<pattern-item n="adj-num"/>
-			<pattern-item n="vbser"/>
+			<pattern-item n="adj"/>
+			<pattern-item n="cop-fin"/>
 		</pattern>
 		<action>
 			<out>
-				<chunk namefrom="" case="caseFirstWord">
+				<chunk namefrom="x" case="caseFirstWord">
 					<tags>
 						<tag><lit-tag v="ADJ-VBSER"/></tag>
 					</tags>
 					<lu>
 						<clip side="tl" pos="2" part="whole"/>
 					</lu>
+					<b pos="1"/>
 					<lu>
-						<clip side="tl" pos="1" part="whole"/>
+						<clip side="tl" pos="1" part="lem"/>
+						<clip side="tl" pos="1" part="a_adj"/>
+						<clip side="tl" pos="1" part="a_sint"/>
 					</lu>
 				</chunk>
 			</out>
 		</action>
     </rule>
-    
-
+    <!-- Rule No 13 -->
+    <!--Example:  കളിക്കാന്‍ -->
+	<rule comment="purposive infinitive">
+		<pattern>
+			<pattern-item n="inf-n"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk namefrom="x" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v=""/></tag>
+					</tags>
+					<lu>
+						<lit v="to"/>
+						<lit-tag v="pr"/>
+					</lu>
+					<b pos="1"/>
+					<lu>
+						<clip side="tl" pos="1" part="lem"/>
+						<clip side="tl" pos="1" part="a_vblex"/>
+						<lit-tag v="inf"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+    </rule>
+    <!-- Rule No 14 -->
+    <!--Example:  -->
+    <rule comment="iterative aspect">
+		<pattern>
+			<pattern-item n="v-iter"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk namefrom="x" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="SV"/></tag>
+					</tags>
+					<lu>
+						<lit v="is"/>
+						<lit-tag v="vbser.pres"/>
+					</lu>
+					<b pos="1"/>
+					<lu>
+						<clip side="tl" pos="1" part="lem"/>
+						<lit-tag v="vblex"/>
+						<lit-tag v="pprs"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+    </rule>
   </section-rules>
 </transfer>
