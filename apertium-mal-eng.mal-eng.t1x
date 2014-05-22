@@ -361,28 +361,6 @@
       </action>
     </rule>
 
-    <rule comment="verb-fin">
-      <pattern>
-        <pattern-item n="verb-fin"/>
-      </pattern>
-      <action>
-        <call-macro n="set-verb-type">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <chunk namefrom="verb-lema" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><var n="last-nom-pers"/></tag>
-            </tags>
-            <lu>
-              <clip side="tl" pos="1" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
     <rule comment="inf-k cop-fin">
       <pattern>
         <pattern-item n="inf-k"/>
@@ -551,24 +529,51 @@
 			<pattern-item n="v-iter"/>
 		</pattern>
 		<action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
 			<out>
 				<chunk namefrom="x" case="caseFirstWord">
 					<tags>
 						<tag><lit-tag v="SV"/></tag>
+              <tag><var n="last-nom-pers"/></tag>
 					</tags>
 					<lu>
-						<lit v="is"/>
+						<lit v="be"/>
 						<lit-tag v="vbser.pres"/>
 					</lu>
-					<b pos="1"/>
+					<b/>
 					<lu>
-						<clip side="tl" pos="1" part="lem"/>
-						<lit-tag v="vblex"/>
-						<lit-tag v="pprs"/>
+						<clip side="tl" pos="1" part="lemh"/>
+						<lit-tag v="vblex.ger"/>
+						<clip side="tl" pos="1" part="lemq"/>
 					</lu>
 				</chunk>
 			</out>
 		</action>
     </rule>
+
+    <rule comment="verb-fin">
+      <pattern>
+        <pattern-item n="verb-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="verb-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><var n="last-nom-pers"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
   </section-rules>
 </transfer>
