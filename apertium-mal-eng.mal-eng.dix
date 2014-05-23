@@ -131,14 +131,14 @@
     <e><p><l>ഒരു<s n="num"/></l><r>a<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     <e><p><l>ഒരു<s n="num"/></l><r>one<s n="num"/></r></p></e>
     <e><p><l>രണ്ട്<s n="num"/></l><r>two<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>മൂന്ന്<s n="num"/></l><r>three<s n="num"/></r></p></e>
-    <e><p><l>നാല്<s n="num"/></l><r>four<s n="num"/></r></p></e>
+    <e><p><l>മൂന്ന്<s n="num"/></l><r>three<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>നാല്<s n="num"/></l><r>four<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>അഞ്ച്<s n="num"/></l><r>five<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>ആറ്<s n="num"/></l><r>six<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>ഏഴ്<s n="num"/></l><r>seven<s n="num"/></r></p></e>
-    <e><p><l>എട്ട്<s n="num"/></l><r>eight<s n="num"/></r></p></e>
-    <e><p><l>ഒന്പത്<s n="num"/></l><r>nine<s n="num"/></r></p></e>
-    <e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+    <e><p><l>ഏഴ്<s n="num"/></l><r>seven<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>എട്ട്<s n="num"/></l><r>eight<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>ഒന്പത്<s n="num"/></l><r>nine<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/><s n="sp"/></r></p></e>
 
 
 

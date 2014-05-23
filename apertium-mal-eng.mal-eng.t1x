@@ -50,6 +50,10 @@
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
     </def-cat>
+    <def-cat n="num-subst">
+      <cat-item tags="num.sbst"/>
+      <cat-item tags="num.subst.*"/>
+    </def-cat>
      <def-cat n="v-iter">
       <cat-item tags="v.*.iter"/>
       <cat-item tags="v.*.iter.*"/>
@@ -360,7 +364,32 @@
         </out>
       </action>
     </rule>
-
+	 <!-- Rule No 14 -->
+    <!--Example:  -->
+    <rule comment="iterative aspect">
+		<pattern>
+			<pattern-item n="v-iter"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk namefrom="x" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="SV"/></tag>
+					</tags>
+					<lu>
+						<lit v="be"/>
+						<lit-tag v="vbser.pres"/>
+					</lu>
+					<b pos="1"/>
+					<lu>
+						<clip side="tl" pos="1" part="lem"/>
+						<lit-tag v="vblex"/>
+						<lit-tag v="ger"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+    </rule>
     <rule comment="inf-k cop-fin">
       <pattern>
         <pattern-item n="inf-k"/>
@@ -536,13 +565,13 @@
 				<chunk namefrom="x" case="caseFirstWord">
 					<tags>
 						<tag><lit-tag v="SV"/></tag>
-              <tag><var n="last-nom-pers"/></tag>
+						<tag><var n="last-nom-pers"/></tag>
 					</tags>
 					<lu>
 						<lit v="be"/>
 						<lit-tag v="vbser.pres"/>
 					</lu>
-					<b/>
+					<b pos="1"/>
 					<lu>
 						<clip side="tl" pos="1" part="lemh"/>
 						<lit-tag v="vblex.ger"/>
@@ -574,6 +603,22 @@
         </out>
       </action>
     </rule>
-
+	<rule comment="num-subst">
+	      <pattern>
+	      	<pattern-item n="num-subst"/>
+	      </pattern>
+	      <action>
+	       <out>
+	         <chunk name="num-subst" case="caseFirstWord">
+	            <tags> <tag> <lit-tag v="num-subst"/></tag> </tags>
+	            <lu>
+					<clip side="tl" pos="1" part="lemh"/>
+					<lit-tag v="num.sp"/>  <!-- sp ?? -->
+					<clip side="tl" pos="1" part="lemq"/>
+	            </lu>
+	         </chunk>
+	       </out>
+	     </action>
+	  </rule>
   </section-rules>
 </transfer>
