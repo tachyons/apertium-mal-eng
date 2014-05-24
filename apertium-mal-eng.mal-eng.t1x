@@ -62,6 +62,10 @@
       <cat-item tags="prn.dem"/>
       <cat-item tags="prn.dem.*"/>
     </def-cat>
+    <def-cat n="itg">
+      <cat-item tags="*.itg"/>
+      <cat-item tags="*.itg.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -109,6 +113,11 @@
     </def-attr>
      <def-attr n="a_vblex">
       <attr-item tags="vblex"/>
+    </def-attr>
+    <def-attr n="a_tense">
+      <attr-item tags="pres"/>
+		<attr-item tags="fut"/>
+		<attr-item tags="past"/>
     </def-attr>
   </section-def-attrs>
 
@@ -643,5 +652,40 @@
 	         </out>
 	       </action>
 	    </rule>
+	    <!-- Rule No  -->
+	    <!--Example: രാജു എവിടെയാണ്-->
+	    <rule comment="np-itg-vbcop">
+	          <pattern>
+	          	<pattern-item n="ant"/>
+	          	<pattern-item n="itg"/>
+	          	<pattern-item n="cop-fin"/>
+	          </pattern>
+	          <action>
+	           <out>
+	             <chunk name="np-itg-vbcop" case="caseFirstWord">
+	                <tags> <tag> <lit-tag v="pr-itg-vbcop"/></tag> </tags>
+	                <lu>
+		            	<clip side="tl" pos="2" part="lemh"/>
+		            	<clip side="tl" pos="2" part="lemq"/>
+	                </lu>
+	                <b/>
+	                <lu>
+	                	<clip side="tl" pos="3" part="lemh"/>
+	                	<lit-tag v="vbser"/>
+		            	<clip side="tl" pos="3" part="a_tense"/>
+		            	<clip side="tl" pos="3" part="lemq"/>
+	                </lu>
+	                <b/>
+	                <lu>
+	                	<clip side="tl" pos="1" part="lemh"/>
+	                	<clip side="tl" pos="1" part="a_nom"/>
+						<clip side="tl" pos="1" part="a_gen"/>
+						<clip side="tl" pos="1" part="a_nbr"/>
+		            	<clip side="tl" pos="1" part="lemq"/>
+	                </lu>
+	             </chunk>
+	           </out>
+	         </action>
+	      </rule>
   </section-rules>
 </transfer>
