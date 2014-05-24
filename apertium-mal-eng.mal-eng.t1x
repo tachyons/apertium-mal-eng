@@ -58,9 +58,9 @@
       <cat-item tags="v.*.iter"/>
       <cat-item tags="v.*.iter.*"/>
     </def-cat>
-    <def-cat n="prn-dem">
-      <cat-item tags="prn.dem"/>
+    <def-cat n="prn-inddem">
       <cat-item tags="prn.dem.*"/>
+      <cat-item tags="prn.ind.*"/>
     </def-cat>
     <def-cat n="itg">
       <cat-item tags="*.itg"/>
@@ -89,6 +89,11 @@
       <attr-item tags="FD"/>
       <attr-item tags="subj"/>
       <attr-item tags="obj"/>
+    </def-attr>
+    <def-attr n="a_prn">
+      <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.pers"/>
     </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="m"/>
@@ -393,7 +398,7 @@
 						<lit v="be"/>
 						<lit-tag v="vbser.pres"/>
 					</lu>
-					<b pos="1"/>
+					<b/>
 					<lu>
 						<clip side="tl" pos="1" part="lem"/>
 						<lit-tag v="vblex"/>
@@ -633,9 +638,9 @@
 	       </out>
 	     </action>
 	  </rule>
-	  <rule comment="prn-dem">
+	  <rule comment="prn-inddem">
 	        <pattern>
-	        	<pattern-item n="prn-dem"/>
+	        	<pattern-item n="prn-inddem"/>
 	        </pattern>
 	        <action>
 	         <out>
@@ -643,7 +648,7 @@
 	              <tags> <tag> <lit-tag v="prn-dem"/></tag> </tags>
 	              <lu>
 	            	<clip side="tl" pos="1" part="lemh"/>
-					<lit-tag v="prn.dem"/>  <!-- sp ?? -->
+	            	<clip side="tl" pos="1" part="a_prn"/>
 	            	<!-- <clip side="tl" pos="1" part="a_gen"/> --> <lit-tag v="mf"/>
 	            	<clip side="tl" pos="1" part="a_nbr"/>
 					<clip side="tl" pos="1" part="lemq"/>
@@ -665,8 +670,7 @@
 	             <chunk name="np-itg-vbcop" case="caseFirstWord">
 	                <tags> <tag> <lit-tag v="pr-itg-vbcop"/></tag> </tags>
 	                <lu>
-		            	<clip side="tl" pos="2" part="lemh"/>
-		            	<clip side="tl" pos="2" part="lemq"/>
+		            	<clip side="tl" pos="2" part="whole"/>
 	                </lu>
 	                <b/>
 	                <lu>
