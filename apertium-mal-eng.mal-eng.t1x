@@ -58,6 +58,10 @@
       <cat-item tags="v.*.iter"/>
       <cat-item tags="v.*.iter.*"/>
     </def-cat>
+    <def-cat n="prn-dem">
+      <cat-item tags="prn.dem"/>
+      <cat-item tags="prn.dem.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -553,7 +557,7 @@
     </rule>
     <!-- Rule No 14 -->
     <!--Example:  -->
-    <rule comment="iterative aspect">
+<!--     <rule comment="iterative aspect">
 		<pattern>
 			<pattern-item n="v-iter"/>
 		</pattern>
@@ -581,7 +585,7 @@
 			</out>
 		</action>
     </rule>
-
+-->
     <rule comment="verb-fin">
       <pattern>
         <pattern-item n="verb-fin"/>
@@ -620,5 +624,24 @@
 	       </out>
 	     </action>
 	  </rule>
+	  <rule comment="prn-dem">
+	        <pattern>
+	        	<pattern-item n="prn-dem"/>
+	        </pattern>
+	        <action>
+	         <out>
+	           <chunk name="prn-dem" case="caseFirstWord">
+	              <tags> <tag> <lit-tag v="prn-dem"/></tag> </tags>
+	              <lu>
+	            	<clip side="tl" pos="1" part="lemh"/>
+					<lit-tag v="prn.dem"/>  <!-- sp ?? -->
+	            	<!-- <clip side="tl" pos="1" part="a_gen"/> --> <lit-tag v="mf"/>
+	            	<clip side="tl" pos="1" part="a_nbr"/>
+					<clip side="tl" pos="1" part="lemq"/>
+	              </lu>
+	           </chunk>
+	         </out>
+	       </action>
+	    </rule>
   </section-rules>
 </transfer>
