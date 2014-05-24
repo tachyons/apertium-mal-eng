@@ -3,4 +3,7 @@
     <match tags="adj"/>
     <match lemma="വീട്" tags="n.*"><select lemma="house" tags="n.*"/></match>
   </rule>
+  <rule>
+    <match lemma="പെണ്‍കുട്ടി" tags="n.*"><select lemma="girl" tags="n.*"/></match>
+  </rule>
 </rules>
