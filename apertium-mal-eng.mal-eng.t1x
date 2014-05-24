@@ -24,6 +24,7 @@
     </def-cat>
     <def-cat n="inf-n">
       <cat-item tags="v.*.inf_n"/>
+      <cat-item tags="v.*.inf_n.*"/>
     </def-cat>
     <def-cat n="post">
       <cat-item tags="post"/>
@@ -458,7 +459,10 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip side="tl" pos="2" part="whole"/>
+              <clip side="tl" pos="2" part="lemh"/>
+               <lit-tag v="vblex"/>
+              <lit-tag v="ger"/>
+              <clip side="tl" pos="2" part="lemq"/>
             </lu>
             <b pos="2"/>
             <lu>
@@ -466,7 +470,10 @@
             </lu>
             <b/>
             <lu>
-              <clip side="tl" pos="1" part="whole"/>
+              <clip side="tl" pos="1" part="lemh"/>
+              <lit-tag v="vblex"/>
+              <lit-tag v="inf"/>
+              <clip side="tl" pos="1" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -553,13 +560,13 @@
 			<out>
 				<chunk namefrom="x" case="caseFirstWord">
 					<tags>
-						<tag><lit-tag v=""/></tag>
+						<tag><lit-tag v="INF"/></tag>
 					</tags>
 					<lu>
 						<lit v="to"/>
 						<lit-tag v="pr"/>
 					</lu>
-					<b pos="1"/>
+					<b/>
 					<lu>
 						<clip side="tl" pos="1" part="lem"/>
 						<clip side="tl" pos="1" part="a_vblex"/>

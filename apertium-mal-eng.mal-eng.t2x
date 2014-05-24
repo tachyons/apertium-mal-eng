@@ -176,6 +176,29 @@
         </out>
       </action>
     </rule>
-
+	<!-- <rule comment="SN-ITG-SV">
+      <pattern>
+        <pattern-item n="SN"/>
+		<pattern-item n="ITG"/>
+		<pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <out>
+			<chunk>
+				<clip pos="2" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="3" side="tl" part="whole"/>
+			</chunk>
+			<b/>
+			
+			<chunk>
+				<clip pos="1" side="tl" part="whole"/>
+			</chunk>
+		</out>
+      </action>
+    </rule> -->
   </section-rules>
 </interchunk>
