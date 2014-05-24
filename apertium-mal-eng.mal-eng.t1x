@@ -27,6 +27,9 @@
       <cat-item tags="v.*.inf_n"/>
       <cat-item tags="v.*.inf_n.*"/>
     </def-cat>
+    <def-cat n="gpr-subst-nom">
+      <cat-item tags="v.*.gpr_pres.subst.sg.nom"/>
+    </def-cat>
     <def-cat n="post">
       <cat-item tags="post"/>
     </def-cat>
@@ -59,6 +62,9 @@
      <def-cat n="v-iter">
       <cat-item tags="v.*.iter"/>
       <cat-item tags="v.*.iter.*"/>
+    </def-cat>
+    <def-cat n="prn-itg">
+      <cat-item tags="prn.itg.*"/>
     </def-cat>
     <def-cat n="prn-inddem">
       <cat-item tags="prn.dem.*"/>
@@ -95,6 +101,7 @@
     <def-attr n="a_prn">
       <attr-item tags="prn.dem"/>
       <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.itg"/>
       <attr-item tags="prn.pers"/>
     </def-attr>
     <def-attr n="a_tense">
@@ -104,6 +111,7 @@
       <attr-item tags="perf"/>
     </def-attr>
     <def-attr n="a_gen">
+      <attr-item tags="mf"/>
       <attr-item tags="m"/>
       <attr-item tags="f"/>
     </def-attr>
@@ -115,6 +123,7 @@
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
+      <attr-item tags="sp"/>
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
     </def-attr>
@@ -420,6 +429,58 @@
 			</out>
 		</action>
     </rule>
+
+    <rule comment="gpr-subst-nom">
+      <pattern>
+        <pattern-item n="gpr-subst-nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="verb-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.INF"/></tag>
+<!--              <tag><var n="last-nom-pers"/></tag>-->
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <lit-tag v="vblex.pprs"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="inf-k">
+      <pattern>
+        <pattern-item n="inf-k"/>
+      </pattern>
+      <action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="verb-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.INF"/></tag>
+<!--              <tag><var n="last-nom-pers"/></tag>-->
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <lit-tag v="vblex.inf"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="inf-k cop-fin">
       <pattern>
         <pattern-item n="inf-k"/>
@@ -440,7 +501,9 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip side="tl" pos="1" part="whole"/>
+              <clip side="tl" pos="1" part="lemh"/>
+              <lit-tag v="vblex.ger"/>
+              <clip side="tl" pos="1" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -659,6 +722,7 @@
 	       </out>
 	     </action>
 	  </rule>
+
 	  <rule comment="prn-inddem">
 	        <pattern>
 	        	<pattern-item n="prn-inddem"/>
@@ -678,6 +742,27 @@
 	         </out>
 	       </action>
 	    </rule>
+
+	  <rule comment="prn-itg">
+	        <pattern>
+	        	<pattern-item n="prn-itg"/>
+	        </pattern>
+	        <action>
+	         <out>
+	           <chunk name="prn-itg" case="caseFirstWord">
+	              <tags> <tag> <lit-tag v="PRN.ITG"/></tag> </tags>
+	              <lu>
+	            	<clip side="tl" pos="1" part="lemh"/>
+	            	<clip side="tl" pos="1" part="a_prn"/>
+	            	<clip side="tl" pos="1" part="a_gen"/> 
+	            	<clip side="tl" pos="1" part="a_nbr"/>
+					<clip side="tl" pos="1" part="lemq"/>
+	              </lu>
+	           </chunk>
+	         </out>
+	       </action>
+	    </rule>
+
 	    <rule comment="Interogative">
 	          <pattern>
 	          	<pattern-item n="itg"/>
