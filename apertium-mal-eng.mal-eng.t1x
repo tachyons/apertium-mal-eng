@@ -657,37 +657,18 @@
 	         </out>
 	       </action>
 	    </rule>
-	    <!-- Rule No  -->
-	    <!--Example: രാജു എവിടെയാണ്-->
-	    <rule comment="np-itg-vbcop">
+	    <rule comment="Interogative">
 	          <pattern>
-	          	<pattern-item n="ant"/>
 	          	<pattern-item n="itg"/>
-	          	<pattern-item n="cop-fin"/>
 	          </pattern>
 	          <action>
 	           <out>
-	             <chunk name="np-itg-vbcop" case="caseFirstWord">
-	                <tags> <tag> <lit-tag v="pr-itg-vbcop"/></tag> </tags>
+	             <chunk name="ITG" case="caseFirstWord">
+	                <tags> <tag> <lit-tag v="ITG"/></tag> </tags>
 	                <lu>
-		            	<clip side="tl" pos="2" part="whole"/>
+		            	<clip side="tl" pos="1" part="whole"/>
 	                </lu>
-	                <b/>
-	                <lu>
-	                	<clip side="tl" pos="3" part="lemh"/>
-	                	<lit-tag v="vbser"/>
-		            	<clip side="tl" pos="3" part="a_tense"/>
-		            	<clip side="tl" pos="3" part="lemq"/>
-	                </lu>
-	                <b/>
-	                <lu>
-	                	<clip side="tl" pos="1" part="lemh"/>
-	                	<clip side="tl" pos="1" part="a_nom"/>
-						<clip side="tl" pos="1" part="a_gen"/>
-						<clip side="tl" pos="1" part="a_nbr"/>
-		            	<clip side="tl" pos="1" part="lemq"/>
-	                </lu>
-	             </chunk>
+	                </chunk>
 	           </out>
 	         </action>
 	      </rule>
