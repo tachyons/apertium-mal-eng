@@ -12,6 +12,7 @@
     <def-cat n="verb-fin">
       <cat-item tags="v.*.pres"/>
       <cat-item tags="v.*.past"/>
+      <cat-item tags="v.*.perf"/>
       <cat-item tags="vbcop.pres"/>
       <cat-item tags="vbcop.past"/>
     </def-cat>
@@ -96,6 +97,12 @@
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.pers"/>
     </def-attr>
+    <def-attr n="a_tense">
+      <attr-item tags="fut"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="perf"/>
+    </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
@@ -120,11 +127,6 @@
      <def-attr n="a_vblex">
       <attr-item tags="vblex"/>
     </def-attr>
-    <def-attr n="a_tense">
-      <attr-item tags="pres"/>
-		<attr-item tags="fut"/>
-		<attr-item tags="past"/>
-    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -139,6 +141,15 @@
   <section-def-macros>
     <def-macro n="set-verb-type" npar="1">
                 <let><var n="verb-lema"/><clip pos="1" side="sl" part="lem"/></let>
+    </def-macro>
+
+    <def-macro n="set-verb-tense" npar="1">
+       <choose>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="perf"/></equal></test>
+                <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
+          </when>
+       </choose>
     </def-macro>
 
     <def-macro n="set-post-type" npar="1">
@@ -613,6 +624,9 @@
       </pattern>
       <action>
         <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set-verb-tense">
           <with-param pos="1"/>
         </call-macro>
         <out>
