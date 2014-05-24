@@ -22,6 +22,7 @@
     </def-cat>
     <def-cat n="inf-k">
       <cat-item tags="v.*.inf_k"/>
+      <cat-item tags="vbcop.inf_k"/>
     </def-cat>
     <def-cat n="inf-n">
       <cat-item tags="v.*.inf_n"/>
@@ -29,6 +30,10 @@
     </def-cat>
     <def-cat n="gpr-subst-nom">
       <cat-item tags="v.*.gpr_pres.subst.sg.nom"/>
+    </def-cat>
+    <def-cat n="imper">
+      <cat-item tags="v.*.imp"/>
+      <cat-item tags="v.*.imp.*"/>
     </def-cat>
     <def-cat n="post">
       <cat-item tags="post"/>
@@ -453,6 +458,32 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="imper">
+      <pattern>
+        <pattern-item n="imper"/>
+      </pattern>
+      <action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="verb-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.IMP"/></tag>
+<!--              <tag><var n="last-nom-pers"/></tag>-->
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <lit-tag v="vblex.imp"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="inf-k">
