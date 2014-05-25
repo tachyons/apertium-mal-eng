@@ -1081,6 +1081,7 @@
 
     <pardef n="c/an__vbmod">
       <e>      <p>        <l>an</l>        <r>an<s n="vaux"/><s n="pres"/></r></p></e>
+      <e r="RL">      <p>        <l>an</l>        <r>an<s n="vaux"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="RL">      <p>        <l>an</l>        <r>an<s n="vaux"/></r></p><par n="inf-imp"/></e>
       <e>      <p>        <l>ould</l>        <r>an<s n="vaux"/><s n="past"/></r></p></e>
     </pardef>
