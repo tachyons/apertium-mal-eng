@@ -169,7 +169,8 @@
       <action>
         <out>
           <chunk>
-            <lit v="verb"/>
+            <!--<lit v="verb"/>-->
+            <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
           </chunk>

@@ -12,6 +12,7 @@
     <def-cat n="verb-fin">
       <cat-item tags="v.*.pres"/>
       <cat-item tags="v.*.past"/>
+      <cat-item tags="v.*.fut"/>
       <cat-item tags="v.*.perf"/>
       <cat-item tags="vbcop.pres"/>
       <cat-item tags="vbcop.past"/>
@@ -111,6 +112,7 @@
     </def-attr>
     <def-attr n="a_tense">
       <attr-item tags="fut"/>
+      <attr-item tags="inf"/>
       <attr-item tags="past"/>
       <attr-item tags="pres"/>
       <attr-item tags="perf"/>
@@ -149,6 +151,7 @@
     <def-var n="spost-lema"/>
     <def-var n="verb-lema"/>
     <def-var n="post-lema"/>
+    <def-var n="aux-verb"/>
     <def-var n="last-nom-pers"/>
   </section-def-vars>
 
@@ -162,6 +165,12 @@
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="perf"/></equal></test>
                 <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
+          </when>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="fut"/></equal></test>
+                <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="inf"/></let>
+                <let><var n="aux-verb"/><concat><lit v="^will"/><lit-tag v="vaux.inf"/><lit v="$ "/></concat></let>
+                <let><var n="verb-lema"/><concat><lit v="will_"/><var n="verb-lema"/></concat></let>
           </when>
        </choose>
     </def-macro>
@@ -729,11 +738,13 @@
               <tag><lit-tag v="SV"/></tag>
               <tag><var n="last-nom-pers"/></tag>
             </tags>
+            <var n="aux-verb"/>
             <lu>
               <clip side="tl" pos="1" part="whole"/>
             </lu>
           </chunk>
         </out>
+        <let><var n="aux-verb"/><lit v=""/></let>
       </action>
     </rule>
 	<rule comment="num-subst">

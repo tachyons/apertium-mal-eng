@@ -6,4 +6,8 @@
   <rule>
     <match lemma="പെണ്‍കുട്ടി" tags="n.*"><select lemma="girl" tags="n.*"/></match>
   </rule>
+
+  <rule>
+    <match lemma="ഇഷ്ടം" tags="n.*"><select lemma="happiness" tags="n.*"/></match>
+  </rule>
 </rules>
