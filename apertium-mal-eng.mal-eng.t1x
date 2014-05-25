@@ -121,6 +121,7 @@
       <attr-item tags="inf"/>
       <attr-item tags="hab"/>
       <attr-item tags="cond"/>
+      <attr-item tags="iter"/>
       <attr-item tags="perm"/>
       <attr-item tags="past"/>
       <attr-item tags="pres"/>
@@ -457,32 +458,6 @@
         </out>
       </action>
     </rule>
-	 <!-- Rule No 14 -->
-    <!--Example:  -->
-    <rule comment="iterative aspect">
-		<pattern>
-			<pattern-item n="v-iter"/>
-		</pattern>
-		<action>
-			<out>
-				<chunk namefrom="x" case="caseFirstWord">
-					<tags>
-						<tag><lit-tag v="SV"/></tag>
-					</tags>
-					<lu>
-						<lit v="be"/>
-						<lit-tag v="vbser.pres"/>
-					</lu>
-					<b/>
-					<lu>
-						<clip side="tl" pos="1" part="lem"/>
-						<lit-tag v="vblex"/>
-						<lit-tag v="ger"/>
-					</lu>
-				</chunk>
-			</out>
-		</action>
-    </rule>
 
     <rule comment="gpr-subst-nom"> <!-- FIXME: do something with past -->
       <pattern>
@@ -533,6 +508,42 @@
       </action>
     </rule>
 
+	 <!-- Rule No 14 -->
+    <!--Example:  -->
+    <rule comment="iterative aspect">
+		<pattern>
+			<pattern-item n="v-iter"/>
+		</pattern>
+		<action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="verb-lema"/><concat><lit v="be_"/><clip pos="1" side="sl" part="lem"/></concat></let>
+        <call-macro n="set-verb-tense">
+          <with-param pos="1"/>
+        </call-macro>
+			<out>
+				<chunk namefrom="verb-lema" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="SV"/></tag>
+              <tag><clip side="tl" pos="1" part="a_tense"/></tag>
+              <tag><var n="last-nom-pers"/></tag>
+					</tags>
+					<lu>
+						<lit v="be"/>
+						<lit-tag v="vbser.pres.3.4"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip side="tl" pos="1" part="lem"/>
+						<lit-tag v="vblex"/>
+						<lit-tag v="ger"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+    </rule>
+
 
 
     <rule comment="inf-k">
@@ -570,6 +581,7 @@
         <call-macro n="set-verb-type">
           <with-param pos="1"/>
         </call-macro>
+        <let><var n="verb-lema"/><concat><lit v="be_"/><clip pos="1" side="sl" part="lem"/></concat></let>
         <call-macro n="set-verb-tense">
           <with-param pos="2"/>
         </call-macro>
@@ -743,37 +755,7 @@
 			</out>
 		</action>
     </rule>
-    <!-- Rule No 14 -->
-    <!--Example:  -->
-<!--     <rule comment="iterative aspect">
-		<pattern>
-			<pattern-item n="v-iter"/>
-		</pattern>
-		<action>
-        <call-macro n="set-verb-type">
-          <with-param pos="1"/>
-        </call-macro>
-			<out>
-				<chunk namefrom="x" case="caseFirstWord">
-					<tags>
-						<tag><lit-tag v="SV"/></tag>
-						<tag><var n="last-nom-pers"/></tag>
-					</tags>
-					<lu>
-						<lit v="be"/>
-						<lit-tag v="vbser.pres"/>
-					</lu>
-					<b pos="1"/>
-					<lu>
-						<clip side="tl" pos="1" part="lemh"/>
-						<lit-tag v="vblex.ger"/>
-						<clip side="tl" pos="1" part="lemq"/>
-					</lu>
-				</chunk>
-			</out>
-		</action>
-    </rule>
--->
+
     <rule comment="verb-fin">
       <pattern>
         <pattern-item n="verb-fin"/>
