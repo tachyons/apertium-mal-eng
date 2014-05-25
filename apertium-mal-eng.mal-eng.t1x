@@ -13,9 +13,13 @@
       <cat-item tags="v.*.pres"/>
       <cat-item tags="v.*.past"/>
       <cat-item tags="v.*.fut"/>
+      <cat-item tags="v.*.cond"/>
       <cat-item tags="v.*.perf"/>
+      <cat-item tags="v.*.hab"/>
       <cat-item tags="vbcop.pres"/>
+      <cat-item tags="vbcop.fut"/>
       <cat-item tags="vbcop.past"/>
+      <cat-item tags="vbcop.cond"/>
     </def-cat>
     <def-cat n="cop-fin">
       <cat-item tags="vbcop.pres"/>
@@ -31,6 +35,7 @@
     </def-cat>
     <def-cat n="gpr-subst-nom">
       <cat-item tags="v.*.gpr_pres.subst.sg.nom"/>
+      <cat-item tags="v.*.gpr_past.subst.sg.nom"/>
     </def-cat>
     <def-cat n="imper">
       <cat-item tags="v.*.imp"/>
@@ -113,6 +118,8 @@
     <def-attr n="a_tense">
       <attr-item tags="fut"/>
       <attr-item tags="inf"/>
+      <attr-item tags="hab"/>
+      <attr-item tags="cond"/>
       <attr-item tags="past"/>
       <attr-item tags="pres"/>
       <attr-item tags="perf"/>
@@ -172,6 +179,20 @@
                 <let><var n="aux-verb"/><concat><lit v="^will"/><lit-tag v="vaux.inf"/><lit v="$ "/></concat></let>
                 <let><var n="verb-lema"/><concat><lit v="will_"/><var n="verb-lema"/></concat></let>
           </when>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="hab"/></equal></test>
+                <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="pres"/></let>
+                <let><var n="aux-verb"/><concat><lit v="^usually"/><lit-tag v="adv"/><lit v="$ "/></concat></let>
+                <let><var n="verb-lema"/><concat><lit v="usually_"/><var n="verb-lema"/></concat></let>
+          </when>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="cond"/></equal></test>
+                <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="inf"/></let>
+                <let><var n="aux-verb"/><concat><lit v="^can"/><lit-tag v="vaux.past"/><lit v="$ "/></concat></let>
+                <let><var n="verb-lema"/><concat><lit v="could_"/><var n="verb-lema"/></concat></let>
+          </when>
+
+
        </choose>
     </def-macro>
 
@@ -444,7 +465,7 @@
 		</action>
     </rule>
 
-    <rule comment="gpr-subst-nom">
+    <rule comment="gpr-subst-nom"> <!-- FIXME: do something with past -->
       <pattern>
         <pattern-item n="gpr-subst-nom"/>
       </pattern>
