@@ -178,6 +178,7 @@
         <choose>
           <when>
             <test><not><or><begins-with><clip pos="1" part="lem"/><lit v="can_"/></begins-with>
+                           <begins-with><clip pos="1" part="lem"/><lit v="be_"/></begins-with>
                            <begins-with><clip pos="1" part="lem"/><lit v="could_"/></begins-with></or></not></test>
             <let><clip pos="1" part="lem"/><lit v="verb"/></let>
           </when>
