@@ -606,12 +606,16 @@
         <call-macro n="set-verb-type">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set-verb-tense">
+          <with-param pos="3"/>
+        </call-macro>
         <let><var n="verb-lema"/><concat><lit v="be_"/><clip pos="2" side="sl" part="lem"/>
                                          <lit v="_to_"/><clip pos="1" side="sl" part="lem"/></concat></let>
         <out>
           <chunk namefrom="verb-lema" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
+              <tag><clip side="tl" pos="3" part="a_tense"/></tag>
               <tag><var n="last-nom-pers"/></tag>
             </tags>
             <lu>
