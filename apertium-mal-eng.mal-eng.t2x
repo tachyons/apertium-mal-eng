@@ -175,9 +175,15 @@
         <pattern-item n="SV-FIN"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test><not><or><begins-with><clip pos="1" part="lem"/><lit v="can_"/></begins-with>
+                           <begins-with><clip pos="1" part="lem"/><lit v="could_"/></begins-with></or></not></test>
+            <let><clip pos="1" part="lem"/><lit v="verb"/></let>
+          </when>
+        </choose>
         <out>
           <chunk>
-            <!--<lit v="verb"/>-->
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>

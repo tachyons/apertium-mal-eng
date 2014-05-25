@@ -53,5 +53,27 @@
       </action>
     </rule>
 
+    <rule comment="CHUNK: verb">
+      <pattern>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><not><and><equal><clip pos="1" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal></and></not></test>
+            <let><clip pos="1" part="a_nbr"/><lit v=""/></let>
+            <let><clip pos="1" part="a_pers"/><lit v=""/></let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
   </section-rules>
 </postchunk>
