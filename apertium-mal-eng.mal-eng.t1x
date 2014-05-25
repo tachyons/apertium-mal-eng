@@ -11,6 +11,7 @@
     </def-cat>
     <def-cat n="verb-fin">
       <cat-item tags="v.*.pres"/>
+      <cat-item tags="v.*.perm"/>
       <cat-item tags="v.*.past"/>
       <cat-item tags="v.*.fut"/>
       <cat-item tags="v.*.cond"/>
@@ -120,6 +121,7 @@
       <attr-item tags="inf"/>
       <attr-item tags="hab"/>
       <attr-item tags="cond"/>
+      <attr-item tags="perm"/>
       <attr-item tags="past"/>
       <attr-item tags="pres"/>
       <attr-item tags="perf"/>
@@ -191,6 +193,14 @@
                 <let><var n="aux-verb"/><concat><lit v="^can"/><lit-tag v="vaux.past"/><lit v="$ "/></concat></let>
                 <let><var n="verb-lema"/><concat><lit v="could_"/><var n="verb-lema"/></concat></let>
           </when>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="perm"/></equal></test>
+                <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="inf"/></let>
+                <let><var n="aux-verb"/><concat><lit v="^can"/><lit-tag v="vaux.pres"/><lit v="$ "/></concat></let>
+                <let><var n="verb-lema"/><concat><lit v="can_"/><var n="verb-lema"/></concat></let>
+          </when>
+
+
 
 
        </choose>
