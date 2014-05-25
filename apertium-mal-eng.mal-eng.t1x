@@ -149,8 +149,12 @@
     <def-attr n="a_sint">
       <attr-item tags="sint"/>
     </def-attr>
-     <def-attr n="a_vblex">
+     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vaux"/>
     </def-attr>
   </section-def-attrs>
 
@@ -174,6 +178,11 @@
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="perf"/></equal></test>
                 <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
+          </when>
+          <when>
+                <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal></test>
+                <let><clip pos="1" side="tl" part="tags"/><concat>
+                             <clip pos="1" side="tl" part="a_verb"/><lit-tag v="pres.3.4"/></concat></let>
           </when>
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="fut"/></equal></test>
@@ -561,10 +570,14 @@
         <call-macro n="set-verb-type">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set-verb-tense">
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk namefrom="verb-lema" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
+              <tag><clip side="tl" pos="2" part="a_tense"/></tag>
               <tag><var n="last-nom-pers"/></tag>
             </tags>
             <lu>
@@ -702,8 +715,11 @@
 			<pattern-item n="inf-n"/>
 		</pattern>
 		<action>
+        <call-macro n="set-verb-type">
+          <with-param pos="1"/>
+        </call-macro>
 			<out>
-				<chunk namefrom="x" case="caseFirstWord">
+				<chunk namefrom="verb-lema" case="caseFirstWord">
 					<tags>
 						<tag><lit-tag v="INF"/></tag>
 					</tags>
@@ -714,7 +730,7 @@
 					<b/>
 					<lu>
 						<clip side="tl" pos="1" part="lem"/>
-						<clip side="tl" pos="1" part="a_vblex"/>
+						<clip side="tl" pos="1" part="a_verb"/>
 						<lit-tag v="inf"/>
 					</lu>
 				</chunk>
@@ -767,6 +783,7 @@
           <chunk namefrom="verb-lema" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
+              <tag><clip side="tl" pos="1" part="a_tense"/></tag>
               <tag><var n="last-nom-pers"/></tag>
             </tags>
             <var n="aux-verb"/>
