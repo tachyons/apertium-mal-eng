@@ -8,6 +8,10 @@
       <cat-item tags="POST"/>
     </def-cat>
 
+    <def-cat n="SN-NOM">
+      <cat-item tags="SN.NOM.*"/>
+    </def-cat>
+
     <def-cat n="SN-LOC">
       <cat-item tags="SN.LOC.*"/>
     </def-cat>
@@ -18,6 +22,10 @@
 
     <def-cat n="SN-GEN">
       <cat-item tags="SN.GEN.*"/>
+    </def-cat>
+
+    <def-cat n="ITG">
+      <cat-item tags="ITG"/>
     </def-cat>
 
     <def-cat n="SV-FIN">
@@ -177,29 +185,29 @@
         </out>
       </action>
     </rule>
-	<!-- <rule comment="SN-ITG-SV">
+    <rule comment="SN-NOM ITG SV-FIN">
       <pattern>
-        <pattern-item n="SN"/>
+        <pattern-item n="SN-NOM"/>
 		<pattern-item n="ITG"/>
-		<pattern-item n="SV"/>
+		<pattern-item n="SV-FIN"/>
       </pattern>
       <action>
         <out>
 			<chunk>
-				<clip pos="2" side="tl" part="whole"/>
+				<clip pos="2" part="whole"/>
 			</chunk>
-			<b/>
+			<b pos="1"/>
 			
 			<chunk>
-				<clip pos="3" side="tl" part="whole"/>
+				<clip pos="3" part="whole"/>
 			</chunk>
-			<b/>
+			<b pos="2"/>
 			
 			<chunk>
-				<clip pos="1" side="tl" part="whole"/>
+				<clip pos="1" part="whole"/>
 			</chunk>
 		</out>
       </action>
-    </rule> -->
+    </rule> 
   </section-rules>
 </interchunk>
