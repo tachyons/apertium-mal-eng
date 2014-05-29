@@ -10,6 +10,7 @@
 
     <def-cat n="SN-NOM">
       <cat-item tags="SN.NOM.*"/>
+    <cat-item tags="SN.NOM"/>
     </def-cat>
 
     <def-cat n="SN-LOC">
@@ -30,6 +31,10 @@
 
     <def-cat n="SV-FIN">
       <cat-item tags="SV.*"/>
+    </def-cat>
+    <def-cat n="ADJ-VBSER">
+      <cat-item tags="ADJ-VBSER"/>
+      <cat-item tags="ADJ-VBSER.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -261,6 +266,29 @@
 					<lit-tag v="pr"/>
 					<lit v="$}"/>
 				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+			</out>
+		</action>
+      </rule>
+      <rule comment="SN-NOM SN-NOM SV">
+		<pattern>
+			<pattern-item n="SN-NOM"/>
+			<pattern-item n="SN-NOM"/>
+			<pattern-item n="ADJ-VBSER"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="1" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="3" part="whole"/>
+				</chunk>
+				<b/>
 				<b/>
 				<chunk>
 					<clip pos="2" part="whole"/>
