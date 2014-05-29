@@ -238,5 +238,35 @@
 			</out>
 		</action>
       </rule>
+      <rule comment="SN-NOM SN-NOM SV">
+		<pattern>
+			<pattern-item n="SN-NOM"/>
+			<pattern-item n="SN-LOC"/>
+			<pattern-item n="SV-FIN"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="1" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="3" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk> <!-- FIXME  another inter chunk ? -->
+					<lit v="in"/>
+					<lit-tag v="PREP"/>
+					<lit v="{^in"/>
+					<lit-tag v="pr"/>
+					<lit v="$}"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+			</out>
+		</action>
+      </rule>
   </section-rules>
 </interchunk>
