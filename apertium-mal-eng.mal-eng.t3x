@@ -5,6 +5,7 @@
   <section-def-cats>
     <def-cat n="verb">
       <cat-item name="verb"/>
+      <cat-item name="ആക്"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item name="nom"/>

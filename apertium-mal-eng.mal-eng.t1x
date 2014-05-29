@@ -869,11 +869,16 @@
 	            	<pattern-item n="cnjcoo"/>
 	            </pattern>
 	            <action>
+        <call-macro n="set-sn-type">
+          <with-param pos="1"/>
+        </call-macro>
+        <let><var n="last-nom-pers"/><concat><lit-tag v="p3.pl"/></concat></let>
+
 	             <out>
 	               <chunk name="nom-cnjcoo-nom-cnjcoo" case="caseFirstWord">
 	                  <tags> 
 	                  	<tag> <lit-tag v="SN"/></tag>
-	                  	<tag> <lit-tag v="NOM"/></tag>
+                                <tag> <var n="sn-type"/></tag>
 	                  	<tag> <lit-tag v="pl"/></tag>
 	                  </tags>
 	                  <lu>
