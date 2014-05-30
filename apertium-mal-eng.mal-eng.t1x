@@ -707,21 +707,16 @@
     </rule>
     <!-- Rule No 12 -->
     <!--Example: നല്ലതാണ് = is nice -->
-    <rule comment="adj vbser">
+    <rule comment="adj">
 		<pattern>
 			<pattern-item n="adj"/>
-			<pattern-item n="cop-fin"/>
 		</pattern>
 		<action>
 			<out>
-				<chunk namefrom="x" case="caseFirstWord">
+				<chunk name="adj" case="caseFirstWord">
 					<tags>
-						<tag><lit-tag v="ADJ-VBSER"/></tag>
+						<tag><lit-tag v="ADJ"/></tag>
 					</tags>
-					<lu>
-						<clip side="tl" pos="2" part="whole"/>
-					</lu>
-					<b pos="1"/>
 					<lu>
 						<clip side="tl" pos="1" part="lem"/>
 						<clip side="tl" pos="1" part="a_adj"/>
@@ -730,7 +725,7 @@
 				</chunk>
 			</out>
 		</action>
-    </rule>
+    </rule> 
     <!-- Rule No 13 -->
     <!--Example:  കളിക്കാന്‍ -->
 	<rule comment="purposive infinitive">

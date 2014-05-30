@@ -32,9 +32,9 @@
     <def-cat n="SV-FIN">
       <cat-item tags="SV.*"/>
     </def-cat>
-    <def-cat n="ADJ-VBSER">
-      <cat-item tags="ADJ-VBSER"/>
-      <cat-item tags="ADJ-VBSER.*"/>
+    <def-cat n="ADJ">
+      <cat-item tags="ADJ"/>
+      <cat-item tags="ADJ.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -279,7 +279,8 @@
 		<pattern>
 			<pattern-item n="SN-NOM"/>
 			<pattern-item n="SN-NOM"/>
-			<pattern-item n="ADJ-VBSER"/>
+			<pattern-item n="ADJ"/>
+			<pattern-item n="SV-FIN"/>
 		</pattern>
 		<action>
 			<out>
@@ -288,9 +289,17 @@
 				</chunk>
 				<b/>
 				<chunk>
-					<clip pos="3" part="whole"/>
+					<clip pos="4" part="lem"/>
+				    <clip pos="4" part="tags"/>
+				    <lit-tag v="p3"/>
+					<clip pos="1" part="nbr"/>
+				    <clip pos="4" part="chcontent"/>
 				</chunk>
 				<b/>
+				<b/>
+				<chunk>
+					<clip pos="3" part="whole"/>
+				</chunk>
 				<b/>
 				<chunk>
 					<clip pos="2" part="whole"/>
