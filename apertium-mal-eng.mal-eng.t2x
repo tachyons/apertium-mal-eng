@@ -36,7 +36,19 @@
       <cat-item tags="ADJ"/>
       <cat-item tags="ADJ.*"/>
     </def-cat>
-
+    <def-cat n="INF">
+      <cat-item tags="INF"/>
+      <cat-item tags="INF.*"/>
+    </def-cat>
+	<def-cat n="PREADV">
+      <cat-item tags="PREADV"/>
+      <cat-item tags="PREADV.*"/>
+    </def-cat>
+    <def-cat n="NUM-SUBST">
+      <cat-item tags="NUM-SUBST"/>
+      <cat-item tags="NUM-SUBST.*"/>
+    </def-cat>
+    
   </section-def-cats>
 
   <section-def-attrs>
@@ -307,5 +319,71 @@
 			</out>
 		</action>
       </rule>
+      <!-- Rule No  -->
+      <!--Example: this is very warm -->
+      <rule comment="SN-NOM SN-NOM SV">
+		<pattern>
+			<pattern-item n="PREADV"/>
+			<pattern-item n="ADJ"/>
+			<pattern-item n="SV-FIN"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="3" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="1" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+			</out>
+		</action>		
+      </rule>
+      <!-- Rule No  -->
+      <!--Example: കളിക്കാന്‍ ഇഷ്ടപ്പെടുന്നു -->
+      <rule comment="INF SV_FIN">
+		<pattern>
+			<pattern-item n="INF"/>
+			<pattern-item n="SV-FIN"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="1" part="whole"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+	<!-- age is six -->
+	<rule comment="INF SV_FIN">
+		<pattern>
+			<pattern-item n="SN-NOM"/>
+			<pattern-item n="NUM-SUBST"/>
+			<pattern-item n="SV-FIN"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="1" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="3" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
   </section-rules>
 </interchunk>

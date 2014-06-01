@@ -91,6 +91,11 @@
       <cat-item tags="cnjcoo"/>
       <cat-item tags="cnjcoo.*"/>
     </def-cat>
+     <def-cat n="preadv">
+      <cat-item tags="preadv"/>
+      <cat-item tags="preadv.*"/>
+    </def-cat>
+    
   </section-def-cats>
 
   <section-def-attrs>
@@ -162,6 +167,7 @@
       <attr-item tags="vbmod"/>
       <attr-item tags="vaux"/>
     </def-attr>
+    
   </section-def-attrs>
 
   <section-def-vars>
@@ -732,6 +738,23 @@
 			</out>
 		</action>
     </rule> 
+     <rule comment="preadv">
+		<pattern>
+			<pattern-item n="preadv"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk name="preadv" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="PREADV"/></tag>
+					</tags>
+					<lu>
+						<clip side="tl" pos="1" part="whole"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+    </rule> 
     <!-- Rule No 13 -->
     <!--Example:  കളിക്കാന്‍ -->
 	<rule comment="purposive infinitive">
@@ -796,7 +819,7 @@
 	      <action>
 	       <out>
 	         <chunk name="num-subst" case="caseFirstWord">
-	            <tags> <tag> <lit-tag v="num-subst"/></tag> </tags>
+	            <tags> <tag> <lit-tag v="NUM-SUBST"/></tag> </tags>
 	            <lu>
 					<clip side="tl" pos="1" part="lemh"/>
 					<lit-tag v="num.sp"/>  <!-- sp ?? -->
