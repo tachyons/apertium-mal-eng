@@ -24,7 +24,10 @@
     <def-cat n="SN-GEN">
       <cat-item tags="SN.GEN.*"/>
     </def-cat>
-
+	<def-cat n="SN-UND"> <!-- FIXME -->
+      <cat-item tags="SN.UND.*"/>
+      <cat-item tags="SN.UND"/>
+    </def-cat>
     <def-cat n="ITG">
       <cat-item tags="ITG"/>
     </def-cat>
@@ -377,6 +380,68 @@
 				<b/>
 				<chunk>
 					<clip pos="3" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+	<!-- <rule comment="INF SV_FIN">
+		<pattern>
+			<pattern-item n="INF"/>
+			<pattern-item n="SV-FIN"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="1" part="whole"/>
+				</chunk>
+			</out>
+		</action>
+	</rule> -->
+	<rule comment="INF SV_FIN">
+		<pattern>
+			<pattern-item n="SN-NOM"/>
+			<pattern-item n="SN-UND"/>
+			<pattern-item n="SV-FIN"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="1" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="3" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+	<!-- വളരെ തണുപ്പായിരുന്നു" -->
+	<rule comment="INF SV_FIN">
+		<pattern>
+			<pattern-item n="PREADV"/>
+			<pattern-item n="SN-NOM"/>
+			<pattern-item n="SV-FIN"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="3" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="1" part="whole"/>
 				</chunk>
 				<b/>
 				<chunk>

@@ -244,6 +244,7 @@
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="gen"/></equal></test>
                 <let><var n="sn-type"/><lit-tag v="GEN"/></let>
+                <!-- to do -->
           </when>
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal></test>
