@@ -10,4 +10,9 @@
   <rule>
     <match lemma="ഇഷ്ടം" tags="n.*"><select lemma="happiness" tags="n.*"/></match>
   </rule>
+
+  <rule>
+    <match lemma="കളി" tags="n.*"><select lemma="game" tags="n.*"/></match>
+  </rule>
+
 </rules>
