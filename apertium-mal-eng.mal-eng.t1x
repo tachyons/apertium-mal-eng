@@ -53,6 +53,7 @@
       <cat-item tags="det.dem"/>
     </def-cat>
     <def-cat n="adj-num">
+     <cat-item tags="n.cmp"/>
       <cat-item tags="adj"/>
       <cat-item tags="num"/>
       <cat-item tags="n.cmp"/>
