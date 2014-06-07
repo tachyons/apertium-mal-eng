@@ -57,6 +57,7 @@
       <cat-item tags="adj"/>
       <cat-item tags="num"/>
       <cat-item tags="n.cmp"/>
+      <cat-item tags="prn.pers.*.*.*.gen"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -193,6 +194,19 @@
                 <test><equal><clip pos="1" side="sl" part="tags"/><lit-tag v="n.cmp"/></equal></test>
                 <let><clip pos="1" side="tl" part="tags"/><lit-tag v="n.sg"/></let>
           </when>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.pers"/></equal></test>
+            <choose>
+              <when>
+                <test><equal><clip pos="1" side="sl" part="lem"/><lit v="അവള്‍"/></equal></test>
+                <let><clip pos="1" side="tl" part="whole"/><concat><lit v="her"/><lit-tag v="det.pos.sp"/></concat></let>
+              </when>
+              <when>
+                <test><equal><clip pos="1" side="sl" part="lem"/><lit v="അവന്‍"/></equal></test>
+                <let><clip pos="1" side="tl" part="whole"/><concat><lit v="his"/><lit-tag v="det.pos.sp"/></concat></let>
+              </when>
+            </choose>
+         </when>
        </choose>
     </def-macro>
 
