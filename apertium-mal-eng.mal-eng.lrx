@@ -14,5 +14,11 @@
   <rule>
     <match lemma="കളി" tags="n.*"><select lemma="game" tags="n.*"/></match>
   </rule>
+  <rule>
+    <match tags="num.cmp"/>
+    <match lemma="ഒരു" tags="num.*"><select lemma="one" tags="num.*"/></match>
+
+  </rule>
+
 
 </rules>

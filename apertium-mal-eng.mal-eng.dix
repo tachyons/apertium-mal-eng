@@ -144,7 +144,19 @@
     <e><p><l>ഒന്പത്<s n="num"/></l><r>nine<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>പത്ത്<s n="num"/></l><r>ten<s n="num"/><s n="sp"/></r></p></e>
 
+    <e><p><l>പതിനൊന്ന്<s n="num"/></l><r>eleven<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പന്ത്രണ്ട്<s n="num"/></l><r>twelve<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പതിമൂന്ന്<s n="num"/></l><r>thirteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പതിനാല്<s n="num"/></l><r>fourteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പതിനഞ്ച്<s n="num"/></l><r>fifteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പതിനാറ്<s n="num"/></l><r>sixteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പതിനേഴ്<s n="num"/></l><r>seventeen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പതിനെട്ട്<s n="num"/></l><r>eighteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>പത്തൊമ്പത്<s n="num"/></l><r>nineteen<s n="num"/><s n="sp"/></r></p></e>
 
+
+    <e><p><l>ഇരുപത്<s n="num"/></l><r>twenty<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>മുപ്പത്<s n="num"/></l><r>thirty<s n="num"/><s n="sp"/></r></p></e>
 
     <!-- SECTION: Nouns -->
 
