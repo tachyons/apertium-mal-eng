@@ -65,6 +65,8 @@
     <sdef n="cnjadv" /> 
     <sdef n="qst" /> 
     <sdef n="quot" /> 
+    <sdef n="rpar" /> 
+    <sdef n="lpar" /> 
   </sdefs>
   <section id="main" type="standard">
 
@@ -9157,6 +9159,10 @@
     <!-- SECTION: Punctuation-->
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><p><l>&quot;<s n="pquot"/></l><r>parquote<s n="quot"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
