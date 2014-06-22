@@ -164,6 +164,29 @@
 
     <e><p><l>ഇന്നലെ<s n="n"/><s n="sg"/></l><r>yesterday<s n="adv"/></r></p></e>
     <e><p><l>ഇന്ന്<s n="n"/><s n="sg"/></l><r>today<s n="adv"/></r></p></e>
+    
+    <e><p><l>അഭിസംബോധന<s n="n"/></l><r>address<s n="n"/></r></p></e>
+<e><p><l>കമ്യൂണിസ്റ്റ്<s n="n"/></l><r>communist<s n="n"/></r></p></e>
+<e><p><l>ഗോത്രം<s n="n"/></l><r>caste<s n="n"/></r></p></e>
+<e><p><l>ജീവപര്യന്തം<s n="n"/></l><r>TODO<s n="n"/></r></p></e>
+<e><p><l>ജൂലൈ<s n="n"/></l><r>July<s n="n"/></r></p></e>
+<e><p><l>തെരഞ്ഞെടുപ്പ്<s n="n"/></l><r>election<s n="n"/></r></p></e>
+<e><p><l>തെമ്പു<s n="n"/></l><r>TODO<s n="n"/></r></p></e>
+<e><p><l>നവംബര്‍<s n="n"/></l><r>November<s n="n"/></r></p></e>
+<e><p><l>നോബല്‍<s n="n"/></l><r>Nobel<s n="n"/></r></p></e>
+<e><p><l>പുരസ്കാരം<s n="n"/></l><r>award<s n="n"/></r></p></e>
+<e><p><l>പൊതുസഭ<s n="n"/></l><r>TODO<s n="n"/></r></p></e>
+<e><p><l>പ്രയത്നം<s n="n"/></l><r>effort<s n="n"/></r></p></e>
+<e><p><l>പ്രസിഡണ്ട്<s n="n"/></l><r>president<s n="n"/></r></p></e>
+<e><p><l>ഭാരതരത്ന<s n="n"/></l><r>Bharath<b/>Rathna<s n="n"/></r></p></e>
+<e><p><l>രാജകുടുംബം<s n="n"/></l><r>royal<b/>family<s n="n"/></r></p></e>
+<e><p><l>രാഷ്ട്രീയം<s n="n"/></l><r>politics<s n="n"/></r></p></e>
+<e><p><l>ലോകം<s n="n"/></l><r>world<s n="n"/></r></p></e>
+<e><p><l>വിധ്വംസനം<s n="n"/></l><r>sabotage<s n="n"/></r></p></e>
+<e><p><l>സംബോധന<s n="n"/></l><r>address<s n="n"/></r></p></e>
+<e><p><l>സ്ഥാപകന്‍<s n="n"/></l><r>founder<s n="n"/></r></p></e>
+<e><p><l>സ്വാതന്ത്ര്യം<s n="n"/></l><r>freedom<s n="n"/></r></p></e>
+
 
     <e><p><l>കാലാവസ്ഥ<s n="n"/><s n="sg"/></l><r>weather<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>പേര്‍<s n="n"/></l><r>person<s n="n"/></r></p></e>
@@ -9093,6 +9116,7 @@
     <e><p><l>കുടിക്കുക<s n="v"/><s n="tv"/></l><r>drink<s n="vblex"/></r></p></e>
     <e><p><l>പറയുക<s n="v"/><s n="tv"/></l><r>tell<s n="vblex"/></r></p></e>
     <e><p><l>ഉറങ്ങുക<s n="v"/><s n="iv"/></l><r>sleep<s n="vblex"/></r></p></e>
+   <e><p><l>വാങ്ങുക<s n="v"/><s n="iv"/></l><r>buy<s n="vblex"/></r></p></e> <!-- debug -->
     <e><p><l>പറയുക<s n="v"/><s n="iv"/></l><r>talk<s n="vblex"/></r></p></e>
     <e><p><l>ഭരിക്കുക<s n="v"/></l><r>govern<s n="vblex"/></r></p></e>
     <e><p><l>ഉപയോഗിക്കുക<s n="v"/></l><r>use<s n="vblex"/></r></p></e>
@@ -9151,7 +9175,14 @@
     <e><p><l>ചിരിക്കുക<s n="v"/><s n="iv"/></l><r>laugh<s n="vblex"/></r></p></e>
     <e><p><l>കണ്ടുപിടിക്കുക<s n="v"/><s n="tv"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>ഇഷ്ടപ്പെടുക<s n="v"/><s n="tv"/></l><r>love<s n="vblex"/></r></p></e>
-
+	<e><p><l>അനുഭവിക്കുക<s n="v"/><s n="tv"/></l><r>experience<s n="vblex"/></r></p></e>
+<e><p><l>അന്തരിക്കുക<s n="v"/><s n="iv"/></l><r>die<s n="vblex"/></r></p></e>
+<e><p><l>ആദരിക്കുക<s n="v"/><s n="tv"/></l><r>respect<s n="vblex"/></r></p></e>
+<e><p><l>ഉയരുക<s n="v"/><s n="iv"/></l><r>rise<s n="vblex"/></r></p></e>
+<e><p><l>ജനിക്കുക<s n="v"/><s n="iv"/></l><r>born<s n="vblex"/></r></p></e>
+<e><p><l>പ്രഖ്യാപിക്കുക<s n="v"/><s n="tv"/></l><r>announce<s n="vblex"/></r></p></e>
+<e><p><l>വിജയിക്കുക<s n="v"/><s n="iv"/></l><r>win<s n="vblex"/></r></p></e>
+<e><p><l>സ്വീകരിക്കുക<s n="v"/><s n="tv"/></l><r>recive<s n="vblex"/></r></p></e>
     <e><p><l>വരുക<s n="v"/><s n="iv"/></l><r>come<s n="vblex"/></r></p></e>
     <e><p><l>തീരുക<s n="v"/><s n="iv"/></l><r>finish<s n="vblex"/></r></p></e>
 
