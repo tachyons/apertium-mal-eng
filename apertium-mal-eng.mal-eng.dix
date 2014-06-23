@@ -44,6 +44,8 @@
     <sdef n="pprs" 	c="Present participle tense"/> 
     <sdef n="neg" /> 
     <sdef n="ant" 	c="Anthroponym"/> 
+    <sdef n="cog" 	c=""/> 
+	<sdef n="top" 	c=""/> 
     <sdef n="pers" 	c="Personal"/> 
     <sdef n="itg" 	c="Interrogative"/> 
     <sdef n="subj" 	c="Subject . क्रियापद"/> 
@@ -92,7 +94,7 @@
 
     <e><p><l>ലേക്ക്<s n="post"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>ോടപ്പം<s n="post"/></l><r>with<s n="pr"/></r></p></e>
-
+	<e><p><l>എതിരെ<s n="spost"/></l><r>against<s n="pr"/></r></p></e>
     <e><p><l>മുന്നില്‍<s n="spost"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
     <e><p><l>നിന്ന്<s n="spost"/></l><r>from<s n="pr"/></r></p></e>
     <e><p><l>കൂടെ<s n="spost"/></l><r>with<s n="pr"/></r></p></e>
@@ -165,7 +167,8 @@
     <e><p><l>ഇന്നലെ<s n="n"/><s n="sg"/></l><r>yesterday<s n="adv"/></r></p></e>
     <e><p><l>ഇന്ന്<s n="n"/><s n="sg"/></l><r>today<s n="adv"/></r></p></e>
     
-    <e><p><l>അഭിസംബോധന<s n="n"/></l><r>address<s n="n"/></r></p></e>
+    <e><p><l>വര്‍ണ്ണവിവേചനം<s n="n"/></l><r>racism<s n="n"/></r></p></e>
+<e><p><l>അഭിസംബോധന<s n="n"/></l><r>address<s n="n"/></r></p></e>
 <e><p><l>കമ്യൂണിസ്റ്റ്<s n="n"/></l><r>communist<s n="n"/></r></p></e>
 <e><p><l>ഗോത്രം<s n="n"/></l><r>caste<s n="n"/></r></p></e>
 <e><p><l>ജീവപര്യന്തം<s n="n"/></l><r>TODO<s n="n"/></r></p></e>
@@ -186,6 +189,13 @@
 <e><p><l>സംബോധന<s n="n"/></l><r>address<s n="n"/></r></p></e>
 <e><p><l>സ്ഥാപകന്‍<s n="n"/></l><r>founder<s n="n"/></r></p></e>
 <e><p><l>സ്വാതന്ത്ര്യം<s n="n"/></l><r>freedom<s n="n"/></r></p></e>
+<e><p><l>ഡിസംബര്‍<s n="n"/></l><r>December<s n="n"/></r></p></e>
+<e><p><l>വര്‍ണ്ണം<s n="n"/></l><r>colour<s n="n"/></r></p></e>
+<e><p><l>ലീഗ്<s n="n"/></l><r>leegue<s n="n"/></r></p></e>
+<e><p><l>ജയില്‍<s n="n"/></l><r>jail<s n="n"/></r></p></e>
+<e><p><l>പ്രവര്‍ത്തനം<s n="n"/></l><r>action<s n="n"/></r></p></e>
+<e><p><l>വര്‍ഷം<s n="n"/></l><r>year<s n="n"/></r></p></e>
+
 
 
     <e><p><l>കാലാവസ്ഥ<s n="n"/><s n="sg"/></l><r>weather<s n="n"/><s n="sg"/></r></p></e>
@@ -9034,7 +9044,13 @@
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>രാജു<s n="np"/><s n="ant"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>നെല്‍സണ്‍<s n="np"/><s n="ant"/><s n="m"/></l><r>Nelson<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>മണ്ടേല<s n="np"/><s n="cog"/><s n="m"/></l><r>Mandela<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>രാധ<s n="np"/><s n="ant"/><s n="f"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    
+    <!-- section :place names: -->
+    
+    <e><p><l>ദക്ഷിണാഫ്രിക്ക<s n="np"/><s n="top"/></l><r>South<b/>Africa<s n="np"/><s n="top"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -9051,8 +9067,10 @@
     <e><p><l>ഉയരമുള്ള<s n="adj"/></l><r>tall<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>അകത്ത്<s n="adj"/></l><r>inside<s n="adj"/></r></p></e>
     <e><p><l>അടുത്ത്<s n="adj"/></l><r>near<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>പ്രമുഖ<s n="adj"/></l><r>important<s n="adj"/></r></p></e>
 
     <e><p><l>ഇഷ്ടം<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
+   <e><p><l>ഇഷ്ടം<s n="adj"/></l><r>happy<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -9091,7 +9109,8 @@
 
     <e><p><l>ആക്<s n="vbcop"/></l><r>be<s n="vbser"/></r></p></e>
     <e><p><l>ഉണ്ട്<s n="vbcop"/></l><r>have<s n="vbhaver"/></r></p></e>
-
+    
+	 <e><p><l>പോരാടുക<s n="v"/><s n="iv"/></l><r>fight<s n="vblex"/></r></p></e>
     <e><p><l>കരുതുക<s n="v"/><s n="iv"/></l><r>think<s n="vblex"/></r></p></e>
     <e><p><l>ഇരിക്കുക<s n="v"/><s n="iv"/></l><r>sit<s n="vblex"/></r></p></e>
     <e><p><l>ചോദിക്കുക<s n="v"/><s n="iv"/></l><r>ask<s n="vblex"/></r></p></e>
@@ -9185,6 +9204,15 @@
 <e><p><l>സ്വീകരിക്കുക<s n="v"/><s n="tv"/></l><r>recive<s n="vblex"/></r></p></e>
     <e><p><l>വരുക<s n="v"/><s n="iv"/></l><r>come<s n="vblex"/></r></p></e>
     <e><p><l>തീരുക<s n="v"/><s n="iv"/></l><r>finish<s n="vblex"/></r></p></e>
+<e><p><l>ഉള്‍പെടുത്തുക<s n="v"/><s n="tv"/></l><r>include<s n="vblex"/></r></p></e>
+<e><p><l>പങ്കിടുക<s n="v"/><s n="tv"/></l><r>share<s n="vblex"/></r></p></e>
+<e><p><l>താമസിക്കുക<s n="v"/><s n="iv"/></l><r>live<s n="vblex"/></r></p></e>
+<e><p><l>എത്തിച്ചേരുക<s n="v"/><s n="iv"/></l><r>attain<s n="vblex"/></r></p></e>
+<e><p><l>ചുമത്തുക<s n="v"/><s n="iv"/></l><r>attach<s n="vblex"/></r></p></e>
+<e><p><l>ആരോപിക്കുക<s n="v"/><s n="tv"/></l><r>ascribe<s n="vblex"/></r></p></e>
+<e><p><l>ശിക്ഷിക്കുക<s n="v"/><s n="tv"/></l><r>punish<s n="vblex"/></r></p></e>
+<e><p><l>ചെലുത്തുക<s n="v"/><s n="iv"/></l><r>exert<s n="vblex"/></r></p></e>
+<e><p><l>ആചരിക്കുക<s n="v"/><s n="tv"/></l><r>practise<s n="vblex"/></r></p></e>
 
 
     <!-- SECTION: Punctuation-->
