@@ -15,6 +15,10 @@
     <match lemma="കളി" tags="n.*"><select lemma="game" tags="n.*"/></match>
   </rule>
   <rule>
+    <match lemma="മരണം" tags="n.*"><select lemma="death" tags="n.*"/></match>
+    <match lemma=":" tags="sent"/>
+  </rule>
+  <rule>
     <match tags="num.cmp"/>
     <match lemma="ഒരു" tags="num.*"><select lemma="one" tags="num.*"/></match>
 
