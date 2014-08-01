@@ -16,6 +16,7 @@
       <cat-item tags="v.*.fut"/>
       <cat-item tags="v.*.cond"/>
       <cat-item tags="v.*.perf"/>
+      <cat-item tags="v.*.rem_perf"/>
       <cat-item tags="v.*.hab"/>
       <cat-item tags="vbcop.pres"/>
       <cat-item tags="vbcop.fut"/>
@@ -139,6 +140,7 @@
       <attr-item tags="past"/>
       <attr-item tags="pres"/>
       <attr-item tags="perf"/>
+      <attr-item tags="rem_perf"/>
     </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="mf"/>
@@ -216,10 +218,18 @@
                 <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="perf"/></equal></test>
                 <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
           </when>
+	<when>
+                <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="rem_perf"/></equal></test>
+                <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
+          </when>
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal></test>
-                <let><clip pos="1" side="tl" part="tags"/><concat>
-                             <clip pos="1" side="tl" part="a_verb"/><lit-tag v="pres.3.4"/></concat></let>
+                <let>
+			<clip pos="1" side="tl" part="tags"/>
+			<concat>
+                             <clip pos="1" side="tl" part="a_verb"/><lit-tag v="pres.3.4"/>
+			</concat>
+		</let>
           </when>
           <when>
                 <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="fut"/></equal></test>

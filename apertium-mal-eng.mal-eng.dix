@@ -116,6 +116,7 @@
     <e><p><l>ഞാന്‍<s n="prn"/><s n="pers"/><s n="p1"/></l><r>I<s n="prn"/><s n="FD"/><s n="p1"/></r></p></e>
     <e><p><l>നീ<s n="prn"/><s n="pers"/><s n="p2"/></l><r>you<s n="prn"/><s n="FD"/><s n="p2"/></r></p></e>
     <e><p><l>അവന്‍<s n="prn"/><s n="pers"/><s n="p3"/></l><r>he<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
+    <e><p><l>അദ്ദേഹം<s n="prn"/><s n="pers"/><s n="p3"/></l><r>he<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
     <e><p><l>അവള്‍<s n="prn"/><s n="pers"/><s n="p3"/></l><r>she<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
     <e><p><l>അവര്‍<s n="prn"/><s n="pers"/><s n="p3"/></l><r>they<s n="prn"/><s n="FD"/><s n="p3"/></r></p></e>
 
@@ -166,7 +167,7 @@
 
     <e><p><l>ഇന്നലെ<s n="n"/><s n="sg"/></l><r>yesterday<s n="adv"/></r></p></e>
     <e><p><l>ഇന്ന്<s n="n"/><s n="sg"/></l><r>today<s n="adv"/></r></p></e>
-    
+        <e><p><l>കാറ്റ്<s n="n"/></l><r>wind<s n="n"/></r></p></e>
     <e><p><l>വര്‍ണ്ണവിവേചനം<s n="n"/></l><r>racism<s n="n"/></r></p></e>
 <e><p><l>അഭിസംബോധന<s n="n"/></l><r>address<s n="n"/></r></p></e>
 <e><p><l>കമ്യൂണിസ്റ്റ്<s n="n"/></l><r>communist<s n="n"/></r></p></e>
@@ -9213,6 +9214,8 @@
 <e><p><l>ശിക്ഷിക്കുക<s n="v"/><s n="tv"/></l><r>punish<s n="vblex"/></r></p></e>
 <e><p><l>ചെലുത്തുക<s n="v"/><s n="iv"/></l><r>exert<s n="vblex"/></r></p></e>
 <e><p><l>ആചരിക്കുക<s n="v"/><s n="tv"/></l><r>practise<s n="vblex"/></r></p></e>
+<e><p><l>അടിക്കുക<s n="v"/><s n="tv"/></l><r>beat<s n="vblex"/></r></p></e>
+<e><p><l>മനസ്സിലാക്കുക<s n="v"/><s n="tv"/></l><r>understand<s n="vblex"/></r></p></e>
 
 
     <!-- SECTION: Punctuation-->

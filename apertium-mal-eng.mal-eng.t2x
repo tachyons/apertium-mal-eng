@@ -31,7 +31,9 @@
     <def-cat n="ITG">
       <cat-item tags="ITG"/>
     </def-cat>
-
+	<def-cat n="PRN-ITG">
+      <cat-item tags="PRN.ITG"/>
+    </def-cat>
     <def-cat n="SV-FIN">
       <cat-item tags="SV.*"/>
     </def-cat>
@@ -51,7 +53,7 @@
       <cat-item tags="NUM-SUBST"/>
       <cat-item tags="NUM-SUBST.*"/>
     </def-cat>
-    
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -160,6 +162,20 @@
       </action>
     </rule>
 
+     <rule comment="REGLA: SN-GEN"> <!-- FIXME -->
+      <pattern>
+        <pattern-item n="SN-GEN"/>
+      </pattern>
+      <action>
+        <out>
+           <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="REGLA: SN-GEN POST POST">
       <pattern>
         <pattern-item n="SN-GEN"/>
@@ -217,8 +233,8 @@
     <rule comment="SN-NOM ITG SV-FIN">
       <pattern>
         <pattern-item n="SN-NOM"/>
-		<pattern-item n="ITG"/>
-		<pattern-item n="SV-FIN"/>
+	<pattern-item n="ITG"/>
+	<pattern-item n="SV-FIN"/>
       </pattern>
       <action>
         <out>
@@ -226,12 +242,12 @@
 				<clip pos="2" part="whole"/>
 			</chunk>
 			<b pos="1"/>
-			
+
 			<chunk>
 				<clip pos="3" part="whole"/>
 			</chunk>
 			<b pos="2"/>
-			
+
 			<chunk>
 				<clip pos="1" part="whole"/>
 			</chunk>
@@ -344,7 +360,7 @@
 					<clip pos="2" part="whole"/>
 				</chunk>
 			</out>
-		</action>		
+		</action>
       </rule>
       <!-- Rule No  -->
       <!--Example: കളിക്കാന്‍ ഇഷ്ടപ്പെടുന്നു -->
@@ -450,6 +466,28 @@
 			</out>
 		</action>
 	</rule>
-	
+	<!-- അവള്‍ എവിടെ പോയി -->
+	<rule comment="PRN ITG VERB">
+		<pattern>
+			<pattern-item n="SN-NOM"/>
+			<pattern-item n="PRN-ITG"/>
+			<pattern-item n="SV-FIN"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="2" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="1" part="whole"/>
+				</chunk>
+				<b/>
+				<chunk>
+					<clip pos="3" part="whole"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
   </section-rules>
 </interchunk>
